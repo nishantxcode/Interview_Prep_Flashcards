@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dev Flashcards</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .quiz-container {
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.025em;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        /* Flashcard Container styling */
+        .flashcard {
+            background-color: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            min-height: 280px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+        }
+        .flashcard:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(56, 189, 248, 0.15);
+        }
+        .tag {
+            position: absolute;
+            top: 20px;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            padding: 4px 14px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .card-content {
+            font-size: 1.15rem;
+            line-height: 1.6;
+            font-weight: 500;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+        .hint-text {
+            position: absolute;
+            bottom: 20px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.025em;
+        }
+        /* Controls Layout */
+        .controls {
+            margin-top: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        button {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+        }
+        button:hover:not(:disabled) {
+            background-color: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg-color);
+        }
+        button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        #progress {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            background: var(--card-bg);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h2 id="quiz-date">Daily Quiz</h2>
+        <div class="subtitle" id="quiz-subtitle">Fetching today's challenge...</div>
+        
+        <div class="flashcard" id="card" onclick="flipCard()">
+            <span class="tag" id="card-tag">Topic</span>
+            <p class="card-content" id="card-text">Loading deck details...</p>
+            <div class="hint-text" id="card-hint">Click card to reveal answer</div>
+        </div>
+        
+        <div class="controls">
+            <button id="prev-btn" onclick="prevCard()" disabled>Previous</button>
+            <span id="progress">0 / 0</span>
+            <button id="next-btn" onclick="nextCard()">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentIndex = 0;
+        let isShowingAnswer = false;
+
+        async function loadDailyQuiz() {
+            try {
+                // Fetch the static JSON updated by GitHub Actions
+                // Falling back to a local check if assets folder hasn't built yet
+                let response = await fetch('./assets/daily_questions.json');
+                
+                // For direct local execution fallback testing if assets don't exist yet
+                if (!response.ok) {
+                    response = await fetch('./data/question_bank.json');
+                    const rawData = await response.json();
+                    // Just flatten the pool for fallback demonstration
+                    questions = Object.values(rawData).flat().slice(0, 10);
+                    document.getElementById('quiz-date').innerText = "Daily Quiz (Local Preview)";
+                    document.getElementById('quiz-subtitle').innerText = "Showing raw question bank preview. Set up GitHub Actions to enable midnight automation!";
+                } else {
+                    const data = await response.json();
+                    questions = data.questions;
+                    document.getElementById('quiz-date').innerText = `Daily Quiz (${data.date})`;
+                    document.getElementById('quiz-subtitle').innerText = "10 fresh questions picked across Core Computer Science topics.";
+                }
+                
+                renderCard();
+            } catch (err) {
+                document.getElementById('card-text').innerText = "Failed to load today's quiz. Ensure assets/daily_questions.json exists or run python generate_quiz.py locally.";
+                document.getElementById('quiz-subtitle').innerText = "Connection / File missing error.";
+            }
+        }
+
+        function renderCard() {
+            if (!questions.length) return;
+            const current = questions[currentIndex];
+            const tagEl = document.getElementById('card-tag');
+            const textEl = document.getElementById('card-text');
+            const hintEl = document.getElementById('card-hint');
+            const progressEl = document.getElementById('progress');
+
+            // Format category name string
+            tagEl.innerText = current.category.replace('_', ' ');
+            textEl.innerText = isShowingAnswer ? current.answer : current.question;
+            hintEl.innerText = isShowingAnswer ? "Click card to return to question" : "Click card to reveal answer";
+            progressEl.innerText = `${currentIndex + 1} / ${questions.length}`;
+
+            // Handle button disable states
+            document.getElementById('prev-btn').disabled = (currentIndex === 0);
+            document.getElementById('next-btn').disabled = (currentIndex === questions.length - 1);
+        }
+
+        function flipCard() {
+            isShowingAnswer = !isShowingAnswer;
+            renderCard();
+        }
+
+        function nextCard() {
+            if (currentIndex < questions.length - 1) {
+                currentIndex++;
+                isShowingAnswer = false;
+                renderCard();
+            }
+        }
+
+        function prevCard() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                isShowingAnswer = false;
+                renderCard();
+            }
+        }
+
+        // Run on mount
+        loadDailyQuiz();
+    </script>
+</body>
+</html>

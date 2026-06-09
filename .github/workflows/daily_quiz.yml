@@ -1,0 +1,42 @@
+name: Generate Daily Flashcards
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every single day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to manually trigger it from the GitHub UI for testing
+
+permissions:
+  contents: write # Crucial: Gives the workflow permission to push commits
+
+jobs:
+  update-quiz:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run Quiz Generator Script
+      run: python generate_quiz.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Stage only the generated JSON file
+        git add assets/daily_questions.json
+        
+        # Check if there are changes to commit so the workflow doesn't fail if nothing changed
+        if git diff-index --quiet HEAD; then
+          echo "No changes detected in the daily quiz."
+        else
+          git commit -m "chore: automated daily quiz update $(date -u +'%Y-%m-%d')"
+          git push origin main
+        fi

@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-09",
+  "questions": [
+    {
+      "category": "dbms",
+      "question": "What are ACID properties in a Database Management System?",
+      "answer": "ACID stands for Atomicity (all or nothing), Consistency (valid state transitions), Isolation (concurrent transactions don't interfere), and Durability (committed data survives crashes)."
+    },
+    {
+      "category": "oops",
+      "question": "What is Polymorphism in Object-Oriented Programming?",
+      "answer": "Polymorphism allows objects of different classes to be treated as objects of a common superclass. It manifests as Method Overloading (compile-time) and Method Overriding (runtime)."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Horizonal Scaling (Scaling Out) vs Vertical Scaling (Scaling Up)?",
+      "answer": "Vertical scaling means adding more power (CPU, RAM) to an existing server. Horizontal scaling means adding more machines/nodes to your infrastructure pool to handle the load collectively."
+    },
+    {
+      "category": "networking",
+      "question": "What is the primary difference between TCP and UDP?",
+      "answer": "TCP is a connection-oriented protocol that guarantees delivery, ordering, and error checking (reliable but slower). UDP is a connectionless protocol that sends packets without verifying receipt (unreliable but faster, ideal for streaming)."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of searching in a perfectly balanced Binary Search Tree (BST)?",
+      "answer": "O(log n) because half of the remaining elements are eliminated at each step of the search traversal."
+    },
+    {
+      "category": "networking",
+      "question": "What happens during a standard 3-Way Handshake in TCP?",
+      "answer": "The client sends a SYN (Synchronize) packet to the server. The server responds with a SYN-ACK (Synchronize-Acknowledge) packet. Finally, the client sends an ACK (Acknowledge) packet back to establish the stable connection."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between an INNER JOIN and a LEFT JOIN?",
+      "answer": "INNER JOIN returns records that have matching values in both tables. LEFT JOIN returns all records from the left table, along with the matched records from the right table (filling with NULL if no match exists)."
+    },
+    {
+      "category": "oops",
+      "question": "Explain the concept of Encapsulation.",
+      "answer": "Encapsulation is the bundling of data (attributes) and the methods that operate on that data into a single unit (class), while restricting direct access to some of the object's components (using private/protected access modifiers)."
+    },
+    {
+      "category": "system_design",
+      "question": "Explain the purpose and function of a Content Delivery Network (CDN).",
+      "answer": "A CDN is a globally distributed network of proxy servers that cache content (like images, videos, HTML) closer to end-users to reduce latency and server load."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the main difference between an Array and a Linked List?",
+      "answer": "Arrays store elements in contiguous memory locations allowing O(1) random access. Linked Lists store elements non-contiguously, where each node points to the next, allowing dynamic sizing but O(n) access time."
+    }
+  ]
+}
