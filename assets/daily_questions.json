@@ -1,15 +1,30 @@
 {
-  "date": "2026-06-10",
+  "date": "2026-06-11",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is data independence?",
-      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+      "category": "java",
+      "question": "What is JDK?",
+      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
     },
     {
-      "category": "hr",
-      "question": "What makes you different from other candidates?",
-      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
+      "category": "sql",
+      "question": "Why are indexes used?",
+      "answer": "Indexes reduce the amount of data scanned during query execution, improving performance."
+    },
+    {
+      "category": "os",
+      "question": "What is fragmentation?",
+      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
+    },
+    {
+      "category": "oop",
+      "question": "When should the Singleton pattern be used?",
+      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of DHCP?",
+      "answer": "DHCP simplifies network administration by automatically configuring devices."
     },
     {
       "category": "networking",
@@ -17,89 +32,74 @@
       "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
     },
     {
-      "category": "system_design",
-      "question": "What is Consistency in CAP?",
-      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between identity and equality?",
-      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 75",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What does MAX() do?",
-      "answer": "MAX() returns the largest value in a column."
-    },
-    {
       "category": "python",
-      "question": "What are the key features of Python?",
-      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
-    },
-    {
-      "category": "sql",
-      "question": "What is a FULL OUTER JOIN?",
-      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Data Link Layer?",
-      "answer": "The Data Link Layer provides node-to-node communication and error detection."
-    },
-    {
-      "category": "dsa",
-      "question": "What is level order traversal?",
-      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
-    },
-    {
-      "category": "python",
-      "question": "What is a conditional statement in Python?",
-      "answer": "A conditional statement executes code based on whether a specified condition evaluates to true or false."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 33",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
-    },
-    {
-      "category": "oop",
-      "question": "Why is encapsulation important?",
-      "answer": "Encapsulation improves security, maintainability, and modularity by hiding implementation details."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a deque?",
-      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 49",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is consistent hashing used?",
-      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
+      "question": "What is a package in Python?",
+      "answer": "A package is a collection of related Python modules organized in directories."
     },
     {
       "category": "dbms",
-      "question": "What is a database?",
-      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
     },
     {
       "category": "os",
-      "question": "What is the LRU page replacement algorithm?",
-      "answer": "LRU replaces the page that has not been used for the longest period of time."
+      "question": "What is aging in operating systems?",
+      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
+    },
+    {
+      "category": "oop",
+      "question": "What is coupling in software design?",
+      "answer": "Coupling measures the degree of dependency between different modules or classes."
+    },
+    {
+      "category": "sql",
+      "question": "What is table partitioning?",
+      "answer": "Table partitioning divides a large table into smaller logical pieces while maintaining it as a single table."
+    },
+    {
+      "category": "dsa",
+      "question": "What is memoization?",
+      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
+    },
+    {
+      "category": "hr",
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Heap Sort?",
+      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a deadlock in DBMS?",
+      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 73",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
+    },
+    {
+      "category": "python",
+      "question": "What are Python's built-in data types?",
+      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the advantages of distributed systems?",
+      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 43",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
