@@ -1,80 +1,95 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "questions": [
     {
       "category": "java",
-      "question": "What is JDK?",
-      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
+      "question": "Java Interview Question 55",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "sql",
-      "question": "Why are indexes used?",
-      "answer": "Indexes reduce the amount of data scanned during query execution, improving performance."
-    },
-    {
-      "category": "os",
-      "question": "What is fragmentation?",
-      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
-    },
-    {
-      "category": "oop",
-      "question": "When should the Singleton pattern be used?",
-      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of DHCP?",
-      "answer": "DHCP simplifies network administration by automatically configuring devices."
-    },
-    {
-      "category": "networking",
-      "question": "What are the seven layers of the OSI model?",
-      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
-    },
-    {
-      "category": "python",
-      "question": "What is a package in Python?",
-      "answer": "A package is a collection of related Python modules organized in directories."
+      "question": "What is the SELECT statement?",
+      "answer": "SELECT retrieves data from one or more tables."
     },
     {
       "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
-    },
-    {
-      "category": "os",
-      "question": "What is aging in operating systems?",
-      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
-    },
-    {
-      "category": "oop",
-      "question": "What is coupling in software design?",
-      "answer": "Coupling measures the degree of dependency between different modules or classes."
+      "question": "What is entity integrity?",
+      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
     },
     {
       "category": "sql",
-      "question": "What is table partitioning?",
-      "answer": "Table partitioning divides a large table into smaller logical pieces while maintaining it as a single table."
+      "question": "What is a FULL OUTER JOIN?",
+      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
     },
     {
-      "category": "dsa",
-      "question": "What is memoization?",
-      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
+      "category": "dbms",
+      "question": "What is partial participation?",
+      "answer": "Partial participation means some entities may exist without participating in the relationship."
+    },
+    {
+      "category": "oop",
+      "question": "What is runtime polymorphism?",
+      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
     },
     {
       "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+      "question": "HR Interview Question 44",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between a process and a thread?",
+      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
+    },
+    {
+      "category": "python",
+      "question": "What is a dictionary comprehension?",
+      "answer": "A dictionary comprehension is a concise way to create dictionaries using an expression and iteration."
     },
     {
       "category": "dsa",
-      "question": "What is Heap Sort?",
-      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
+      "question": "What is a Segment Tree?",
+      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
     },
     {
-      "category": "dbms",
-      "question": "What is a deadlock in DBMS?",
-      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
+      "category": "networking",
+      "question": "What is RIP?",
+      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+    },
+    {
+      "category": "system_design",
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a CDN?",
+      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Dependency Inversion Principle (DIP)?",
+      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
+    },
+    {
+      "category": "os",
+      "question": "What are the advantages of virtual memory?",
+      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 98",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is PAT?",
+      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
+    },
+    {
+      "category": "dsa",
+      "question": "What is preorder traversal?",
+      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
     },
     {
       "category": "hr",
@@ -82,24 +97,9 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
-    },
-    {
       "category": "python",
-      "question": "What are Python's built-in data types?",
-      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the advantages of distributed systems?",
-      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 43",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is a conditional statement in Python?",
+      "answer": "A conditional statement executes code based on whether a specified condition evaluates to true or false."
     }
   ]
 }
