@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "questions": [
     {
+      "category": "os",
+      "question": "What is the Producer-Consumer problem?",
+      "answer": "The Producer-Consumer problem is a synchronization problem where producers generate data and consumers consume it from a shared buffer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big O notation?",
+      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+    },
+    {
+      "category": "python",
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 40",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+    },
+    {
+      "category": "python",
+      "question": "What is mutability in Python?",
+      "answer": "Mutability refers to whether an object's state can be modified after creation."
+    },
+    {
+      "category": "os",
+      "question": "What is a short-term scheduler?",
+      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between a class and an object?",
+      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 41",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a non-trivial functional dependency?",
+      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+    },
+    {
       "category": "java",
-      "question": "Java Interview Question 55",
+      "question": "Java Interview Question 36",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
-    },
-    {
-      "category": "dbms",
-      "question": "What is entity integrity?",
-      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
     },
     {
       "category": "sql",
-      "question": "What is a FULL OUTER JOIN?",
-      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
-    },
-    {
-      "category": "dbms",
-      "question": "What is partial participation?",
-      "answer": "Partial participation means some entities may exist without participating in the relationship."
-    },
-    {
-      "category": "oop",
-      "question": "What is runtime polymorphism?",
-      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 44",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between a process and a thread?",
-      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
-    },
-    {
-      "category": "python",
-      "question": "What is a dictionary comprehension?",
-      "answer": "A dictionary comprehension is a concise way to create dictionaries using an expression and iteration."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Segment Tree?",
-      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
+      "question": "What is the DISTINCT keyword?",
+      "answer": "DISTINCT removes duplicate rows from query results."
     },
     {
       "category": "networking",
-      "question": "What is RIP?",
-      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
     },
     {
-      "category": "system_design",
-      "question": "What is rate limiting?",
-      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a CDN?",
-      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Dependency Inversion Principle (DIP)?",
-      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
-    },
-    {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
+      "category": "networking",
+      "question": "How does the TCP/IP model differ from the OSI model?",
+      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 98",
+      "question": "Java Interview Question 96",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "networking",
-      "question": "What is PAT?",
-      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
-    },
-    {
-      "category": "dsa",
-      "question": "What is preorder traversal?",
-      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 73",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is a conditional statement in Python?",
-      "answer": "A conditional statement executes code based on whether a specified condition evaluates to true or false."
+      "category": "oop",
+      "question": "What is UML?",
+      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
     }
   ]
 }
