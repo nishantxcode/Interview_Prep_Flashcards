@@ -1,50 +1,60 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "questions": [
     {
-      "category": "os",
-      "question": "What is the Producer-Consumer problem?",
-      "answer": "The Producer-Consumer problem is a synchronization problem where producers generate data and consumers consume it from a shared buffer."
+      "category": "networking",
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
     },
     {
-      "category": "dsa",
-      "question": "What is Big O notation?",
-      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
+      "category": "oop",
+      "question": "What is the Diamond Problem?",
+      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
     },
     {
-      "category": "dsa",
-      "question": "What is an algorithm?",
-      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
-    },
-    {
-      "category": "python",
-      "question": "What is PEP 8?",
-      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the PROJECT operation in relational algebra?",
-      "answer": "PROJECT retrieves specific columns from a relation."
+      "category": "java",
+      "question": "Java Interview Question 94",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 40",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Tell me about yourself.",
+      "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a weighted graph?",
+      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
     },
     {
       "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+      "question": "What are the disadvantages of microservices?",
+      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TCP/IP model?",
+      "answer": "The TCP/IP model is the practical networking model used on the Internet."
+    },
+    {
+      "category": "oop",
+      "question": "What is package-level or default access?",
+      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between 3NF and BCNF?",
+      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
     },
     {
       "category": "system_design",
-      "question": "Why is sharding used?",
-      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
-    },
-    {
-      "category": "python",
-      "question": "What is mutability in Python?",
-      "answer": "Mutability refers to whether an object's state can be modified after creation."
+      "question": "What is the key challenge in designing a chat application?",
+      "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
     },
     {
       "category": "os",
@@ -52,54 +62,44 @@
       "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
     },
     {
-      "category": "oop",
-      "question": "What is the difference between a class and an object?",
-      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 41",
+      "question": "HR Interview Question 78",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "java",
+      "question": "What is an interface in Java?",
+      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
+    },
+    {
       "category": "dbms",
-      "question": "What is a non-trivial functional dependency?",
-      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+      "question": "What are the advantages of a DBMS?",
+      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 36",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
+      "category": "python",
+      "question": "What is an object in Python?",
+      "answer": "An object is an instance of a class containing attributes and methods."
     },
     {
       "category": "sql",
-      "question": "What is the DISTINCT keyword?",
-      "answer": "DISTINCT removes duplicate rows from query results."
+      "question": "What is DCL in SQL?",
+      "answer": "Data Control Language (DCL) consists of commands used to control database permissions."
     },
     {
-      "category": "networking",
-      "question": "What is a TCP connection?",
-      "answer": "A TCP connection is a reliable communication session established between two endpoints."
+      "category": "sql",
+      "question": "What is RANK()?",
+      "answer": "RANK() assigns rankings to rows and leaves gaps in ranking when ties occur."
     },
     {
-      "category": "networking",
-      "question": "How does the TCP/IP model differ from the OSI model?",
-      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
+      "category": "os",
+      "question": "Why is context switching considered overhead?",
+      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 96",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is UML?",
-      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+      "category": "python",
+      "question": "What is a coroutine in Python?",
+      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
     }
   ]
 }
