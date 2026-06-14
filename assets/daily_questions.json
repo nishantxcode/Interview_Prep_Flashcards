@@ -1,90 +1,30 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is the TLS handshake?",
-      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Diamond Problem?",
-      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 94",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "hr",
-      "question": "Tell me about yourself.",
-      "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a weighted graph?",
-      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a queue?",
-      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the disadvantages of microservices?",
-      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TCP/IP model?",
-      "answer": "The TCP/IP model is the practical networking model used on the Internet."
-    },
-    {
-      "category": "oop",
-      "question": "What is package-level or default access?",
-      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between 3NF and BCNF?",
-      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the key challenge in designing a chat application?",
-      "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
-    },
-    {
-      "category": "os",
-      "question": "What is a short-term scheduler?",
-      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 78",
+      "question": "HR Interview Question 36",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "What is an interface in Java?",
-      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
     },
     {
-      "category": "dbms",
-      "question": "What are the advantages of a DBMS?",
-      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
+      "category": "os",
+      "question": "What happens if the time quantum is too small?",
+      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     },
     {
       "category": "python",
-      "question": "What is an object in Python?",
-      "answer": "An object is an instance of a class containing attributes and methods."
+      "question": "Why are decorators useful?",
+      "answer": "Decorators enable reusable functionality such as logging, authentication, timing, and caching without modifying the original code."
     },
     {
-      "category": "sql",
-      "question": "What is DCL in SQL?",
-      "answer": "Data Control Language (DCL) consists of commands used to control database permissions."
+      "category": "networking",
+      "question": "What is ARP?",
+      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
     },
     {
       "category": "sql",
@@ -92,14 +32,74 @@
       "answer": "RANK() assigns rankings to rows and leaves gaps in ranking when ties occur."
     },
     {
-      "category": "os",
-      "question": "Why is context switching considered overhead?",
-      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
+      "category": "system_design",
+      "question": "What are the advantages of distributed systems?",
+      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+    },
+    {
+      "category": "networking",
+      "question": "What is a DNS server?",
+      "answer": "A DNS server stores and provides domain name resolution information."
+    },
+    {
+      "category": "dsa",
+      "question": "What is backtracking?",
+      "answer": "Backtracking is a problem-solving technique that incrementally builds candidates and abandons a candidate when it cannot lead to a valid solution."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 35",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 66",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is object serialization?",
+      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
     },
     {
       "category": "python",
-      "question": "What is a coroutine in Python?",
-      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
+      "question": "What is a virtual environment in Python?",
+      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "sql",
+      "question": "What is UNION ALL?",
+      "answer": "UNION ALL combines results from multiple queries without removing duplicates."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a key in DBMS?",
+      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
+    },
+    {
+      "category": "system_design",
+      "question": "What is throughput?",
+      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between aggregation and composition?",
+      "answer": "Aggregation allows independent lifecycles of objects, while composition ties the lifecycle of child objects to the parent."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
     }
   ]
 }
