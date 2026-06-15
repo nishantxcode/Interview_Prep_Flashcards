@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Daily Dev Flashcards">
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <rect x="15" y="12" width="34" height="42" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="4"/>
+  <path d="M23 25h18M23 33h14M23 41h10" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="44" cy="16" r="8" fill="#38bdf8"/>
+  <path d="M41 16.5l2.2 2.2L48 13.8" fill="none" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
