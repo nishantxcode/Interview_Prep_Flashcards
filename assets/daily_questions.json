@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "questions": [
     {
-      "category": "python",
-      "question": "What are Python operators?",
-      "answer": "Operators are symbols used to perform operations on variables and values."
+      "category": "sql",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of rows in a table."
     },
     {
       "category": "dbms",
-      "question": "What is the JOIN operation in relational algebra?",
-      "answer": "JOIN combines tuples from two relations based on a related attribute."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 53",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is a schema?",
+      "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
     },
     {
       "category": "oop",
-      "question": "What is constructor injection?",
-      "answer": "Constructor injection provides dependencies through a class constructor."
+      "question": "What is a parameterized constructor?",
+      "answer": "A parameterized constructor accepts arguments to initialize object state."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the finally block?",
+      "answer": "The finally block executes regardless of whether an exception occurs and is commonly used for cleanup operations."
+    },
+    {
+      "category": "sql",
+      "question": "What does SUM() do?",
+      "answer": "SUM() calculates the total of numeric values in a column."
+    },
+    {
+      "category": "java",
+      "question": "What is the super keyword?",
+      "answer": "The super keyword refers to the immediate parent class object."
+    },
+    {
+      "category": "dbms",
+      "question": "Why are B+ Trees preferred over B-Trees in databases?",
+      "answer": "B+ Trees provide faster range queries, better disk access patterns, and higher fan-out than B-Trees."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Apache Kafka?",
+      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 78",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between paging and segmentation?",
+      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
     },
     {
       "category": "dsa",
-      "question": "What is a Sparse Table?",
-      "answer": "A Sparse Table is a data structure used for answering static range queries efficiently, especially range minimum queries."
+      "question": "What is Dijkstra's algorithm?",
+      "answer": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights."
+    },
+    {
+      "category": "networking",
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
+    },
+    {
+      "category": "system_design",
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
+    },
+    {
+      "category": "python",
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 80",
+      "question": "What is your greatest professional achievement?",
+      "answer": "Share a measurable accomplishment and explain the impact it created."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 55",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+      "question": "What is setter injection?",
+      "answer": "Setter injection provides dependencies through setter methods after object creation."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 69",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
-    },
-    {
-      "category": "system_design",
-      "question": "What is System Design?",
-      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 52",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a CHECK constraint?",
-      "answer": "A CHECK constraint restricts values in a column based on a specified condition."
-    },
-    {
-      "category": "sql",
-      "question": "What is a Common Table Expression (CTE)?",
-      "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
+      "category": "networking",
+      "question": "What is a firewall?",
+      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
     },
     {
       "category": "dsa",
-      "question": "What is Big O notation?",
-      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
-    },
-    {
-      "category": "networking",
-      "question": "What is SSL?",
-      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
-    },
-    {
-      "category": "sql",
-      "question": "What is INTERSECT in SQL?",
-      "answer": "INTERSECT returns rows that are common to the results of two queries."
-    },
-    {
-      "category": "system_design",
-      "question": "What is database sharding?",
-      "answer": "Sharding is the process of partitioning data across multiple database servers."
-    },
-    {
-      "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "python",
-      "question": "What is __name__ == '__main__' used for?",
-      "answer": "It checks whether a Python file is being executed directly rather than imported as a module."
+      "question": "What is a data structure?",
+      "answer": "A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently."
     }
   ]
 }
