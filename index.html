@@ -48,6 +48,25 @@
         }
         /* Flashcard Container styling */
         .flashcard {
+            min-height: 280px;
+            cursor: pointer;
+            position: relative;
+            perspective: 1200px;
+        }
+
+        .flashcard-inner {
+            min-height: 280px;
+            position: relative;
+            display: grid;
+            transform-style: preserve-3d;
+            transition: transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+        }
+
+        .flashcard.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
             background-color: var(--card-bg);
             border: 2px solid var(--border);
             border-radius: 16px;
@@ -57,15 +76,21 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            cursor: pointer;
+            grid-area: 1 / 1;
             position: relative;
-            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
         }
-        .flashcard:hover {
+
+        .flashcard:hover .flashcard-face {
             border-color: var(--accent);
-            transform: translateY(-2px);
             box-shadow: 0 15px 30px -5px rgba(56, 189, 248, 0.15);
+        }
+
+        .flashcard-back {
+            transform: rotateY(180deg);
         }
         .tag {
             position: absolute;
@@ -140,9 +165,18 @@
         <div class="subtitle" id="quiz-subtitle">Fetching today's challenge...</div>
         
         <div class="flashcard" id="card" onclick="flipCard()">
-            <span class="tag" id="card-tag">Topic</span>
-            <p class="card-content" id="card-text">Loading deck details...</p>
-            <div class="hint-text" id="card-hint">Click card to reveal answer</div>
+            <div class="flashcard-inner">
+                <div class="flashcard-face flashcard-front">
+                    <span class="tag" id="front-card-tag">Topic</span>
+                    <p class="card-content" id="question-text">Loading deck details...</p>
+                    <div class="hint-text">Click card to reveal answer</div>
+                </div>
+                <div class="flashcard-face flashcard-back">
+                    <span class="tag" id="back-card-tag">Topic</span>
+                    <p class="card-content" id="answer-text">Loading answer...</p>
+                    <div class="hint-text">Click card to return to question</div>
+                </div>
+            </div>
         </div>
         
         <div class="controls">
@@ -152,6 +186,7 @@
         </div>
     </div>
 
+    <script src="./assets/daily_questions.js"></script>
     <script>
         let questions = [];
         let currentIndex = 0;
@@ -159,21 +194,29 @@
 
         async function loadDailyQuiz() {
             try {
+                let data;
+
                 // Fetch the static JSON updated by GitHub Actions
-                let response = await fetch('./assets/daily_questions.json');
-                
-                if (!response.ok) {
-                    throw new Error('Daily quiz file not found');
+                if (window.location.protocol === 'file:' && window.DAILY_QUESTIONS) {
+                    data = window.DAILY_QUESTIONS;
                 } else {
-                    const data = await response.json();
-                    questions = data.questions;
-                    document.getElementById('quiz-date').innerText = `Daily Quiz (${data.date})`;
-                    document.getElementById('quiz-subtitle').innerText = "20 fresh questions picked across 10 FAANG interview topics.";
+                    let response = await fetch('./assets/daily_questions.json');
+                
+                    if (!response.ok) {
+                        throw new Error('Daily quiz file not found');
+                    }
+
+                    data = await response.json();
                 }
+
+                questions = data.questions;
+                document.getElementById('quiz-date').innerText = `Daily Quiz (${data.date})`;
+                document.getElementById('quiz-subtitle').innerText = "20 fresh questions picked across 10 FAANG interview topics.";
                 
                 renderCard();
             } catch (err) {
-                document.getElementById('card-text').innerText = "Failed to load today's quiz. Ensure assets/daily_questions.json exists or run python generate_quiz.py locally.";
+                document.getElementById('question-text').innerText = "Failed to load today's quiz. Ensure assets/daily_questions.json exists or run python generate_quiz.py locally.";
+                document.getElementById('answer-text').innerText = "Connection / File missing error.";
                 document.getElementById('quiz-subtitle').innerText = "Connection / File missing error.";
             }
         }
@@ -181,15 +224,20 @@
         function renderCard() {
             if (!questions.length) return;
             const current = questions[currentIndex];
-            const tagEl = document.getElementById('card-tag');
-            const textEl = document.getElementById('card-text');
-            const hintEl = document.getElementById('card-hint');
+            const frontTagEl = document.getElementById('front-card-tag');
+            const backTagEl = document.getElementById('back-card-tag');
+            const questionTextEl = document.getElementById('question-text');
+            const answerTextEl = document.getElementById('answer-text');
             const progressEl = document.getElementById('progress');
+            const cardEl = document.getElementById('card');
 
             // Format category name string
-            tagEl.innerText = current.category.replace('_', ' ');
-            textEl.innerText = isShowingAnswer ? current.answer : current.question;
-            hintEl.innerText = isShowingAnswer ? "Click card to return to question" : "Click card to reveal answer";
+            const category = current.category.replace('_', ' ');
+            frontTagEl.innerText = category;
+            backTagEl.innerText = category;
+            questionTextEl.innerText = current.question;
+            answerTextEl.innerText = current.answer;
+            cardEl.classList.toggle('flipped', isShowingAnswer);
             progressEl.innerText = `${currentIndex + 1} / ${questions.length}`;
 
             // Handle button disable states

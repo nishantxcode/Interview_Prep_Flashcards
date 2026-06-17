@@ -17,6 +17,7 @@ QUESTION_FILES = {
     "system_design": "assets/system_design_100_questions.json",
 }
 OUTPUT_PATH = "assets/daily_questions.json"
+JS_OUTPUT_PATH = "assets/daily_questions.js"
 QUESTIONS_PER_SUBJECT = 2
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -51,6 +52,11 @@ def generate_daily_deck():
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(quiz_data, f, indent=2, ensure_ascii=False)
+
+    with open(JS_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.write("window.DAILY_QUESTIONS = ")
+        json.dump(quiz_data, f, indent=2, ensure_ascii=False)
+        f.write(";\n")
     
     print(f"Successfully generated daily quiz with {len(daily_deck)} questions for {quiz_data['date']}.")
 
