@@ -30,6 +30,46 @@
             min-height: 100vh;
             padding: 20px;
         }
+        .cursor-glow,
+        .cursor-dot {
+            position: fixed;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0;
+            transform: translate3d(-50%, -50%, 0);
+            transition: opacity 0.2s ease;
+        }
+
+        .cursor-glow {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(56, 189, 248, 0.2), rgba(56, 189, 248, 0.08) 38%, transparent 70%);
+            filter: blur(4px);
+            mix-blend-mode: screen;
+        }
+
+        .cursor-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 16px rgba(56, 189, 248, 0.8);
+        }
+
+        body.cursor-active .cursor-glow,
+        body.cursor-active .cursor-dot {
+            opacity: 1;
+        }
+
+        @media (pointer: coarse) {
+            .cursor-glow,
+            .cursor-dot {
+                display: none;
+            }
+        }
         .quiz-container {
             max-width: 550px;
             width: 100%;
@@ -159,6 +199,8 @@
     </style>
 </head>
 <body>
+    <div class="cursor-glow" id="cursor-glow"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
 
     <div class="quiz-container">
         <h2 id="quiz-date">Daily Revision</h2>
@@ -191,6 +233,10 @@
         let questions = [];
         let currentIndex = 0;
         let isShowingAnswer = false;
+        const cursorGlow = document.getElementById('cursor-glow');
+        const cursorDot = document.getElementById('cursor-dot');
+        const cursorPosition = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+        const glowPosition = { x: cursorPosition.x, y: cursorPosition.y };
 
         async function loadDailyQuiz() {
             try {
@@ -266,7 +312,27 @@
             }
         }
 
+        function animateCursor() {
+            glowPosition.x += (cursorPosition.x - glowPosition.x) * 0.14;
+            glowPosition.y += (cursorPosition.y - glowPosition.y) * 0.14;
+
+            cursorGlow.style.transform = `translate3d(${glowPosition.x}px, ${glowPosition.y}px, 0) translate(-50%, -50%)`;
+            cursorDot.style.transform = `translate3d(${cursorPosition.x}px, ${cursorPosition.y}px, 0) translate(-50%, -50%)`;
+            requestAnimationFrame(animateCursor);
+        }
+
+        window.addEventListener('pointermove', (event) => {
+            cursorPosition.x = event.clientX;
+            cursorPosition.y = event.clientY;
+            document.body.classList.add('cursor-active');
+        });
+
+        window.addEventListener('pointerleave', () => {
+            document.body.classList.remove('cursor-active');
+        });
+
         // Run on mount
+        animateCursor();
         loadDailyQuiz();
     </script>
 </body>
