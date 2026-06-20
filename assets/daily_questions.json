@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is the OVER() clause?",
-      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+      "category": "java",
+      "question": "Java Interview Question 65",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is setter injection?",
+      "answer": "Setter injection provides dependencies through setter methods after object creation."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Adapter pattern?",
+      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 41",
+      "question": "Java Interview Question 76",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "os",
-      "question": "What is a Process Control Block (PCB)?",
-      "answer": "A PCB is a data structure maintained by the operating system that stores information about a process."
+      "question": "What is a file descriptor?",
+      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Two-Phase Locking (2PL)?",
+      "answer": "Two-Phase Locking is a concurrency control protocol consisting of a growing phase and a shrinking phase."
+    },
+    {
+      "category": "python",
+      "question": "What is encapsulation in Python?",
+      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal details."
+    },
+    {
+      "category": "system_design",
+      "question": "What is scalability?",
+      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 70",
+      "question": "HR Interview Question 64",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is Kruskal's algorithm?",
-      "answer": "Kruskal's algorithm builds a Minimum Spanning Tree by repeatedly selecting the smallest edge that does not form a cycle."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 55",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is a window function in SQL?",
-      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is replication used?",
-      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
-    },
-    {
-      "category": "python",
-      "question": "What is a global variable?",
-      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between an IP address and a MAC address?",
-      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
-    },
-    {
       "category": "hr",
-      "question": "What motivates you?",
-      "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
+      "question": "HR Interview Question 79",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is a kernel?",
-      "answer": "The kernel is the core component of an operating system that manages hardware resources and system operations."
-    },
-    {
-      "category": "dsa",
-      "question": "What is divide and conquer?",
-      "answer": "Divide and conquer is an algorithmic paradigm that divides a problem into smaller subproblems, solves them recursively, and combines their solutions."
-    },
-    {
-      "category": "oop",
-      "question": "What is object cloning?",
-      "answer": "Object cloning creates a copy of an existing object."
-    },
-    {
-      "category": "oop",
-      "question": "What are the three categories of design patterns?",
-      "answer": "Creational, Structural, and Behavioral design patterns."
-    },
-    {
-      "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
     },
     {
       "category": "dbms",
-      "question": "What are the advantages of a DBMS?",
-      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
     },
     {
       "category": "system_design",
-      "question": "What is a primary-replica architecture?",
-      "answer": "A primary-replica architecture consists of one write node and one or more read replicas."
+      "question": "What is a distributed lock?",
+      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
     },
     {
-      "category": "dbms",
-      "question": "What is the First Normal Form (1NF)?",
-      "answer": "A relation is in 1NF if all attributes contain atomic values and there are no repeating groups."
+      "category": "networking",
+      "question": "What is a stateful firewall?",
+      "answer": "A stateful firewall tracks the state of active connections and makes filtering decisions accordingly."
+    },
+    {
+      "category": "networking",
+      "question": "What is Quality of Service (QoS)?",
+      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the if statement?",
+      "answer": "The if statement executes a block of code when a condition evaluates to true."
+    },
+    {
+      "category": "sql",
+      "question": "What is the INSERT statement?",
+      "answer": "INSERT is used to add new rows into a table."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a heap?",
+      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
+    },
+    {
+      "category": "dsa",
+      "question": "When is DFS preferred over BFS?",
+      "answer": "DFS is preferred for tasks such as cycle detection, topological sorting, and exploring all possible paths."
     }
   ]
 }
