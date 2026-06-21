@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 65",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "oop",
-      "question": "What is setter injection?",
-      "answer": "Setter injection provides dependencies through setter methods after object creation."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 76",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the Diamond Problem?",
+      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
     },
     {
       "category": "os",
-      "question": "What is a file descriptor?",
-      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
+      "question": "What is a binary semaphore?",
+      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
     },
     {
-      "category": "dbms",
-      "question": "What is Two-Phase Locking (2PL)?",
-      "answer": "Two-Phase Locking is a concurrency control protocol consisting of a growing phase and a shrinking phase."
+      "category": "dsa",
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 26",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "python",
-      "question": "What is encapsulation in Python?",
-      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal details."
+      "question": "What is an abstract class in Python?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that subclasses must implement."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the relational model?",
+      "answer": "The relational model organizes data into tables consisting of rows and columns."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of BFS?",
+      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 66",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 60",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is a DNS server?",
+      "answer": "A DNS server stores and provides domain name resolution information."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Recovery?",
+      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
+    },
+    {
+      "category": "sql",
+      "question": "What does MAX() do?",
+      "answer": "MAX() returns the largest value in a column."
     },
     {
       "category": "system_design",
-      "question": "What is scalability?",
-      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+      "question": "What is a Service Mesh?",
+      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 64",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "java",
+      "question": "Java Interview Question 35",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 79",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dbms",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of data rows in a table."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ALTER statement?",
+      "answer": "ALTER is used to modify the structure of an existing database object."
+    },
+    {
+      "category": "oop",
+      "question": "What is loose coupling?",
+      "answer": "Loose coupling means components have minimal dependencies on each other."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a database in system design?",
+      "answer": "A database is a structured system used to store, retrieve, and manage application data."
+    },
+    {
+      "category": "python",
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides its own implementation of a method defined in the parent class."
     },
     {
       "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the PROJECT operation in relational algebra?",
-      "answer": "PROJECT retrieves specific columns from a relation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed lock?",
-      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
-    },
-    {
-      "category": "networking",
-      "question": "What is a stateful firewall?",
-      "answer": "A stateful firewall tracks the state of active connections and makes filtering decisions accordingly."
-    },
-    {
-      "category": "networking",
-      "question": "What is Quality of Service (QoS)?",
-      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the if statement?",
-      "answer": "The if statement executes a block of code when a condition evaluates to true."
-    },
-    {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a heap?",
-      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
-    },
-    {
-      "category": "dsa",
-      "question": "When is DFS preferred over BFS?",
-      "answer": "DFS is preferred for tasks such as cycle detection, topological sorting, and exploring all possible paths."
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
     }
   ]
 }
