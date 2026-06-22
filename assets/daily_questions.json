@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is the Diamond Problem?",
-      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
-    },
-    {
       "category": "os",
-      "question": "What is a binary semaphore?",
-      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 26",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is an abstract class in Python?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that subclasses must implement."
+      "question": "What is Multilevel Feedback Queue Scheduling?",
+      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
     },
     {
       "category": "dbms",
-      "question": "What is the relational model?",
-      "answer": "The relational model organizes data into tables consisting of rows and columns."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of BFS?",
-      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 66",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 60",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is denormalization?",
+      "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
     },
     {
       "category": "networking",
-      "question": "What is a DNS server?",
-      "answer": "A DNS server stores and provides domain name resolution information."
-    },
-    {
-      "category": "networking",
-      "question": "What is Fast Recovery?",
-      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
+      "question": "What is OSPF?",
+      "answer": "Open Shortest Path First (OSPF) is a link-state routing protocol that calculates shortest paths using Dijkstra's algorithm."
     },
     {
       "category": "sql",
-      "question": "What does MAX() do?",
-      "answer": "MAX() returns the largest value in a column."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Service Mesh?",
-      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 35",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a clustered index?",
-      "answer": "A clustered index determines the physical order of data rows in a table."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALTER statement?",
-      "answer": "ALTER is used to modify the structure of an existing database object."
-    },
-    {
-      "category": "oop",
-      "question": "What is loose coupling?",
-      "answer": "Loose coupling means components have minimal dependencies on each other."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a database in system design?",
-      "answer": "A database is a structured system used to store, retrieve, and manage application data."
+      "question": "What is the UPDATE statement?",
+      "answer": "UPDATE modifies existing records in a table."
     },
     {
       "category": "python",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides its own implementation of a method defined in the parent class."
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
+    },
+    {
+      "category": "python",
+      "question": "What is the map() function?",
+      "answer": "map() applies a function to every item in an iterable and returns an iterator."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between an interface and an abstract class?",
+      "answer": "An interface defines behavior contracts, while an abstract class can provide both contracts and partial implementation."
     },
     {
       "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "question": "What is contiguous memory allocation?",
+      "answer": "Contiguous memory allocation assigns a single continuous block of memory to a process."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 100",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ANY operator?",
+      "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
+    },
+    {
+      "category": "networking",
+      "question": "What is TCP congestion control?",
+      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
+    },
+    {
+      "category": "dbms",
+      "question": "What is data independence?",
+      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the CAP Theorem?",
+      "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
+    },
+    {
+      "category": "system_design",
+      "question": "When should NoSQL databases be preferred?",
+      "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
+      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 40",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 87",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "Why are Red-Black Trees preferred in many standard libraries?",
+      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+    },
+    {
+      "category": "oop",
+      "question": "What is an interface?",
+      "answer": "An interface defines a contract of methods that implementing classes must provide."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 78",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
