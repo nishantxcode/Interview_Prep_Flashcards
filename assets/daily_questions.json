@@ -1,80 +1,10 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is backtracking?",
-      "answer": "Backtracking is a problem-solving technique that incrementally builds candidates and abandons a candidate when it cannot lead to a valid solution."
-    },
-    {
-      "category": "java",
-      "question": "What is an abstract method?",
-      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 36",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 63",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
       "category": "networking",
-      "question": "What is DHCP?",
-      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
-    },
-    {
-      "category": "sql",
-      "question": "What is the NOT EXISTS operator?",
-      "answer": "NOT EXISTS returns true when a subquery returns no rows."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Reflexivity Rule in Armstrong's Axioms?",
-      "answer": "If Y is a subset of X, then X determines Y."
-    },
-    {
-      "category": "oop",
-      "question": "What are the four pillars of OOP?",
-      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the difference between horizontal and vertical scaling?",
-      "answer": "Horizontal scaling adds more machines, whereas vertical scaling upgrades a single machine's capacity."
-    },
-    {
-      "category": "python",
-      "question": "What is a global variable?",
-      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
-    },
-    {
-      "category": "os",
-      "question": "What is a kernel-level thread?",
-      "answer": "A kernel-level thread is managed directly by the operating system kernel."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between an IP address and a MAC address?",
-      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
-    },
-    {
-      "category": "dsa",
-      "question": "What is separate chaining?",
-      "answer": "Separate chaining resolves collisions by storing multiple elements in a linked list or similar structure at the same hash index."
-    },
-    {
-      "category": "python",
-      "question": "What is a return statement?",
-      "answer": "A return statement exits a function and optionally sends a value back to the caller."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
     },
     {
       "category": "oop",
@@ -82,24 +12,94 @@
       "answer": "Object cloning creates a copy of an existing object."
     },
     {
-      "category": "system_design",
-      "question": "When should NoSQL databases be preferred?",
-      "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 65",
+      "question": "Java Interview Question 75",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "os",
-      "question": "What is deadlock detection?",
-      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
+      "category": "java",
+      "question": "Java Interview Question 78",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "sql",
-      "question": "What is the DELETE statement?",
-      "answer": "DELETE removes one or more rows from a table based on a specified condition."
+      "question": "What is the NOT EXISTS operator?",
+      "answer": "NOT EXISTS returns true when a subquery returns no rows."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Depth-First Search (DFS)?",
+      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
+    },
+    {
+      "category": "sql",
+      "question": "What are the disadvantages of indexes?",
+      "answer": "Indexes consume storage space and can slow down INSERT, UPDATE, and DELETE operations."
+    },
+    {
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+    },
+    {
+      "category": "networking",
+      "question": "What is ARP?",
+      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
+    },
+    {
+      "category": "python",
+      "question": "What is a coroutine in Python?",
+      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
+    },
+    {
+      "category": "os",
+      "question": "What are the different states of a process?",
+      "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a foreign key?",
+      "answer": "A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Consistency in CAP?",
+      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
+    },
+    {
+      "category": "oop",
+      "question": "What is object serialization?",
+      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a B+ Tree?",
+      "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the challenges of distributed systems?",
+      "answer": "Network failures, consistency issues, latency, synchronization, and operational complexity."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 92",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
