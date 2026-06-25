@@ -1,80 +1,65 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "questions": [
     {
-      "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
-    },
-    {
-      "category": "oop",
-      "question": "What is object cloning?",
-      "answer": "Object cloning creates a copy of an existing object."
-    },
-    {
       "category": "dsa",
-      "question": "What is a hash function?",
-      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
+      "question": "When is BFS preferred over DFS?",
+      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 75",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 78",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the NOT EXISTS operator?",
-      "answer": "NOT EXISTS returns true when a subquery returns no rows."
-    },
-    {
-      "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 21",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Depth-First Search (DFS)?",
-      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
-    },
-    {
-      "category": "sql",
-      "question": "What are the disadvantages of indexes?",
-      "answer": "Indexes consume storage space and can slow down INSERT, UPDATE, and DELETE operations."
+      "category": "system_design",
+      "question": "What is database replication?",
+      "answer": "Database replication is the process of maintaining copies of data across multiple database servers."
     },
     {
       "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+      "question": "What is a set comprehension?",
+      "answer": "A set comprehension is a concise syntax for creating sets from iterables."
     },
     {
-      "category": "networking",
-      "question": "What is ARP?",
-      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
-    },
-    {
-      "category": "python",
-      "question": "What is a coroutine in Python?",
-      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
+      "category": "sql",
+      "question": "What is DCL in SQL?",
+      "answer": "Data Control Language (DCL) consists of commands used to control database permissions."
     },
     {
       "category": "os",
-      "question": "What are the different states of a process?",
-      "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
+      "question": "What is a condition variable?",
+      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 93",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dbms",
-      "question": "What is a foreign key?",
-      "answer": "A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table."
+      "question": "What is entity integrity?",
+      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+    },
+    {
+      "category": "networking",
+      "question": "What is error detection in networking?",
+      "answer": "Error detection identifies corrupted data during transmission using techniques such as checksums and CRC."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between for and while loops?",
+      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between identity and equality?",
+      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
+    },
+    {
+      "category": "hr",
+      "question": "What do you do when you don't know how to solve a problem?",
+      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
     },
     {
       "category": "system_design",
@@ -82,24 +67,39 @@
       "answer": "Consistency means all nodes see the same data at the same time after a write operation."
     },
     {
-      "category": "oop",
-      "question": "What is object serialization?",
-      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
-    },
-    {
       "category": "dbms",
-      "question": "What is a B+ Tree?",
-      "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the challenges of distributed systems?",
-      "answer": "Network failures, consistency issues, latency, synchronization, and operational complexity."
+      "question": "What are the main types of data models?",
+      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 92",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Why should we hire you?",
+      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+    },
+    {
+      "category": "sql",
+      "question": "What is the UPDATE statement?",
+      "answer": "UPDATE modifies existing records in a table."
+    },
+    {
+      "category": "java",
+      "question": "What are access modifiers in Java?",
+      "answer": "Access modifiers control visibility and include public, private, protected, and default access."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a max heap?",
+      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Decorator pattern?",
+      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
+    },
+    {
+      "category": "os",
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
     }
   ]
 }
