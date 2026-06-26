@@ -1,50 +1,25 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "questions": [
     {
-      "category": "dsa",
-      "question": "When is BFS preferred over DFS?",
-      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
-    },
-    {
-      "category": "system_design",
-      "question": "What is database replication?",
-      "answer": "Database replication is the process of maintaining copies of data across multiple database servers."
+      "category": "oop",
+      "question": "What is the Dependency Inversion Principle (DIP)?",
+      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
     },
     {
       "category": "python",
-      "question": "What is a set comprehension?",
-      "answer": "A set comprehension is a concise syntax for creating sets from iterables."
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
     },
     {
-      "category": "sql",
-      "question": "What is DCL in SQL?",
-      "answer": "Data Control Language (DCL) consists of commands used to control database permissions."
-    },
-    {
-      "category": "os",
-      "question": "What is a condition variable?",
-      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 93",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "hr",
+      "question": "HR Interview Question 85",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is entity integrity?",
-      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
-    },
-    {
-      "category": "networking",
-      "question": "What is error detection in networking?",
-      "answer": "Error detection identifies corrupted data during transmission using techniques such as checksums and CRC."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TCP four-way handshake?",
-      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+      "question": "What is a domain?",
+      "answer": "A domain is the set of permissible values that an attribute can hold."
     },
     {
       "category": "python",
@@ -52,54 +27,79 @@
       "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
     },
     {
-      "category": "oop",
-      "question": "What is the difference between identity and equality?",
-      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
-    },
-    {
       "category": "hr",
-      "question": "What do you do when you don't know how to solve a problem?",
-      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Consistency in CAP?",
-      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the main types of data models?",
-      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
-    },
-    {
-      "category": "hr",
-      "question": "Why should we hire you?",
-      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
-    },
-    {
-      "category": "sql",
-      "question": "What is the UPDATE statement?",
-      "answer": "UPDATE modifies existing records in a table."
-    },
-    {
-      "category": "java",
-      "question": "What are access modifiers in Java?",
-      "answer": "Access modifiers control visibility and include public, private, protected, and default access."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a max heap?",
-      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Decorator pattern?",
-      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
+      "question": "HR Interview Question 94",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
+      "question": "What information is stored in a PCB?",
+      "answer": "Process ID, process state, program counter, CPU registers, scheduling information, and memory management details."
+    },
+    {
+      "category": "networking",
+      "question": "What is subnetting?",
+      "answer": "Subnetting is the process of dividing a network into smaller logical subnetworks to improve efficiency and management."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 33",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 68",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a covering index?",
+      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between TCP and UDP?",
+      "answer": "TCP provides reliable, ordered delivery with error recovery, whereas UDP provides faster communication without guaranteed delivery."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Minimum Spanning Tree (MST)?",
+      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a producer in a messaging system?",
+      "answer": "A producer is a component that generates and publishes messages."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "dsa",
+      "question": "What is hashing?",
+      "answer": "Hashing is the process of mapping data to fixed-size values using a hash function for efficient storage and retrieval."
+    },
+    {
+      "category": "system_design",
+      "question": "What is asynchronous communication?",
+      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+    },
+    {
+      "category": "sql",
+      "question": "What is a LEFT JOIN?",
+      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+    },
+    {
+      "category": "oop",
+      "question": "What are the four pillars of OOP?",
+      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
     }
   ]
 }
