@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is the Dependency Inversion Principle (DIP)?",
-      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
-    },
-    {
-      "category": "python",
-      "question": "What is multiprocessing in Python?",
-      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 85",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a domain?",
-      "answer": "A domain is the set of permissible values that an attribute can hold."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between for and while loops?",
-      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 94",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dsa",
+      "question": "What is the time complexity of searching in a Trie?",
+      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
     },
     {
       "category": "os",
-      "question": "What information is stored in a PCB?",
-      "answer": "Process ID, process state, program counter, CPU registers, scheduling information, and memory management details."
+      "question": "Why is context switching considered overhead?",
+      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
+    },
+    {
+      "category": "os",
+      "question": "What is a critical section?",
+      "answer": "A critical section is a part of a program where shared resources are accessed and must not be executed by multiple threads simultaneously."
+    },
+    {
+      "category": "python",
+      "question": "What is pass in Python?",
+      "answer": "pass is a null statement that performs no action and is used as a placeholder."
     },
     {
       "category": "networking",
-      "question": "What is subnetting?",
-      "answer": "Subnetting is the process of dividing a network into smaller logical subnetworks to improve efficiency and management."
+      "question": "What is the purpose of a firewall?",
+      "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Abstract Factory pattern?",
+      "answer": "Abstract Factory provides an interface for creating families of related objects without specifying concrete classes."
+    },
+    {
+      "category": "oop",
+      "question": "What is an immutable object?",
+      "answer": "An immutable object is an object whose state cannot be modified after creation."
+    },
+    {
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+    },
+    {
+      "category": "sql",
+      "question": "What does COUNT() do?",
+      "answer": "COUNT() returns the number of rows matching a specified condition."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 24",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 33",
+      "question": "Java Interview Question 57",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 68",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
     },
     {
-      "category": "sql",
-      "question": "What is a covering index?",
-      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+      "category": "hr",
+      "question": "HR Interview Question 76",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is the difference between TCP and UDP?",
-      "answer": "TCP provides reliable, ordered delivery with error recovery, whereas UDP provides faster communication without guaranteed delivery."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Minimum Spanning Tree (MST)?",
-      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a producer in a messaging system?",
-      "answer": "A producer is a component that generates and publishes messages."
-    },
-    {
-      "category": "os",
-      "question": "What is Shortest Remaining Time First (SRTF)?",
-      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
-    },
-    {
-      "category": "dsa",
-      "question": "What is hashing?",
-      "answer": "Hashing is the process of mapping data to fixed-size values using a hash function for efficient storage and retrieval."
-    },
-    {
-      "category": "system_design",
-      "question": "What is asynchronous communication?",
-      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
-    },
-    {
-      "category": "sql",
-      "question": "What is a LEFT JOIN?",
-      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
+      "category": "python",
+      "question": "What is the purpose of the import statement?",
+      "answer": "The import statement allows code from modules and packages to be used in a program."
     },
     {
       "category": "dbms",
-      "question": "What is Atomicity?",
-      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+      "question": "What is total participation?",
+      "answer": "Total participation means every entity must participate in at least one relationship instance."
     },
     {
-      "category": "oop",
-      "question": "What are the four pillars of OOP?",
-      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+      "category": "networking",
+      "question": "What is NAT?",
+      "answer": "Network Address Translation (NAT) translates private IP addresses into public IP addresses and vice versa."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Leaky Bucket algorithm?",
+      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
+    },
+    {
+      "category": "sql",
+      "question": "What is normalization in SQL databases?",
+      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big Theta notation?",
+      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a key in DBMS?",
+      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
     }
   ]
 }
