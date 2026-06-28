@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is the time complexity of searching in a Trie?",
-      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
-    },
-    {
-      "category": "os",
-      "question": "Why is context switching considered overhead?",
-      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
-    },
-    {
-      "category": "os",
-      "question": "What is a critical section?",
-      "answer": "A critical section is a part of a program where shared resources are accessed and must not be executed by multiple threads simultaneously."
-    },
-    {
-      "category": "python",
-      "question": "What is pass in Python?",
-      "answer": "pass is a null statement that performs no action and is used as a placeholder."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of a firewall?",
-      "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Abstract Factory pattern?",
-      "answer": "Abstract Factory provides an interface for creating families of related objects without specifying concrete classes."
-    },
-    {
-      "category": "oop",
-      "question": "What is an immutable object?",
-      "answer": "An immutable object is an object whose state cannot be modified after creation."
+      "category": "sql",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of rows in a table."
     },
     {
       "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
     },
     {
-      "category": "sql",
-      "question": "What does COUNT() do?",
-      "answer": "COUNT() returns the number of rows matching a specified condition."
+      "category": "dsa",
+      "question": "What is a doubly linked list?",
+      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 24",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dbms",
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 57",
+      "question": "Java Interview Question 53",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "java",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 76",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the import statement?",
-      "answer": "The import statement allows code from modules and packages to be used in a program."
-    },
-    {
-      "category": "dbms",
-      "question": "What is total participation?",
-      "answer": "Total participation means every entity must participate in at least one relationship instance."
+      "category": "system_design",
+      "question": "What is fault tolerance?",
+      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
     },
     {
       "category": "networking",
-      "question": "What is NAT?",
-      "answer": "Network Address Translation (NAT) translates private IP addresses into public IP addresses and vice versa."
+      "question": "What is the difference between a hub and a switch?",
+      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
     },
     {
-      "category": "system_design",
-      "question": "What is the Leaky Bucket algorithm?",
-      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
-    },
-    {
-      "category": "sql",
-      "question": "What is normalization in SQL databases?",
-      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
+      "category": "java",
+      "question": "Java Interview Question 76",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dsa",
-      "question": "What is Big Theta notation?",
-      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+      "question": "What is a hash collision?",
+      "answer": "A hash collision occurs when two different keys produce the same hash value."
+    },
+    {
+      "category": "sql",
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
+    },
+    {
+      "category": "os",
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 96",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 47",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What are the main types of computer networks?",
+      "answer": "LAN, MAN, WAN, PAN, and CAN."
+    },
+    {
+      "category": "os",
+      "question": "What is aging in operating systems?",
+      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
+    },
+    {
+      "category": "python",
+      "question": "What is self in Python?",
+      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Factory Method pattern?",
+      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
     },
     {
       "category": "dbms",
-      "question": "What is a key in DBMS?",
-      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
+      "question": "What is a fully functional dependency?",
+      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+    },
+    {
+      "category": "oop",
+      "question": "What is UML?",
+      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+    },
+    {
+      "category": "python",
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
     }
   ]
 }
