@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is a clustered index?",
-      "answer": "A clustered index determines the physical order of rows in a table."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed transaction?",
-      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a doubly linked list?",
-      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Atomicity?",
-      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 53",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is fault tolerance?",
-      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between a hub and a switch?",
-      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 76",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a hash collision?",
-      "answer": "A hash collision occurs when two different keys produce the same hash value."
-    },
-    {
-      "category": "sql",
-      "question": "What is ROW_NUMBER()?",
-      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
-    },
-    {
-      "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 96",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 47",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What are the main types of computer networks?",
-      "answer": "LAN, MAN, WAN, PAN, and CAN."
-    },
-    {
-      "category": "os",
-      "question": "What is aging in operating systems?",
-      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
-    },
-    {
-      "category": "python",
-      "question": "What is self in Python?",
-      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
+      "question": "Describe your ideal work environment.",
+      "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
     },
     {
       "category": "oop",
-      "question": "What is the Factory Method pattern?",
-      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
+      "question": "What is dependency injection?",
+      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
     },
     {
-      "category": "dbms",
-      "question": "What is a fully functional dependency?",
-      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+      "category": "os",
+      "question": "What is a thread?",
+      "answer": "A thread is the smallest unit of CPU execution within a process."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprocessing?",
+      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+    },
+    {
+      "category": "sql",
+      "question": "What is the EXISTS operator?",
+      "answer": "EXISTS checks whether a subquery returns any rows."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "Give an example of a greedy algorithm.",
+      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Leaky Bucket algorithm?",
+      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Red-Black Tree?",
+      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
     },
     {
       "category": "oop",
-      "question": "What is UML?",
-      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+      "question": "What is the Builder pattern?",
+      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 63",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is multiprocessing in Python?",
-      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
+      "question": "What is an iterable in Python?",
+      "answer": "An iterable is any object that can return an iterator, such as lists, tuples, and strings."
+    },
+    {
+      "category": "java",
+      "question": "Is Java compiled or interpreted?",
+      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
+    },
+    {
+      "category": "dbms",
+      "question": "What is referential integrity?",
+      "answer": "Referential integrity ensures that foreign key values always reference valid rows in the parent table."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a primary key?",
+      "answer": "A primary key is the candidate key chosen to uniquely identify each row in a table."
+    },
+    {
+      "category": "networking",
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
+    },
+    {
+      "category": "python",
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+    },
+    {
+      "category": "sql",
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+    },
+    {
+      "category": "networking",
+      "question": "What is a protocol?",
+      "answer": "A protocol is a set of rules that governs communication between network devices."
+    },
+    {
+      "category": "system_design",
+      "question": "What is eventual consistency?",
+      "answer": "Eventual consistency guarantees that all replicas will converge to the same state if no new updates occur."
     }
   ]
 }
