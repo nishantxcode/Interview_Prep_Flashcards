@@ -1,105 +1,105 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "questions": [
     {
-      "category": "hr",
-      "question": "Describe your ideal work environment.",
-      "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
+      "category": "python",
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
     },
     {
-      "category": "oop",
-      "question": "What is dependency injection?",
-      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
-    },
-    {
-      "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
+      "category": "java",
+      "question": "What is an interface in Java?",
+      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
     },
     {
       "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+      "question": "What is deadlock detection?",
+      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
     },
     {
-      "category": "sql",
-      "question": "What is the EXISTS operator?",
-      "answer": "EXISTS checks whether a subquery returns any rows."
+      "category": "dsa",
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IDS?",
+      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+    },
+    {
+      "category": "os",
+      "question": "What are the requirements of the critical section problem?",
+      "answer": "Mutual exclusion, progress, and bounded waiting."
+    },
+    {
+      "category": "dbms",
+      "question": "What is relational algebra?",
+      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 21",
+      "question": "HR Interview Question 68",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dsa",
-      "question": "Give an example of a greedy algorithm.",
-      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
+      "question": "What is path compression in DSU?",
+      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
     },
     {
-      "category": "system_design",
-      "question": "What is the Leaky Bucket algorithm?",
-      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Red-Black Tree?",
-      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
+      "category": "sql",
+      "question": "What is the LIKE operator?",
+      "answer": "LIKE is used for pattern matching in string values."
     },
     {
       "category": "oop",
-      "question": "What is the Builder pattern?",
-      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
+      "question": "What is object serialization?",
+      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 63",
+      "question": "Java Interview Question 47",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is an iterable in Python?",
-      "answer": "An iterable is any object that can return an iterator, such as lists, tuples, and strings."
-    },
-    {
-      "category": "java",
-      "question": "Is Java compiled or interpreted?",
-      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
-    },
-    {
-      "category": "dbms",
-      "question": "What is referential integrity?",
-      "answer": "Referential integrity ensures that foreign key values always reference valid rows in the parent table."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a primary key?",
-      "answer": "A primary key is the candidate key chosen to uniquely identify each row in a table."
-    },
-    {
-      "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+      "question": "What is a virtual environment in Python?",
+      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
     },
     {
       "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+      "question": "What is a foreign key constraint?",
+      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
     },
     {
-      "category": "networking",
-      "question": "What is a protocol?",
-      "answer": "A protocol is a set of rules that governs communication between network devices."
+      "category": "dbms",
+      "question": "When should denormalization be used?",
+      "answer": "When read performance is more critical than storage efficiency and data redundancy."
+    },
+    {
+      "category": "hr",
+      "question": "What is your biggest weakness?",
+      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
     },
     {
       "category": "system_design",
-      "question": "What is eventual consistency?",
-      "answer": "Eventual consistency guarantees that all replicas will converge to the same state if no new updates occur."
+      "question": "Why is an API Gateway used?",
+      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+    },
+    {
+      "category": "oop",
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+    },
+    {
+      "category": "networking",
+      "question": "What is a VPN?",
+      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
+    },
+    {
+      "category": "system_design",
+      "question": "What is throughput?",
+      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
     }
   ]
 }
