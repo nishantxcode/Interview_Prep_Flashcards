@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "questions": [
     {
+      "category": "oop",
+      "question": "What is the difference between a class and an object?",
+      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
+    },
+    {
+      "category": "sql",
+      "question": "What is a non-correlated subquery?",
+      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
+    },
+    {
       "category": "python",
-      "question": "What is the difference between an iterable and an iterator?",
-      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
-    },
-    {
-      "category": "java",
-      "question": "What is an interface in Java?",
-      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock detection?",
-      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IDS?",
-      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
-    },
-    {
-      "category": "os",
-      "question": "What are the requirements of the critical section problem?",
-      "answer": "Mutual exclusion, progress, and bounded waiting."
-    },
-    {
-      "category": "dbms",
-      "question": "What is relational algebra?",
-      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
+      "question": "Which Python data types are immutable?",
+      "answer": "int, float, bool, str, tuple, frozenset, and bytes are immutable."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 68",
+      "question": "HR Interview Question 79",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is path compression in DSU?",
-      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
-    },
-    {
-      "category": "oop",
-      "question": "What is object serialization?",
-      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
+      "category": "networking",
+      "question": "What is the Data Link Layer?",
+      "answer": "The Data Link Layer provides node-to-node communication and error detection."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 47",
+      "question": "Java Interview Question 34",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "python",
-      "question": "What is a virtual environment in Python?",
-      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
-    },
-    {
-      "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
+      "category": "networking",
+      "question": "What is an IPS?",
+      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
     },
     {
       "category": "dbms",
-      "question": "When should denormalization be used?",
-      "answer": "When read performance is more critical than storage efficiency and data redundancy."
+      "question": "What is an index in DBMS?",
+      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the CAP Theorem?",
+      "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the advantages of distributed systems?",
+      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+    },
+    {
+      "category": "sql",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of rows in a table."
     },
     {
       "category": "hr",
-      "question": "What is your biggest weakness?",
-      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is an API Gateway used?",
-      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+      "question": "HR Interview Question 84",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+      "question": "What is the Observer pattern?",
+      "answer": "The Observer pattern establishes a one-to-many dependency so that observers are notified when the subject changes state."
     },
     {
-      "category": "networking",
-      "question": "What is a VPN?",
-      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
+      "category": "os",
+      "question": "What is a medium-term scheduler?",
+      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
     },
     {
-      "category": "system_design",
-      "question": "What is throughput?",
-      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+      "category": "dsa",
+      "question": "What is the time complexity of BFS?",
+      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 35",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an exclusive lock?",
+      "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the except block?",
+      "answer": "The except block handles exceptions raised in the corresponding try block."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
     }
   ]
 }
