@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is the difference between a class and an object?",
-      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
-    },
-    {
       "category": "sql",
-      "question": "What is a non-correlated subquery?",
-      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
-    },
-    {
-      "category": "python",
-      "question": "Which Python data types are immutable?",
-      "answer": "int, float, bool, str, tuple, frozenset, and bytes are immutable."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 79",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Data Link Layer?",
-      "answer": "The Data Link Layer provides node-to-node communication and error detection."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 34",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IPS?",
-      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
+      "question": "What are common DCL commands?",
+      "answer": "GRANT and REVOKE."
     },
     {
       "category": "dbms",
-      "question": "What is an index in DBMS?",
-      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+      "question": "What are the main types of data models?",
+      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
     },
     {
-      "category": "system_design",
-      "question": "What is the CAP Theorem?",
-      "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the advantages of distributed systems?",
-      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+      "category": "networking",
+      "question": "What is the Network Layer?",
+      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
     },
     {
       "category": "sql",
-      "question": "What is a clustered index?",
-      "answer": "A clustered index determines the physical order of rows in a table."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 84",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Observer pattern?",
-      "answer": "The Observer pattern establishes a one-to-many dependency so that observers are notified when the subject changes state."
-    },
-    {
-      "category": "os",
-      "question": "What is a medium-term scheduler?",
-      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+      "question": "What is NTILE()?",
+      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
     },
     {
       "category": "dsa",
-      "question": "What is the time complexity of BFS?",
-      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 35",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation is the practice of bundling data and methods together while restricting direct access to internal implementation."
     },
     {
-      "category": "os",
-      "question": "What is the difference between a mutex and a semaphore?",
-      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+      "category": "system_design",
+      "question": "What is read-through caching?",
+      "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
     },
     {
-      "category": "dbms",
-      "question": "What is an exclusive lock?",
-      "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
+      "category": "oop",
+      "question": "What is the Builder pattern?",
+      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
     },
     {
       "category": "python",
-      "question": "What is the purpose of the except block?",
-      "answer": "The except block handles exceptions raised in the corresponding try block."
+      "question": "What is the filter() function?",
+      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
+    },
+    {
+      "category": "networking",
+      "question": "What is congestion in a network?",
+      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
+    },
+    {
+      "category": "os",
+      "question": "What is a mutex?",
+      "answer": "A mutex is a synchronization mechanism that allows only one thread to access a critical section at a time."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Strategy pattern?",
+      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+    },
+    {
+      "category": "python",
+      "question": "What is recursion?",
+      "answer": "Recursion is a technique in which a function calls itself to solve a problem."
+    },
+    {
+      "category": "system_design",
+      "question": "What is fault tolerance?",
+      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 96",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dsa",
-      "question": "What is the difference between an array and a linked list?",
-      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
+      "question": "What is the primary difference between BFS and DFS?",
+      "answer": "BFS explores nodes level by level using a queue, whereas DFS explores deeply along a path using recursion or a stack."
+    },
+    {
+      "category": "java",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 61",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
+    },
+    {
+      "category": "os",
+      "question": "What is a user-level thread?",
+      "answer": "A user-level thread is managed by a thread library without direct kernel involvement."
     }
   ]
 }
