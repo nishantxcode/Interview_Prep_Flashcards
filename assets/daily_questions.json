@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "questions": [
     {
-      "category": "sql",
-      "question": "What are common DCL commands?",
-      "answer": "GRANT and REVOKE."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the main types of data models?",
-      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
-    },
-    {
       "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "sql",
-      "question": "What is NTILE()?",
-      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
-    },
-    {
-      "category": "java",
-      "question": "What is encapsulation?",
-      "answer": "Encapsulation is the practice of bundling data and methods together while restricting direct access to internal implementation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is read-through caching?",
-      "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
+      "question": "What is a computer network?",
+      "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
     },
     {
       "category": "oop",
-      "question": "What is the Builder pattern?",
-      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
-    },
-    {
-      "category": "python",
-      "question": "What is the filter() function?",
-      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
-    },
-    {
-      "category": "networking",
-      "question": "What is congestion in a network?",
-      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
-    },
-    {
-      "category": "os",
-      "question": "What is a mutex?",
-      "answer": "A mutex is a synchronization mechanism that allows only one thread to access a critical section at a time."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Strategy pattern?",
-      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
-    },
-    {
-      "category": "python",
-      "question": "What is recursion?",
-      "answer": "Recursion is a technique in which a function calls itself to solve a problem."
-    },
-    {
-      "category": "system_design",
-      "question": "What is fault tolerance?",
-      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+      "question": "What is a default constructor?",
+      "answer": "A default constructor is a constructor that takes no parameters."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 96",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the primary difference between BFS and DFS?",
-      "answer": "BFS explores nodes level by level using a queue, whereas DFS explores deeply along a path using recursion or a stack."
-    },
-    {
-      "category": "java",
-      "question": "What is inheritance?",
-      "answer": "Inheritance allows one class to acquire properties and methods from another class."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 61",
+      "question": "HR Interview Question 95",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is an instance in DBMS?",
-      "answer": "An instance is the actual data stored in the database at a specific point in time."
+      "question": "What is an index in DBMS?",
+      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the import statement?",
+      "answer": "The import statement allows code from modules and packages to be used in a program."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Breadth-First Search (BFS)?",
+      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
     },
     {
       "category": "os",
-      "question": "What is a user-level thread?",
-      "answer": "A user-level thread is managed by a thread library without direct kernel involvement."
+      "question": "What are the requirements of the critical section problem?",
+      "answer": "Mutual exclusion, progress, and bounded waiting."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 40",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IDS?",
+      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+    },
+    {
+      "category": "oop",
+      "question": "What is the State pattern?",
+      "answer": "The State pattern allows an object to alter its behavior when its internal state changes."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the else block in exception handling?",
+      "answer": "The else block executes when no exception occurs in the try block."
+    },
+    {
+      "category": "sql",
+      "question": "What is the WHERE clause?",
+      "answer": "The WHERE clause filters rows based on specified conditions."
+    },
+    {
+      "category": "os",
+      "question": "What are the goals of CPU scheduling?",
+      "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+    },
+    {
+      "category": "system_design",
+      "question": "What is consistent hashing?",
+      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
+    },
+    {
+      "category": "java",
+      "question": "What is abstraction?",
+      "answer": "Abstraction hides implementation details and exposes only essential functionality."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Find operation in DSU?",
+      "answer": "The Find operation returns the representative element of the set containing a given element."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a fully functional dependency?",
+      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+    },
+    {
+      "category": "java",
+      "question": "What is the JVM?",
+      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+    },
+    {
+      "category": "sql",
+      "question": "What is the EXISTS operator?",
+      "answer": "EXISTS checks whether a subquery returns any rows."
     }
   ]
 }
