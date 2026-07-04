@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is a computer network?",
-      "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
-    },
-    {
-      "category": "oop",
-      "question": "What is a default constructor?",
-      "answer": "A default constructor is a constructor that takes no parameters."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 95",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an index in DBMS?",
-      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
     },
     {
       "category": "system_design",
-      "question": "Why is sharding used?",
-      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the import statement?",
-      "answer": "The import statement allows code from modules and packages to be used in a program."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Breadth-First Search (BFS)?",
-      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
-    },
-    {
-      "category": "os",
-      "question": "What are the requirements of the critical section problem?",
-      "answer": "Mutual exclusion, progress, and bounded waiting."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 40",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IDS?",
-      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+      "question": "What is data replication in distributed systems?",
+      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
     },
     {
       "category": "oop",
-      "question": "What is the State pattern?",
-      "answer": "The State pattern allows an object to alter its behavior when its internal state changes."
+      "question": "What is the Decorator pattern?",
+      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
     },
     {
-      "category": "python",
-      "question": "What is the purpose of the else block in exception handling?",
-      "answer": "The else block executes when no exception occurs in the try block."
-    },
-    {
-      "category": "sql",
-      "question": "What is the WHERE clause?",
-      "answer": "The WHERE clause filters rows based on specified conditions."
-    },
-    {
-      "category": "os",
-      "question": "What are the goals of CPU scheduling?",
-      "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+      "category": "java",
+      "question": "Java Interview Question 68",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "system_design",
-      "question": "What is consistent hashing?",
-      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
-    },
-    {
-      "category": "java",
-      "question": "What is abstraction?",
-      "answer": "Abstraction hides implementation details and exposes only essential functionality."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Find operation in DSU?",
-      "answer": "The Find operation returns the representative element of the set containing a given element."
+      "question": "What is event-driven architecture?",
+      "answer": "Event-driven architecture is a design pattern where components communicate through events."
     },
     {
       "category": "dbms",
-      "question": "What is a fully functional dependency?",
-      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+      "question": "What is logical data independence?",
+      "answer": "Logical data independence is the ability to modify the conceptual schema without affecting external schemas."
     },
     {
-      "category": "java",
-      "question": "What is the JVM?",
-      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+      "category": "dsa",
+      "question": "What is Big O notation?",
+      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
     },
     {
       "category": "sql",
-      "question": "What is the EXISTS operator?",
-      "answer": "EXISTS checks whether a subquery returns any rows."
+      "question": "What is the GROUP BY clause?",
+      "answer": "GROUP BY groups rows with similar values into summary rows."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 86",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What are Python variables?",
+      "answer": "Variables are names that reference objects stored in memory."
+    },
+    {
+      "category": "os",
+      "question": "What is a kernel?",
+      "answer": "The kernel is the core component of an operating system that manages hardware resources and system operations."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an entity set?",
+      "answer": "An entity set is a collection of similar entities sharing the same attributes."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "networking",
+      "question": "What is PAT?",
+      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 86",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is a list comprehension?",
+      "answer": "A list comprehension is a concise syntax for creating lists from iterables."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IPS?",
+      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between RANK() and DENSE_RANK()?",
+      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+    },
+    {
+      "category": "os",
+      "question": "What is a process?",
+      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Strategy pattern?",
+      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
     }
   ]
 }
