@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "questions": [
     {
-      "category": "hr",
-      "question": "What makes you different from other candidates?",
-      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
-    },
-    {
-      "category": "system_design",
-      "question": "What is data replication in distributed systems?",
-      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Decorator pattern?",
-      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
+      "category": "networking",
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 68",
+      "question": "Java Interview Question 84",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is event-driven architecture?",
-      "answer": "Event-driven architecture is a design pattern where components communicate through events."
     },
     {
       "category": "dbms",
-      "question": "What is logical data independence?",
-      "answer": "Logical data independence is the ability to modify the conceptual schema without affecting external schemas."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Big O notation?",
-      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
-    },
-    {
-      "category": "sql",
-      "question": "What is the GROUP BY clause?",
-      "answer": "GROUP BY groups rows with similar values into summary rows."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 86",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What are Python variables?",
-      "answer": "Variables are names that reference objects stored in memory."
+      "question": "What is the three-schema architecture?",
+      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
     },
     {
       "category": "os",
-      "question": "What is a kernel?",
-      "answer": "The kernel is the core component of an operating system that manages hardware resources and system operations."
+      "question": "What is the Banker's Algorithm?",
+      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
     },
     {
-      "category": "dbms",
-      "question": "What is an entity set?",
-      "answer": "An entity set is a collection of similar entities sharing the same attributes."
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
     },
     {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+      "category": "sql",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of rows in a table."
     },
     {
       "category": "networking",
-      "question": "What is PAT?",
-      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+    },
+    {
+      "category": "dbms",
+      "question": "What is specialization in ER modeling?",
+      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
+    },
+    {
+      "category": "oop",
+      "question": "What are the three categories of design patterns?",
+      "answer": "Creational, Structural, and Behavioral design patterns."
+    },
+    {
+      "category": "python",
+      "question": "What is a return statement?",
+      "answer": "A return statement exits a function and optionally sends a value back to the caller."
+    },
+    {
+      "category": "oop",
+      "question": "What are SOLID principles?",
+      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 86",
+      "question": "What is your biggest weakness?",
+      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
+    },
+    {
+      "category": "os",
+      "question": "What is memory management?",
+      "answer": "Memory management is the operating system function responsible for allocating, tracking, and deallocating memory resources."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 34",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "java",
+      "question": "Java Interview Question 89",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
       "category": "python",
-      "question": "What is a list comprehension?",
-      "answer": "A list comprehension is a concise syntax for creating lists from iterables."
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
     },
     {
-      "category": "networking",
-      "question": "What is an IPS?",
-      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
+      "category": "dsa",
+      "question": "What is space complexity?",
+      "answer": "Space complexity measures the amount of memory an algorithm uses relative to the input size."
     },
     {
-      "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+      "category": "dsa",
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
-      "category": "os",
-      "question": "What is a process?",
-      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
+      "category": "system_design",
+      "question": "Why are message queues used?",
+      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
     },
     {
-      "category": "oop",
-      "question": "What is the Strategy pattern?",
-      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+      "category": "system_design",
+      "question": "What are common load balancing algorithms?",
+      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
     }
   ]
 }
