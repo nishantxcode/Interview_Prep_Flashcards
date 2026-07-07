@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "questions": [
     {
-      "category": "dsa",
-      "question": "Why are rotations required in AVL trees?",
-      "answer": "Rotations restore balance after insertions or deletions that violate the AVL balance condition."
+      "category": "os",
+      "question": "What is fragmentation?",
+      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
     },
     {
-      "category": "dbms",
-      "question": "What is data independence?",
-      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+      "category": "networking",
+      "question": "What is Slow Start in TCP?",
+      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
     },
     {
       "category": "os",
@@ -17,89 +17,89 @@
       "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 65",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 59",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is package-level or default access?",
-      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
-    },
-    {
-      "category": "networking",
-      "question": "What is OSPF?",
-      "answer": "Open Shortest Path First (OSPF) is a link-state routing protocol that calculates shortest paths using Dijkstra's algorithm."
-    },
-    {
-      "category": "python",
-      "question": "What are default arguments in Python?",
-      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
-    },
-    {
-      "category": "networking",
-      "question": "What is the range of well-known ports?",
-      "answer": "Well-known ports range from 0 to 1023."
+      "category": "dbms",
+      "question": "What is a candidate key?",
+      "answer": "A candidate key is a minimal super key with no redundant attributes."
     },
     {
       "category": "system_design",
-      "question": "What is cache eviction?",
-      "answer": "Cache eviction is the process of removing items from a cache when space is needed."
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree data structure in which each node has at most two children."
+    },
+    {
+      "category": "oop",
+      "question": "What is the 'has-a' relationship?",
+      "answer": "The 'has-a' relationship represents composition or aggregation where one class contains another."
     },
     {
       "category": "hr",
-      "question": "How would your colleagues describe you?",
-      "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
+      "question": "How do you handle criticism?",
+      "answer": "View feedback as an opportunity to improve and take actionable steps based on it."
     },
     {
-      "category": "sql",
-      "question": "What is the OVER() clause?",
-      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+      "category": "dsa",
+      "question": "What is the time complexity of BFS?",
+      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
       "category": "python",
-      "question": "What is inheritance in Python?",
-      "answer": "Inheritance allows a class to acquire attributes and methods from another class."
+      "question": "What is a class in Python?",
+      "answer": "A class is a blueprint for creating objects that encapsulate data and behavior."
+    },
+    {
+      "category": "oop",
+      "question": "What is a UML Class Diagram?",
+      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
+    },
+    {
+      "category": "sql",
+      "question": "What is the NOT EXISTS operator?",
+      "answer": "NOT EXISTS returns true when a subquery returns no rows."
+    },
+    {
+      "category": "system_design",
+      "question": "What is fault tolerance?",
+      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+    },
+    {
+      "category": "python",
+      "question": "What is None in Python?",
+      "answer": "None is a special object representing the absence of a value."
+    },
+    {
+      "category": "sql",
+      "question": "What is the INSERT statement?",
+      "answer": "INSERT is used to add new rows into a table."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 60",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is the default port number for HTTPS?",
+      "answer": "The default port number for HTTPS is 443."
+    },
+    {
+      "category": "dbms",
+      "question": "Why is normalization important?",
+      "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 94",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "hr",
       "question": "HR Interview Question 24",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What is response time?",
-      "answer": "Response time is the time between submitting a request and receiving the first response."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
-      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between an interface and an abstract class?",
-      "answer": "An interface defines behavior contracts, while an abstract class can provide both contracts and partial implementation."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an entity?",
-      "answer": "An entity is a real-world object or concept that can be uniquely identified and stored in a database."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the CAP Theorem?",
-      "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
-      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
     }
   ]
 }
