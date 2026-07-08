@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "questions": [
     {
-      "category": "os",
-      "question": "What is fragmentation?",
-      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
-    },
-    {
-      "category": "networking",
-      "question": "What is Slow Start in TCP?",
-      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
-    },
-    {
-      "category": "os",
-      "question": "What is the Optimal page replacement algorithm?",
-      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
-    },
-    {
       "category": "dbms",
-      "question": "What is a candidate key?",
-      "answer": "A candidate key is a minimal super key with no redundant attributes."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a binary tree?",
-      "answer": "A binary tree is a tree data structure in which each node has at most two children."
-    },
-    {
-      "category": "oop",
-      "question": "What is the 'has-a' relationship?",
-      "answer": "The 'has-a' relationship represents composition or aggregation where one class contains another."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle criticism?",
-      "answer": "View feedback as an opportunity to improve and take actionable steps based on it."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of BFS?",
-      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
+      "question": "What is Boyce-Codd Normal Form (BCNF)?",
+      "answer": "A relation is in BCNF if every determinant is a candidate key."
     },
     {
       "category": "python",
-      "question": "What is a class in Python?",
-      "answer": "A class is a blueprint for creating objects that encapsulate data and behavior."
-    },
-    {
-      "category": "oop",
-      "question": "What is a UML Class Diagram?",
-      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
-    },
-    {
-      "category": "sql",
-      "question": "What is the NOT EXISTS operator?",
-      "answer": "NOT EXISTS returns true when a subquery returns no rows."
-    },
-    {
-      "category": "system_design",
-      "question": "What is fault tolerance?",
-      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
-    },
-    {
-      "category": "python",
-      "question": "What is None in Python?",
-      "answer": "None is a special object representing the absence of a value."
-    },
-    {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 60",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the default port number for HTTPS?",
-      "answer": "The default port number for HTTPS is 443."
-    },
-    {
-      "category": "dbms",
-      "question": "Why is normalization important?",
-      "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 94",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 24",
+      "question": "HR Interview Question 59",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is memory management?",
+      "answer": "Memory management is the operating system function responsible for allocating, tracking, and deallocating memory resources."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+    },
+    {
+      "category": "oop",
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
+    },
+    {
+      "category": "os",
+      "question": "What are common disk scheduling algorithms?",
+      "answer": "FCFS, SSTF, SCAN, C-SCAN, LOOK, and C-LOOK."
+    },
+    {
+      "category": "networking",
+      "question": "What is circuit switching?",
+      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+    },
+    {
+      "category": "oop",
+      "question": "What is dynamic binding?",
+      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
+    },
+    {
+      "category": "sql",
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 97",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What are the main types of computer networks?",
+      "answer": "LAN, MAN, WAN, PAN, and CAN."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 53",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an Entity-Relationship (ER) model?",
+      "answer": "The ER model is a conceptual modeling technique used to represent entities, attributes, and relationships."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an ACID transaction?",
+      "answer": "An ACID transaction guarantees Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Find operation in DSU?",
+      "answer": "The Find operation returns the representative element of the set containing a given element."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a min heap?",
+      "answer": "A min heap is a heap in which every parent node is less than or equal to its children."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 97",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "How are functions defined in Python?",
+      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an event in event-driven architecture?",
+      "answer": "An event is a record of a significant change in system state."
     }
   ]
 }
