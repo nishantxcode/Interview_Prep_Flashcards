@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is Boyce-Codd Normal Form (BCNF)?",
-      "answer": "A relation is in BCNF if every determinant is a candidate key."
+      "category": "system_design",
+      "question": "What is database sharding?",
+      "answer": "Sharding is the process of partitioning data across multiple database servers."
     },
     {
-      "category": "python",
-      "question": "What are the different types of operators in Python?",
-      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+      "category": "java",
+      "question": "Java Interview Question 49",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a balanced binary tree?",
+      "answer": "A balanced binary tree is a tree in which the height difference between left and right subtrees is bounded."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 59",
+      "question": "HR Interview Question 56",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is memory management?",
-      "answer": "Memory management is the operating system function responsible for allocating, tracking, and deallocating memory resources."
-    },
-    {
-      "category": "sql",
-      "question": "What is a CROSS JOIN?",
-      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+      "question": "What is thrashing?",
+      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
     },
     {
       "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
-    },
-    {
-      "category": "os",
-      "question": "What are common disk scheduling algorithms?",
-      "answer": "FCFS, SSTF, SCAN, C-SCAN, LOOK, and C-LOOK."
-    },
-    {
-      "category": "networking",
-      "question": "What is circuit switching?",
-      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
-    },
-    {
-      "category": "oop",
-      "question": "What is dynamic binding?",
-      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
-    },
-    {
-      "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 97",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What are the main types of computer networks?",
-      "answer": "LAN, MAN, WAN, PAN, and CAN."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 53",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is object equality?",
+      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
     },
     {
       "category": "dbms",
-      "question": "What is an Entity-Relationship (ER) model?",
-      "answer": "The ER model is a conceptual modeling technique used to represent entities, attributes, and relationships."
-    },
-    {
-      "category": "system_design",
-      "question": "What is an ACID transaction?",
-      "answer": "An ACID transaction guarantees Atomicity, Consistency, Isolation, and Durability."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Find operation in DSU?",
-      "answer": "The Find operation returns the representative element of the set containing a given element."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a min heap?",
-      "answer": "A min heap is a heap in which every parent node is less than or equal to its children."
+      "question": "What are update anomalies?",
+      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 97",
+      "question": "Java Interview Question 67",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "sql",
+      "question": "How can SQL injection be prevented?",
+      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
+    },
+    {
+      "category": "networking",
+      "question": "What is a broadcast domain?",
+      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IDS?",
+      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+    },
+    {
       "category": "python",
-      "question": "How are functions defined in Python?",
-      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
+      "question": "What are Python's built-in data types?",
+      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
+    },
+    {
+      "category": "oop",
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 64",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "Why are system calls needed?",
+      "answer": "System calls provide a safe interface for applications to access hardware and operating system services."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Segment Tree?",
+      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a composite key?",
+      "answer": "A composite key is a key formed by combining two or more attributes."
+    },
+    {
+      "category": "python",
+      "question": "What is exception handling in Python?",
+      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
+    },
+    {
+      "category": "sql",
+      "question": "What is a RIGHT JOIN?",
+      "answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
     },
     {
       "category": "system_design",
-      "question": "What is an event in event-driven architecture?",
-      "answer": "An event is a record of a significant change in system state."
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
     }
   ]
 }
