@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is database sharding?",
-      "answer": "Sharding is the process of partitioning data across multiple database servers."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 49",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "dsa",
-      "question": "What is a balanced binary tree?",
-      "answer": "A balanced binary tree is a tree in which the height difference between left and right subtrees is bounded."
+      "question": "What is a Binary Search Tree (BST)?",
+      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 56",
+      "question": "HR Interview Question 62",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "os",
-      "question": "What is thrashing?",
-      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
-    },
-    {
       "category": "oop",
-      "question": "What is object equality?",
-      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
-    },
-    {
-      "category": "dbms",
-      "question": "What are update anomalies?",
-      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 67",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "How can SQL injection be prevented?",
-      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
-    },
-    {
-      "category": "networking",
-      "question": "What is a broadcast domain?",
-      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IDS?",
-      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+      "question": "What is the State pattern?",
+      "answer": "The State pattern allows an object to alter its behavior when its internal state changes."
     },
     {
       "category": "python",
-      "question": "What are Python's built-in data types?",
-      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
-    },
-    {
-      "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 64",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is a local variable?",
+      "answer": "A local variable is defined inside a function and is accessible only within that function."
     },
     {
       "category": "os",
-      "question": "Why are system calls needed?",
-      "answer": "System calls provide a safe interface for applications to access hardware and operating system services."
+      "question": "What is response time?",
+      "answer": "Response time is the time between submitting a request and receiving the first response."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 50",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is System Design?",
+      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
+    },
+    {
+      "category": "networking",
+      "question": "What is HTTPS?",
+      "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
+    },
+    {
+      "category": "python",
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DBMS?",
+      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 74",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
     },
     {
       "category": "dsa",
-      "question": "What is a Segment Tree?",
-      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
+      "question": "What is Breadth-First Search (BFS)?",
+      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+    },
+    {
+      "category": "java",
+      "question": "What is an abstract method?",
+      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
+    },
+    {
+      "category": "sql",
+      "question": "What does MAX() do?",
+      "answer": "MAX() returns the largest value in a column."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Builder pattern?",
+      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
+    },
+    {
+      "category": "sql",
+      "question": "What is the OVER() clause?",
+      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
     },
     {
       "category": "dbms",
       "question": "What is a composite key?",
       "answer": "A composite key is a key formed by combining two or more attributes."
-    },
-    {
-      "category": "python",
-      "question": "What is exception handling in Python?",
-      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
-    },
-    {
-      "category": "sql",
-      "question": "What is a RIGHT JOIN?",
-      "answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
     }
   ]
 }
