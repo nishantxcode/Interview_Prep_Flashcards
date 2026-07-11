@@ -1,30 +1,40 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is a Binary Search Tree (BST)?",
-      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+      "category": "dbms",
+      "question": "What is Two-Phase Locking (2PL)?",
+      "answer": "Two-Phase Locking is a concurrency control protocol consisting of a growing phase and a shrinking phase."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 62",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "sql",
+      "question": "What is a non-correlated subquery?",
+      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
     },
     {
       "category": "oop",
-      "question": "What is the State pattern?",
-      "answer": "The State pattern allows an object to alter its behavior when its internal state changes."
-    },
-    {
-      "category": "python",
-      "question": "What is a local variable?",
-      "answer": "A local variable is defined inside a function and is accessible only within that function."
+      "question": "What is static binding?",
+      "answer": "Static binding occurs when method calls are resolved at compile time."
     },
     {
       "category": "os",
-      "question": "What is response time?",
-      "answer": "Response time is the time between submitting a request and receiving the first response."
+      "question": "What is a kernel-level thread?",
+      "answer": "A kernel-level thread is managed directly by the operating system kernel."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "dbms",
+      "question": "What is data independence?",
+      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+    },
+    {
+      "category": "networking",
+      "question": "What is BGP?",
+      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
     },
     {
       "category": "hr",
@@ -32,74 +42,64 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is System Design?",
-      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
-    },
-    {
-      "category": "networking",
-      "question": "What is HTTPS?",
-      "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
-    },
-    {
-      "category": "python",
-      "question": "What is method overloading in Python?",
-      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of the TCP three-way handshake?",
-      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a DBMS?",
-      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 74",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Breadth-First Search (BFS)?",
-      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
-    },
-    {
-      "category": "java",
-      "question": "What is an abstract method?",
-      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
-    },
-    {
-      "category": "sql",
-      "question": "What does MAX() do?",
-      "answer": "MAX() returns the largest value in a column."
-    },
-    {
       "category": "oop",
       "question": "What is the Builder pattern?",
       "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
     },
     {
-      "category": "sql",
-      "question": "What is the OVER() clause?",
-      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+      "category": "os",
+      "question": "What is the main disadvantage of FCFS scheduling?",
+      "answer": "FCFS suffers from the convoy effect, where short processes wait behind long processes."
     },
     {
-      "category": "dbms",
-      "question": "What is a composite key?",
-      "answer": "A composite key is a key formed by combining two or more attributes."
+      "category": "sql",
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Retransmit?",
+      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
+    },
+    {
+      "category": "python",
+      "question": "What is polymorphism in Python?",
+      "answer": "Polymorphism allows objects of different classes to be treated through a common interface."
+    },
+    {
+      "category": "python",
+      "question": "What is a virtual environment in Python?",
+      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between monolithic and microservices architectures?",
+      "answer": "Monolithic applications are deployed as a single unit, whereas microservices are independently deployable services."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is replication used?",
+      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of searching in a Trie?",
+      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 62",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 85",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 86",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
