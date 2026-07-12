@@ -1,55 +1,45 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is Two-Phase Locking (2PL)?",
-      "answer": "Two-Phase Locking is a concurrency control protocol consisting of a growing phase and a shrinking phase."
+      "category": "os",
+      "question": "What is a deadlock?",
+      "answer": "A deadlock occurs when a set of processes are permanently blocked because each is waiting for a resource held by another process."
     },
     {
       "category": "sql",
-      "question": "What is a non-correlated subquery?",
-      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
     },
     {
       "category": "oop",
-      "question": "What is static binding?",
-      "answer": "Static binding occurs when method calls are resolved at compile time."
-    },
-    {
-      "category": "os",
-      "question": "What is a kernel-level thread?",
-      "answer": "A kernel-level thread is managed directly by the operating system kernel."
+      "question": "Why is high cohesion desirable?",
+      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
     },
     {
       "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
-    },
-    {
-      "category": "dbms",
-      "question": "What is data independence?",
-      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
-    },
-    {
-      "category": "networking",
-      "question": "What is BGP?",
-      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is topological sorting?",
+      "answer": "Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge u→v, u appears before v."
     },
     {
       "category": "oop",
-      "question": "What is the Builder pattern?",
-      "answer": "The Builder pattern separates object construction from its representation, allowing complex objects to be created step by step."
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal implementation details."
     },
     {
-      "category": "os",
-      "question": "What is the main disadvantage of FCFS scheduling?",
-      "answer": "FCFS suffers from the convoy effect, where short processes wait behind long processes."
+      "category": "java",
+      "question": "Java Interview Question 82",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+    },
+    {
+      "category": "python",
+      "question": "When should multiprocessing be preferred over multithreading?",
+      "answer": "Multiprocessing is preferred for CPU-bound tasks because it bypasses the GIL."
     },
     {
       "category": "sql",
@@ -57,49 +47,59 @@
       "answer": "COMMIT permanently saves all changes made during the current transaction."
     },
     {
+      "category": "python",
+      "question": "What is recursion?",
+      "answer": "Recursion is a technique in which a function calls itself to solve a problem."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between user mode and kernel mode?",
+      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
+    },
+    {
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the ACID properties of a transaction?",
+      "answer": "Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
       "category": "networking",
-      "question": "What is Fast Retransmit?",
-      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
+      "question": "What is an ARP reply?",
+      "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
     },
     {
-      "category": "python",
-      "question": "What is polymorphism in Python?",
-      "answer": "Polymorphism allows objects of different classes to be treated through a common interface."
-    },
-    {
-      "category": "python",
-      "question": "What is a virtual environment in Python?",
-      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the difference between monolithic and microservices architectures?",
-      "answer": "Monolithic applications are deployed as a single unit, whereas microservices are independently deployable services."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is replication used?",
-      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of searching in a Trie?",
-      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
+      "category": "dbms",
+      "question": "What are the disadvantages of excessive normalization?",
+      "answer": "Excessive normalization can increase the number of joins required, potentially reducing query performance."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 62",
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between horizontal and vertical scaling?",
+      "answer": "Horizontal scaling adds more machines, whereas vertical scaling upgrades a single machine's capacity."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 95",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 85",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "dsa",
+      "question": "What is the time complexity of inserting into a heap?",
+      "answer": "Insertion into a heap takes O(log n) time because the new element may need to move up the tree."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 86",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "Is Java compiled or interpreted?",
+      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
     }
   ]
 }
