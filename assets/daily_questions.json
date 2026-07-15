@@ -1,75 +1,65 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "questions": [
-    {
-      "category": "java",
-      "question": "Java Interview Question 83",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an exclusive lock?",
-      "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a full binary tree?",
-      "answer": "A full binary tree is a binary tree in which every node has either zero or two children."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Proxy pattern?",
-      "answer": "The Proxy pattern provides a placeholder or surrogate object that controls access to another object."
-    },
-    {
-      "category": "python",
-      "question": "What is the filter() function?",
-      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Apache Kafka?",
-      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
-    },
-    {
-      "category": "python",
-      "question": "What is variable scope in Python?",
-      "answer": "Variable scope determines where a variable can be accessed within a program."
-    },
-    {
-      "category": "system_design",
-      "question": "What are examples of Service Mesh technologies?",
-      "answer": "Istio, Linkerd, Consul Connect, and Kuma."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 91",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
     {
       "category": "networking",
       "question": "What is a firewall?",
       "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
     },
     {
+      "category": "java",
+      "question": "Java Interview Question 79",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+    },
+    {
+      "category": "dsa",
+      "question": "What is open addressing?",
+      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 77",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "Why are decorators useful?",
+      "answer": "Decorators enable reusable functionality such as logging, authentication, timing, and caching without modifying the original code."
+    },
+    {
+      "category": "oop",
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides its own implementation of a method already defined in the parent class."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Heap Sort?",
+      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
+    },
+    {
       "category": "networking",
-      "question": "Why is a VPN used?",
-      "answer": "A VPN provides privacy, secure communication, and remote access to private networks."
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between a DBMS and a file system?",
+      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 65",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
     },
     {
       "category": "hr",
@@ -77,29 +67,39 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "os",
-      "question": "What is a counting semaphore?",
-      "answer": "A counting semaphore can take multiple values and is used to manage access to multiple instances of a resource."
+      "category": "dbms",
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
     },
     {
-      "category": "oop",
-      "question": "Can a class implement multiple interfaces?",
-      "answer": "Yes, a class can implement multiple interfaces."
+      "category": "os",
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the except block?",
+      "answer": "The except block handles exceptions raised in the corresponding try block."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an application server?",
+      "answer": "An application server executes business logic and processes application requests."
     },
     {
       "category": "sql",
-      "question": "What is an INNER JOIN?",
-      "answer": "INNER JOIN returns only the rows that have matching values in both tables."
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
     },
     {
-      "category": "dsa",
-      "question": "What is a Fenwick Tree (Binary Indexed Tree)?",
-      "answer": "A Fenwick Tree is a data structure that efficiently supports prefix sum queries and point updates."
+      "category": "sql",
+      "question": "What are common TCL commands?",
+      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
     },
     {
       "category": "os",
-      "question": "What is a system call?",
-      "answer": "A system call is a mechanism through which a user program requests services from the operating system kernel."
+      "question": "What is virtual memory?",
+      "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
     }
   ]
 }
