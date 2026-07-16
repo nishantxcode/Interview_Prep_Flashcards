@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "questions": [
     {
+      "category": "oop",
+      "question": "Why use abstract classes?",
+      "answer": "Abstract classes provide a common base and enforce a contract for subclasses."
+    },
+    {
       "category": "networking",
-      "question": "What is a firewall?",
-      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
+      "question": "What is Slow Start in TCP?",
+      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 79",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
-    },
-    {
-      "category": "dsa",
-      "question": "What is open addressing?",
-      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 77",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "os",
+      "question": "What is a file descriptor?",
+      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
     },
     {
       "category": "python",
-      "question": "Why are decorators useful?",
-      "answer": "Decorators enable reusable functionality such as logging, authentication, timing, and caching without modifying the original code."
-    },
-    {
-      "category": "oop",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides its own implementation of a method already defined in the parent class."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Heap Sort?",
-      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TCP four-way handshake?",
-      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+      "question": "What is the map() function?",
+      "answer": "map() applies a function to every item in an iterable and returns an iterator."
     },
     {
       "category": "dbms",
-      "question": "What is the difference between a DBMS and a file system?",
-      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 65",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
+      "question": "What is a B+ Tree?",
+      "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 67",
+      "question": "HR Interview Question 66",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a graph?",
+      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
+    },
+    {
+      "category": "sql",
+      "question": "What is the UPDATE statement?",
+      "answer": "UPDATE modifies existing records in a table."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of searching in a Trie?",
+      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
+    },
+    {
+      "category": "sql",
+      "question": "What is an aggregate function in SQL?",
+      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
+    },
+    {
+      "category": "system_design",
+      "question": "What is fault tolerance?",
+      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 90",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between a mutex and a semaphore?",
-      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+      "question": "What is serializability?",
+      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
     },
     {
       "category": "python",
-      "question": "What is the purpose of the except block?",
-      "answer": "The except block handles exceptions raised in the corresponding try block."
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code that performs a specific task."
     },
     {
       "category": "system_design",
-      "question": "What is an application server?",
-      "answer": "An application server executes business logic and processes application requests."
+      "question": "What is event-driven architecture?",
+      "answer": "Event-driven architecture is a design pattern where components communicate through events."
     },
     {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+      "category": "java",
+      "question": "Java Interview Question 95",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "sql",
-      "question": "What are common TCL commands?",
-      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
+      "category": "networking",
+      "question": "What is the OSI model?",
+      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+    },
+    {
+      "category": "java",
+      "question": "What is the difference between JDK, JRE, and JVM?",
+      "answer": "JDK is used for development, JRE is used for execution, and JVM executes Java bytecode."
     },
     {
       "category": "os",
-      "question": "What is virtual memory?",
-      "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
+      "question": "What is a time quantum?",
+      "answer": "A time quantum is the maximum CPU time allocated to a process before it is preempted."
+    },
+    {
+      "category": "oop",
+      "question": "What is aggregation?",
+      "answer": "Aggregation is a weak 'has-a' relationship where contained objects can exist independently of the container."
     }
   ]
 }
