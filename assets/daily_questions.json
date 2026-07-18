@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is a URL Shortener system design problem?",
-      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a composite key?",
-      "answer": "A composite key is a key formed by combining two or more attributes."
-    },
-    {
-      "category": "sql",
-      "question": "What is the NOT EXISTS operator?",
-      "answer": "NOT EXISTS returns true when a subquery returns no rows."
+      "category": "networking",
+      "question": "What is circuit switching?",
+      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
     },
     {
       "category": "os",
-      "question": "What is a race condition?",
-      "answer": "A race condition occurs when multiple threads access shared data concurrently and the final result depends on the execution order."
+      "question": "What is demand paging?",
+      "answer": "Demand paging loads pages into memory only when they are required by a process."
     },
     {
       "category": "oop",
-      "question": "What is deserialization?",
-      "answer": "Deserialization is the process of reconstructing an object from serialized data."
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides its own implementation of a method already defined in the parent class."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a trivial functional dependency?",
+      "answer": "A functional dependency is trivial if the dependent attribute is a subset of the determinant attribute."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 39",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a greedy algorithm?",
+      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an alternate key?",
+      "answer": "An alternate key is a candidate key that is not selected as the primary key."
+    },
+    {
+      "category": "sql",
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 69",
+      "question": "Java Interview Question 59",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is the purpose of the try block?",
-      "answer": "The try block contains code that may raise an exception."
+      "question": "What is file handling in Python?",
+      "answer": "File handling refers to reading from and writing to files using Python programs."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 88",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dsa",
-      "question": "What is Big Theta notation?",
-      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Command pattern?",
-      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a doubly linked list?",
-      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical scaling?",
-      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
-    },
-    {
-      "category": "sql",
-      "question": "What does MIN() do?",
-      "answer": "MIN() returns the smallest value in a column."
+      "question": "What are the most important factors when choosing a data structure?",
+      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 79",
+      "question": "Java Interview Question 97",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 95",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "system_design",
+      "question": "What are examples of Service Mesh technologies?",
+      "answer": "Istio, Linkerd, Consul Connect, and Kuma."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Proxy pattern?",
+      "answer": "The Proxy pattern provides a placeholder or surrogate object that controls access to another object."
+    },
+    {
+      "category": "sql",
+      "question": "What is the LIKE operator?",
+      "answer": "LIKE is used for pattern matching in string values."
     },
     {
       "category": "os",
-      "question": "What is a file descriptor?",
-      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
     },
     {
       "category": "networking",
-      "question": "What is a WAN?",
-      "answer": "A Wide Area Network (WAN) connects devices across large geographical distances."
-    },
-    {
-      "category": "dbms",
-      "question": "What is entity integrity?",
-      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+      "question": "What is routing?",
+      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
     },
     {
       "category": "python",
-      "question": "What is a global variable?",
-      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 81",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a Content Delivery Network (CDN)?",
-      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+      "question": "What is an exception in Python?",
+      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
     }
   ]
 }
