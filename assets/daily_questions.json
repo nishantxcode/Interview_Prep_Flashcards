@@ -1,29 +1,89 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "questions": [
     {
       "category": "networking",
-      "question": "What is circuit switching?",
-      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+      "question": "What is HTTP?",
+      "answer": "Hypertext Transfer Protocol (HTTP) is an application-layer protocol used for web communication."
     },
     {
-      "category": "os",
-      "question": "What is demand paging?",
-      "answer": "Demand paging loads pages into memory only when they are required by a process."
-    },
-    {
-      "category": "oop",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides its own implementation of a method already defined in the parent class."
+      "category": "sql",
+      "question": "What is UNION ALL?",
+      "answer": "UNION ALL combines results from multiple queries without removing duplicates."
     },
     {
       "category": "dbms",
-      "question": "What is a trivial functional dependency?",
-      "answer": "A functional dependency is trivial if the dependent attribute is a subset of the determinant attribute."
+      "question": "What is Strict Two-Phase Locking?",
+      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
+    },
+    {
+      "category": "os",
+      "question": "What is a condition variable?",
+      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Second Normal Form (2NF)?",
+      "answer": "A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal scaling?",
+      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+    },
+    {
+      "category": "python",
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 39",
+      "question": "HR Interview Question 91",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is BGP?",
+      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 37",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the except block?",
+      "answer": "The except block handles exceptions raised in the corresponding try block."
+    },
+    {
+      "category": "sql",
+      "question": "What are the advantages of views?",
+      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+    },
+    {
+      "category": "os",
+      "question": "What is Multilevel Feedback Queue Scheduling?",
+      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a shard key?",
+      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
+    },
+    {
+      "category": "oop",
+      "question": "What is static binding?",
+      "answer": "Static binding occurs when method calls are resolved at compile time."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 37",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
@@ -32,74 +92,14 @@
       "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
     },
     {
-      "category": "dbms",
-      "question": "What is an alternate key?",
-      "answer": "An alternate key is a candidate key that is not selected as the primary key."
-    },
-    {
-      "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
-    },
-    {
       "category": "java",
-      "question": "Java Interview Question 59",
+      "question": "Java Interview Question 51",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is file handling in Python?",
-      "answer": "File handling refers to reading from and writing to files using Python programs."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 88",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What are the most important factors when choosing a data structure?",
-      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 97",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What are examples of Service Mesh technologies?",
-      "answer": "Istio, Linkerd, Consul Connect, and Kuma."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
     },
     {
       "category": "oop",
-      "question": "What is the Proxy pattern?",
-      "answer": "The Proxy pattern provides a placeholder or surrogate object that controls access to another object."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
-    },
-    {
-      "category": "os",
-      "question": "What is the Dining Philosophers problem?",
-      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
-    },
-    {
-      "category": "networking",
-      "question": "What is routing?",
-      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
-    },
-    {
-      "category": "python",
-      "question": "What is an exception in Python?",
-      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
+      "question": "What is the Liskov Substitution Principle (LSP)?",
+      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
     }
   ]
 }
