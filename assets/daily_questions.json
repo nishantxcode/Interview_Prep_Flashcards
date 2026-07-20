@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is HTTP?",
-      "answer": "Hypertext Transfer Protocol (HTTP) is an application-layer protocol used for web communication."
-    },
-    {
-      "category": "sql",
-      "question": "What is UNION ALL?",
-      "answer": "UNION ALL combines results from multiple queries without removing duplicates."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Strict Two-Phase Locking?",
-      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
-    },
-    {
       "category": "os",
-      "question": "What is a condition variable?",
-      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+      "question": "What is deadlock recovery?",
+      "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
     },
     {
       "category": "dbms",
-      "question": "What is the Second Normal Form (2NF)?",
-      "answer": "A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal scaling?",
-      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
     },
     {
       "category": "python",
-      "question": "What is method overloading in Python?",
-      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
+      "question": "What is a set in Python?",
+      "answer": "A set is an unordered collection of unique elements."
+    },
+    {
+      "category": "sql",
+      "question": "What is DDL in SQL?",
+      "answer": "Data Definition Language (DDL) consists of commands used to define and modify database structures."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 54",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 91",
+      "question": "HR Interview Question 68",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "networking",
-      "question": "What is BGP?",
-      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
+      "question": "What is DHCP?",
+      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 37",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the except block?",
-      "answer": "The except block handles exceptions raised in the corresponding try block."
-    },
-    {
-      "category": "sql",
-      "question": "What are the advantages of views?",
-      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
-    },
-    {
-      "category": "os",
-      "question": "What is Multilevel Feedback Queue Scheduling?",
-      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
+      "category": "oop",
+      "question": "Why is high cohesion desirable?",
+      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
     },
     {
       "category": "system_design",
-      "question": "What is a shard key?",
-      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
-    },
-    {
-      "category": "oop",
-      "question": "What is static binding?",
-      "answer": "Static binding occurs when method calls are resolved at compile time."
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 37",
+      "question": "HR Interview Question 47",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+    },
+    {
       "category": "dsa",
-      "question": "What is a greedy algorithm?",
-      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
+      "question": "What is divide and conquer?",
+      "answer": "Divide and conquer is an algorithmic paradigm that divides a problem into smaller subproblems, solves them recursively, and combines their solutions."
+    },
+    {
+      "category": "sql",
+      "question": "What is a foreign key constraint?",
+      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
+    },
+    {
+      "category": "dsa",
+      "question": "What is amortized analysis?",
+      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
+    },
+    {
+      "category": "networking",
+      "question": "What is an ARP reply?",
+      "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 51",
+      "question": "Java Interview Question 73",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "dbms",
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
+    },
+    {
+      "category": "os",
+      "question": "What is a page?",
+      "answer": "A page is a fixed-size block of logical memory used in paging systems."
+    },
+    {
+      "category": "python",
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+    },
+    {
       "category": "oop",
-      "question": "What is the Liskov Substitution Principle (LSP)?",
-      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
+      "question": "Can a class inherit from multiple classes?",
+      "answer": "Most OOP languages such as Java do not support multiple class inheritance directly to avoid ambiguity."
     }
   ]
 }
