@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "questions": [
     {
       "category": "os",
-      "question": "What is deadlock recovery?",
-      "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
-    },
-    {
-      "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+      "question": "What is a scheduler?",
+      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
     },
     {
       "category": "python",
-      "question": "What is a set in Python?",
-      "answer": "A set is an unordered collection of unique elements."
-    },
-    {
-      "category": "sql",
-      "question": "What is DDL in SQL?",
-      "answer": "Data Definition Language (DDL) consists of commands used to define and modify database structures."
+      "question": "Which Python data types are mutable?",
+      "answer": "list, dict, set, and most user-defined objects are mutable."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 54",
+      "question": "Java Interview Question 29",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 68",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is DHCP?",
-      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
-    },
-    {
-      "category": "oop",
-      "question": "Why is high cohesion desirable?",
-      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
-    },
-    {
-      "category": "system_design",
-      "question": "What is rate limiting?",
-      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 47",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
-    },
-    {
-      "category": "dsa",
-      "question": "What is divide and conquer?",
-      "answer": "Divide and conquer is an algorithmic paradigm that divides a problem into smaller subproblems, solves them recursively, and combines their solutions."
-    },
-    {
-      "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
-    },
-    {
-      "category": "dsa",
-      "question": "What is amortized analysis?",
-      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
-    },
-    {
-      "category": "networking",
-      "question": "What is an ARP reply?",
-      "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 73",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the PROJECT operation in relational algebra?",
-      "answer": "PROJECT retrieves specific columns from a relation."
     },
     {
       "category": "os",
-      "question": "What is a page?",
-      "answer": "A page is a fixed-size block of logical memory used in paging systems."
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
     },
     {
-      "category": "python",
-      "question": "What are the different types of operators in Python?",
-      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+      "category": "sql",
+      "question": "What is the ORDER BY clause?",
+      "answer": "ORDER BY sorts query results in ascending or descending order."
     },
     {
       "category": "oop",
-      "question": "Can a class inherit from multiple classes?",
-      "answer": "Most OOP languages such as Java do not support multiple class inheritance directly to avoid ambiguity."
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, constructors can be overloaded by defining multiple constructors with different parameter lists."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Presentation Layer?",
+      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an event in event-driven architecture?",
+      "answer": "An event is a record of a significant change in system state."
+    },
+    {
+      "category": "hr",
+      "question": "How do you prioritize your work?",
+      "answer": "Explain how you assess urgency, impact, deadlines, and dependencies when managing tasks."
+    },
+    {
+      "category": "java",
+      "question": "What is the JVM?",
+      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed lock?",
+      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a surrogate key?",
+      "answer": "A surrogate key is an artificial key generated by the system with no business meaning."
+    },
+    {
+      "category": "python",
+      "question": "What are common file modes in Python?",
+      "answer": "Common file modes include 'r', 'w', 'a', 'x', 'rb', and 'wb'."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 38",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What are Armstrong's Axioms?",
+      "answer": "Armstrong's Axioms are a set of inference rules used to derive all functional dependencies from a given set of dependencies."
+    },
+    {
+      "category": "oop",
+      "question": "What is deep copy?",
+      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
+    },
+    {
+      "category": "sql",
+      "question": "What is a stored procedure?",
+      "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between an IP address and a MAC address?",
+      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
     }
   ]
 }
