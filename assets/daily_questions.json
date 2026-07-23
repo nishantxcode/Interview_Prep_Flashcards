@@ -1,15 +1,30 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+      "category": "java",
+      "question": "What is JRE?",
+      "answer": "The Java Runtime Environment (JRE) provides the libraries and JVM required to run Java applications."
     },
     {
       "category": "networking",
-      "question": "What is DNS?",
-      "answer": "Domain Name System (DNS) translates human-readable domain names into IP addresses."
+      "question": "What is CIDR?",
+      "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
+    },
+    {
+      "category": "python",
+      "question": "What are Python variables?",
+      "answer": "Variables are names that reference objects stored in memory."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a Service Mesh?",
+      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
+    },
+    {
+      "category": "dbms",
+      "question": "What are update anomalies?",
+      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
     },
     {
       "category": "sql",
@@ -17,89 +32,74 @@
       "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
     },
     {
-      "category": "python",
-      "question": "What is reference counting?",
-      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
-    },
-    {
       "category": "java",
-      "question": "What is an abstract class in Java?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
-    },
-    {
-      "category": "dbms",
-      "question": "What is relational algebra?",
-      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Floyd-Warshall algorithm?",
-      "answer": "Floyd-Warshall is a dynamic programming algorithm used to find shortest paths between all pairs of vertices."
-    },
-    {
-      "category": "os",
-      "question": "What is Multilevel Feedback Queue Scheduling?",
-      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
-    },
-    {
-      "category": "networking",
-      "question": "What is UDP?",
-      "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 65",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is serializability?",
-      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
-    },
-    {
-      "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
-    },
-    {
-      "category": "python",
-      "question": "What is a custom exception?",
-      "answer": "A custom exception is a user-defined exception class created by inheriting from the Exception class."
-    },
-    {
-      "category": "system_design",
-      "question": "Why are load balancers used?",
-      "answer": "Load balancers prevent server overload, improve fault tolerance, and increase system availability."
-    },
-    {
-      "category": "oop",
-      "question": "What is abstraction?",
-      "answer": "Abstraction is the process of hiding implementation details and exposing only essential functionality."
-    },
-    {
-      "category": "system_design",
-      "question": "When should SQL databases be preferred?",
-      "answer": "SQL databases are preferred when strong consistency, structured data, and complex queries are required."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 66",
+      "question": "Java Interview Question 33",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "dsa",
+      "question": "What is cycle detection in a graph?",
+      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 68",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a max heap?",
+      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+    },
+    {
+      "category": "system_design",
+      "question": "What are examples of Service Mesh technologies?",
+      "answer": "Istio, Linkerd, Consul Connect, and Kuma."
+    },
+    {
+      "category": "os",
+      "question": "What is a condition variable?",
+      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between IDS and IPS?",
+      "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
+    },
+    {
+      "category": "os",
+      "question": "What is the Readers-Writers problem?",
+      "answer": "The Readers-Writers problem deals with synchronizing access to shared data when multiple readers and writers are present."
+    },
+    {
+      "category": "python",
+      "question": "What is multilevel inheritance?",
+      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
+    },
+    {
       "category": "oop",
-      "question": "What is the 'is-a' relationship?",
-      "answer": "The 'is-a' relationship represents inheritance where a subclass is a specialized version of a superclass."
+      "question": "What is UML?",
+      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+    },
+    {
+      "category": "hr",
+      "question": "How would your colleagues describe you?",
+      "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
+    },
+    {
+      "category": "oop",
+      "question": "Can a class implement multiple interfaces?",
+      "answer": "Yes, a class can implement multiple interfaces."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an index in DBMS?",
+      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+    },
+    {
+      "category": "sql",
+      "question": "How can SQL injection be prevented?",
+      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
     }
   ]
 }
