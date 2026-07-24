@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "questions": [
     {
-      "category": "java",
-      "question": "What is JRE?",
-      "answer": "The Java Runtime Environment (JRE) provides the libraries and JVM required to run Java applications."
-    },
-    {
       "category": "networking",
-      "question": "What is CIDR?",
-      "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
+      "question": "What is DHCP?",
+      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
     },
     {
       "category": "python",
-      "question": "What are Python variables?",
-      "answer": "Variables are names that reference objects stored in memory."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Service Mesh?",
-      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
-    },
-    {
-      "category": "dbms",
-      "question": "What are update anomalies?",
-      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
-    },
-    {
-      "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 33",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is cycle detection in a graph?",
-      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
+      "question": "What is the purpose of the import statement?",
+      "answer": "The import statement allows code from modules and packages to be used in a program."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 68",
+      "question": "HR Interview Question 76",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is a max heap?",
-      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+      "category": "os",
+      "question": "What is deadlock detection?",
+      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
     },
     {
       "category": "system_design",
-      "question": "What are examples of Service Mesh technologies?",
-      "answer": "Istio, Linkerd, Consul Connect, and Kuma."
+      "question": "Why is consistent hashing used?",
+      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
     },
     {
-      "category": "os",
-      "question": "What is a condition variable?",
-      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+      "category": "oop",
+      "question": "What is an abstract method?",
+      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
     },
     {
       "category": "networking",
-      "question": "What is the difference between IDS and IPS?",
-      "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
-    },
-    {
-      "category": "os",
-      "question": "What is the Readers-Writers problem?",
-      "answer": "The Readers-Writers problem deals with synchronizing access to shared data when multiple readers and writers are present."
-    },
-    {
-      "category": "python",
-      "question": "What is multilevel inheritance?",
-      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
-    },
-    {
-      "category": "oop",
-      "question": "What is UML?",
-      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
     },
     {
       "category": "hr",
-      "question": "How would your colleagues describe you?",
-      "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
+      "question": "HR Interview Question 66",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
     },
     {
       "category": "oop",
-      "question": "Can a class implement multiple interfaces?",
-      "answer": "Yes, a class can implement multiple interfaces."
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
     },
     {
-      "category": "dbms",
-      "question": "What is an index in DBMS?",
-      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+      "category": "os",
+      "question": "What is preemptive scheduling?",
+      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
     },
     {
       "category": "sql",
-      "question": "How can SQL injection be prevented?",
-      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
+      "question": "What are common DML commands?",
+      "answer": "INSERT, UPDATE, DELETE, and MERGE."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a producer in a messaging system?",
+      "answer": "A producer is a component that generates and publishes messages."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 98",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 36",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a weighted graph?",
+      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
+    },
+    {
+      "category": "sql",
+      "question": "What is a window function in SQL?",
+      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
+    },
+    {
+      "category": "dsa",
+      "question": "What is dynamic programming?",
+      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
     }
   ]
 }
