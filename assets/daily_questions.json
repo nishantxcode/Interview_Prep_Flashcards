@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is DHCP?",
-      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
+      "category": "python",
+      "question": "What is a generator in Python?",
+      "answer": "A generator is a special type of iterator that produces values lazily using the yield keyword."
+    },
+    {
+      "category": "sql",
+      "question": "What is the UPDATE statement?",
+      "answer": "UPDATE modifies existing records in a table."
     },
     {
       "category": "python",
-      "question": "What is the purpose of the import statement?",
-      "answer": "The import statement allows code from modules and packages to be used in a program."
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code that performs a specific task."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a complete binary tree?",
+      "answer": "A complete binary tree is a binary tree where all levels are completely filled except possibly the last level, which is filled from left to right."
+    },
+    {
+      "category": "os",
+      "question": "What is a time quantum?",
+      "answer": "A time quantum is the maximum CPU time allocated to a process before it is preempted."
+    },
+    {
+      "category": "java",
+      "question": "What is a constructor in Java?",
+      "answer": "A constructor is a special method used to initialize objects when they are created."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 76",
+      "question": "HR Interview Question 86",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Singleton pattern?",
+      "answer": "The Singleton pattern ensures that only one instance of a class exists and provides a global access point to it."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 74",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is deadlock detection?",
-      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
+      "question": "What happens if the time quantum is too small?",
+      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     },
     {
-      "category": "system_design",
-      "question": "Why is consistent hashing used?",
-      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
+      "category": "java",
+      "question": "Java Interview Question 44",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is double hashing?",
+      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a domain?",
+      "answer": "A domain is the set of permissible values that an attribute can hold."
+    },
+    {
+      "category": "sql",
+      "question": "What is a JOIN in SQL?",
+      "answer": "A JOIN combines rows from two or more tables based on a related column."
     },
     {
       "category": "oop",
-      "question": "What is an abstract method?",
-      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
+      "question": "What is the Command pattern?",
+      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
+    },
+    {
+      "category": "system_design",
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
     },
     {
       "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
+      "question": "What is a Content Delivery Network (CDN)?",
+      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 66",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What are the different types of operators in Python?",
-      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "os",
-      "question": "What is preemptive scheduling?",
-      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DML commands?",
-      "answer": "INSERT, UPDATE, DELETE, and MERGE."
+      "category": "networking",
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
     },
     {
       "category": "system_design",
-      "question": "What is a producer in a messaging system?",
-      "answer": "A producer is a component that generates and publishes messages."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 98",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 36",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the PROJECT operation in relational algebra?",
-      "answer": "PROJECT retrieves specific columns from a relation."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a weighted graph?",
-      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
-    },
-    {
-      "category": "sql",
-      "question": "What is a window function in SQL?",
-      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
-    },
-    {
-      "category": "dsa",
-      "question": "What is dynamic programming?",
-      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
+      "question": "Why are message queues used?",
+      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
     }
   ]
 }
