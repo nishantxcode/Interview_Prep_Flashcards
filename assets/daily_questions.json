@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "questions": [
     {
-      "category": "python",
-      "question": "What is a generator in Python?",
-      "answer": "A generator is a special type of iterator that produces values lazily using the yield keyword."
+      "category": "os",
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+    },
+    {
+      "category": "os",
+      "question": "What is an Operating System?",
+      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
+    },
+    {
+      "category": "networking",
+      "question": "What is CIDR?",
+      "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
     },
     {
       "category": "sql",
-      "question": "What is the UPDATE statement?",
-      "answer": "UPDATE modifies existing records in a table."
+      "question": "What is the most commonly used DQL command?",
+      "answer": "SELECT."
     },
     {
-      "category": "python",
-      "question": "What is a function in Python?",
-      "answer": "A function is a reusable block of code that performs a specific task."
+      "category": "sql",
+      "question": "What is a recursive CTE?",
+      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
     },
     {
-      "category": "dsa",
-      "question": "What is a complete binary tree?",
-      "answer": "A complete binary tree is a binary tree where all levels are completely filled except possibly the last level, which is filled from left to right."
-    },
-    {
-      "category": "os",
-      "question": "What is a time quantum?",
-      "answer": "A time quantum is the maximum CPU time allocated to a process before it is preempted."
-    },
-    {
-      "category": "java",
-      "question": "What is a constructor in Java?",
-      "answer": "A constructor is a special method used to initialize objects when they are created."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 86",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
     },
     {
       "category": "oop",
-      "question": "What is the Singleton pattern?",
-      "answer": "The Singleton pattern ensures that only one instance of a class exists and provides a global access point to it."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 74",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What happens if the time quantum is too small?",
-      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
+      "question": "What is delegation in OOP?",
+      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 44",
+      "question": "Java Interview Question 39",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is double hashing?",
-      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
+      "category": "python",
+      "question": "What is variable scope in Python?",
+      "answer": "Variable scope determines where a variable can be accessed within a program."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 75",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dbms",
-      "question": "What is a domain?",
-      "answer": "A domain is the set of permissible values that an attribute can hold."
+      "question": "What is a foreign key?",
+      "answer": "A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table."
     },
     {
-      "category": "sql",
-      "question": "What is a JOIN in SQL?",
-      "answer": "A JOIN combines rows from two or more tables based on a related column."
+      "category": "dsa",
+      "question": "What is a perfect binary tree?",
+      "answer": "A perfect binary tree is a binary tree in which all internal nodes have two children and all leaf nodes are at the same level."
+    },
+    {
+      "category": "system_design",
+      "question": "What problem does the Circuit Breaker solve?",
+      "answer": "It prevents cascading failures and reduces load on unhealthy services."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 79",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "oop",
-      "question": "What is the Command pattern?",
-      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
     },
     {
       "category": "networking",
-      "question": "What is a Content Delivery Network (CDN)?",
-      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+      "question": "What is a socket in networking?",
+      "answer": "A socket is an endpoint for communication between two processes over a network."
     },
     {
-      "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+      "category": "dsa",
+      "question": "What are the most important factors when choosing a data structure?",
+      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
     },
     {
-      "category": "system_design",
-      "question": "Why are message queues used?",
-      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+      "category": "hr",
+      "question": "HR Interview Question 30",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is logical data independence?",
+      "answer": "Logical data independence is the ability to modify the conceptual schema without affecting external schemas."
+    },
+    {
+      "category": "python",
+      "question": "What are keyword arguments?",
+      "answer": "Keyword arguments are passed using parameter names, allowing arguments to be supplied in any order."
     }
   ]
 }
