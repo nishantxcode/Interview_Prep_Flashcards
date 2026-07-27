@@ -1,80 +1,65 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "questions": [
     {
       "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
-    },
-    {
-      "category": "os",
-      "question": "What is an Operating System?",
-      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
-    },
-    {
-      "category": "networking",
-      "question": "What is CIDR?",
-      "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
-    },
-    {
-      "category": "sql",
-      "question": "What is the most commonly used DQL command?",
-      "answer": "SELECT."
-    },
-    {
-      "category": "sql",
-      "question": "What is a recursive CTE?",
-      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
-    },
-    {
-      "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
-    },
-    {
-      "category": "oop",
-      "question": "What is delegation in OOP?",
-      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 39",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the difference between a process and a thread?",
+      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
     },
     {
       "category": "python",
-      "question": "What is variable scope in Python?",
-      "answer": "Variable scope determines where a variable can be accessed within a program."
+      "question": "What is mutability in Python?",
+      "answer": "Mutability refers to whether an object's state can be modified after creation."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 75",
+      "question": "Java Interview Question 94",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dbms",
-      "question": "What is a foreign key?",
-      "answer": "A foreign key is an attribute that establishes a relationship between two tables by referencing the primary key of another table."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a perfect binary tree?",
-      "answer": "A perfect binary tree is a binary tree in which all internal nodes have two children and all leaf nodes are at the same level."
-    },
-    {
-      "category": "system_design",
-      "question": "What problem does the Circuit Breaker solve?",
-      "answer": "It prevents cascading failures and reduces load on unhealthy services."
+      "category": "os",
+      "question": "What is a hard real-time system?",
+      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 79",
+      "question": "HR Interview Question 54",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "networking",
+      "question": "What is a broadcast domain?",
+      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Segment Tree?",
+      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
+    },
+    {
+      "category": "system_design",
+      "question": "What is consistent hashing?",
+      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
+    },
+    {
+      "category": "system_design",
+      "question": "Why are message queues used?",
+      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+    },
+    {
       "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+      "question": "What is the Template Method pattern?",
+      "answer": "The Template Method pattern defines the skeleton of an algorithm while allowing subclasses to customize specific steps."
+    },
+    {
+      "category": "sql",
+      "question": "What is the INSERT statement?",
+      "answer": "INSERT is used to add new rows into a table."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Decorator pattern?",
+      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
     },
     {
       "category": "networking",
@@ -82,24 +67,39 @@
       "answer": "A socket is an endpoint for communication between two processes over a network."
     },
     {
+      "category": "dbms",
+      "question": "What is the Reflexivity Rule in Armstrong's Axioms?",
+      "answer": "If Y is a subset of X, then X determines Y."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 44",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the if statement?",
+      "answer": "The if statement executes a block of code when a condition evaluates to true."
+    },
+    {
+      "category": "sql",
+      "question": "What is a trigger in SQL?",
+      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
+    },
+    {
       "category": "dsa",
-      "question": "What are the most important factors when choosing a data structure?",
-      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
+      "question": "Which sorting algorithms use divide and conquer?",
+      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 30",
+      "question": "HR Interview Question 99",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is logical data independence?",
-      "answer": "Logical data independence is the ability to modify the conceptual schema without affecting external schemas."
-    },
-    {
-      "category": "python",
-      "question": "What are keyword arguments?",
-      "answer": "Keyword arguments are passed using parameter names, allowing arguments to be supplied in any order."
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
     }
   ]
 }
