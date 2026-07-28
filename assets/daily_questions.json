@@ -1,20 +1,80 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "questions": [
     {
+      "category": "networking",
+      "question": "What is TCP congestion control?",
+      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
+    },
+    {
+      "category": "oop",
+      "question": "What is object composition?",
+      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
+    },
+    {
+      "category": "sql",
+      "question": "What is the LIKE operator?",
+      "answer": "LIKE is used for pattern matching in string values."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ALTER statement?",
+      "answer": "ALTER is used to modify the structure of an existing database object."
+    },
+    {
+      "category": "oop",
+      "question": "What is dependency injection?",
+      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
+    },
+    {
       "category": "os",
-      "question": "What is the difference between a process and a thread?",
-      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
+      "question": "What is a process?",
+      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
     },
     {
       "category": "python",
-      "question": "What is mutability in Python?",
-      "answer": "Mutability refers to whether an object's state can be modified after creation."
+      "question": "What are Python variables?",
+      "answer": "Variables are names that reference objects stored in memory."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 94",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is an object in Java?",
+      "answer": "An object is an instance of a class containing state and behavior."
+    },
+    {
+      "category": "hr",
+      "question": "Describe a challenging situation you faced and how you handled it.",
+      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
+    },
+    {
+      "category": "dbms",
+      "question": "What is conflict serializability?",
+      "answer": "Conflict serializability determines whether a schedule can be transformed into a serial schedule by swapping non-conflicting operations."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database constraint?",
+      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
+    },
+    {
+      "category": "python",
+      "question": "What is asynchronous programming in Python?",
+      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+    },
+    {
+      "category": "dsa",
+      "question": "What is union by rank?",
+      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
+    },
+    {
+      "category": "system_design",
+      "question": "What is BASE in distributed systems?",
+      "answer": "BASE stands for Basically Available, Soft State, and Eventual Consistency."
     },
     {
       "category": "os",
@@ -23,83 +83,23 @@
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 54",
+      "question": "HR Interview Question 40",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a broadcast domain?",
-      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Segment Tree?",
-      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
-    },
-    {
-      "category": "system_design",
-      "question": "What is consistent hashing?",
-      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
-    },
-    {
-      "category": "system_design",
-      "question": "Why are message queues used?",
-      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Template Method pattern?",
-      "answer": "The Template Method pattern defines the skeleton of an algorithm while allowing subclasses to customize specific steps."
-    },
-    {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Decorator pattern?",
-      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
-    },
-    {
-      "category": "networking",
-      "question": "What is a socket in networking?",
-      "answer": "A socket is an endpoint for communication between two processes over a network."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Reflexivity Rule in Armstrong's Axioms?",
-      "answer": "If Y is a subset of X, then X determines Y."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 44",
+      "question": "Java Interview Question 29",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "python",
-      "question": "What is the purpose of the if statement?",
-      "answer": "The if statement executes a block of code when a condition evaluates to true."
+      "category": "networking",
+      "question": "What is the congestion window (cwnd)?",
+      "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
     },
     {
-      "category": "sql",
-      "question": "What is a trigger in SQL?",
-      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
-    },
-    {
-      "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 99",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Atomicity?",
-      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+      "category": "system_design",
+      "question": "What is a shard key?",
+      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
     }
   ]
 }
