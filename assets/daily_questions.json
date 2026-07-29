@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is TCP congestion control?",
-      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
-    },
-    {
-      "category": "oop",
-      "question": "What is object composition?",
-      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a hash table?",
-      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALTER statement?",
-      "answer": "ALTER is used to modify the structure of an existing database object."
-    },
-    {
-      "category": "oop",
-      "question": "What is dependency injection?",
-      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
-    },
-    {
       "category": "os",
-      "question": "What is a process?",
-      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
+      "question": "What is multitasking?",
+      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
     },
     {
-      "category": "python",
-      "question": "What are Python variables?",
-      "answer": "Variables are names that reference objects stored in memory."
+      "category": "networking",
+      "question": "What is Congestion Avoidance?",
+      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
     },
     {
       "category": "java",
-      "question": "What is an object in Java?",
-      "answer": "An object is an instance of a class containing state and behavior."
-    },
-    {
-      "category": "hr",
-      "question": "Describe a challenging situation you faced and how you handled it.",
-      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
-    },
-    {
-      "category": "dbms",
-      "question": "What is conflict serializability?",
-      "answer": "Conflict serializability determines whether a schedule can be transformed into a serial schedule by swapping non-conflicting operations."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a database constraint?",
-      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
+      "question": "Java Interview Question 58",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is asynchronous programming in Python?",
-      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+      "question": "What is pass in Python?",
+      "answer": "pass is a null statement that performs no action and is used as a placeholder."
     },
     {
-      "category": "dsa",
-      "question": "What is union by rank?",
-      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
-    },
-    {
-      "category": "system_design",
-      "question": "What is BASE in distributed systems?",
-      "answer": "BASE stands for Basically Available, Soft State, and Eventual Consistency."
-    },
-    {
-      "category": "os",
-      "question": "What is a hard real-time system?",
-      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
+      "category": "networking",
+      "question": "What is flow control in TCP?",
+      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 40",
+      "question": "HR Interview Question 100",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 29",
+      "question": "Java Interview Question 43",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "networking",
-      "question": "What is the congestion window (cwnd)?",
-      "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
+      "category": "oop",
+      "question": "What is loose coupling?",
+      "answer": "Loose coupling means components have minimal dependencies on each other."
     },
     {
       "category": "system_design",
-      "question": "What is a shard key?",
-      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+      "question": "What is partitioning in Kafka?",
+      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
+    },
+    {
+      "category": "dbms",
+      "question": "What is serializability?",
+      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
+    },
+    {
+      "category": "hr",
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+    },
+    {
+      "category": "oop",
+      "question": "What is a private access modifier?",
+      "answer": "A private member can only be accessed within the class where it is declared."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+      "answer": "The time complexity is O((V + E) log V)."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
+      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
+    },
+    {
+      "category": "sql",
+      "question": "What are the main categories of SQL commands?",
+      "answer": "DDL, DML, DQL, DCL, and TCL."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a doubly linked list?",
+      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
+    },
+    {
+      "category": "os",
+      "question": "What is RAID?",
+      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
+    },
+    {
+      "category": "sql",
+      "question": "What are common TCL commands?",
+      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "answer": "SQL databases use structured schemas and relational models, whereas NoSQL databases support flexible schemas and various data models."
+    },
+    {
+      "category": "python",
+      "question": "Why does Python have a GIL?",
+      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
     }
   ]
 }
