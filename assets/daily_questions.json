@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "questions": [
     {
       "category": "os",
-      "question": "What is multitasking?",
-      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
-    },
-    {
-      "category": "networking",
-      "question": "What is Congestion Avoidance?",
-      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 58",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is pass in Python?",
-      "answer": "pass is a null statement that performs no action and is used as a placeholder."
-    },
-    {
-      "category": "networking",
-      "question": "What is flow control in TCP?",
-      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
+      "question": "What is aging in operating systems?",
+      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 100",
+      "question": "HR Interview Question 80",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 43",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is loose coupling?",
-      "answer": "Loose coupling means components have minimal dependencies on each other."
-    },
-    {
-      "category": "system_design",
-      "question": "What is partitioning in Kafka?",
-      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
+      "category": "networking",
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
     },
     {
       "category": "dbms",
-      "question": "What is serializability?",
-      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
-    },
-    {
-      "category": "oop",
-      "question": "What is a private access modifier?",
-      "answer": "A private member can only be accessed within the class where it is declared."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
-      "answer": "The time complexity is O((V + E) log V)."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
-      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
-    },
-    {
-      "category": "sql",
-      "question": "What are the main categories of SQL commands?",
-      "answer": "DDL, DML, DQL, DCL, and TCL."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a doubly linked list?",
-      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
-    },
-    {
-      "category": "os",
-      "question": "What is RAID?",
-      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
-    },
-    {
-      "category": "sql",
-      "question": "What are common TCL commands?",
-      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the difference between SQL and NoSQL databases?",
-      "answer": "SQL databases use structured schemas and relational models, whereas NoSQL databases support flexible schemas and various data models."
+      "question": "What is Strict Two-Phase Locking?",
+      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
     },
     {
       "category": "python",
-      "question": "Why does Python have a GIL?",
-      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
+      "question": "What is mutability in Python?",
+      "answer": "Mutability refers to whether an object's state can be modified after creation."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is idempotency important in distributed systems?",
+      "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
+    },
+    {
+      "category": "sql",
+      "question": "What is table partitioning?",
+      "answer": "Table partitioning divides a large table into smaller logical pieces while maintaining it as a single table."
+    },
+    {
+      "category": "oop",
+      "question": "What is a class?",
+      "answer": "A class is a blueprint or template used to create objects."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between 3NF and BCNF?",
+      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 66",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between compiled and interpreted languages?",
+      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
+    },
+    {
+      "category": "dsa",
+      "question": "What is level order traversal?",
+      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
+    },
+    {
+      "category": "system_design",
+      "question": "What is asynchronous communication?",
+      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+    },
+    {
+      "category": "os",
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+    },
+    {
+      "category": "networking",
+      "question": "What is a socket in networking?",
+      "answer": "A socket is an endpoint for communication between two processes over a network."
+    },
+    {
+      "category": "sql",
+      "question": "What is a stored procedure?",
+      "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database."
+    },
+    {
+      "category": "oop",
+      "question": "What is compile-time polymorphism?",
+      "answer": "Compile-time polymorphism is achieved through method overloading and operator overloading."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 50",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 65",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
