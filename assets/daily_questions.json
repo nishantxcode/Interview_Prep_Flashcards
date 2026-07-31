@@ -1,105 +1,105 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "questions": [
     {
-      "category": "os",
-      "question": "What is aging in operating systems?",
-      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 80",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
       "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Strict Two-Phase Locking?",
-      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
-    },
-    {
-      "category": "python",
-      "question": "What is mutability in Python?",
-      "answer": "Mutability refers to whether an object's state can be modified after creation."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of DFS?",
-      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is idempotency important in distributed systems?",
-      "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
-    },
-    {
-      "category": "sql",
-      "question": "What is table partitioning?",
-      "answer": "Table partitioning divides a large table into smaller logical pieces while maintaining it as a single table."
+      "question": "What is the Physical Layer of the OSI model?",
+      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
     },
     {
       "category": "oop",
-      "question": "What is a class?",
-      "answer": "A class is a blueprint or template used to create objects."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between 3NF and BCNF?",
-      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 66",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is deep copy?",
+      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
     },
     {
       "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "dsa",
-      "question": "What is level order traversal?",
-      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
-    },
-    {
-      "category": "system_design",
-      "question": "What is asynchronous communication?",
-      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
-    },
-    {
-      "category": "os",
-      "question": "What is the Dining Philosophers problem?",
-      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
-    },
-    {
-      "category": "networking",
-      "question": "What is a socket in networking?",
-      "answer": "A socket is an endpoint for communication between two processes over a network."
+      "question": "When are lambda functions useful?",
+      "answer": "Lambda functions are useful for short, simple operations that are used temporarily."
     },
     {
       "category": "sql",
-      "question": "What is a stored procedure?",
-      "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database."
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
     },
     {
-      "category": "oop",
-      "question": "What is compile-time polymorphism?",
-      "answer": "Compile-time polymorphism is achieved through method overloading and operator overloading."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 50",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "python",
+      "question": "What is a custom exception?",
+      "answer": "A custom exception is a user-defined exception class created by inheriting from the Exception class."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 65",
+      "question": "HR Interview Question 34",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "What motivates you?",
+      "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
+    },
+    {
+      "category": "oop",
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DEFAULT constraint?",
+      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
+    },
+    {
+      "category": "os",
+      "question": "What is a scheduler?",
+      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a microservices architecture?",
+      "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
+    },
+    {
+      "category": "system_design",
+      "question": "What is leader election?",
+      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 43",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "os",
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a linked list?",
+      "answer": "A linked list is a linear data structure consisting of nodes where each node contains data and a reference to the next node."
+    },
+    {
+      "category": "networking",
+      "question": "What is RIP?",
+      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the advantages of normalization?",
+      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 98",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the SELECT statement?",
+      "answer": "SELECT retrieves data from one or more tables."
     }
   ]
 }
