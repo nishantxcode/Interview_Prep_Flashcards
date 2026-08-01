@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is the Physical Layer of the OSI model?",
-      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
-    },
-    {
-      "category": "oop",
-      "question": "What is deep copy?",
-      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
-    },
-    {
-      "category": "python",
-      "question": "When are lambda functions useful?",
-      "answer": "Lambda functions are useful for short, simple operations that are used temporarily."
-    },
-    {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
-    },
-    {
-      "category": "python",
-      "question": "What is a custom exception?",
-      "answer": "A custom exception is a user-defined exception class created by inheriting from the Exception class."
+      "category": "dsa",
+      "question": "What is a greedy algorithm?",
+      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 34",
+      "question": "What do you know about our company?",
+      "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the challenges of sharding?",
+      "answer": "Uneven data distribution, hotspotting, rebalancing, and cross-shard queries."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 37",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 81",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "hr",
-      "question": "What motivates you?",
-      "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a DEFAULT constraint?",
-      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
-    },
-    {
-      "category": "os",
-      "question": "What is a scheduler?",
-      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a microservices architecture?",
-      "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
-    },
-    {
-      "category": "system_design",
-      "question": "What is leader election?",
-      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 43",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a linked list?",
-      "answer": "A linked list is a linear data structure consisting of nodes where each node contains data and a reference to the next node."
-    },
-    {
       "category": "networking",
-      "question": "What is RIP?",
-      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the advantages of normalization?",
-      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+      "question": "What is the Presentation Layer?",
+      "answer": "The Presentation Layer handles data translation, encryption, and compression."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 98",
+      "question": "Java Interview Question 79",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is concurrency control?",
+      "answer": "Concurrency control is the process of managing simultaneous transactions to maintain data consistency."
+    },
+    {
+      "category": "os",
+      "question": "What is Priority Scheduling?",
+      "answer": "Priority Scheduling executes processes based on their assigned priority values."
     },
     {
       "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
+      "question": "What is the DISTINCT keyword?",
+      "answer": "DISTINCT removes duplicate rows from query results."
+    },
+    {
+      "category": "dsa",
+      "question": "What are the most important factors when choosing a data structure?",
+      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between for and while loops?",
+      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
+    },
+    {
+      "category": "python",
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between aggregation and composition?",
+      "answer": "Aggregation allows independent lifecycles of objects, while composition ties the lifecycle of child objects to the parent."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between packet switching and circuit switching?",
+      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
+    },
+    {
+      "category": "os",
+      "question": "What is a binary semaphore?",
+      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
+    },
+    {
+      "category": "oop",
+      "question": "What is a design pattern?",
+      "answer": "A design pattern is a reusable solution to a commonly occurring software design problem."
+    },
+    {
+      "category": "system_design",
+      "question": "What are examples of message queue systems?",
+      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
+    },
+    {
+      "category": "dbms",
+      "question": "What is relational algebra?",
+      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
     }
   ]
 }
