@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is a greedy algorithm?",
-      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
+      "category": "python",
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
     },
     {
-      "category": "hr",
-      "question": "What do you know about our company?",
-      "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
+      "category": "oop",
+      "question": "What is constructor injection?",
+      "answer": "Constructor injection provides dependencies through a class constructor."
     },
     {
-      "category": "system_design",
-      "question": "What are the challenges of sharding?",
-      "answer": "Uneven data distribution, hotspotting, rebalancing, and cross-shard queries."
+      "category": "python",
+      "question": "What are positional arguments?",
+      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
+      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
+    },
+    {
+      "category": "networking",
+      "question": "What is routing?",
+      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Durability in ACID?",
+      "answer": "Durability guarantees that committed transactions remain permanent even after system failures."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv6?",
+      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 37",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What are access modifiers in Java?",
+      "answer": "Access modifiers control visibility and include public, private, protected, and default access."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 81",
+      "question": "HR Interview Question 24",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is the Presentation Layer?",
-      "answer": "The Presentation Layer handles data translation, encryption, and compression."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 79",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is concurrency control?",
-      "answer": "Concurrency control is the process of managing simultaneous transactions to maintain data consistency."
-    },
-    {
       "category": "os",
-      "question": "What is Priority Scheduling?",
-      "answer": "Priority Scheduling executes processes based on their assigned priority values."
+      "question": "What is RAID?",
+      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
     },
     {
       "category": "sql",
-      "question": "What is the DISTINCT keyword?",
-      "answer": "DISTINCT removes duplicate rows from query results."
-    },
-    {
-      "category": "dsa",
-      "question": "What are the most important factors when choosing a data structure?",
-      "answer": "The choice depends on required operations, time complexity, space complexity, scalability, and implementation constraints."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
-      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between for and while loops?",
-      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
-    },
-    {
-      "category": "python",
-      "question": "What is method overloading in Python?",
-      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between aggregation and composition?",
-      "answer": "Aggregation allows independent lifecycles of objects, while composition ties the lifecycle of child objects to the parent."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between packet switching and circuit switching?",
-      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
-    },
-    {
-      "category": "os",
-      "question": "What is a binary semaphore?",
-      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
-    },
-    {
-      "category": "oop",
-      "question": "What is a design pattern?",
-      "answer": "A design pattern is a reusable solution to a commonly occurring software design problem."
+      "question": "What is the OVER() clause?",
+      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
     },
     {
       "category": "system_design",
-      "question": "What are examples of message queue systems?",
-      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
+      "question": "What is a database in system design?",
+      "answer": "A database is a structured system used to store, retrieve, and manage application data."
     },
     {
-      "category": "dbms",
-      "question": "What is relational algebra?",
-      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
+      "category": "oop",
+      "question": "What problem does the Factory pattern solve?",
+      "answer": "It decouples object creation logic from client code and improves extensibility."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 46",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is memoization?",
+      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
+    },
+    {
+      "category": "system_design",
+      "question": "When should NoSQL databases be preferred?",
+      "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
+    },
+    {
+      "category": "hr",
+      "question": "What do you do when you don't know how to solve a problem?",
+      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a tree?",
+      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
+    },
+    {
+      "category": "sql",
+      "question": "What is the DELETE statement?",
+      "answer": "DELETE removes one or more rows from a table based on a specified condition."
     }
   ]
 }
