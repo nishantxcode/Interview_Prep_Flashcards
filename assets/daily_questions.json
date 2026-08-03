@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "questions": [
     {
-      "category": "python",
-      "question": "What is the difference between an iterable and an iterator?",
-      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
-    },
-    {
-      "category": "oop",
-      "question": "What is constructor injection?",
-      "answer": "Constructor injection provides dependencies through a class constructor."
-    },
-    {
-      "category": "python",
-      "question": "What are positional arguments?",
-      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
-    },
-    {
-      "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
-      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
-    },
-    {
-      "category": "networking",
-      "question": "What is routing?",
-      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Durability in ACID?",
-      "answer": "Durability guarantees that committed transactions remain permanent even after system failures."
-    },
-    {
-      "category": "networking",
-      "question": "What is IPv6?",
-      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
-    },
-    {
-      "category": "java",
-      "question": "What are access modifiers in Java?",
-      "answer": "Access modifiers control visibility and include public, private, protected, and default access."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 24",
+      "question": "HR Interview Question 36",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "os",
-      "question": "What is RAID?",
-      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
+      "category": "java",
+      "question": "What is an abstract class in Java?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
     },
     {
-      "category": "sql",
-      "question": "What is the OVER() clause?",
-      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+      "category": "python",
+      "question": "What is an iterable in Python?",
+      "answer": "An iterable is any object that can return an iterator, such as lists, tuples, and strings."
     },
     {
       "category": "system_design",
-      "question": "What is a database in system design?",
-      "answer": "A database is a structured system used to store, retrieve, and manage application data."
+      "question": "What is a producer in a messaging system?",
+      "answer": "A producer is a component that generates and publishes messages."
     },
     {
       "category": "oop",
-      "question": "What problem does the Factory pattern solve?",
-      "answer": "It decouples object creation logic from client code and improves extensibility."
+      "question": "What is the Strategy pattern?",
+      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+    },
+    {
+      "category": "os",
+      "question": "What is a soft real-time system?",
+      "answer": "A soft real-time system aims to meet deadlines, but occasional misses are tolerable."
+    },
+    {
+      "category": "networking",
+      "question": "What is a port number?",
+      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 46",
+      "question": "Java Interview Question 58",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is memoization?",
-      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
-    },
-    {
-      "category": "system_design",
-      "question": "When should NoSQL databases be preferred?",
-      "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
-    },
-    {
       "category": "hr",
-      "question": "What do you do when you don't know how to solve a problem?",
-      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
+      "question": "HR Interview Question 94",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "Why is low coupling desirable?",
+      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
     },
     {
       "category": "dsa",
-      "question": "What is a tree?",
-      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
+      "question": "What is amortized analysis?",
+      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
     },
     {
       "category": "sql",
-      "question": "What is the DELETE statement?",
-      "answer": "DELETE removes one or more rows from a table based on a specified condition."
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Fenwick Tree (Binary Indexed Tree)?",
+      "answer": "A Fenwick Tree is a data structure that efficiently supports prefix sum queries and point updates."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the import statement?",
+      "answer": "The import statement allows code from modules and packages to be used in a program."
+    },
+    {
+      "category": "networking",
+      "question": "What is a broadcast domain?",
+      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a load balancer?",
+      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DEFAULT constraint?",
+      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
+    },
+    {
+      "category": "sql",
+      "question": "What are the advantages of views?",
+      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprocessing?",
+      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
     }
   ]
 }
