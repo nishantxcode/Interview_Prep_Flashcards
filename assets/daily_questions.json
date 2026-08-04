@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "questions": [
     {
-      "category": "hr",
-      "question": "HR Interview Question 36",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "java",
-      "question": "What is an abstract class in Java?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
+      "category": "sql",
+      "question": "What is the HAVING clause?",
+      "answer": "HAVING filters grouped results after aggregation has been performed."
     },
     {
       "category": "python",
-      "question": "What is an iterable in Python?",
-      "answer": "An iterable is any object that can return an iterator, such as lists, tuples, and strings."
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+    },
+    {
+      "category": "dbms",
+      "question": "What are Armstrong's Axioms?",
+      "answer": "Armstrong's Axioms are a set of inference rules used to derive all functional dependencies from a given set of dependencies."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the First Normal Form (1NF)?",
+      "answer": "A relation is in 1NF if all attributes contain atomic values and there are no repeating groups."
     },
     {
       "category": "system_design",
-      "question": "What is a producer in a messaging system?",
-      "answer": "A producer is a component that generates and publishes messages."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Strategy pattern?",
-      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
-    },
-    {
-      "category": "os",
-      "question": "What is a soft real-time system?",
-      "answer": "A soft real-time system aims to meet deadlines, but occasional misses are tolerable."
-    },
-    {
-      "category": "networking",
-      "question": "What is a port number?",
-      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
+      "question": "What is partitioning in Kafka?",
+      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 58",
+      "question": "Java Interview Question 44",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "os",
+      "question": "What is a user-level thread?",
+      "answer": "A user-level thread is managed by a thread library without direct kernel involvement."
+    },
+    {
       "category": "hr",
-      "question": "HR Interview Question 94",
+      "question": "HR Interview Question 74",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "java",
+      "question": "Java Interview Question 65",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
       "category": "oop",
-      "question": "Why is low coupling desirable?",
-      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
-    },
-    {
-      "category": "dsa",
-      "question": "What is amortized analysis?",
-      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
-    },
-    {
-      "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Fenwick Tree (Binary Indexed Tree)?",
-      "answer": "A Fenwick Tree is a data structure that efficiently supports prefix sum queries and point updates."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the import statement?",
-      "answer": "The import statement allows code from modules and packages to be used in a program."
+      "question": "What is the 'has-a' relationship?",
+      "answer": "The 'has-a' relationship represents composition or aggregation where one class contains another."
     },
     {
       "category": "networking",
-      "question": "What is a broadcast domain?",
-      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+      "question": "What is HTTPS?",
+      "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
     },
     {
-      "category": "system_design",
-      "question": "What is a load balancer?",
-      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
+      "category": "networking",
+      "question": "What is the purpose of DHCP?",
+      "answer": "DHCP simplifies network administration by automatically configuring devices."
     },
     {
-      "category": "dbms",
-      "question": "What is a DEFAULT constraint?",
-      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
+      "category": "hr",
+      "question": "How would your colleagues describe you?",
+      "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
     },
     {
-      "category": "sql",
-      "question": "What are the advantages of views?",
-      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+      "category": "dsa",
+      "question": "What is open addressing?",
+      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
     },
     {
       "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+      "question": "What is an Operating System?",
+      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
+    },
+    {
+      "category": "oop",
+      "question": "When should the Singleton pattern be used?",
+      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
+    },
+    {
+      "category": "sql",
+      "question": "What is UNION ALL?",
+      "answer": "UNION ALL combines results from multiple queries without removing duplicates."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed cache?",
+      "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
+    },
+    {
+      "category": "python",
+      "question": "What is the Global Interpreter Lock (GIL)?",
+      "answer": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time."
     }
   ]
 }
