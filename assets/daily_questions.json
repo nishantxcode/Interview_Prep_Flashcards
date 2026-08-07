@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 63",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a reverse proxy?",
-      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+      "category": "dsa",
+      "question": "What is the base case in recursion?",
+      "answer": "The base case is the condition that stops recursive calls and prevents infinite recursion."
     },
     {
       "category": "python",
-      "question": "What are **kwargs in Python?",
-      "answer": "**kwargs allows a function to accept a variable number of keyword arguments."
+      "question": "What is the global keyword?",
+      "answer": "The global keyword allows modification of a global variable from inside a function."
     },
     {
-      "category": "dsa",
-      "question": "What is a hash table?",
-      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+      "category": "networking",
+      "question": "What is a switch?",
+      "answer": "A switch is a network device that forwards frames within a LAN using MAC addresses."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 65",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 37",
+      "question": "Java Interview Question 68",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 91",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
       "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
     },
     {
-      "category": "sql",
-      "question": "What is the most commonly used DQL command?",
-      "answer": "SELECT."
+      "category": "os",
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 50",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "Which Python data types are immutable?",
-      "answer": "int, float, bool, str, tuple, frozenset, and bytes are immutable."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock recovery?",
-      "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
-    },
-    {
-      "category": "networking",
-      "question": "What is a broadcast domain?",
-      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock avoidance?",
-      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
-    },
-    {
-      "category": "networking",
-      "question": "What is congestion in a network?",
-      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
-    },
-    {
-      "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
-    },
-    {
-      "category": "oop",
-      "question": "What is static binding?",
-      "answer": "Static binding occurs when method calls are resolved at compile time."
+      "question": "What is a local variable?",
+      "answer": "A local variable is defined inside a function and is accessible only within that function."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 46",
+      "question": "HR Interview Question 37",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is write-through caching?",
-      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
+      "category": "networking",
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
     },
     {
-      "category": "oop",
-      "question": "What is the difference between an interface and an abstract class?",
-      "answer": "An interface defines behavior contracts, while an abstract class can provide both contracts and partial implementation."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Heap Sort?",
-      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
+      "category": "os",
+      "question": "What is contiguous memory allocation?",
+      "answer": "Contiguous memory allocation assigns a single continuous block of memory to a process."
     },
     {
       "category": "dbms",
-      "question": "What are the advantages of a DBMS?",
-      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
+      "question": "What is a primary key?",
+      "answer": "A primary key is the candidate key chosen to uniquely identify each row in a table."
+    },
+    {
+      "category": "oop",
+      "question": "What is UML?",
+      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+    },
+    {
+      "category": "sql",
+      "question": "What is EXCEPT (or MINUS)?",
+      "answer": "EXCEPT returns rows present in the first query but not in the second query."
+    },
+    {
+      "category": "oop",
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+    },
+    {
+      "category": "sql",
+      "question": "What is a correlated subquery?",
+      "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
+    },
+    {
+      "category": "system_design",
+      "question": "What is strong consistency?",
+      "answer": "Strong consistency ensures every read returns the most recent write."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal partitioning?",
+      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
     }
   ]
 }
