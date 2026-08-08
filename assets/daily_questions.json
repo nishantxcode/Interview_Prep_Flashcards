@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is the base case in recursion?",
-      "answer": "The base case is the condition that stops recursive calls and prevents infinite recursion."
-    },
-    {
-      "category": "python",
-      "question": "What is the global keyword?",
-      "answer": "The global keyword allows modification of a global variable from inside a function."
+      "category": "java",
+      "question": "What is the super keyword?",
+      "answer": "The super keyword refers to the immediate parent class object."
     },
     {
       "category": "networking",
-      "question": "What is a switch?",
-      "answer": "A switch is a network device that forwards frames within a LAN using MAC addresses."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 65",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 68",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
-    },
-    {
-      "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 50",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is a local variable?",
-      "answer": "A local variable is defined inside a function and is accessible only within that function."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 37",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TCP four-way handshake?",
-      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
-    },
-    {
-      "category": "os",
-      "question": "What is contiguous memory allocation?",
-      "answer": "Contiguous memory allocation assigns a single continuous block of memory to a process."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a primary key?",
-      "answer": "A primary key is the candidate key chosen to uniquely identify each row in a table."
+      "question": "How does the TCP/IP model differ from the OSI model?",
+      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
     },
     {
       "category": "oop",
-      "question": "What is UML?",
-      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+      "question": "What is the Template Method pattern?",
+      "answer": "The Template Method pattern defines the skeleton of an algorithm while allowing subclasses to customize specific steps."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 64",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "sql",
-      "question": "What is EXCEPT (or MINUS)?",
-      "answer": "EXCEPT returns rows present in the first query but not in the second query."
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
     },
     {
-      "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+      "category": "hr",
+      "question": "HR Interview Question 26",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "sql",
-      "question": "What is a correlated subquery?",
-      "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
+      "question": "What is the DISTINCT keyword?",
+      "answer": "DISTINCT removes duplicate rows from query results."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
     },
     {
       "category": "system_design",
-      "question": "What is strong consistency?",
-      "answer": "Strong consistency ensures every read returns the most recent write."
+      "question": "What is Apache Kafka?",
+      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
     },
     {
       "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+      "question": "What is a Kafka topic?",
+      "answer": "A Kafka topic is a logical channel where messages are stored and consumed."
+    },
+    {
+      "category": "dbms",
+      "question": "What is serializability?",
+      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
     },
     {
       "category": "dsa",
-      "question": "What is a hash function?",
-      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
+      "question": "What is a deque?",
+      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
+    },
+    {
+      "category": "oop",
+      "question": "What is package-level or default access?",
+      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
+    },
+    {
+      "category": "python",
+      "question": "What is a decorator in Python?",
+      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 81",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is a thread?",
+      "answer": "A thread is the smallest unit of CPU execution within a process."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Dijkstra's algorithm?",
+      "answer": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between 'w' and 'a' file modes?",
+      "answer": "'w' overwrites the file, whereas 'a' appends data to the end of the file."
+    },
+    {
+      "category": "networking",
+      "question": "What is the OSI model?",
+      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+    },
+    {
+      "category": "os",
+      "question": "What is starvation in synchronization?",
+      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
     }
   ]
 }
