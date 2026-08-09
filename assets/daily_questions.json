@@ -1,15 +1,70 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "questions": [
     {
-      "category": "java",
-      "question": "What is the super keyword?",
-      "answer": "The super keyword refers to the immediate parent class object."
+      "category": "networking",
+      "question": "What is a broadcast domain?",
+      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+    },
+    {
+      "category": "system_design",
+      "question": "What is quorum-based replication?",
+      "answer": "Quorum-based replication requires a minimum number of nodes to participate in read or write operations."
     },
     {
       "category": "networking",
-      "question": "How does the TCP/IP model differ from the OSI model?",
-      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
+      "question": "What is a Content Delivery Network (CDN)?",
+      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+    },
+    {
+      "category": "oop",
+      "question": "What is MVC architecture?",
+      "answer": "Model-View-Controller is a design pattern that separates application logic, user interface, and user input handling."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Third Normal Form (3NF)?",
+      "answer": "A relation is in 3NF and contains no transitive dependencies."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a monolithic architecture?",
+      "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
+    },
+    {
+      "category": "sql",
+      "question": "What is the LIKE operator?",
+      "answer": "LIKE is used for pattern matching in string values."
+    },
+    {
+      "category": "python",
+      "question": "What is multiple inheritance?",
+      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
+    },
+    {
+      "category": "python",
+      "question": "What is a global variable?",
+      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
+    },
+    {
+      "category": "sql",
+      "question": "What is a unique constraint?",
+      "answer": "A unique constraint ensures that all values in a column are distinct."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 83",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 37",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of data rows in a table."
     },
     {
       "category": "oop",
@@ -17,89 +72,34 @@
       "answer": "The Template Method pattern defines the skeleton of an algorithm while allowing subclasses to customize specific steps."
     },
     {
+      "category": "dsa",
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+    },
+    {
+      "category": "os",
+      "question": "What is internal fragmentation?",
+      "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
+    },
+    {
       "category": "java",
-      "question": "Java Interview Question 64",
+      "question": "Java Interview Question 40",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "sql",
-      "question": "What is ROW_NUMBER()?",
-      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 26",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the DISTINCT keyword?",
-      "answer": "DISTINCT removes duplicate rows from query results."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the PROJECT operation in relational algebra?",
-      "answer": "PROJECT retrieves specific columns from a relation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Apache Kafka?",
-      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Kafka topic?",
-      "answer": "A Kafka topic is a logical channel where messages are stored and consumed."
-    },
-    {
-      "category": "dbms",
-      "question": "What is serializability?",
-      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
     },
     {
       "category": "dsa",
-      "question": "What is a deque?",
-      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
-    },
-    {
-      "category": "oop",
-      "question": "What is package-level or default access?",
-      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
-    },
-    {
-      "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 81",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Dijkstra's algorithm?",
-      "answer": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between 'w' and 'a' file modes?",
-      "answer": "'w' overwrites the file, whereas 'a' appends data to the end of the file."
-    },
-    {
-      "category": "networking",
-      "question": "What is the OSI model?",
-      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
-    },
-    {
-      "category": "os",
-      "question": "What is starvation in synchronization?",
-      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
+      "question": "What is the amortized complexity of insertion in a dynamic array?",
+      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
     }
   ]
 }
