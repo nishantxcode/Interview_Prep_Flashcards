@@ -1,90 +1,45 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 30",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the OSI model?",
-      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
-    },
-    {
       "category": "python",
-      "question": "What is a module in Python?",
-      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
+      "question": "What is reference counting?",
+      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
     },
     {
       "category": "dbms",
-      "question": "Why are B+ Trees preferred over B-Trees in databases?",
-      "answer": "B+ Trees provide faster range queries, better disk access patterns, and higher fan-out than B-Trees."
-    },
-    {
-      "category": "os",
-      "question": "What is process scheduling?",
-      "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
-    },
-    {
-      "category": "networking",
-      "question": "What are the main types of computer networks?",
-      "answer": "LAN, MAN, WAN, PAN, and CAN."
-    },
-    {
-      "category": "sql",
-      "question": "What is a SELF JOIN?",
-      "answer": "A SELF JOIN joins a table with itself using aliases."
-    },
-    {
-      "category": "oop",
-      "question": "What is a protected access modifier?",
-      "answer": "A protected member can be accessed within the same class and its subclasses."
+      "question": "What is a relationship in an ER model?",
+      "answer": "A relationship represents an association between two or more entities."
     },
     {
       "category": "dsa",
-      "question": "What is linear probing?",
-      "answer": "Linear probing is an open addressing technique that checks the next available slot sequentially when a collision occurs."
+      "question": "What is amortized analysis?",
+      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
+    },
+    {
+      "category": "oop",
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 50",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the difference between overloading and overriding?",
+      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
+    },
+    {
+      "category": "networking",
+      "question": "What is a LAN?",
+      "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
     },
     {
       "category": "os",
-      "question": "What is a critical section?",
-      "answer": "A critical section is a part of a program where shared resources are accessed and must not be executed by multiple threads simultaneously."
-    },
-    {
-      "category": "dbms",
-      "question": "What is metadata?",
-      "answer": "Metadata is data that describes the structure, properties, and characteristics of other data."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
     },
     {
       "category": "system_design",
-      "question": "What are common load balancing algorithms?",
-      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
-    },
-    {
-      "category": "python",
-      "question": "What is a return statement?",
-      "answer": "A return statement exits a function and optionally sends a value back to the caller."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Dependency Inversion Principle (DIP)?",
-      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
+      "question": "What problem does the Circuit Breaker solve?",
+      "answer": "It prevents cascading failures and reduces load on unhealthy services."
     },
     {
       "category": "sql",
@@ -92,14 +47,59 @@
       "answer": "A non-clustered index stores key values separately from the actual table data."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 37",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dbms",
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+    },
+    {
+      "category": "networking",
+      "question": "What is ARP?",
+      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
+    },
+    {
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
     },
     {
       "category": "hr",
-      "question": "Describe your ideal work environment.",
-      "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
+      "question": "HR Interview Question 74",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
+    },
+    {
+      "category": "os",
+      "question": "What are the different states of a process?",
+      "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 28",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is SQL injection?",
+      "answer": "SQL injection is a security vulnerability where malicious SQL code is inserted into application inputs and executed by the database."
+    },
+    {
+      "category": "oop",
+      "question": "What are the four pillars of OOP?",
+      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+    },
+    {
+      "category": "python",
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
     }
   ]
 }
