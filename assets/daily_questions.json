@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "questions": [
     {
-      "category": "python",
-      "question": "What is reference counting?",
-      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
-    },
-    {
       "category": "dbms",
-      "question": "What is a relationship in an ER model?",
-      "answer": "A relationship represents an association between two or more entities."
-    },
-    {
-      "category": "dsa",
-      "question": "What is amortized analysis?",
-      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
-    },
-    {
-      "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
-    },
-    {
-      "category": "java",
-      "question": "What is the difference between overloading and overriding?",
-      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
+      "question": "What is a non-trivial functional dependency?",
+      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
     },
     {
       "category": "networking",
-      "question": "What is a LAN?",
-      "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
-    },
-    {
-      "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
+      "question": "What is a collision domain?",
+      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
     },
     {
       "category": "system_design",
-      "question": "What problem does the Circuit Breaker solve?",
-      "answer": "It prevents cascading failures and reduces load on unhealthy services."
-    },
-    {
-      "category": "sql",
-      "question": "What is a non-clustered index?",
-      "answer": "A non-clustered index stores key values separately from the actual table data."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+      "question": "What is vertical scaling?",
+      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
     },
     {
       "category": "networking",
-      "question": "What is ARP?",
-      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
-    },
-    {
-      "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 74",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
     },
     {
       "category": "java",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the difference between an array and a linked list?",
-      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
-    },
-    {
-      "category": "os",
-      "question": "What are the different states of a process?",
-      "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 28",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is SQL injection?",
-      "answer": "SQL injection is a security vulnerability where malicious SQL code is inserted into application inputs and executed by the database."
-    },
-    {
-      "category": "oop",
-      "question": "What are the four pillars of OOP?",
-      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+      "question": "Java Interview Question 86",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is multiprocessing in Python?",
-      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
+      "question": "Which Python data types are mutable?",
+      "answer": "list, dict, set, and most user-defined objects are mutable."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a functional dependency?",
+      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 34",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What are the goals of CPU scheduling?",
+      "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+    },
+    {
+      "category": "oop",
+      "question": "What is inheritance?",
+      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+    },
+    {
+      "category": "dsa",
+      "question": "What is quadratic probing?",
+      "answer": "Quadratic probing resolves collisions by checking slots at quadratic intervals from the original position."
+    },
+    {
+      "category": "sql",
+      "question": "What is a recursive CTE?",
+      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+    },
+    {
+      "category": "system_design",
+      "question": "What is eventual consistency in distributed databases?",
+      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprocessing?",
+      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+    },
+    {
+      "category": "java",
+      "question": "What is the default constructor?",
+      "answer": "A default constructor is automatically provided by the compiler when no constructor is explicitly defined."
+    },
+    {
+      "category": "sql",
+      "question": "What is the LAG() function?",
+      "answer": "LAG() accesses data from a previous row without using a self-join."
+    },
+    {
+      "category": "oop",
+      "question": "What are the three categories of design patterns?",
+      "answer": "Creational, Structural, and Behavioral design patterns."
+    },
+    {
+      "category": "python",
+      "question": "What is a decorator in Python?",
+      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 47",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
