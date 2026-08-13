@@ -1,35 +1,30 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "questions": [
     {
       "category": "dbms",
-      "question": "What is a non-trivial functional dependency?",
-      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
-    },
-    {
-      "category": "networking",
-      "question": "What is a collision domain?",
-      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical scaling?",
-      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TLS handshake?",
-      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+      "question": "What is a composite key?",
+      "answer": "A composite key is a key formed by combining two or more attributes."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 86",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the this keyword?",
+      "answer": "The this keyword refers to the current object instance."
     },
     {
-      "category": "python",
-      "question": "Which Python data types are mutable?",
-      "answer": "list, dict, set, and most user-defined objects are mutable."
+      "category": "sql",
+      "question": "What is NTILE()?",
+      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is service discovery important?",
+      "answer": "It enables dynamic scaling and communication between services without hardcoded addresses."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv6?",
+      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
     },
     {
       "category": "dbms",
@@ -37,68 +32,73 @@
       "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 34",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
       "category": "os",
-      "question": "What are the goals of CPU scheduling?",
-      "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+      "question": "What is Round Robin Scheduling?",
+      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
     },
     {
       "category": "oop",
-      "question": "What is inheritance?",
-      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
     },
     {
       "category": "dsa",
-      "question": "What is quadratic probing?",
-      "answer": "Quadratic probing resolves collisions by checking slots at quadratic intervals from the original position."
+      "question": "What is preorder traversal?",
+      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
     },
     {
-      "category": "sql",
-      "question": "What is a recursive CTE?",
-      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an algorithm?",
-      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+      "category": "os",
+      "question": "What is throughput?",
+      "answer": "Throughput is the number of processes completed by the system per unit time."
     },
     {
       "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
-    },
-    {
-      "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
-    },
-    {
-      "category": "java",
-      "question": "What is the default constructor?",
-      "answer": "A default constructor is automatically provided by the compiler when no constructor is explicitly defined."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LAG() function?",
-      "answer": "LAG() accesses data from a previous row without using a self-join."
-    },
-    {
-      "category": "oop",
-      "question": "What are the three categories of design patterns?",
-      "answer": "Creational, Structural, and Behavioral design patterns."
+      "question": "What is caching?",
+      "answer": "Caching is the practice of storing frequently accessed data in a faster storage layer to reduce access time."
     },
     {
       "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code that performs a specific task."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the difference between memoization and tabulation?",
+      "answer": "Memoization is a top-down approach using recursion and caching, while tabulation is a bottom-up approach using iterative computation."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 47",
+      "question": "HR Interview Question 62",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "What is a class in Java?",
+      "answer": "A class is a blueprint for creating objects that defines attributes and methods."
+    },
+    {
+      "category": "python",
+      "question": "What is reference counting?",
+      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
+    },
+    {
+      "category": "oop",
+      "question": "What is delegation in OOP?",
+      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IDS?",
+      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+    },
+    {
+      "category": "sql",
+      "question": "What is a primary key constraint?",
+      "answer": "A primary key uniquely identifies each row in a table and cannot contain NULL values."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 35",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
