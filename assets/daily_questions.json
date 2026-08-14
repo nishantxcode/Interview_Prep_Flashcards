@@ -1,104 +1,104 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is a composite key?",
-      "answer": "A composite key is a key formed by combining two or more attributes."
+      "category": "networking",
+      "question": "What is symmetric encryption?",
+      "answer": "Symmetric encryption uses the same key for both encryption and decryption."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a data structure?",
+      "answer": "A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently."
+    },
+    {
+      "category": "system_design",
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
+    },
+    {
+      "category": "os",
+      "question": "What is a long-term scheduler?",
+      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
     },
     {
       "category": "java",
-      "question": "What is the this keyword?",
-      "answer": "The this keyword refers to the current object instance."
-    },
-    {
-      "category": "sql",
-      "question": "What is NTILE()?",
-      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is service discovery important?",
-      "answer": "It enables dynamic scaling and communication between services without hardcoded addresses."
-    },
-    {
-      "category": "networking",
-      "question": "What is IPv6?",
-      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a functional dependency?",
-      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
-    },
-    {
-      "category": "os",
-      "question": "What is Round Robin Scheduling?",
-      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "dsa",
-      "question": "What is preorder traversal?",
-      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
-    },
-    {
-      "category": "os",
-      "question": "What is throughput?",
-      "answer": "Throughput is the number of processes completed by the system per unit time."
-    },
-    {
-      "category": "system_design",
-      "question": "What is caching?",
-      "answer": "Caching is the practice of storing frequently accessed data in a faster storage layer to reduce access time."
+      "question": "Java Interview Question 81",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is a function in Python?",
-      "answer": "A function is a reusable block of code that performs a specific task."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the difference between memoization and tabulation?",
-      "answer": "Memoization is a top-down approach using recursion and caching, while tabulation is a bottom-up approach using iterative computation."
+      "question": "What is a local variable?",
+      "answer": "A local variable is defined inside a function and is accessible only within that function."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 62",
+      "question": "HR Interview Question 47",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "java",
-      "question": "What is a class in Java?",
-      "answer": "A class is a blueprint for creating objects that defines attributes and methods."
+      "category": "networking",
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
     },
     {
       "category": "python",
-      "question": "What is reference counting?",
-      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
-    },
-    {
-      "category": "oop",
-      "question": "What is delegation in OOP?",
-      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IDS?",
-      "answer": "An Intrusion Detection System (IDS) monitors network traffic and alerts administrators about suspicious activities."
+      "question": "What is an exception in Python?",
+      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
     },
     {
       "category": "sql",
-      "question": "What is a primary key constraint?",
-      "answer": "A primary key uniquely identifies each row in a table and cannot contain NULL values."
+      "question": "What is an execution plan?",
+      "answer": "An execution plan describes how the database engine executes a SQL query."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
+      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
+    },
+    {
+      "category": "sql",
+      "question": "What is the GROUP BY clause?",
+      "answer": "GROUP BY groups rows with similar values into summary rows."
+    },
+    {
+      "category": "oop",
+      "question": "What is a UML Class Diagram?",
+      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a web server?",
+      "answer": "A web server handles HTTP requests and serves web content to clients."
+    },
+    {
+      "category": "oop",
+      "question": "What is composition?",
+      "answer": "Composition is a strong 'has-a' relationship where contained objects cannot exist independently of the container."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DBMS?",
+      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database constraint?",
+      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 68",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "os",
+      "question": "What is multitasking?",
+      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 35",
+      "question": "HR Interview Question 92",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
