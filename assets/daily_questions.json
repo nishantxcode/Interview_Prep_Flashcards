@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is symmetric encryption?",
-      "answer": "Symmetric encryption uses the same key for both encryption and decryption."
-    },
-    {
       "category": "dsa",
-      "question": "What is a data structure?",
-      "answer": "A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
+      "question": "What is Prim's algorithm?",
+      "answer": "Prim's algorithm builds a Minimum Spanning Tree by expanding from a starting vertex and always selecting the minimum-weight edge."
     },
     {
       "category": "os",
-      "question": "What is a long-term scheduler?",
-      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal scaling?",
+      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Adapter pattern?",
+      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+    },
+    {
+      "category": "networking",
+      "question": "What is the default port number for HTTPS?",
+      "answer": "The default port number for HTTPS is 443."
+    },
+    {
+      "category": "python",
+      "question": "When should multiprocessing be preferred over multithreading?",
+      "answer": "Multiprocessing is preferred for CPU-bound tasks because it bypasses the GIL."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 81",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a CHECK constraint?",
+      "answer": "A CHECK constraint restricts values in a column based on a specified condition."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 59",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 56",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a transaction in DBMS?",
+      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
+    },
+    {
+      "category": "dsa",
+      "question": "What is inorder traversal?",
+      "answer": "Inorder traversal recursively traverses the left subtree, visits the root node, and then traverses the right subtree."
+    },
+    {
+      "category": "oop",
+      "question": "What is dynamic binding?",
+      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Presentation Layer?",
+      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+    },
+    {
+      "category": "sql",
+      "question": "What is the SELECT statement?",
+      "answer": "SELECT retrieves data from one or more tables."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a message queue?",
+      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
+    },
+    {
+      "category": "os",
+      "question": "What is a medium-term scheduler?",
+      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 29",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What is a local variable?",
-      "answer": "A local variable is defined inside a function and is accessible only within that function."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 47",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
-    },
-    {
-      "category": "python",
-      "question": "What is an exception in Python?",
-      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
-    },
-    {
-      "category": "sql",
-      "question": "What is an execution plan?",
-      "answer": "An execution plan describes how the database engine executes a SQL query."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
-      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
-    },
-    {
-      "category": "sql",
-      "question": "What is the GROUP BY clause?",
-      "answer": "GROUP BY groups rows with similar values into summary rows."
-    },
-    {
-      "category": "oop",
-      "question": "What is a UML Class Diagram?",
-      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a web server?",
-      "answer": "A web server handles HTTP requests and serves web content to clients."
-    },
-    {
-      "category": "oop",
-      "question": "What is composition?",
-      "answer": "Composition is a strong 'has-a' relationship where contained objects cannot exist independently of the container."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a DBMS?",
-      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a database constraint?",
-      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 68",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "os",
-      "question": "What is multitasking?",
-      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 92",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is a dictionary in Python?",
+      "answer": "A dictionary is an unordered collection of key-value pairs."
     }
   ]
 }
