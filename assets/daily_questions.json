@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is Prim's algorithm?",
-      "answer": "Prim's algorithm builds a Minimum Spanning Tree by expanding from a starting vertex and always selecting the minimum-weight edge."
-    },
-    {
-      "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal scaling?",
-      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
-    },
-    {
-      "category": "networking",
-      "question": "What is the default port number for HTTPS?",
-      "answer": "The default port number for HTTPS is 443."
+      "category": "hr",
+      "question": "HR Interview Question 84",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "python",
-      "question": "When should multiprocessing be preferred over multithreading?",
-      "answer": "Multiprocessing is preferred for CPU-bound tasks because it bypasses the GIL."
-    },
-    {
-      "category": "java",
-      "question": "What is inheritance?",
-      "answer": "Inheritance allows one class to acquire properties and methods from another class."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a CHECK constraint?",
-      "answer": "A CHECK constraint restricts values in a column based on a specified condition."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 59",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 56",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transaction in DBMS?",
-      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
-    },
-    {
-      "category": "dsa",
-      "question": "What is inorder traversal?",
-      "answer": "Inorder traversal recursively traverses the left subtree, visits the root node, and then traverses the right subtree."
+      "question": "What is single inheritance?",
+      "answer": "Single inheritance occurs when a child class inherits from one parent class."
     },
     {
       "category": "oop",
-      "question": "What is dynamic binding?",
-      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
+      "question": "What is MVC architecture?",
+      "answer": "Model-View-Controller is a design pattern that separates application logic, user interface, and user input handling."
     },
     {
-      "category": "networking",
-      "question": "What is the Presentation Layer?",
-      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+      "category": "oop",
+      "question": "What is an abstract method?",
+      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
     },
     {
-      "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
+      "category": "python",
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
     },
     {
-      "category": "system_design",
-      "question": "What is a message queue?",
-      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
+      "category": "dsa",
+      "question": "What is a complete binary tree?",
+      "answer": "A complete binary tree is a binary tree where all levels are completely filled except possibly the last level, which is filled from left to right."
     },
     {
       "category": "os",
-      "question": "What is a medium-term scheduler?",
-      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+      "question": "What is thrashing?",
+      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 29",
+      "question": "Java Interview Question 46",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "python",
-      "question": "What is a dictionary in Python?",
-      "answer": "A dictionary is an unordered collection of key-value pairs."
+      "category": "os",
+      "question": "What is Round Robin Scheduling?",
+      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Partition Tolerance in CAP?",
+      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
+    },
+    {
+      "category": "dbms",
+      "question": "What is data independence?",
+      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+    },
+    {
+      "category": "dbms",
+      "question": "What is normalization?",
+      "answer": "Normalization is the process of organizing database tables to reduce redundancy and improve data integrity."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 54",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is TCP congestion control?",
+      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 62",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What does MIN() do?",
+      "answer": "MIN() returns the smallest value in a column."
+    },
+    {
+      "category": "sql",
+      "question": "What does AVG() do?",
+      "answer": "AVG() calculates the average value of a numeric column."
+    },
+    {
+      "category": "networking",
+      "question": "What is a collision domain?",
+      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
+    },
+    {
+      "category": "dsa",
+      "question": "Why are Red-Black Trees preferred in many standard libraries?",
+      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a URL Shortener system design problem?",
+      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
     }
   ]
 }
