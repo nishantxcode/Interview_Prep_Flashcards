@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "questions": [
     {
-      "category": "hr",
-      "question": "HR Interview Question 84",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is single inheritance?",
-      "answer": "Single inheritance occurs when a child class inherits from one parent class."
-    },
-    {
-      "category": "oop",
-      "question": "What is MVC architecture?",
-      "answer": "Model-View-Controller is a design pattern that separates application logic, user interface, and user input handling."
-    },
-    {
-      "category": "oop",
-      "question": "What is an abstract method?",
-      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
-    },
-    {
-      "category": "python",
-      "question": "What is PEP 8?",
-      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a complete binary tree?",
-      "answer": "A complete binary tree is a binary tree where all levels are completely filled except possibly the last level, which is filled from left to right."
-    },
-    {
-      "category": "os",
-      "question": "What is thrashing?",
-      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
-    },
-    {
       "category": "java",
-      "question": "Java Interview Question 46",
+      "question": "Java Interview Question 41",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "os",
-      "question": "What is Round Robin Scheduling?",
-      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
+      "category": "sql",
+      "question": "What is a covering index?",
+      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
     },
     {
       "category": "system_design",
-      "question": "What is Partition Tolerance in CAP?",
-      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is data independence?",
-      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
-    },
-    {
-      "category": "dbms",
-      "question": "What is normalization?",
-      "answer": "Normalization is the process of organizing database tables to reduce redundancy and improve data integrity."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 54",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is TCP congestion control?",
-      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 62",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Why are you looking for a new opportunity?",
+      "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the main types of data models?",
+      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
     },
     {
       "category": "sql",
-      "question": "What does MIN() do?",
-      "answer": "MIN() returns the smallest value in a column."
+      "question": "What is the DELETE statement?",
+      "answer": "DELETE removes one or more rows from a table based on a specified condition."
     },
     {
-      "category": "sql",
-      "question": "What does AVG() do?",
-      "answer": "AVG() calculates the average value of a numeric column."
+      "category": "oop",
+      "question": "What is object identity?",
+      "answer": "Object identity refers to the unique existence of an object in memory regardless of its state."
     },
     {
       "category": "networking",
-      "question": "What is a collision domain?",
-      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
+      "question": "What is the OSI model?",
+      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between a DBMS and a file system?",
+      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 63",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is tight coupling?",
+      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between compiled and interpreted languages?",
+      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
     },
     {
       "category": "dsa",
-      "question": "Why are Red-Black Trees preferred in many standard libraries?",
-      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+      "question": "What is the time complexity of BFS?",
+      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
+    },
+    {
+      "category": "os",
+      "question": "What is a long-term scheduler?",
+      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 72",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Physical Layer of the OSI model?",
+      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
     },
     {
       "category": "system_design",
-      "question": "What is a URL Shortener system design problem?",
-      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
+      "question": "What is Consistency in CAP?",
+      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Find operation in DSU?",
+      "answer": "The Find operation returns the representative element of the set containing a given element."
     }
   ]
 }
