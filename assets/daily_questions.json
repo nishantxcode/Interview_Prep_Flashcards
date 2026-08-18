@@ -1,65 +1,50 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 41",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is a covering index?",
-      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
-    },
-    {
-      "category": "system_design",
-      "question": "What is rate limiting?",
-      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
-    },
-    {
-      "category": "hr",
-      "question": "Why are you looking for a new opportunity?",
-      "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
-    },
-    {
       "category": "dbms",
-      "question": "What are the main types of data models?",
-      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
-    },
-    {
-      "category": "sql",
-      "question": "What is the DELETE statement?",
-      "answer": "DELETE removes one or more rows from a table based on a specified condition."
-    },
-    {
-      "category": "oop",
-      "question": "What is object identity?",
-      "answer": "Object identity refers to the unique existence of an object in memory regardless of its state."
+      "question": "What is the Second Normal Form (2NF)?",
+      "answer": "A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key."
     },
     {
       "category": "networking",
-      "question": "What is the OSI model?",
-      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+      "question": "What is a port number?",
+      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
     },
     {
-      "category": "dbms",
-      "question": "What is the difference between a DBMS and a file system?",
-      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+      "category": "java",
+      "question": "Java Interview Question 33",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "question": "What is a system call?",
+      "answer": "A system call is a mechanism through which a user program requests services from the operating system kernel."
+    },
+    {
+      "category": "dsa",
+      "question": "What is recursion?",
+      "answer": "Recursion is a programming technique in which a function calls itself to solve smaller instances of a problem."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the common types of relationships in DBMS?",
+      "answer": "One-to-One, One-to-Many, Many-to-One, and Many-to-Many."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 63",
+      "question": "HR Interview Question 36",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "oop",
-      "question": "What is tight coupling?",
-      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
+      "question": "Why is composition often preferred over inheritance?",
+      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
+    },
+    {
+      "category": "networking",
+      "question": "What is encryption?",
+      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
     },
     {
       "category": "python",
@@ -67,39 +52,54 @@
       "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
     },
     {
+      "category": "hr",
+      "question": "HR Interview Question 77",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
       "category": "dsa",
-      "question": "What is the time complexity of BFS?",
-      "answer": "The time complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges."
-    },
-    {
-      "category": "os",
-      "question": "What is a long-term scheduler?",
-      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 72",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is tree traversal?",
+      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
     },
     {
       "category": "python",
-      "question": "What is the difference between an iterable and an iterator?",
-      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
+      "question": "What is mutability in Python?",
+      "answer": "Mutability refers to whether an object's state can be modified after creation."
     },
     {
-      "category": "networking",
-      "question": "What is the Physical Layer of the OSI model?",
-      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+      "category": "sql",
+      "question": "What is a window function in SQL?",
+      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 30",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "os",
+      "question": "What is a short-term scheduler?",
+      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Liskov Substitution Principle (LSP)?",
+      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
     },
     {
       "category": "system_design",
-      "question": "What is Consistency in CAP?",
-      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
+      "question": "What is horizontal partitioning?",
+      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
     },
     {
-      "category": "dsa",
-      "question": "What is the Find operation in DSU?",
-      "answer": "The Find operation returns the representative element of the set containing a given element."
+      "category": "system_design",
+      "question": "What is throughput?",
+      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+    },
+    {
+      "category": "sql",
+      "question": "What is a materialized view?",
+      "answer": "A materialized view stores the query result physically and can improve query performance."
     }
   ]
 }
