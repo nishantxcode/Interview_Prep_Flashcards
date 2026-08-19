@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is the Second Normal Form (2NF)?",
-      "answer": "A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key."
-    },
-    {
-      "category": "networking",
-      "question": "What is a port number?",
-      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 33",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "os",
-      "question": "What is a system call?",
-      "answer": "A system call is a mechanism through which a user program requests services from the operating system kernel."
-    },
-    {
-      "category": "dsa",
-      "question": "What is recursion?",
-      "answer": "Recursion is a programming technique in which a function calls itself to solve smaller instances of a problem."
+      "category": "system_design",
+      "question": "What are examples of message queue systems?",
+      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
     },
     {
       "category": "dbms",
-      "question": "What are the common types of relationships in DBMS?",
-      "answer": "One-to-One, One-to-Many, Many-to-One, and Many-to-Many."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 36",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "Why is composition often preferred over inheritance?",
-      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
-    },
-    {
-      "category": "networking",
-      "question": "What is encryption?",
-      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 77",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is a non-clustered index?",
+      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
     },
     {
       "category": "dsa",
-      "question": "What is tree traversal?",
-      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
-    },
-    {
-      "category": "python",
-      "question": "What is mutability in Python?",
-      "answer": "Mutability refers to whether an object's state can be modified after creation."
-    },
-    {
-      "category": "sql",
-      "question": "What is a window function in SQL?",
-      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 30",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
     },
     {
       "category": "os",
-      "question": "What is a short-term scheduler?",
-      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
+      "question": "What is deadlock avoidance?",
+      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
+    },
+    {
+      "category": "python",
+      "question": "What is a lambda function?",
+      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
     },
     {
       "category": "oop",
-      "question": "What is the Liskov Substitution Principle (LSP)?",
-      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
+      "question": "What is an interface?",
+      "answer": "An interface defines a contract of methods that implementing classes must provide."
     },
     {
-      "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+      "category": "hr",
+      "question": "HR Interview Question 42",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is throughput?",
-      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+      "category": "networking",
+      "question": "What is the difference between IDS and IPS?",
+      "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
+    },
+    {
+      "category": "java",
+      "question": "What is the difference between overloading and overriding?",
+      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
     },
     {
       "category": "sql",
-      "question": "What is a materialized view?",
-      "answer": "A materialized view stores the query result physically and can improve query performance."
+      "question": "What is a SELF JOIN?",
+      "answer": "A SELF JOIN joins a table with itself using aliases."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an application server?",
+      "answer": "An application server executes business logic and processes application requests."
+    },
+    {
+      "category": "python",
+      "question": "How do you open a file in Python?",
+      "answer": "A file is opened using the open() function."
+    },
+    {
+      "category": "sql",
+      "question": "What is the LIKE operator?",
+      "answer": "LIKE is used for pattern matching in string values."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 48",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is constructor injection?",
+      "answer": "Constructor injection provides dependencies through a class constructor."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 54",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv6?",
+      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
+    },
+    {
+      "category": "os",
+      "question": "What is the Banker's Algorithm?",
+      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
     }
   ]
 }
