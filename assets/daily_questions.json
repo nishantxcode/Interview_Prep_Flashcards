@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What are examples of message queue systems?",
-      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a non-clustered index?",
-      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
-    },
-    {
       "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
+      "question": "Give an example of a greedy algorithm.",
+      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
     },
     {
       "category": "os",
-      "question": "What is deadlock avoidance?",
-      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
+      "question": "What is the difference between paging and segmentation?",
+      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
     },
     {
-      "category": "python",
-      "question": "What is a lambda function?",
-      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
+      "category": "sql",
+      "question": "What is the CREATE statement?",
+      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
     },
     {
-      "category": "dsa",
-      "question": "What is a hash table?",
-      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
-    },
-    {
-      "category": "oop",
-      "question": "What is an interface?",
-      "answer": "An interface defines a contract of methods that implementing classes must provide."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 42",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "os",
+      "question": "What is a page?",
+      "answer": "A page is a fixed-size block of logical memory used in paging systems."
     },
     {
       "category": "networking",
-      "question": "What is the difference between IDS and IPS?",
-      "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
+      "question": "What is a socket in networking?",
+      "answer": "A socket is an endpoint for communication between two processes over a network."
     },
     {
-      "category": "java",
-      "question": "What is the difference between overloading and overriding?",
-      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
-    },
-    {
-      "category": "sql",
-      "question": "What is a SELF JOIN?",
-      "answer": "A SELF JOIN joins a table with itself using aliases."
+      "category": "networking",
+      "question": "What is the difference between packet switching and circuit switching?",
+      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
     },
     {
       "category": "system_design",
-      "question": "What is an application server?",
-      "answer": "An application server executes business logic and processes application requests."
+      "question": "What are common caching layers?",
+      "answer": "Browser cache, CDN cache, application cache, and database cache."
     },
     {
-      "category": "python",
-      "question": "How do you open a file in Python?",
-      "answer": "A file is opened using the open() function."
+      "category": "dbms",
+      "question": "What is an attribute in an ER model?",
+      "answer": "An attribute is a property or characteristic that describes an entity."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a deadlock in DBMS?",
+      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
     },
     {
       "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
+      "question": "What is the ALL operator?",
+      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
+    },
+    {
+      "category": "hr",
+      "question": "What is your greatest professional achievement?",
+      "answer": "Share a measurable accomplishment and explain the impact it created."
+    },
+    {
+      "category": "dsa",
+      "question": "What is tabulation in dynamic programming?",
+      "answer": "Tabulation is a bottom-up dynamic programming technique that solves smaller subproblems first and stores their results in a table."
+    },
+    {
+      "category": "python",
+      "question": "What is the Global Interpreter Lock (GIL)?",
+      "answer": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time."
+    },
+    {
+      "category": "oop",
+      "question": "What is object equality?",
+      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Database per Service pattern?",
+      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
+    },
+    {
+      "category": "oop",
+      "question": "What is method injection?",
+      "answer": "Method injection provides dependencies directly as parameters to methods."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 48",
+      "question": "Java Interview Question 37",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "oop",
-      "question": "What is constructor injection?",
-      "answer": "Constructor injection provides dependencies through a class constructor."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 54",
+      "question": "HR Interview Question 39",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is IPv6?",
-      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
+      "category": "java",
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
     },
     {
-      "category": "os",
-      "question": "What is the Banker's Algorithm?",
-      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "category": "python",
+      "question": "Why does Python have a GIL?",
+      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
     }
   ]
 }
