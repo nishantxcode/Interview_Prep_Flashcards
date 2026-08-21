@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "questions": [
     {
-      "category": "dsa",
-      "question": "Give an example of a greedy algorithm.",
-      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
-    },
-    {
       "category": "os",
-      "question": "What is the difference between paging and segmentation?",
-      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
-    },
-    {
-      "category": "sql",
-      "question": "What is the CREATE statement?",
-      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
-    },
-    {
-      "category": "os",
-      "question": "What is a page?",
-      "answer": "A page is a fixed-size block of logical memory used in paging systems."
-    },
-    {
-      "category": "networking",
-      "question": "What is a socket in networking?",
-      "answer": "A socket is an endpoint for communication between two processes over a network."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between packet switching and circuit switching?",
-      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
-    },
-    {
-      "category": "system_design",
-      "question": "What are common caching layers?",
-      "answer": "Browser cache, CDN cache, application cache, and database cache."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an attribute in an ER model?",
-      "answer": "An attribute is a property or characteristic that describes an entity."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a deadlock in DBMS?",
-      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALL operator?",
-      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
-    },
-    {
-      "category": "hr",
-      "question": "What is your greatest professional achievement?",
-      "answer": "Share a measurable accomplishment and explain the impact it created."
+      "question": "What is Shortest Job First (SJF) scheduling?",
+      "answer": "SJF selects the process with the smallest CPU burst time for execution."
     },
     {
       "category": "dsa",
-      "question": "What is tabulation in dynamic programming?",
-      "answer": "Tabulation is a bottom-up dynamic programming technique that solves smaller subproblems first and stores their results in a table."
+      "question": "What is Big Omega notation?",
+      "answer": "Big Omega notation describes the lower bound of an algorithm's growth rate."
+    },
+    {
+      "category": "dbms",
+      "question": "Why is normalization important?",
+      "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
+    },
+    {
+      "category": "os",
+      "question": "What is non-preemptive scheduling?",
+      "answer": "Non-preemptive scheduling allows a process to keep the CPU until it voluntarily releases it or terminates."
     },
     {
       "category": "python",
-      "question": "What is the Global Interpreter Lock (GIL)?",
-      "answer": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time."
+      "question": "What is inheritance in Python?",
+      "answer": "Inheritance allows a class to acquire attributes and methods from another class."
     },
     {
-      "category": "oop",
-      "question": "What is object equality?",
-      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the Database per Service pattern?",
-      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
-    },
-    {
-      "category": "oop",
-      "question": "What is method injection?",
-      "answer": "Method injection provides dependencies directly as parameters to methods."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 37",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "dbms",
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 39",
+      "question": "HR Interview Question 45",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "java",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
+      "category": "oop",
+      "question": "What is the Factory Method pattern?",
+      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
+    },
+    {
+      "category": "sql",
+      "question": "What is DQL in SQL?",
+      "answer": "Data Query Language (DQL) is used to retrieve data from a database."
     },
     {
       "category": "python",
-      "question": "Why does Python have a GIL?",
-      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 80",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed cache?",
+      "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a message queue?",
+      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
+    },
+    {
+      "category": "networking",
+      "question": "What is RIP?",
+      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+    },
+    {
+      "category": "networking",
+      "question": "What is the congestion window (cwnd)?",
+      "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 36",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is constructor injection?",
+      "answer": "Constructor injection provides dependencies through a class constructor."
+    },
+    {
+      "category": "java",
+      "question": "What does 'Write Once, Run Anywhere' mean in Java?",
+      "answer": "Java code can run on any platform that has a compatible Java Virtual Machine (JVM)."
+    },
+    {
+      "category": "sql",
+      "question": "What is an INNER JOIN?",
+      "answer": "INNER JOIN returns only the rows that have matching values in both tables."
     }
   ]
 }
