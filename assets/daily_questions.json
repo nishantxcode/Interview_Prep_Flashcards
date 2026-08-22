@@ -1,85 +1,70 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "questions": [
     {
-      "category": "os",
-      "question": "What is Shortest Job First (SJF) scheduling?",
-      "answer": "SJF selects the process with the smallest CPU burst time for execution."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Big Omega notation?",
-      "answer": "Big Omega notation describes the lower bound of an algorithm's growth rate."
-    },
-    {
-      "category": "dbms",
-      "question": "Why is normalization important?",
-      "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
+      "category": "system_design",
+      "question": "What is caching?",
+      "answer": "Caching is the practice of storing frequently accessed data in a faster storage layer to reduce access time."
     },
     {
       "category": "os",
-      "question": "What is non-preemptive scheduling?",
-      "answer": "Non-preemptive scheduling allows a process to keep the CPU until it voluntarily releases it or terminates."
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
     },
     {
-      "category": "python",
-      "question": "What is inheritance in Python?",
-      "answer": "Inheritance allows a class to acquire attributes and methods from another class."
+      "category": "networking",
+      "question": "What is the Data Link Layer?",
+      "answer": "The Data Link Layer provides node-to-node communication and error detection."
     },
     {
-      "category": "dbms",
-      "question": "What is a lock in DBMS?",
-      "answer": "A lock is a mechanism used to control concurrent access to data items."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 45",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "java",
+      "question": "What is the super keyword?",
+      "answer": "The super keyword refers to the immediate parent class object."
     },
     {
       "category": "oop",
-      "question": "What is the Factory Method pattern?",
-      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
-    },
-    {
-      "category": "sql",
-      "question": "What is DQL in SQL?",
-      "answer": "Data Query Language (DQL) is used to retrieve data from a database."
+      "question": "What is object equality?",
+      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
     },
     {
       "category": "python",
-      "question": "What is the difference between == and is in Python?",
-      "answer": "== compares values, whereas is compares object identities."
+      "question": "What is self in Python?",
+      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 80",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed cache?",
-      "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a message queue?",
-      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
-    },
-    {
-      "category": "networking",
-      "question": "What is RIP?",
-      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
+      "category": "os",
+      "question": "What is waiting time?",
+      "answer": "Waiting time is the total time a process spends waiting in the ready queue."
     },
     {
       "category": "dsa",
-      "question": "What is an algorithm?",
-      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+      "question": "What is a Minimum Spanning Tree (MST)?",
+      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 88",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a Common Table Expression (CTE)?",
+      "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
     },
     {
       "category": "networking",
-      "question": "What is the congestion window (cwnd)?",
-      "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
+      "question": "How does the TCP/IP model differ from the OSI model?",
+      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Depth-First Search (DFS)?",
+      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a Service Mesh?",
+      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
     },
     {
       "category": "java",
@@ -87,19 +72,34 @@
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "oop",
-      "question": "What is constructor injection?",
-      "answer": "Constructor injection provides dependencies through a class constructor."
+      "category": "dbms",
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
     },
     {
-      "category": "java",
-      "question": "What does 'Write Once, Run Anywhere' mean in Java?",
-      "answer": "Java code can run on any platform that has a compatible Java Virtual Machine (JVM)."
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Transitivity Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y and Y determines Z, then X determines Z."
+    },
+    {
+      "category": "hr",
+      "question": "Why should we hire you?",
+      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+    },
+    {
+      "category": "oop",
+      "question": "What is setter injection?",
+      "answer": "Setter injection provides dependencies through setter methods after object creation."
     },
     {
       "category": "sql",
-      "question": "What is an INNER JOIN?",
-      "answer": "INNER JOIN returns only the rows that have matching values in both tables."
+      "question": "What is a subquery in SQL?",
+      "answer": "A subquery is a query nested inside another SQL query."
     }
   ]
 }
