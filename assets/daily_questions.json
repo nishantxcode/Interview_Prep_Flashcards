@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is caching?",
-      "answer": "Caching is the practice of storing frequently accessed data in a faster storage layer to reduce access time."
-    },
-    {
       "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
     },
     {
       "category": "networking",
-      "question": "What is the Data Link Layer?",
-      "answer": "The Data Link Layer provides node-to-node communication and error detection."
-    },
-    {
-      "category": "java",
-      "question": "What is the super keyword?",
-      "answer": "The super keyword refers to the immediate parent class object."
-    },
-    {
-      "category": "oop",
-      "question": "What is object equality?",
-      "answer": "Object equality determines whether two objects should be considered equivalent based on their content or state."
-    },
-    {
-      "category": "python",
-      "question": "What is self in Python?",
-      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
-    },
-    {
-      "category": "os",
-      "question": "What is waiting time?",
-      "answer": "Waiting time is the total time a process spends waiting in the ready queue."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Minimum Spanning Tree (MST)?",
-      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 88",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is encryption?",
+      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
     },
     {
       "category": "sql",
-      "question": "What is a Common Table Expression (CTE)?",
-      "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
-    },
-    {
-      "category": "networking",
-      "question": "How does the TCP/IP model differ from the OSI model?",
-      "answer": "The TCP/IP model has four layers and is implementation-oriented, while the OSI model has seven layers and is conceptual."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Depth-First Search (DFS)?",
-      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Service Mesh?",
-      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
+      "question": "What does COUNT() do?",
+      "answer": "COUNT() returns the number of rows matching a specified condition."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 36",
+      "question": "Java Interview Question 81",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "java",
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
+    },
+    {
       "category": "dbms",
-      "question": "What is an instance in DBMS?",
-      "answer": "An instance is the actual data stored in the database at a specific point in time."
+      "question": "What is a transaction in DBMS?",
+      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
+    },
+    {
+      "category": "dsa",
+      "question": "What is heapify?",
+      "answer": "Heapify is the process of restoring the heap property in a subtree or an entire tree."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an entity set?",
+      "answer": "An entity set is a collection of similar entities sharing the same attributes."
     },
     {
       "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Transitivity Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y and Y determines Z, then X determines Z."
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
     },
     {
       "category": "hr",
-      "question": "Why should we hire you?",
-      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+      "question": "HR Interview Question 77",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is write-through caching?",
+      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between a list and a set?",
+      "answer": "Lists allow duplicates and maintain order, whereas sets store unique elements and are unordered."
     },
     {
       "category": "oop",
-      "question": "What is setter injection?",
-      "answer": "Setter injection provides dependencies through setter methods after object creation."
+      "question": "How would you model a Parking Lot system in an OOP interview?",
+      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
+    },
+    {
+      "category": "oop",
+      "question": "What are the key factors of good object-oriented design?",
+      "answer": "Good object-oriented design emphasizes high cohesion, low coupling, abstraction, extensibility, maintainability, and adherence to SOLID principles."
     },
     {
       "category": "sql",
-      "question": "What is a subquery in SQL?",
-      "answer": "A subquery is a query nested inside another SQL query."
+      "question": "What is the TRUNCATE statement?",
+      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 68",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a Circuit Breaker pattern?",
+      "answer": "The Circuit Breaker pattern prevents repeated calls to failing services and allows systems to recover gracefully."
+    },
+    {
+      "category": "networking",
+      "question": "What is Quality of Service (QoS)?",
+      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+    },
+    {
+      "category": "os",
+      "question": "What is fragmentation?",
+      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
+    },
+    {
+      "category": "dsa",
+      "question": "What is cycle detection in a graph?",
+      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
     }
   ]
 }
