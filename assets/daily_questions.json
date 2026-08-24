@@ -1,20 +1,55 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "questions": [
     {
-      "category": "os",
-      "question": "What is the difference between a mutex and a semaphore?",
-      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+      "category": "oop",
+      "question": "What is the Single Responsibility Principle (SRP)?",
+      "answer": "SRP states that a class should have only one reason to change, meaning it should have a single responsibility."
     },
     {
-      "category": "networking",
-      "question": "What is encryption?",
-      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
+      "category": "dbms",
+      "question": "What is participation constraint in an ER model?",
+      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
     },
     {
       "category": "sql",
-      "question": "What does COUNT() do?",
-      "answer": "COUNT() returns the number of rows matching a specified condition."
+      "question": "What is the CREATE statement?",
+      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Binary Search Tree (BST)?",
+      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+    },
+    {
+      "category": "oop",
+      "question": "What is object composition?",
+      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
+    },
+    {
+      "category": "java",
+      "question": "What is abstraction?",
+      "answer": "Abstraction hides implementation details and exposes only essential functionality."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 97",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+    },
+    {
+      "category": "python",
+      "question": "What is exception handling in Python?",
+      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
     },
     {
       "category": "java",
@@ -22,84 +57,49 @@
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "java",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transaction in DBMS?",
-      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
-    },
-    {
-      "category": "dsa",
-      "question": "What is heapify?",
-      "answer": "Heapify is the process of restoring the heap property in a subtree or an entire tree."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an entity set?",
-      "answer": "An entity set is a collection of similar entities sharing the same attributes."
-    },
-    {
-      "category": "python",
-      "question": "What is PEP 8?",
-      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
+      "category": "os",
+      "question": "What is a process?",
+      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 77",
+      "question": "HR Interview Question 23",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is write-through caching?",
-      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between a list and a set?",
-      "answer": "Lists allow duplicates and maintain order, whereas sets store unique elements and are unordered."
-    },
-    {
-      "category": "oop",
-      "question": "How would you model a Parking Lot system in an OOP interview?",
-      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
-    },
-    {
-      "category": "oop",
-      "question": "What are the key factors of good object-oriented design?",
-      "answer": "Good object-oriented design emphasizes high cohesion, low coupling, abstraction, extensibility, maintainability, and adherence to SOLID principles."
+      "category": "dsa",
+      "question": "What is a weighted graph?",
+      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
     },
     {
       "category": "sql",
-      "question": "What is the TRUNCATE statement?",
-      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 68",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Circuit Breaker pattern?",
-      "answer": "The Circuit Breaker pattern prevents repeated calls to failing services and allows systems to recover gracefully."
+      "question": "What is the LAG() function?",
+      "answer": "LAG() accesses data from a previous row without using a self-join."
     },
     {
       "category": "networking",
-      "question": "What is Quality of Service (QoS)?",
-      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+      "question": "What is a port number?",
+      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
     },
     {
-      "category": "os",
-      "question": "What is fragmentation?",
-      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
+      "category": "python",
+      "question": "What is an iterator in Python?",
+      "answer": "An iterator is an object that implements the __iter__() and __next__() methods to traverse a sequence."
     },
     {
-      "category": "dsa",
-      "question": "What is cycle detection in a graph?",
-      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
+      "category": "system_design",
+      "question": "What is an ACID transaction?",
+      "answer": "An ACID transaction guarantees Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+      "category": "networking",
+      "question": "What is a computer network?",
+      "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
+    },
+    {
+      "category": "system_design",
+      "question": "What is latency?",
+      "answer": "Latency is the time taken for a request to travel from a client to a server and back."
     }
   ]
 }
