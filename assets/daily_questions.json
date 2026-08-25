@@ -1,95 +1,25 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is the Single Responsibility Principle (SRP)?",
-      "answer": "SRP states that a class should have only one reason to change, meaning it should have a single responsibility."
-    },
-    {
-      "category": "dbms",
-      "question": "What is participation constraint in an ER model?",
-      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+      "category": "system_design",
+      "question": "What is a CDN?",
+      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
     },
     {
       "category": "sql",
-      "question": "What is the CREATE statement?",
-      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Binary Search Tree (BST)?",
-      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
-    },
-    {
-      "category": "oop",
-      "question": "What is object composition?",
-      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
-    },
-    {
-      "category": "java",
-      "question": "What is abstraction?",
-      "answer": "Abstraction hides implementation details and exposes only essential functionality."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 97",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
-    },
-    {
-      "category": "python",
-      "question": "What is exception handling in Python?",
-      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 81",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "os",
-      "question": "What is a process?",
-      "answer": "A process is a program in execution along with its code, data, stack, heap, and execution context."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 23",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a weighted graph?",
-      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LAG() function?",
-      "answer": "LAG() accesses data from a previous row without using a self-join."
-    },
-    {
-      "category": "networking",
-      "question": "What is a port number?",
-      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
-    },
-    {
-      "category": "python",
-      "question": "What is an iterator in Python?",
-      "answer": "An iterator is an object that implements the __iter__() and __next__() methods to traverse a sequence."
+      "question": "What are the main categories of SQL commands?",
+      "answer": "DDL, DML, DQL, DCL, and TCL."
     },
     {
       "category": "system_design",
-      "question": "What is an ACID transaction?",
-      "answer": "An ACID transaction guarantees Atomicity, Consistency, Isolation, and Durability."
+      "question": "What is a load balancer?",
+      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
     },
     {
       "category": "networking",
@@ -97,9 +27,79 @@
       "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
     },
     {
-      "category": "system_design",
-      "question": "What is latency?",
-      "answer": "Latency is the time taken for a request to travel from a client to a server and back."
+      "category": "hr",
+      "question": "Why do you want to work for our company?",
+      "answer": "Demonstrate knowledge of the company's products, culture, values, and explain how they align with your career goals."
+    },
+    {
+      "category": "dsa",
+      "question": "Which sorting algorithms use divide and conquer?",
+      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
+    },
+    {
+      "category": "python",
+      "question": "How does memory management work in Python?",
+      "answer": "Python manages memory using reference counting and a cyclic garbage collector."
+    },
+    {
+      "category": "os",
+      "question": "What is a kernel?",
+      "answer": "The kernel is the core component of an operating system that manages hardware resources and system operations."
+    },
+    {
+      "category": "oop",
+      "question": "What is a UML Sequence Diagram?",
+      "answer": "A UML Sequence Diagram illustrates interactions between objects over time."
+    },
+    {
+      "category": "os",
+      "question": "What are the goals of CPU scheduling?",
+      "answer": "Maximize CPU utilization and throughput while minimizing waiting time, turnaround time, and response time."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 49",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a NOT NULL constraint?",
+      "answer": "A NOT NULL constraint ensures that a column cannot contain NULL values."
+    },
+    {
+      "category": "sql",
+      "question": "What is query optimization?",
+      "answer": "Query optimization is the process of selecting the most efficient strategy for executing a SQL query."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Bellman-Ford algorithm?",
+      "answer": "Bellman-Ford computes shortest paths from a source vertex and can handle negative edge weights."
+    },
+    {
+      "category": "oop",
+      "question": "Can a class implement multiple interfaces?",
+      "answer": "Yes, a class can implement multiple interfaces."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 31",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "Why is normalization important?",
+      "answer": "Normalization reduces data redundancy, prevents anomalies, and improves consistency."
+    },
+    {
+      "category": "python",
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 57",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
