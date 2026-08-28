@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "networking",
-      "question": "What is TCP?",
-      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
-    },
-    {
       "category": "python",
-      "question": "What is a return statement?",
-      "answer": "A return statement exits a function and optionally sends a value back to the caller."
-    },
-    {
-      "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
-    },
-    {
-      "category": "os",
-      "question": "What is the LRU page replacement algorithm?",
-      "answer": "LRU replaces the page that has not been used for the longest period of time."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What are the advantages of CTEs?",
-      "answer": "CTEs improve readability, simplify complex queries, and support recursion."
-    },
-    {
-      "category": "os",
-      "question": "What is throughput?",
-      "answer": "Throughput is the number of processes completed by the system per unit time."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 61",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LIKE operator?",
-      "answer": "LIKE is used for pattern matching in string values."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 88",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What are SOLID principles?",
-      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
-    },
-    {
-      "category": "java",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
+      "question": "Why does Python have a GIL?",
+      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
     },
     {
       "category": "dsa",
-      "question": "What is the advantage of a Fenwick Tree over a Segment Tree?",
-      "answer": "Fenwick Trees are simpler and require less memory for prefix-sum-related operations."
-    },
-    {
-      "category": "dsa",
-      "question": "When is BFS preferred over DFS?",
-      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
-    },
-    {
-      "category": "system_design",
-      "question": "Why are message queues used?",
-      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
       "category": "python",
-      "question": "What is a dictionary comprehension?",
-      "answer": "A dictionary comprehension is a concise way to create dictionaries using an expression and iteration."
+      "question": "Why is the with statement used?",
+      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
     },
     {
-      "category": "dbms",
-      "question": "What is Durability in ACID?",
-      "answer": "Durability guarantees that committed transactions remain permanent even after system failures."
+      "category": "hr",
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
     },
     {
       "category": "oop",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, constructors can be overloaded by defining multiple constructors with different parameter lists."
+      "question": "Why is high cohesion desirable?",
+      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "os",
+      "question": "What is an Operating System?",
+      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the most important factors evaluated in a system design interview?",
+      "answer": "Scalability, availability, reliability, consistency, performance, fault tolerance, trade-off analysis, and clear communication."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a load balancer?",
+      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
+    },
+    {
+      "category": "networking",
+      "question": "What is a VPN?",
+      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+    },
+    {
+      "category": "java",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "dbms",
+      "question": "What is serial execution of transactions?",
+      "answer": "Serial execution runs transactions one after another without overlapping."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a heap?",
+      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between RANK() and DENSE_RANK()?",
+      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+    },
+    {
+      "category": "java",
+      "question": "What are the four pillars of OOP in Java?",
+      "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
+    },
+    {
+      "category": "oop",
+      "question": "What is loose coupling?",
+      "answer": "Loose coupling means components have minimal dependencies on each other."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Boyce-Codd Normal Form (BCNF)?",
+      "answer": "A relation is in BCNF if every determinant is a candidate key."
     }
   ]
 }
