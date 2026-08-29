@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "questions": [
     {
-      "category": "python",
-      "question": "Why does Python have a GIL?",
-      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
-    },
-    {
       "category": "dsa",
-      "question": "What is the time complexity of DFS?",
-      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
-    },
-    {
-      "category": "python",
-      "question": "Why is the with statement used?",
-      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
-    },
-    {
-      "category": "hr",
-      "question": "What makes you different from other candidates?",
-      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
-    },
-    {
-      "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "question": "What is path compression in DSU?",
+      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
     },
     {
       "category": "oop",
-      "question": "Why is high cohesion desirable?",
-      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
     },
     {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
-    },
-    {
-      "category": "os",
-      "question": "What is an Operating System?",
-      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the most important factors evaluated in a system design interview?",
-      "answer": "Scalability, availability, reliability, consistency, performance, fault tolerance, trade-off analysis, and clear communication."
+      "category": "oop",
+      "question": "How would you model a Library Management System using OOP?",
+      "answer": "By identifying entities such as Book, Member, Librarian, and Loan, defining their responsibilities, and modeling relationships among them."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 21",
+      "question": "HR Interview Question 85",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is a load balancer?",
-      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
-    },
-    {
-      "category": "networking",
-      "question": "What is a VPN?",
-      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of the TCP three-way handshake?",
-      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
-    },
-    {
-      "category": "java",
-      "question": "What is inheritance?",
-      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+      "category": "python",
+      "question": "What is exception handling in Python?",
+      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
     },
     {
       "category": "dbms",
-      "question": "What is serial execution of transactions?",
-      "answer": "Serial execution runs transactions one after another without overlapping."
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
     },
     {
-      "category": "dsa",
-      "question": "What is a heap?",
-      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
+      "category": "python",
+      "question": "How are functions defined in Python?",
+      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is consistent hashing used?",
+      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Application Layer?",
+      "answer": "The Application Layer provides network services directly to end-user applications."
+    },
+    {
+      "category": "os",
+      "question": "What is external fragmentation?",
+      "answer": "External fragmentation occurs when free memory is split into small non-contiguous blocks."
     },
     {
       "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+      "question": "What is EXCEPT (or MINUS)?",
+      "answer": "EXCEPT returns rows present in the first query but not in the second query."
+    },
+    {
+      "category": "dsa",
+      "question": "What is tree traversal?",
+      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
+    },
+    {
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
     },
     {
       "category": "java",
-      "question": "What are the four pillars of OOP in Java?",
-      "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
+      "question": "Java Interview Question 40",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "oop",
-      "question": "What is loose coupling?",
-      "answer": "Loose coupling means components have minimal dependencies on each other."
+      "category": "hr",
+      "question": "HR Interview Question 41",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Network Layer?",
+      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
+    },
+    {
+      "category": "sql",
+      "question": "What is a foreign key constraint?",
+      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
     },
     {
       "category": "dbms",
-      "question": "What is Boyce-Codd Normal Form (BCNF)?",
-      "answer": "A relation is in BCNF if every determinant is a candidate key."
+      "question": "What is data independence?",
+      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+    },
+    {
+      "category": "java",
+      "question": "What is bytecode in Java?",
+      "answer": "Bytecode is the intermediate code generated by the Java compiler that is executed by the JVM."
+    },
+    {
+      "category": "os",
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
     }
   ]
 }
