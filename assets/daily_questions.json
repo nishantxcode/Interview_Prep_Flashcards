@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is path compression in DSU?",
-      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "oop",
-      "question": "How would you model a Library Management System using OOP?",
-      "answer": "By identifying entities such as Book, Member, Librarian, and Loan, defining their responsibilities, and modeling relationships among them."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 85",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is exception handling in Python?",
-      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
-    },
-    {
-      "category": "python",
-      "question": "How are functions defined in Python?",
-      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is consistent hashing used?",
-      "answer": "It reduces rebalancing overhead and improves scalability in distributed systems."
+      "category": "networking",
+      "question": "What is TCP?",
+      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
     },
     {
       "category": "networking",
-      "question": "What is the Application Layer?",
-      "answer": "The Application Layer provides network services directly to end-user applications."
-    },
-    {
-      "category": "os",
-      "question": "What is external fragmentation?",
-      "answer": "External fragmentation occurs when free memory is split into small non-contiguous blocks."
-    },
-    {
-      "category": "sql",
-      "question": "What is EXCEPT (or MINUS)?",
-      "answer": "EXCEPT returns rows present in the first query but not in the second query."
-    },
-    {
-      "category": "dsa",
-      "question": "What is tree traversal?",
-      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
+      "question": "What is flow control in TCP?",
+      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
     },
     {
       "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+      "question": "Why is replication used?",
+      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
+    },
+    {
+      "category": "os",
+      "question": "What are the four necessary conditions for deadlock?",
+      "answer": "Mutual exclusion, hold and wait, no preemption, and circular wait."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DBMS?",
+      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 53",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the OVER() clause?",
+      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 96",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the relational model?",
+      "answer": "The relational model organizes data into tables consisting of rows and columns."
+    },
+    {
+      "category": "oop",
+      "question": "What is an object?",
+      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
+    },
+    {
+      "category": "oop",
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+    },
+    {
+      "category": "os",
+      "question": "What is context switching?",
+      "answer": "Context switching is the process of saving the state of one process and restoring the state of another process."
+    },
+    {
+      "category": "python",
+      "question": "What is pass in Python?",
+      "answer": "pass is a null statement that performs no action and is used as a placeholder."
+    },
+    {
+      "category": "sql",
+      "question": "What is a non-clustered index?",
+      "answer": "A non-clustered index stores key values separately from the actual table data."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an event in event-driven architecture?",
+      "answer": "An event is a record of a significant change in system state."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 40",
+      "question": "Java Interview Question 37",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 41",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "python",
+      "question": "What is encapsulation in Python?",
+      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal details."
     },
     {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
-    },
-    {
-      "category": "dbms",
-      "question": "What is data independence?",
-      "answer": "Data independence is the ability to modify the database schema without affecting application programs."
+      "category": "dsa",
+      "question": "Give an example of a greedy algorithm.",
+      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
     },
     {
       "category": "java",
-      "question": "What is bytecode in Java?",
-      "answer": "Bytecode is the intermediate code generated by the Java compiler that is executed by the JVM."
+      "question": "Java Interview Question 49",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+      "category": "dsa",
+      "question": "Which sorting algorithms use divide and conquer?",
+      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
     }
   ]
 }
