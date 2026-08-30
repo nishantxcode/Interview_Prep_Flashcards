@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is TCP?",
-      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
-    },
-    {
-      "category": "networking",
-      "question": "What is flow control in TCP?",
-      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is replication used?",
-      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
-    },
-    {
-      "category": "os",
-      "question": "What are the four necessary conditions for deadlock?",
-      "answer": "Mutual exclusion, hold and wait, no preemption, and circular wait."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a DBMS?",
-      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
       "category": "sql",
-      "question": "What is the OVER() clause?",
-      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 96",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the relational model?",
-      "answer": "The relational model organizes data into tables consisting of rows and columns."
-    },
-    {
-      "category": "oop",
-      "question": "What is an object?",
-      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
-    },
-    {
-      "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
-    },
-    {
-      "category": "os",
-      "question": "What is context switching?",
-      "answer": "Context switching is the process of saving the state of one process and restoring the state of another process."
+      "question": "What is a transaction in SQL?",
+      "answer": "A transaction is a sequence of operations executed as a single logical unit of work."
     },
     {
       "category": "python",
-      "question": "What is pass in Python?",
-      "answer": "pass is a null statement that performs no action and is used as a placeholder."
+      "question": "What is the difference between compiled and interpreted languages?",
+      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
+    },
+    {
+      "category": "dsa",
+      "question": "What is path compression in DSU?",
+      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
+    },
+    {
+      "category": "java",
+      "question": "What is JDK?",
+      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
+    },
+    {
+      "category": "os",
+      "question": "What is a frame?",
+      "answer": "A frame is a fixed-size block of physical memory that stores pages."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Recovery?",
+      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
     },
     {
       "category": "sql",
-      "question": "What is a non-clustered index?",
-      "answer": "A non-clustered index stores key values separately from the actual table data."
+      "question": "What are the key factors for SQL performance tuning?",
+      "answer": "Proper indexing, optimized queries, efficient joins, partitioning, updated statistics, and execution plan analysis."
+    },
+    {
+      "category": "dbms",
+      "question": "What is cardinality in an ER model?",
+      "answer": "Cardinality specifies the number of entities that can participate in a relationship."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Prim's algorithm?",
+      "answer": "Prim's algorithm builds a Minimum Spanning Tree by expanding from a starting vertex and always selecting the minimum-weight edge."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between user mode and kernel mode?",
+      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
     },
     {
       "category": "system_design",
-      "question": "What is an event in event-driven architecture?",
-      "answer": "An event is a record of a significant change in system state."
+      "question": "What are examples of message queue systems?",
+      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 48",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between horizontal and vertical scaling?",
+      "answer": "Horizontal scaling adds more machines, whereas vertical scaling upgrades a single machine's capacity."
+    },
+    {
+      "category": "oop",
+      "question": "What is a parameterized constructor?",
+      "answer": "A parameterized constructor accepts arguments to initialize object state."
+    },
+    {
+      "category": "networking",
+      "question": "What is ARP?",
+      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 37",
+      "question": "Java Interview Question 85",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is physical data independence?",
+      "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
     },
     {
       "category": "python",
-      "question": "What is encapsulation in Python?",
-      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal details."
+      "question": "Why is the with statement used?",
+      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
     },
     {
-      "category": "dsa",
-      "question": "Give an example of a greedy algorithm.",
-      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
+      "category": "hr",
+      "question": "HR Interview Question 34",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 49",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
+      "category": "oop",
+      "question": "What is runtime polymorphism?",
+      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
     }
   ]
 }
