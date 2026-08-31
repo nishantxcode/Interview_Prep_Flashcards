@@ -1,105 +1,105 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "questions": [
     {
+      "category": "os",
+      "question": "What is deadlock detection?",
+      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
+    },
+    {
       "category": "sql",
-      "question": "What is a transaction in SQL?",
-      "answer": "A transaction is a sequence of operations executed as a single logical unit of work."
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
     },
     {
       "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "dsa",
-      "question": "What is path compression in DSU?",
-      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
-    },
-    {
-      "category": "java",
-      "question": "What is JDK?",
-      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
-    },
-    {
-      "category": "os",
-      "question": "What is a frame?",
-      "answer": "A frame is a fixed-size block of physical memory that stores pages."
-    },
-    {
-      "category": "networking",
-      "question": "What is Fast Recovery?",
-      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
+      "question": "What is the purpose of the except block?",
+      "answer": "The except block handles exceptions raised in the corresponding try block."
     },
     {
       "category": "sql",
-      "question": "What are the key factors for SQL performance tuning?",
-      "answer": "Proper indexing, optimized queries, efficient joins, partitioning, updated statistics, and execution plan analysis."
-    },
-    {
-      "category": "dbms",
-      "question": "What is cardinality in an ER model?",
-      "answer": "Cardinality specifies the number of entities that can participate in a relationship."
+      "question": "What is NTILE()?",
+      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
     },
     {
       "category": "dsa",
-      "question": "What is Prim's algorithm?",
-      "answer": "Prim's algorithm builds a Minimum Spanning Tree by expanding from a starting vertex and always selecting the minimum-weight edge."
+      "question": "What is the time complexity of range queries in a Segment Tree?",
+      "answer": "Range queries in a Segment Tree take O(log n) time."
     },
     {
-      "category": "os",
-      "question": "What is the difference between user mode and kernel mode?",
-      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
+      "category": "dbms",
+      "question": "What is Isolation in ACID?",
+      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
     },
     {
-      "category": "system_design",
-      "question": "What are examples of message queue systems?",
-      "answer": "Apache Kafka, RabbitMQ, Amazon SQS, ActiveMQ, and Google Pub/Sub."
+      "category": "python",
+      "question": "What is a global variable?",
+      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 48",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the difference between horizontal and vertical scaling?",
-      "answer": "Horizontal scaling adds more machines, whereas vertical scaling upgrades a single machine's capacity."
-    },
-    {
-      "category": "oop",
-      "question": "What is a parameterized constructor?",
-      "answer": "A parameterized constructor accepts arguments to initialize object state."
+      "category": "dbms",
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
     },
     {
       "category": "networking",
-      "question": "What is ARP?",
-      "answer": "Address Resolution Protocol (ARP) maps IP addresses to MAC addresses within a local network."
+      "question": "What is SSL?",
+      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Application Layer?",
+      "answer": "The Application Layer provides network services directly to end-user applications."
+    },
+    {
+      "category": "dsa",
+      "question": "When is BFS preferred over DFS?",
+      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Open/Closed Principle (OCP)?",
+      "answer": "OCP states that software entities should be open for extension but closed for modification."
+    },
+    {
+      "category": "oop",
+      "question": "What is coupling in software design?",
+      "answer": "Coupling measures the degree of dependency between different modules or classes."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 85",
+      "question": "Java Interview Question 71",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dbms",
-      "question": "What is physical data independence?",
-      "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
-    },
-    {
-      "category": "python",
-      "question": "Why is the with statement used?",
-      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
+      "category": "java",
+      "question": "Java Interview Question 56",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 34",
+      "question": "HR Interview Question 93",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "oop",
-      "question": "What is runtime polymorphism?",
-      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
+      "category": "os",
+      "question": "What is deadlock recovery?",
+      "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
+    },
+    {
+      "category": "hr",
+      "question": "Why should we hire you?",
+      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+    },
+    {
+      "category": "system_design",
+      "question": "What is database replication?",
+      "answer": "Database replication is the process of maintaining copies of data across multiple database servers."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a URL Shortener system design problem?",
+      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
     }
   ]
 }
