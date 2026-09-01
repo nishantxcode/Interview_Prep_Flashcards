@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "questions": [
     {
+      "category": "system_design",
+      "question": "What is a Service Mesh?",
+      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Find operation in DSU?",
+      "answer": "The Find operation returns the representative element of the set containing a given element."
+    },
+    {
+      "category": "java",
+      "question": "What is the this keyword?",
+      "answer": "The this keyword refers to the current object instance."
+    },
+    {
+      "category": "python",
+      "question": "What are function arguments?",
+      "answer": "Function arguments are values passed to a function when it is called."
+    },
+    {
       "category": "os",
-      "question": "What is deadlock detection?",
-      "answer": "Deadlock detection identifies whether a deadlock has occurred and determines the processes involved."
-    },
-    {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the except block?",
-      "answer": "The except block handles exceptions raised in the corresponding try block."
-    },
-    {
-      "category": "sql",
-      "question": "What is NTILE()?",
-      "answer": "NTILE() divides rows into a specified number of groups and assigns a bucket number to each row."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of range queries in a Segment Tree?",
-      "answer": "Range queries in a Segment Tree take O(log n) time."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Isolation in ACID?",
-      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
-    },
-    {
-      "category": "python",
-      "question": "What is a global variable?",
-      "answer": "A global variable is defined outside functions and can be accessed throughout the program."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
+      "question": "What is Multilevel Feedback Queue Scheduling?",
+      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
     },
     {
       "category": "networking",
-      "question": "What is SSL?",
-      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Application Layer?",
-      "answer": "The Application Layer provides network services directly to end-user applications."
+      "question": "Why is NAT used?",
+      "answer": "NAT conserves public IP addresses and enhances security by hiding internal network addresses."
     },
     {
       "category": "dsa",
-      "question": "When is BFS preferred over DFS?",
-      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
+      "question": "What is a linked list?",
+      "answer": "A linked list is a linear data structure consisting of nodes where each node contains data and a reference to the next node."
     },
     {
-      "category": "oop",
-      "question": "What is the Open/Closed Principle (OCP)?",
-      "answer": "OCP states that software entities should be open for extension but closed for modification."
+      "category": "networking",
+      "question": "What is a DNS server?",
+      "answer": "A DNS server stores and provides domain name resolution information."
     },
     {
-      "category": "oop",
-      "question": "What is coupling in software design?",
-      "answer": "Coupling measures the degree of dependency between different modules or classes."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 71",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "sql",
+      "question": "What is the ANY operator?",
+      "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 56",
+      "question": "Java Interview Question 33",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is a constructor?",
+      "answer": "A constructor is a special method used to initialize objects when they are created."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 93",
+      "question": "HR Interview Question 46",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "os",
-      "question": "What is deadlock recovery?",
-      "answer": "Deadlock recovery resolves deadlocks by terminating processes, rolling back operations, or preempting resources."
+      "category": "system_design",
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
     },
     {
       "category": "hr",
-      "question": "Why should we hire you?",
-      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+      "question": "HR Interview Question 50",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is database replication?",
-      "answer": "Database replication is the process of maintaining copies of data across multiple database servers."
+      "category": "sql",
+      "question": "What are the advantages of stored procedures?",
+      "answer": "Stored procedures improve performance, security, code reuse, and maintainability."
     },
     {
-      "category": "system_design",
-      "question": "What is a URL Shortener system design problem?",
-      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
+      "category": "dbms",
+      "question": "What is denormalization?",
+      "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
+    },
+    {
+      "category": "python",
+      "question": "What is a module in Python?",
+      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Factory Method pattern?",
+      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
     }
   ]
 }
