@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is a Service Mesh?",
-      "answer": "A Service Mesh is an infrastructure layer that manages service-to-service communication in microservices environments."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Find operation in DSU?",
-      "answer": "The Find operation returns the representative element of the set containing a given element."
-    },
-    {
-      "category": "java",
-      "question": "What is the this keyword?",
-      "answer": "The this keyword refers to the current object instance."
-    },
-    {
       "category": "python",
-      "question": "What are function arguments?",
-      "answer": "Function arguments are values passed to a function when it is called."
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
+    },
+    {
+      "category": "hr",
+      "question": "Why are you looking for a new opportunity?",
+      "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
     },
     {
       "category": "os",
-      "question": "What is Multilevel Feedback Queue Scheduling?",
-      "answer": "Multilevel Feedback Queue Scheduling allows processes to move between queues based on their behavior and execution history."
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
     },
     {
-      "category": "networking",
-      "question": "Why is NAT used?",
-      "answer": "NAT conserves public IP addresses and enhances security by hiding internal network addresses."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a linked list?",
-      "answer": "A linked list is a linear data structure consisting of nodes where each node contains data and a reference to the next node."
-    },
-    {
-      "category": "networking",
-      "question": "What is a DNS server?",
-      "answer": "A DNS server stores and provides domain name resolution information."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ANY operator?",
-      "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
+      "category": "hr",
+      "question": "HR Interview Question 56",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 33",
+      "question": "Java Interview Question 75",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "oop",
-      "question": "What is a constructor?",
-      "answer": "A constructor is a special method used to initialize objects when they are created."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a lock in DBMS?",
-      "answer": "A lock is a mechanism used to control concurrent access to data items."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 46",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is rate limiting?",
-      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dsa",
+      "question": "What is a hash collision?",
+      "answer": "A hash collision occurs when two different keys produce the same hash value."
     },
     {
       "category": "sql",
-      "question": "What are the advantages of stored procedures?",
-      "answer": "Stored procedures improve performance, security, code reuse, and maintainability."
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv4?",
+      "answer": "IPv4 is a 32-bit addressing scheme that supports approximately 4.3 billion unique addresses."
     },
     {
       "category": "dbms",
-      "question": "What is denormalization?",
-      "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
+      "question": "What are insertion anomalies?",
+      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
     },
     {
-      "category": "python",
-      "question": "What is a module in Python?",
-      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+      "category": "networking",
+      "question": "What is encryption?",
+      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
     },
     {
       "category": "oop",
-      "question": "What is the Factory Method pattern?",
-      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
+      "question": "What are SOLID principles?",
+      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
+    },
+    {
+      "category": "oop",
+      "question": "What is tight coupling?",
+      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
+    },
+    {
+      "category": "os",
+      "question": "What is preemptive scheduling?",
+      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
+    },
+    {
+      "category": "sql",
+      "question": "What is TCL in SQL?",
+      "answer": "Transaction Control Language (TCL) manages database transactions."
+    },
+    {
+      "category": "python",
+      "question": "What is a decorator in Python?",
+      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Fifth Normal Form (5NF)?",
+      "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Database per Service pattern?",
+      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the amortized complexity of insertion in a dynamic array?",
+      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a producer in a messaging system?",
+      "answer": "A producer is a component that generates and publishes messages."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 73",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
