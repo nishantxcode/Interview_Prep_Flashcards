@@ -1,75 +1,50 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "questions": [
     {
-      "category": "python",
-      "question": "What is PEP 8?",
-      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
-    },
-    {
-      "category": "hr",
-      "question": "Why are you looking for a new opportunity?",
-      "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
-    },
-    {
       "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 56",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is RAID?",
+      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 75",
+      "question": "Java Interview Question 66",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dsa",
-      "question": "What is a hash collision?",
-      "answer": "A hash collision occurs when two different keys produce the same hash value."
-    },
-    {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
-    },
-    {
-      "category": "networking",
-      "question": "What is IPv4?",
-      "answer": "IPv4 is a 32-bit addressing scheme that supports approximately 4.3 billion unique addresses."
-    },
-    {
-      "category": "dbms",
-      "question": "What are insertion anomalies?",
-      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
-    },
-    {
-      "category": "networking",
-      "question": "What is encryption?",
-      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
-    },
-    {
-      "category": "oop",
-      "question": "What are SOLID principles?",
-      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
-    },
-    {
-      "category": "oop",
-      "question": "What is tight coupling?",
-      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
     },
     {
       "category": "os",
-      "question": "What is preemptive scheduling?",
-      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
+      "question": "What is internal fragmentation?",
+      "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
     },
     {
-      "category": "sql",
-      "question": "What is TCL in SQL?",
-      "answer": "Transaction Control Language (TCL) manages database transactions."
+      "category": "networking",
+      "question": "What is the difference between IPv4 and IPv6?",
+      "answer": "IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses and supports a vastly larger address space."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 100",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is specialization in ER modeling?",
+      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
+    },
+    {
+      "category": "oop",
+      "question": "What are the advantages of immutable objects?",
+      "answer": "Immutable objects are thread-safe, easier to reason about, and less prone to bugs."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
     },
     {
       "category": "python",
@@ -77,29 +52,54 @@
       "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
     },
     {
-      "category": "dbms",
-      "question": "What is the Fifth Normal Form (5NF)?",
-      "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the Database per Service pattern?",
-      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
-    },
-    {
       "category": "dsa",
-      "question": "What is the amortized complexity of insertion in a dynamic array?",
-      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
+      "question": "What are the two key properties required for dynamic programming?",
+      "answer": "Optimal substructure and overlapping subproblems."
+    },
+    {
+      "category": "python",
+      "question": "What is a set comprehension?",
+      "answer": "A set comprehension is a concise syntax for creating sets from iterables."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 42",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "system_design",
-      "question": "What is a producer in a messaging system?",
-      "answer": "A producer is a component that generates and publishes messages."
+      "question": "What are the advantages of microservices?",
+      "answer": "Independent deployment, scalability, fault isolation, technology flexibility, and faster development cycles."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv6?",
+      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
+    },
+    {
+      "category": "oop",
+      "question": "What is an immutable object?",
+      "answer": "An immutable object is an object whose state cannot be modified after creation."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DCL commands?",
+      "answer": "GRANT and REVOKE."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 73",
+      "question": "Java Interview Question 70",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a key in DBMS?",
+      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
     }
   ]
 }
