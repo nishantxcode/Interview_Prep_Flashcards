@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "questions": [
     {
-      "category": "os",
-      "question": "What is RAID?",
-      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
+      "category": "oop",
+      "question": "What is object cloning?",
+      "answer": "Object cloning creates a copy of an existing object."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 66",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "sql",
+      "question": "What are the main categories of SQL commands?",
+      "answer": "DDL, DML, DQL, DCL, and TCL."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
     },
     {
       "category": "dsa",
-      "question": "What is the difference between an array and a linked list?",
-      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
     },
     {
-      "category": "os",
-      "question": "What is internal fragmentation?",
-      "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
+      "category": "sql",
+      "question": "What is INTERSECT in SQL?",
+      "answer": "INTERSECT returns rows that are common to the results of two queries."
     },
     {
       "category": "networking",
-      "question": "What is the difference between IPv4 and IPv6?",
-      "answer": "IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses and supports a vastly larger address space."
+      "question": "What is flow control in TCP?",
+      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
+    },
+    {
+      "category": "os",
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+    },
+    {
+      "category": "python",
+      "question": "What are Python variables?",
+      "answer": "Variables are names that reference objects stored in memory."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a bottleneck in a system?",
+      "answer": "A bottleneck is a component that limits the overall performance or capacity of a system."
+    },
+    {
+      "category": "networking",
+      "question": "What is static routing?",
+      "answer": "Static routing uses manually configured routes that do not change automatically."
+    },
+    {
+      "category": "oop",
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Fourth Normal Form (4NF)?",
+      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
+    },
+    {
+      "category": "java",
+      "question": "What is an object in Java?",
+      "answer": "An object is an instance of a class containing state and behavior."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 74",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is the filter() function?",
+      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
+    },
+    {
+      "category": "dsa",
+      "question": "Can topological sorting be applied to graphs with cycles?",
+      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 100",
+      "question": "HR Interview Question 53",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is specialization in ER modeling?",
-      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
-    },
-    {
-      "category": "oop",
-      "question": "What are the advantages of immutable objects?",
-      "answer": "Immutable objects are thread-safe, easier to reason about, and less prone to bugs."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is sharding used?",
-      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
-    },
-    {
-      "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
-    },
-    {
-      "category": "dsa",
-      "question": "What are the two key properties required for dynamic programming?",
-      "answer": "Optimal substructure and overlapping subproblems."
-    },
-    {
-      "category": "python",
-      "question": "What is a set comprehension?",
-      "answer": "A set comprehension is a concise syntax for creating sets from iterables."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+      "question": "What is the difference between 3NF and BCNF?",
+      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 42",
+      "question": "HR Interview Question 96",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the advantages of microservices?",
-      "answer": "Independent deployment, scalability, fault isolation, technology flexibility, and faster development cycles."
-    },
-    {
-      "category": "networking",
-      "question": "What is IPv6?",
-      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
-    },
-    {
-      "category": "oop",
-      "question": "What is an immutable object?",
-      "answer": "An immutable object is an object whose state cannot be modified after creation."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DCL commands?",
-      "answer": "GRANT and REVOKE."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 70",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a key in DBMS?",
-      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
     }
   ]
 }
