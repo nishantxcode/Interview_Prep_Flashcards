@@ -1,15 +1,25 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is object cloning?",
-      "answer": "Object cloning creates a copy of an existing object."
+      "category": "hr",
+      "question": "HR Interview Question 37",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "sql",
-      "question": "What are the main categories of SQL commands?",
-      "answer": "DDL, DML, DQL, DCL, and TCL."
+      "question": "What is the OVER() clause?",
+      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+    },
+    {
+      "category": "oop",
+      "question": "What is a destructor?",
+      "answer": "A destructor is a special method used to release resources when an object is destroyed."
+    },
+    {
+      "category": "dsa",
+      "question": "When is DFS preferred over BFS?",
+      "answer": "DFS is preferred for tasks such as cycle detection, topological sorting, and exploring all possible paths."
     },
     {
       "category": "system_design",
@@ -17,89 +27,79 @@
       "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
     },
     {
+      "category": "oop",
+      "question": "What is the Prototype pattern?",
+      "answer": "The Prototype pattern creates new objects by cloning existing ones."
+    },
+    {
       "category": "dsa",
-      "question": "What is a queue?",
-      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
-    },
-    {
-      "category": "sql",
-      "question": "What is INTERSECT in SQL?",
-      "answer": "INTERSECT returns rows that are common to the results of two queries."
-    },
-    {
-      "category": "networking",
-      "question": "What is flow control in TCP?",
-      "answer": "Flow control prevents a sender from overwhelming a receiver by regulating data transmission rates."
-    },
-    {
-      "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
-    },
-    {
-      "category": "python",
-      "question": "What are Python variables?",
-      "answer": "Variables are names that reference objects stored in memory."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between a mutex and a semaphore?",
-      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
       "category": "system_design",
-      "question": "What is a bottleneck in a system?",
-      "answer": "A bottleneck is a component that limits the overall performance or capacity of a system."
+      "question": "What is service discovery?",
+      "answer": "Service discovery is the process of automatically locating services within a distributed system."
     },
     {
-      "category": "networking",
-      "question": "What is static routing?",
-      "answer": "Static routing uses manually configured routes that do not change automatically."
-    },
-    {
-      "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Fourth Normal Form (4NF)?",
-      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
-    },
-    {
-      "category": "java",
-      "question": "What is an object in Java?",
-      "answer": "An object is an instance of a class containing state and behavior."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 74",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "os",
+      "question": "What is RAID?",
+      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
     },
     {
       "category": "python",
-      "question": "What is the filter() function?",
-      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
+      "question": "What are *args in Python?",
+      "answer": "*args allows a function to accept a variable number of positional arguments."
     },
     {
-      "category": "dsa",
-      "question": "Can topological sorting be applied to graphs with cycles?",
-      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "networking",
+      "question": "What is TCP congestion control?",
+      "answer": "TCP congestion control adjusts the rate of data transmission based on network conditions to avoid congestion."
     },
     {
       "category": "dbms",
-      "question": "What is the difference between 3NF and BCNF?",
-      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
+      "question": "What is the Fifth Normal Form (5NF)?",
+      "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 83",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 96",
+      "question": "HR Interview Question 33",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Job First (SJF) scheduling?",
+      "answer": "SJF selects the process with the smallest CPU burst time for execution."
+    },
+    {
+      "category": "networking",
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the else block in exception handling?",
+      "answer": "The else block executes when no exception occurs in the try block."
+    },
+    {
+      "category": "sql",
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+    },
+    {
+      "category": "dbms",
+      "question": "What is physical data independence?",
+      "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 41",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
