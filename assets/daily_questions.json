@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "questions": [
     {
-      "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
-    },
-    {
-      "category": "python",
-      "question": "What are default arguments in Python?",
-      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
+      "category": "dsa",
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 95",
+      "question": "Java Interview Question 81",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a reverse proxy?",
-      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a load balancer?",
-      "answer": "A load balancer distributes incoming traffic across multiple servers to improve performance and availability."
-    },
-    {
-      "category": "python",
-      "question": "What is multilevel inheritance?",
-      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
     },
     {
       "category": "oop",
-      "question": "What is MVC architecture?",
-      "answer": "Model-View-Controller is a design pattern that separates application logic, user interface, and user input handling."
+      "question": "What is the Command pattern?",
+      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
     },
     {
       "category": "sql",
-      "question": "Why are execution plans important?",
-      "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
+      "question": "What is a window function in SQL?",
+      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 98",
+      "question": "Java Interview Question 92",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is a binary tree?",
-      "answer": "A binary tree is a tree data structure in which each node has at most two children."
-    },
-    {
-      "category": "networking",
-      "question": "What is NAT?",
-      "answer": "Network Address Translation (NAT) translates private IP addresses into public IP addresses and vice versa."
+      "category": "python",
+      "question": "What are the key features of Python?",
+      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 76",
+      "question": "HR Interview Question 27",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is BGP?",
+      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
+    },
+    {
+      "category": "networking",
+      "question": "What is a LAN?",
+      "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 60",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is multitasking?",
-      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
-    },
-    {
-      "category": "dbms",
-      "question": "What are deletion anomalies?",
-      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 48",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "sql",
-      "question": "What is a user-defined function (UDF)?",
-      "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Reflexivity Rule in Armstrong's Axioms?",
-      "answer": "If Y is a subset of X, then X determines Y."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between a hub and a switch?",
-      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
     },
     {
       "category": "dsa",
-      "question": "What is memoization?",
-      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
+      "question": "Why are Red-Black Trees preferred in many standard libraries?",
+      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a composite key?",
+      "answer": "A composite key is a key formed by combining two or more attributes."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
+      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "python",
+      "question": "Which Python data types are immutable?",
+      "answer": "int, float, bool, str, tuple, frozenset, and bytes are immutable."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a shard key?",
+      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Facade pattern?",
+      "answer": "The Facade pattern provides a simplified interface to a complex subsystem."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is service discovery important?",
+      "answer": "It enables dynamic scaling and communication between services without hardcoded addresses."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
     }
   ]
 }
