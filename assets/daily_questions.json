@@ -1,25 +1,10 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is a computer network?",
-      "answer": "A computer network is a collection of interconnected devices that communicate and share resources."
-    },
-    {
-      "category": "sql",
-      "question": "What are the key factors for SQL performance tuning?",
-      "answer": "Proper indexing, optimized queries, efficient joins, partitioning, updated statistics, and execution plan analysis."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is idempotency important in distributed systems?",
-      "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What are your greatest strengths?",
+      "answer": "Mention strengths relevant to the role and support them with specific examples."
     },
     {
       "category": "os",
@@ -28,68 +13,73 @@
     },
     {
       "category": "system_design",
-      "question": "What is service discovery?",
-      "answer": "Service discovery is the process of automatically locating services within a distributed system."
-    },
-    {
-      "category": "python",
-      "question": "What is the raise statement?",
-      "answer": "The raise statement is used to explicitly trigger an exception."
-    },
-    {
-      "category": "dsa",
-      "question": "Why are Red-Black Trees preferred in many standard libraries?",
-      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+      "question": "What is the Token Bucket algorithm?",
+      "answer": "The Token Bucket algorithm controls request rates by allowing requests only when tokens are available in a bucket."
     },
     {
       "category": "oop",
-      "question": "What is a private access modifier?",
-      "answer": "A private member can only be accessed within the class where it is declared."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 80",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Trie?",
-      "answer": "A Trie is a tree-like data structure used to store and retrieve strings efficiently based on their prefixes."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 93",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is an immutable object?",
+      "answer": "An immutable object is an object whose state cannot be modified after creation."
     },
     {
       "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+      "question": "What does MAX() do?",
+      "answer": "MAX() returns the largest value in a column."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 37",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "java",
+      "question": "Java Interview Question 55",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dbms",
-      "question": "What is serial execution of transactions?",
-      "answer": "Serial execution runs transactions one after another without overlapping."
+      "category": "system_design",
+      "question": "What is an application server?",
+      "answer": "An application server executes business logic and processes application requests."
     },
     {
-      "category": "python",
-      "question": "What is the difference between == and is in Python?",
-      "answer": "== compares values, whereas is compares object identities."
-    },
-    {
-      "category": "os",
-      "question": "What is a mutex?",
-      "answer": "A mutex is a synchronization mechanism that allows only one thread to access a critical section at a time."
+      "category": "dsa",
+      "question": "What is union by rank?",
+      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
     },
     {
       "category": "networking",
-      "question": "What is a proxy server?",
-      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
+      "question": "What is the default port number for HTTPS?",
+      "answer": "The default port number for HTTPS is 443."
+    },
+    {
+      "category": "python",
+      "question": "What is an abstract class in Python?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that subclasses must implement."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 52",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What is multithreading in Python?",
+      "answer": "Multithreading allows multiple threads to execute concurrently within the same process."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a fully functional dependency?",
+      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Strict Two-Phase Locking?",
+      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
+    },
+    {
+      "category": "networking",
+      "question": "What is UDP?",
+      "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
+    },
+    {
+      "category": "os",
+      "question": "What is fragmentation?",
+      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
     },
     {
       "category": "oop",
@@ -97,9 +87,19 @@
       "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
     },
     {
-      "category": "dbms",
-      "question": "What is a B+ Tree?",
-      "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
+      "category": "hr",
+      "question": "HR Interview Question 58",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+    },
+    {
+      "category": "dsa",
+      "question": "What is separate chaining?",
+      "answer": "Separate chaining resolves collisions by storing multiple elements in a linked list or similar structure at the same hash index."
     }
   ]
 }
