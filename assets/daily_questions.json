@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "questions": [
     {
       "category": "hr",
-      "question": "What are your greatest strengths?",
-      "answer": "Mention strengths relevant to the role and support them with specific examples."
-    },
-    {
-      "category": "os",
-      "question": "What happens if the time quantum is too large?",
-      "answer": "Round Robin behaves similarly to FCFS scheduling."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the Token Bucket algorithm?",
-      "answer": "The Token Bucket algorithm controls request rates by allowing requests only when tokens are available in a bucket."
-    },
-    {
-      "category": "oop",
-      "question": "What is an immutable object?",
-      "answer": "An immutable object is an object whose state cannot be modified after creation."
-    },
-    {
-      "category": "sql",
-      "question": "What does MAX() do?",
-      "answer": "MAX() returns the largest value in a column."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 55",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is an application server?",
-      "answer": "An application server executes business logic and processes application requests."
-    },
-    {
-      "category": "dsa",
-      "question": "What is union by rank?",
-      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
-    },
-    {
-      "category": "networking",
-      "question": "What is the default port number for HTTPS?",
-      "answer": "The default port number for HTTPS is 443."
-    },
-    {
-      "category": "python",
-      "question": "What is an abstract class in Python?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that subclasses must implement."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 52",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is multithreading in Python?",
-      "answer": "Multithreading allows multiple threads to execute concurrently within the same process."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a fully functional dependency?",
-      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Strict Two-Phase Locking?",
-      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
-    },
-    {
-      "category": "networking",
-      "question": "What is UDP?",
-      "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
-    },
-    {
-      "category": "os",
-      "question": "What is fragmentation?",
-      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
-    },
-    {
-      "category": "oop",
-      "question": "What is method overloading?",
-      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 58",
+      "question": "HR Interview Question 45",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "sql",
-      "question": "What is a CROSS JOIN?",
-      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 53",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Strategy pattern?",
+      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+    },
+    {
+      "category": "python",
+      "question": "Is Python compiled or interpreted?",
+      "answer": "Python is primarily interpreted, although it compiles source code into bytecode before execution by the Python Virtual Machine."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
     },
     {
       "category": "dsa",
-      "question": "What is separate chaining?",
-      "answer": "Separate chaining resolves collisions by storing multiple elements in a linked list or similar structure at the same hash index."
+      "question": "What is a greedy algorithm?",
+      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the try block?",
+      "answer": "The try block contains code that may raise an exception."
+    },
+    {
+      "category": "sql",
+      "question": "What is the GROUP BY clause?",
+      "answer": "GROUP BY groups rows with similar values into summary rows."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a composite key?",
+      "answer": "A composite key is a key formed by combining two or more attributes."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 93",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is the OSI model?",
+      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
+    },
+    {
+      "category": "networking",
+      "question": "What is a stateful firewall?",
+      "answer": "A stateful firewall tracks the state of active connections and makes filtering decisions accordingly."
+    },
+    {
+      "category": "oop",
+      "question": "Why is low coupling desirable?",
+      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
+    },
+    {
+      "category": "os",
+      "question": "What is a race condition?",
+      "answer": "A race condition occurs when multiple threads access shared data concurrently and the final result depends on the execution order."
+    },
+    {
+      "category": "sql",
+      "question": "What is a view in SQL?",
+      "answer": "A view is a virtual table based on the result of a SQL query."
+    },
+    {
+      "category": "java",
+      "question": "Is Java compiled or interpreted?",
+      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
+    },
+    {
+      "category": "os",
+      "question": "What is a medium-term scheduler?",
+      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+    },
+    {
+      "category": "system_design",
+      "question": "What is consistent hashing?",
+      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
     }
   ]
 }
