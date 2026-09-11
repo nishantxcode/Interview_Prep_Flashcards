@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "questions": [
     {
-      "category": "hr",
-      "question": "HR Interview Question 45",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a hash function?",
-      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Strategy pattern?",
-      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+      "category": "python",
+      "question": "What is a virtual environment in Python?",
+      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
     },
     {
       "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
-    },
-    {
-      "category": "python",
-      "question": "Is Python compiled or interpreted?",
-      "answer": "Python is primarily interpreted, although it compiles source code into bytecode before execution by the Python Virtual Machine."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
+      "question": "What are the advantages of a DBMS?",
+      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
     },
     {
       "category": "dsa",
-      "question": "What is a greedy algorithm?",
-      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the try block?",
-      "answer": "The try block contains code that may raise an exception."
+      "question": "What is a doubly linked list?",
+      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
     },
     {
       "category": "sql",
-      "question": "What is the GROUP BY clause?",
-      "answer": "GROUP BY groups rows with similar values into summary rows."
+      "question": "What is DENSE_RANK()?",
+      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
+    },
+    {
+      "category": "oop",
+      "question": "What is inheritance?",
+      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+    },
+    {
+      "category": "os",
+      "question": "What is preemptive scheduling?",
+      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Depth-First Search (DFS)?",
+      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
+    },
+    {
+      "category": "oop",
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal implementation details."
     },
     {
       "category": "dbms",
-      "question": "What is a composite key?",
-      "answer": "A composite key is a key formed by combining two or more attributes."
+      "question": "What is generalization in ER modeling?",
+      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
+    },
+    {
+      "category": "networking",
+      "question": "Why is NAT used?",
+      "answer": "NAT conserves public IP addresses and enhances security by hiding internal network addresses."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 94",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+    },
+    {
+      "category": "networking",
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 93",
+      "question": "Java Interview Question 65",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "networking",
-      "question": "What is the OSI model?",
-      "answer": "The OSI model is a seven-layer conceptual framework used to understand and standardize network communication."
-    },
-    {
-      "category": "networking",
-      "question": "What is a stateful firewall?",
-      "answer": "A stateful firewall tracks the state of active connections and makes filtering decisions accordingly."
-    },
-    {
-      "category": "oop",
-      "question": "Why is low coupling desirable?",
-      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
-    },
-    {
-      "category": "os",
-      "question": "What is a race condition?",
-      "answer": "A race condition occurs when multiple threads access shared data concurrently and the final result depends on the execution order."
-    },
-    {
-      "category": "sql",
-      "question": "What is a view in SQL?",
-      "answer": "A view is a virtual table based on the result of a SQL query."
+      "category": "hr",
+      "question": "HR Interview Question 76",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Is Java compiled or interpreted?",
-      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
-    },
-    {
-      "category": "os",
-      "question": "What is a medium-term scheduler?",
-      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+      "question": "Java Interview Question 30",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "system_design",
-      "question": "What is consistent hashing?",
-      "answer": "Consistent hashing distributes data across servers while minimizing data movement when nodes are added or removed."
+      "question": "What is Apache Kafka?",
+      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+    },
+    {
+      "category": "os",
+      "question": "What are the primary functions of an Operating System?",
+      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
     }
   ]
 }
