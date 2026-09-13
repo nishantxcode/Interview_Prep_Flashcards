@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-14",
   "questions": [
     {
-      "category": "python",
-      "question": "What is a virtual environment in Python?",
-      "answer": "A virtual environment is an isolated environment used to manage project-specific dependencies."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the advantages of a DBMS?",
-      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a doubly linked list?",
-      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
-    },
-    {
-      "category": "sql",
-      "question": "What is DENSE_RANK()?",
-      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
-    },
-    {
-      "category": "oop",
-      "question": "What is inheritance?",
-      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+      "category": "networking",
+      "question": "What is routing?",
+      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
     },
     {
       "category": "os",
-      "question": "What is preemptive scheduling?",
-      "answer": "Preemptive scheduling allows the operating system to interrupt a running process and allocate the CPU to another process."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Depth-First Search (DFS)?",
-      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed transaction?",
-      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
+      "question": "What is a thread?",
+      "answer": "A thread is the smallest unit of CPU execution within a process."
     },
     {
       "category": "oop",
-      "question": "What is encapsulation?",
-      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal implementation details."
+      "question": "Why is low coupling desirable?",
+      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
+    },
+    {
+      "category": "dsa",
+      "question": "Can topological sorting be applied to graphs with cycles?",
+      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
     },
     {
       "category": "dbms",
-      "question": "What is generalization in ER modeling?",
-      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
-    },
-    {
-      "category": "networking",
-      "question": "Why is NAT used?",
-      "answer": "NAT conserves public IP addresses and enhances security by hiding internal network addresses."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 94",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "networking",
-      "question": "What is a TCP connection?",
-      "answer": "A TCP connection is a reliable communication session established between two endpoints."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 65",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 76",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 30",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Apache Kafka?",
-      "answer": "Apache Kafka is a distributed event-streaming platform designed for high-throughput and fault-tolerant messaging."
+      "question": "What is a relation in the relational model?",
+      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
     },
     {
       "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+      "question": "What is the ALTER statement?",
+      "answer": "ALTER is used to modify the structure of an existing database object."
     },
     {
       "category": "os",
-      "question": "What are the primary functions of an Operating System?",
-      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
+      "question": "What is page replacement?",
+      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
+    },
+    {
+      "category": "networking",
+      "question": "What is IPv4?",
+      "answer": "IPv4 is a 32-bit addressing scheme that supports approximately 4.3 billion unique addresses."
+    },
+    {
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+    },
+    {
+      "category": "oop",
+      "question": "What is a UML Class Diagram?",
+      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 59",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is double hashing?",
+      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 83",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a CDN?",
+      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
+    },
+    {
+      "category": "sql",
+      "question": "What is DML in SQL?",
+      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 86",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "What is the difference between JDK, JRE, and JVM?",
+      "answer": "JDK is used for development, JRE is used for execution, and JVM executes Java bytecode."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the advantages of normalization?",
+      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+    },
+    {
+      "category": "python",
+      "question": "What are the key features of Python?",
+      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
     }
   ]
 }
