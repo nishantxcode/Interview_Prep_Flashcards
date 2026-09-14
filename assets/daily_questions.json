@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is routing?",
-      "answer": "Routing is the process of selecting the best path for forwarding packets between networks."
-    },
-    {
-      "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
-    },
-    {
-      "category": "oop",
-      "question": "Why is low coupling desirable?",
-      "answer": "Low coupling improves maintainability, flexibility, testability, and reusability."
-    },
-    {
-      "category": "dsa",
-      "question": "Can topological sorting be applied to graphs with cycles?",
-      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a relation in the relational model?",
-      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALTER statement?",
-      "answer": "ALTER is used to modify the structure of an existing database object."
-    },
-    {
-      "category": "os",
-      "question": "What is page replacement?",
-      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
-    },
-    {
-      "category": "networking",
-      "question": "What is IPv4?",
-      "answer": "IPv4 is a 32-bit addressing scheme that supports approximately 4.3 billion unique addresses."
-    },
-    {
-      "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
-    },
-    {
-      "category": "oop",
-      "question": "What is a UML Class Diagram?",
-      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
-    },
-    {
       "category": "java",
-      "question": "Java Interview Question 59",
+      "question": "Java Interview Question 87",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is double hashing?",
-      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 83",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a CDN?",
-      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
-    },
-    {
-      "category": "sql",
-      "question": "What is DML in SQL?",
-      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 86",
+      "question": "HR Interview Question 76",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "What is the difference between JDK, JRE, and JVM?",
-      "answer": "JDK is used for development, JRE is used for execution, and JVM executes Java bytecode."
+      "question": "Java Interview Question 42",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+      "category": "sql",
+      "question": "What is a FULL OUTER JOIN?",
+      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
+    },
+    {
+      "category": "sql",
+      "question": "What is the GROUP BY clause?",
+      "answer": "GROUP BY groups rows with similar values into summary rows."
     },
     {
       "category": "dbms",
-      "question": "What are the advantages of normalization?",
-      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+      "question": "What is a functional dependency?",
+      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
+    },
+    {
+      "category": "networking",
+      "question": "What is congestion in a network?",
+      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
+    },
+    {
+      "category": "system_design",
+      "question": "Why are CDNs used?",
+      "answer": "CDNs reduce latency, improve content delivery speed, and decrease load on origin servers."
     },
     {
       "category": "python",
-      "question": "What are the key features of Python?",
-      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
+      "question": "What is the yield keyword?",
+      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
+    },
+    {
+      "category": "python",
+      "question": "What is pass in Python?",
+      "answer": "pass is a null statement that performs no action and is used as a placeholder."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 78",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a greedy algorithm?",
+      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the disadvantages of microservices?",
+      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
+    },
+    {
+      "category": "oop",
+      "question": "Can a class inherit from multiple classes?",
+      "answer": "Most OOP languages such as Java do not support multiple class inheritance directly to avoid ambiguity."
+    },
+    {
+      "category": "oop",
+      "question": "What is runtime polymorphism?",
+      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Binary Search Tree (BST)?",
+      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+    },
+    {
+      "category": "os",
+      "question": "What is thrashing?",
+      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+    },
+    {
+      "category": "networking",
+      "question": "What is the default port number for HTTP?",
+      "answer": "The default port number for HTTP is 80."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
     }
   ]
 }
