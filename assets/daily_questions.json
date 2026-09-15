@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 87",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 76",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 42",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "python",
+      "question": "What is the purpose of the if statement?",
+      "answer": "The if statement executes a block of code when a condition evaluates to true."
     },
     {
       "category": "sql",
-      "question": "What is a FULL OUTER JOIN?",
-      "answer": "FULL OUTER JOIN returns all matching and non-matching rows from both tables."
-    },
-    {
-      "category": "sql",
-      "question": "What is the GROUP BY clause?",
-      "answer": "GROUP BY groups rows with similar values into summary rows."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a functional dependency?",
-      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
-    },
-    {
-      "category": "networking",
-      "question": "What is congestion in a network?",
-      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
-    },
-    {
-      "category": "system_design",
-      "question": "Why are CDNs used?",
-      "answer": "CDNs reduce latency, improve content delivery speed, and decrease load on origin servers."
-    },
-    {
-      "category": "python",
-      "question": "What is the yield keyword?",
-      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
-    },
-    {
-      "category": "python",
-      "question": "What is pass in Python?",
-      "answer": "pass is a null statement that performs no action and is used as a placeholder."
+      "question": "Why are execution plans important?",
+      "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 78",
+      "question": "HR Interview Question 43",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is a greedy algorithm?",
-      "answer": "A greedy algorithm makes the locally optimal choice at each step in the hope of finding a global optimum."
-    },
-    {
       "category": "system_design",
-      "question": "What are the disadvantages of microservices?",
-      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
-    },
-    {
-      "category": "oop",
-      "question": "Can a class inherit from multiple classes?",
-      "answer": "Most OOP languages such as Java do not support multiple class inheritance directly to avoid ambiguity."
-    },
-    {
-      "category": "oop",
-      "question": "What is runtime polymorphism?",
-      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Binary Search Tree (BST)?",
-      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
     },
     {
       "category": "os",
-      "question": "What is thrashing?",
-      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
+      "question": "What is a short-term scheduler?",
+      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
     },
     {
-      "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "category": "java",
+      "question": "Java Interview Question 79",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "networking",
-      "question": "What is the default port number for HTTP?",
-      "answer": "The default port number for HTTP is 80."
+      "question": "What is the Physical Layer of the OSI model?",
+      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+    },
+    {
+      "category": "oop",
+      "question": "What are the two types of polymorphism?",
+      "answer": "Compile-time polymorphism and runtime polymorphism."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+    },
+    {
+      "category": "hr",
+      "question": "Tell me about yourself.",
+      "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a URL Shortener system design problem?",
+      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
+    },
+    {
+      "category": "networking",
+      "question": "What is TCP?",
+      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
+    },
+    {
+      "category": "dsa",
+      "question": "What is dynamic programming?",
+      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
     },
     {
       "category": "dbms",
-      "question": "What is Atomicity?",
-      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+      "question": "What is an exclusive lock?",
+      "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
+    },
+    {
+      "category": "oop",
+      "question": "What is the 'is-a' relationship?",
+      "answer": "The 'is-a' relationship represents inheritance where a subclass is a specialized version of a superclass."
+    },
+    {
+      "category": "python",
+      "question": "What is a return statement?",
+      "answer": "A return statement exits a function and optionally sends a value back to the caller."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the primary difference between BFS and DFS?",
+      "answer": "BFS explores nodes level by level using a queue, whereas DFS explores deeply along a path using recursion or a stack."
+    },
+    {
+      "category": "os",
+      "question": "Why is context switching considered overhead?",
+      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
+    },
+    {
+      "category": "dbms",
+      "question": "What are insertion anomalies?",
+      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 33",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
