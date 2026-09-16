@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "questions": [
     {
+      "category": "dbms",
+      "question": "What is partial participation?",
+      "answer": "Partial participation means some entities may exist without participating in the relationship."
+    },
+    {
       "category": "python",
-      "question": "What is the purpose of the if statement?",
-      "answer": "The if statement executes a block of code when a condition evaluates to true."
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
+    },
+    {
+      "category": "os",
+      "question": "What is a frame?",
+      "answer": "A frame is a fixed-size block of physical memory that stores pages."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 84",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is method overloading?",
+      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+    },
+    {
+      "category": "os",
+      "question": "What is RAID?",
+      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
+    },
+    {
+      "category": "dsa",
+      "question": "Can topological sorting be applied to graphs with cycles?",
+      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed lock?",
+      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 48",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "sql",
-      "question": "Why are execution plans important?",
-      "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
+      "question": "What is a correlated subquery?",
+      "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 43",
+      "question": "Tell me about a time you failed.",
+      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
+    },
+    {
+      "category": "sql",
+      "question": "What is an execution plan?",
+      "answer": "An execution plan describes how the database engine executes a SQL query."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Floyd-Warshall algorithm?",
+      "answer": "Floyd-Warshall is a dynamic programming algorithm used to find shortest paths between all pairs of vertices."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a super key?",
+      "answer": "A super key is a set of one or more attributes that can uniquely identify a tuple in a relation."
+    },
+    {
+      "category": "python",
+      "question": "Why does Python have a GIL?",
+      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a monolithic architecture?",
+      "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
+    },
+    {
+      "category": "networking",
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 25",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
-    },
-    {
-      "category": "os",
-      "question": "What is a short-term scheduler?",
-      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 79",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "networking",
-      "question": "What is the Physical Layer of the OSI model?",
-      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+      "question": "What is the difference between TCP and UDP?",
+      "answer": "TCP provides reliable, ordered delivery with error recovery, whereas UDP provides faster communication without guaranteed delivery."
     },
     {
       "category": "oop",
-      "question": "What are the two types of polymorphism?",
-      "answer": "Compile-time polymorphism and runtime polymorphism."
-    },
-    {
-      "category": "sql",
-      "question": "What is a CROSS JOIN?",
-      "answer": "CROSS JOIN returns the Cartesian product of two tables."
-    },
-    {
-      "category": "hr",
-      "question": "Tell me about yourself.",
-      "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a URL Shortener system design problem?",
-      "answer": "It involves designing a scalable service that converts long URLs into shorter unique identifiers and redirects users efficiently."
-    },
-    {
-      "category": "networking",
-      "question": "What is TCP?",
-      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
-    },
-    {
-      "category": "dsa",
-      "question": "What is dynamic programming?",
-      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an exclusive lock?",
-      "answer": "An exclusive lock allows a transaction to read and modify a data item while preventing access by others."
-    },
-    {
-      "category": "oop",
-      "question": "What is the 'is-a' relationship?",
-      "answer": "The 'is-a' relationship represents inheritance where a subclass is a specialized version of a superclass."
-    },
-    {
-      "category": "python",
-      "question": "What is a return statement?",
-      "answer": "A return statement exits a function and optionally sends a value back to the caller."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the primary difference between BFS and DFS?",
-      "answer": "BFS explores nodes level by level using a queue, whereas DFS explores deeply along a path using recursion or a stack."
-    },
-    {
-      "category": "os",
-      "question": "Why is context switching considered overhead?",
-      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
-    },
-    {
-      "category": "dbms",
-      "question": "What are insertion anomalies?",
-      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 33",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is delegation in OOP?",
+      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
     }
   ]
 }
