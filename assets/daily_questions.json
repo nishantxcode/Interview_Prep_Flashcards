@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is partial participation?",
-      "answer": "Partial participation means some entities may exist without participating in the relationship."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between == and is in Python?",
-      "answer": "== compares values, whereas is compares object identities."
-    },
-    {
-      "category": "os",
-      "question": "What is a frame?",
-      "answer": "A frame is a fixed-size block of physical memory that stores pages."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 84",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is method overloading?",
-      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
-    },
-    {
-      "category": "os",
-      "question": "What is RAID?",
-      "answer": "RAID (Redundant Array of Independent Disks) combines multiple disks to improve performance, reliability, or both."
-    },
-    {
       "category": "dsa",
-      "question": "Can topological sorting be applied to graphs with cycles?",
-      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed lock?",
-      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 48",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is a correlated subquery?",
-      "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
+      "question": "What is the base case in recursion?",
+      "answer": "The base case is the condition that stops recursive calls and prevents infinite recursion."
     },
     {
       "category": "hr",
-      "question": "Tell me about a time you failed.",
-      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
-    },
-    {
-      "category": "sql",
-      "question": "What is an execution plan?",
-      "answer": "An execution plan describes how the database engine executes a SQL query."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Floyd-Warshall algorithm?",
-      "answer": "Floyd-Warshall is a dynamic programming algorithm used to find shortest paths between all pairs of vertices."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a super key?",
-      "answer": "A super key is a set of one or more attributes that can uniquely identify a tuple in a relation."
-    },
-    {
-      "category": "python",
-      "question": "Why does Python have a GIL?",
-      "answer": "The GIL simplifies memory management and makes reference counting thread-safe."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a monolithic architecture?",
-      "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
-    },
-    {
-      "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 25",
+      "question": "HR Interview Question 52",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "os",
+      "question": "What is the Banker's Algorithm?",
+      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
+    },
+    {
       "category": "networking",
-      "question": "What is the difference between TCP and UDP?",
-      "answer": "TCP provides reliable, ordered delivery with error recovery, whereas UDP provides faster communication without guaranteed delivery."
+      "question": "What is a port number?",
+      "answer": "A port number is a logical communication endpoint used by transport layer protocols."
+    },
+    {
+      "category": "java",
+      "question": "What is an abstract class in Java?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a fully functional dependency?",
+      "answer": "A fully functional dependency exists when an attribute depends on the entire candidate key and not on any subset of it."
+    },
+    {
+      "category": "oop",
+      "question": "What is deserialization?",
+      "answer": "Deserialization is the process of reconstructing an object from serialized data."
+    },
+    {
+      "category": "python",
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code that performs a specific task."
+    },
+    {
+      "category": "python",
+      "question": "What is multiple inheritance?",
+      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 34",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 98",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is generalization in ER modeling?",
+      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
+    },
+    {
+      "category": "system_design",
+      "question": "What is quorum-based replication?",
+      "answer": "Quorum-based replication requires a minimum number of nodes to participate in read or write operations."
+    },
+    {
+      "category": "os",
+      "question": "Why is context switching considered overhead?",
+      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
     },
     {
       "category": "oop",
       "question": "What is delegation in OOP?",
       "answer": "Delegation is a design technique where an object forwards a task to another helper object."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ANY operator?",
+      "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
+    },
+    {
+      "category": "networking",
+      "question": "What is a DNS server?",
+      "answer": "A DNS server stores and provides domain name resolution information."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal scaling?",
+      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
     }
   ]
 }
