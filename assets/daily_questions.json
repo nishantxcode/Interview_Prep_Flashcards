@@ -1,45 +1,50 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "questions": [
     {
-      "category": "os",
-      "question": "What is a monitor?",
-      "answer": "A monitor is a high-level synchronization construct that provides mutual exclusion and condition variables."
-    },
-    {
-      "category": "sql",
-      "question": "What is a composite index?",
-      "answer": "A composite index is an index built on multiple columns."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Segment Tree?",
-      "answer": "A Segment Tree is a binary tree used for efficient range queries and updates on arrays."
-    },
-    {
-      "category": "oop",
-      "question": "What is the 'has-a' relationship?",
-      "answer": "The 'has-a' relationship represents composition or aggregation where one class contains another."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Dijkstra's algorithm?",
-      "answer": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights."
+      "category": "dbms",
+      "question": "What is specialization in ER modeling?",
+      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
     },
     {
       "category": "python",
-      "question": "What is encapsulation in Python?",
-      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal details."
+      "question": "What are function arguments?",
+      "answer": "Function arguments are values passed to a function when it is called."
     },
     {
-      "category": "dbms",
-      "question": "What is the JOIN operation in relational algebra?",
-      "answer": "JOIN combines tuples from two relations based on a related attribute."
+      "category": "java",
+      "question": "Java Interview Question 33",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dbms",
-      "question": "What are deletion anomalies?",
-      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
+      "category": "hr",
+      "question": "HR Interview Question 25",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 58",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What does SUM() do?",
+      "answer": "SUM() calculates the total of numeric values in a column."
+    },
+    {
+      "category": "oop",
+      "question": "What is setter injection?",
+      "answer": "Setter injection provides dependencies through setter methods after object creation."
+    },
+    {
+      "category": "os",
+      "question": "What is process scheduling?",
+      "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
     },
     {
       "category": "networking",
@@ -47,24 +52,29 @@
       "answer": "The Session Layer establishes, manages, and terminates communication sessions."
     },
     {
-      "category": "os",
-      "question": "What is the Optimal page replacement algorithm?",
-      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is service discovery important?",
-      "answer": "It enables dynamic scaling and communication between services without hardcoded addresses."
+      "category": "networking",
+      "question": "What is Congestion Avoidance?",
+      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 32",
+      "question": "Java Interview Question 47",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "system_design",
-      "question": "What are common load balancing algorithms?",
-      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
+      "category": "dsa",
+      "question": "What is a deque?",
+      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the ACID properties of a transaction?",
+      "answer": "Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+      "category": "oop",
+      "question": "What is an immutable object?",
+      "answer": "An immutable object is an object whose state cannot be modified after creation."
     },
     {
       "category": "sql",
@@ -72,34 +82,24 @@
       "answer": "EXCEPT returns rows present in the first query but not in the second query."
     },
     {
-      "category": "hr",
-      "question": "What are your career goals?",
-      "answer": "Discuss both short-term learning goals and long-term leadership or specialization goals."
+      "category": "os",
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is rate limiting important?",
+      "answer": "It prevents abuse, protects backend resources, and improves system stability."
     },
     {
       "category": "python",
-      "question": "What is a lambda function?",
-      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
+      "question": "What is dynamic typing in Python?",
+      "answer": "Dynamic typing means variable types are determined at runtime rather than being explicitly declared."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 42",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IP address?",
-      "answer": "An IP address is a unique logical identifier assigned to a device on a network."
-    },
-    {
-      "category": "oop",
-      "question": "What is package-level or default access?",
-      "answer": "Package-level access allows members to be accessed within the same package but not outside it."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 98",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "system_design",
+      "question": "What is eventual consistency?",
+      "answer": "Eventual consistency guarantees that all replicas will converge to the same state if no new updates occur."
     }
   ]
 }
