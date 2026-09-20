@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is specialization in ER modeling?",
-      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
-    },
-    {
-      "category": "python",
-      "question": "What are function arguments?",
-      "answer": "Function arguments are values passed to a function when it is called."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 33",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 25",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 58",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What does SUM() do?",
-      "answer": "SUM() calculates the total of numeric values in a column."
-    },
-    {
       "category": "oop",
-      "question": "What is setter injection?",
-      "answer": "Setter injection provides dependencies through setter methods after object creation."
-    },
-    {
-      "category": "os",
-      "question": "What is process scheduling?",
-      "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the difference between an array and a linked list?",
-      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
+      "question": "What is runtime polymorphism?",
+      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
     },
     {
       "category": "networking",
-      "question": "What is the Session Layer?",
-      "answer": "The Session Layer establishes, manages, and terminates communication sessions."
-    },
-    {
-      "category": "networking",
-      "question": "What is Congestion Avoidance?",
-      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 47",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a deque?",
-      "answer": "A deque is a double-ended queue that allows insertion and deletion from both ends."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the ACID properties of a transaction?",
-      "answer": "Atomicity, Consistency, Isolation, and Durability."
-    },
-    {
-      "category": "oop",
-      "question": "What is an immutable object?",
-      "answer": "An immutable object is an object whose state cannot be modified after creation."
+      "question": "What is a LAN?",
+      "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
     },
     {
       "category": "sql",
-      "question": "What is EXCEPT (or MINUS)?",
-      "answer": "EXCEPT returns rows present in the first query but not in the second query."
-    },
-    {
-      "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is rate limiting important?",
-      "answer": "It prevents abuse, protects backend resources, and improves system stability."
+      "question": "What is a foreign key constraint?",
+      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
     },
     {
       "category": "python",
-      "question": "What is dynamic typing in Python?",
-      "answer": "Dynamic typing means variable types are determined at runtime rather than being explicitly declared."
+      "question": "What are break and continue statements?",
+      "answer": "break exits a loop immediately, while continue skips the current iteration and proceeds to the next one."
+    },
+    {
+      "category": "java",
+      "question": "What is a class in Java?",
+      "answer": "A class is a blueprint for creating objects that defines attributes and methods."
+    },
+    {
+      "category": "os",
+      "question": "What is aging in operating systems?",
+      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
     },
     {
       "category": "system_design",
-      "question": "What is eventual consistency?",
-      "answer": "Eventual consistency guarantees that all replicas will converge to the same state if no new updates occur."
+      "question": "Why is an API Gateway used?",
+      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+    },
+    {
+      "category": "hr",
+      "question": "How do you prioritize your work?",
+      "answer": "Explain how you assess urgency, impact, deadlines, and dependencies when managing tasks."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 31",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the main types of data models?",
+      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
+    },
+    {
+      "category": "oop",
+      "question": "What is method injection?",
+      "answer": "Method injection provides dependencies directly as parameters to methods."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between paging and segmentation?",
+      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
+    },
+    {
+      "category": "python",
+      "question": "What are the key features of Python?",
+      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a suffix array?",
+      "answer": "A suffix array is a sorted array of all suffixes of a string, used for efficient pattern matching and string processing."
+    },
+    {
+      "category": "sql",
+      "question": "What is an aggregate function in SQL?",
+      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an Entity-Relationship (ER) model?",
+      "answer": "The ER model is a conceptual modeling technique used to represent entities, attributes, and relationships."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
