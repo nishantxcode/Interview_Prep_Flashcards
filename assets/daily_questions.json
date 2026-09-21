@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "questions": [
     {
+      "category": "dbms",
+      "question": "What is the relational model?",
+      "answer": "The relational model organizes data into tables consisting of rows and columns."
+    },
+    {
       "category": "oop",
-      "question": "What is runtime polymorphism?",
-      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
-    },
-    {
-      "category": "networking",
-      "question": "What is a LAN?",
-      "answer": "A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or campus."
-    },
-    {
-      "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
-    },
-    {
-      "category": "python",
-      "question": "What are break and continue statements?",
-      "answer": "break exits a loop immediately, while continue skips the current iteration and proceeds to the next one."
-    },
-    {
-      "category": "java",
-      "question": "What is a class in Java?",
-      "answer": "A class is a blueprint for creating objects that defines attributes and methods."
+      "question": "What is deserialization?",
+      "answer": "Deserialization is the process of reconstructing an object from serialized data."
     },
     {
       "category": "os",
-      "question": "What is aging in operating systems?",
-      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
     },
     {
-      "category": "system_design",
-      "question": "Why is an API Gateway used?",
-      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+      "category": "oop",
+      "question": "What is a design pattern?",
+      "answer": "A design pattern is a reusable solution to a commonly occurring software design problem."
     },
     {
       "category": "hr",
-      "question": "How do you prioritize your work?",
-      "answer": "Explain how you assess urgency, impact, deadlines, and dependencies when managing tasks."
+      "question": "HR Interview Question 69",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is circuit switching?",
+      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 31",
+      "question": "What is an interface in Java?",
+      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an alternate key?",
+      "answer": "An alternate key is a candidate key that is not selected as the primary key."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 88",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "networking",
-      "question": "What is a TCP connection?",
-      "answer": "A TCP connection is a reliable communication session established between two endpoints."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the main types of data models?",
-      "answer": "Hierarchical, Network, Relational, Object-Oriented, and Entity-Relationship models."
-    },
-    {
-      "category": "oop",
-      "question": "What is method injection?",
-      "answer": "Method injection provides dependencies directly as parameters to methods."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between paging and segmentation?",
-      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
+      "category": "dsa",
+      "question": "What is a tree?",
+      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
     },
     {
       "category": "python",
-      "question": "What are the key features of Python?",
-      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a suffix array?",
-      "answer": "A suffix array is a sorted array of all suffixes of a string, used for efficient pattern matching and string processing."
-    },
-    {
-      "category": "sql",
-      "question": "What is an aggregate function in SQL?",
-      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an algorithm?",
-      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an Entity-Relationship (ER) model?",
-      "answer": "The ER model is a conceptual modeling technique used to represent entities, attributes, and relationships."
+      "question": "What is a module in Python?",
+      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 21",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Describe a challenging situation you faced and how you handled it.",
+      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal scaling?",
+      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
+    },
+    {
+      "category": "sql",
+      "question": "What is INTERSECT in SQL?",
+      "answer": "INTERSECT returns rows that are common to the results of two queries."
+    },
+    {
+      "category": "python",
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted, general-purpose programming language known for its simplicity and readability."
+    },
+    {
+      "category": "networking",
+      "question": "What is the range of well-known ports?",
+      "answer": "Well-known ports range from 0 to 1023."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a web server?",
+      "answer": "A web server handles HTTP requests and serves web content to clients."
+    },
+    {
+      "category": "os",
+      "question": "What is thrashing?",
+      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
+    },
+    {
+      "category": "sql",
+      "question": "What is a trigger in SQL?",
+      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
     }
   ]
 }
