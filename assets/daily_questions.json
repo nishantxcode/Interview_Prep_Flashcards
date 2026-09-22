@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is the relational model?",
-      "answer": "The relational model organizes data into tables consisting of rows and columns."
+      "category": "sql",
+      "question": "What is the SELECT statement?",
+      "answer": "SELECT retrieves data from one or more tables."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Network Layer?",
+      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Database per Service pattern?",
+      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
     },
     {
       "category": "oop",
-      "question": "What is deserialization?",
-      "answer": "Deserialization is the process of reconstructing an object from serialized data."
+      "question": "What is the difference between a class and an object?",
+      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a hash table?",
+      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the JOIN operation in relational algebra?",
+      "answer": "JOIN combines tuples from two relations based on a related attribute."
+    },
+    {
+      "category": "system_design",
+      "question": "What is data replication in distributed systems?",
+      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
+    },
+    {
+      "category": "java",
+      "question": "What is Java?",
+      "answer": "Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems."
     },
     {
       "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
+      "question": "What happens if the time quantum is too small?",
+      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     },
     {
-      "category": "oop",
-      "question": "What is a design pattern?",
-      "answer": "A design pattern is a reusable solution to a commonly occurring software design problem."
+      "category": "networking",
+      "question": "What is an IPS?",
+      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 69",
+      "question": "HR Interview Question 67",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is circuit switching?",
-      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a hash function?",
-      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
-    },
-    {
       "category": "java",
-      "question": "What is an interface in Java?",
-      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an alternate key?",
-      "answer": "An alternate key is a candidate key that is not selected as the primary key."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 88",
+      "question": "Java Interview Question 39",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is a tree?",
-      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
+      "category": "python",
+      "question": "What is an iterator in Python?",
+      "answer": "An iterator is an object that implements the __iter__() and __next__() methods to traverse a sequence."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Isolation in ACID?",
+      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
     },
     {
       "category": "python",
-      "question": "What is a module in Python?",
-      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
+      "question": "What is the purpose of the if statement?",
+      "answer": "The if statement executes a block of code when a condition evaluates to true."
     },
     {
-      "category": "hr",
-      "question": "Describe a challenging situation you faced and how you handled it.",
-      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal scaling?",
-      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
-    },
-    {
-      "category": "sql",
-      "question": "What is INTERSECT in SQL?",
-      "answer": "INTERSECT returns rows that are common to the results of two queries."
-    },
-    {
-      "category": "python",
-      "question": "What is Python?",
-      "answer": "Python is a high-level, interpreted, general-purpose programming language known for its simplicity and readability."
-    },
-    {
-      "category": "networking",
-      "question": "What is the range of well-known ports?",
-      "answer": "Well-known ports range from 0 to 1023."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a web server?",
-      "answer": "A web server handles HTTP requests and serves web content to clients."
+      "category": "oop",
+      "question": "What is method overloading?",
+      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
     },
     {
       "category": "os",
-      "question": "What is thrashing?",
-      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
+      "question": "What is fragmentation?",
+      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
     },
     {
       "category": "sql",
-      "question": "What is a trigger in SQL?",
-      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
+      "question": "What does SUM() do?",
+      "answer": "SUM() calculates the total of numeric values in a column."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 88",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What are the primary applications of a Trie?",
+      "answer": "Tries are commonly used for autocomplete, spell checking, prefix matching, and dictionary implementations."
     }
   ]
 }
