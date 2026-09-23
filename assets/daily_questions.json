@@ -1,30 +1,80 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
+      "category": "python",
+      "question": "What is self in Python?",
+      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
     },
     {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
+      "category": "hr",
+      "question": "HR Interview Question 69",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "system_design",
-      "question": "What is the Database per Service pattern?",
-      "answer": "The Database per Service pattern gives each microservice ownership of its own database."
+      "question": "Why are message queues used?",
+      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
     },
     {
-      "category": "oop",
-      "question": "What is the difference between a class and an object?",
-      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
+      "category": "java",
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
+    },
+    {
+      "category": "networking",
+      "question": "What is Quality of Service (QoS)?",
+      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 94",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dsa",
-      "question": "What is a hash table?",
-      "answer": "A hash table is a data structure that stores key-value pairs and uses hashing for near constant-time access."
+      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+      "answer": "The time complexity is O((V + E) log V)."
+    },
+    {
+      "category": "os",
+      "question": "What is the Producer-Consumer problem?",
+      "answer": "The Producer-Consumer problem is a synchronization problem where producers generate data and consumers consume it from a shared buffer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is view serializability?",
+      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
+    },
+    {
+      "category": "networking",
+      "question": "What is subnetting?",
+      "answer": "Subnetting is the process of dividing a network into smaller logical subnetworks to improve efficiency and management."
+    },
+    {
+      "category": "sql",
+      "question": "What are common aggregate functions in SQL?",
+      "answer": "COUNT(), SUM(), AVG(), MIN(), and MAX()."
+    },
+    {
+      "category": "dsa",
+      "question": "What is double hashing?",
+      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
+    },
+    {
+      "category": "oop",
+      "question": "What are the benefits of dependency injection?",
+      "answer": "Dependency injection improves testability, flexibility, maintainability, and adherence to the Dependency Inversion Principle."
+    },
+    {
+      "category": "sql",
+      "question": "What is the most commonly used DQL command?",
+      "answer": "SELECT."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 33",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
@@ -32,74 +82,24 @@
       "answer": "JOIN combines tuples from two relations based on a related attribute."
     },
     {
-      "category": "system_design",
-      "question": "What is data replication in distributed systems?",
-      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
-    },
-    {
-      "category": "java",
-      "question": "What is Java?",
-      "answer": "Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems."
-    },
-    {
-      "category": "os",
-      "question": "What happens if the time quantum is too small?",
-      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IPS?",
-      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 67",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 39",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is an iterator in Python?",
-      "answer": "An iterator is an object that implements the __iter__() and __next__() methods to traverse a sequence."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Isolation in ACID?",
-      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the if statement?",
-      "answer": "The if statement executes a block of code when a condition evaluates to true."
-    },
-    {
       "category": "oop",
-      "question": "What is method overloading?",
-      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects of different classes to be treated through a common interface while exhibiting different behaviors."
+    },
+    {
+      "category": "system_design",
+      "question": "What is scalability?",
+      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+    },
+    {
+      "category": "python",
+      "question": "What are break and continue statements?",
+      "answer": "break exits a loop immediately, while continue skips the current iteration and proceeds to the next one."
     },
     {
       "category": "os",
-      "question": "What is fragmentation?",
-      "answer": "Fragmentation is the inefficient use of memory caused by allocation and deallocation patterns."
-    },
-    {
-      "category": "sql",
-      "question": "What does SUM() do?",
-      "answer": "SUM() calculates the total of numeric values in a column."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 88",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What are the primary applications of a Trie?",
-      "answer": "Tries are commonly used for autocomplete, spell checking, prefix matching, and dictionary implementations."
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
     }
   ]
 }
