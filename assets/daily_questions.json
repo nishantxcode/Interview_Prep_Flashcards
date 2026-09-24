@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "questions": [
     {
-      "category": "python",
-      "question": "What is self in Python?",
-      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
+      "category": "networking",
+      "question": "What is a Content Delivery Network (CDN)?",
+      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 69",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dsa",
+      "question": "What is open addressing?",
+      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
     },
     {
-      "category": "system_design",
-      "question": "Why are message queues used?",
-      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+      "category": "os",
+      "question": "What is a kernel-level thread?",
+      "answer": "A kernel-level thread is managed directly by the operating system kernel."
     },
     {
-      "category": "java",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
+      "category": "sql",
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
     },
     {
       "category": "networking",
-      "question": "What is Quality of Service (QoS)?",
-      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+      "question": "What is the difference between packet switching and circuit switching?",
+      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 94",
+      "question": "Java Interview Question 32",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
-      "answer": "The time complexity is O((V + E) log V)."
-    },
-    {
       "category": "os",
-      "question": "What is the Producer-Consumer problem?",
-      "answer": "The Producer-Consumer problem is a synchronization problem where producers generate data and consumers consume it from a shared buffer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is view serializability?",
-      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
-    },
-    {
-      "category": "networking",
-      "question": "What is subnetting?",
-      "answer": "Subnetting is the process of dividing a network into smaller logical subnetworks to improve efficiency and management."
-    },
-    {
-      "category": "sql",
-      "question": "What are common aggregate functions in SQL?",
-      "answer": "COUNT(), SUM(), AVG(), MIN(), and MAX()."
-    },
-    {
-      "category": "dsa",
-      "question": "What is double hashing?",
-      "answer": "Double hashing uses a second hash function to determine the probing sequence after a collision."
+      "question": "Why is context switching considered overhead?",
+      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
     },
     {
       "category": "oop",
-      "question": "What are the benefits of dependency injection?",
-      "answer": "Dependency injection improves testability, flexibility, maintainability, and adherence to the Dependency Inversion Principle."
-    },
-    {
-      "category": "sql",
-      "question": "What is the most commonly used DQL command?",
-      "answer": "SELECT."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 33",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the JOIN operation in relational algebra?",
-      "answer": "JOIN combines tuples from two relations based on a related attribute."
-    },
-    {
-      "category": "oop",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects of different classes to be treated through a common interface while exhibiting different behaviors."
-    },
-    {
-      "category": "system_design",
-      "question": "What is scalability?",
-      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+      "question": "What is cohesion?",
+      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
     },
     {
       "category": "python",
-      "question": "What are break and continue statements?",
-      "answer": "break exits a loop immediately, while continue skips the current iteration and proceeds to the next one."
+      "question": "What is multilevel inheritance?",
+      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
     },
     {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+      "category": "hr",
+      "question": "HR Interview Question 61",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What are common load balancing algorithms?",
+      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
+    },
+    {
+      "category": "oop",
+      "question": "What is an object?",
+      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
+    },
+    {
+      "category": "python",
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the key challenge in designing a video streaming platform?",
+      "answer": "Efficient content storage, CDN distribution, transcoding, and large-scale video delivery."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 82",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a trivial functional dependency?",
+      "answer": "A functional dependency is trivial if the dependent attribute is a subset of the determinant attribute."
+    },
+    {
+      "category": "dbms",
+      "question": "What is generalization in ER modeling?",
+      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
+    },
+    {
+      "category": "dsa",
+      "question": "What is cycle detection in a graph?",
+      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 41",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
