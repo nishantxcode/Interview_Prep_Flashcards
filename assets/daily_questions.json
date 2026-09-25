@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is a Content Delivery Network (CDN)?",
-      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
-    },
-    {
       "category": "dsa",
-      "question": "What is open addressing?",
-      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
+      "question": "What is the time complexity of searching in a Trie?",
+      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
     },
     {
       "category": "os",
-      "question": "What is a kernel-level thread?",
-      "answer": "A kernel-level thread is managed directly by the operating system kernel."
+      "question": "What is a monitor?",
+      "answer": "A monitor is a high-level synchronization construct that provides mutual exclusion and condition variables."
     },
     {
       "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "sql",
-      "question": "What is a CROSS JOIN?",
-      "answer": "CROSS JOIN returns the Cartesian product of two tables."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between packet switching and circuit switching?",
-      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
+      "question": "What is the DISTINCT keyword?",
+      "answer": "DISTINCT removes duplicate rows from query results."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 32",
+      "question": "Java Interview Question 99",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "os",
-      "question": "Why is context switching considered overhead?",
-      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
-    },
-    {
-      "category": "oop",
-      "question": "What is cohesion?",
-      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
-    },
-    {
-      "category": "python",
-      "question": "What is multilevel inheritance?",
-      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 61",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What are common load balancing algorithms?",
-      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
-    },
-    {
-      "category": "oop",
-      "question": "What is an object?",
-      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the key challenge in designing a video streaming platform?",
-      "answer": "Efficient content storage, CDN distribution, transcoding, and large-scale video delivery."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 82",
+      "question": "Java Interview Question 74",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a trivial functional dependency?",
-      "answer": "A functional dependency is trivial if the dependent attribute is a subset of the determinant attribute."
-    },
-    {
-      "category": "dbms",
-      "question": "What is generalization in ER modeling?",
-      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
     },
     {
       "category": "dsa",
-      "question": "What is cycle detection in a graph?",
-      "answer": "Cycle detection is the process of determining whether a graph contains a path that starts and ends at the same vertex."
+      "question": "What is a Red-Black Tree?",
+      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
+    },
+    {
+      "category": "oop",
+      "question": "How would you model a Parking Lot system in an OOP interview?",
+      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
+    },
+    {
+      "category": "python",
+      "question": "What is a decorator in Python?",
+      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Network Layer?",
+      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
+    },
+    {
+      "category": "system_design",
+      "question": "What is leader election?",
+      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
+    },
+    {
+      "category": "python",
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a candidate key?",
+      "answer": "A candidate key is a minimal super key with no redundant attributes."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ALL operator?",
+      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
+    },
+    {
+      "category": "system_design",
+      "question": "What is write-through caching?",
+      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 41",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Why do you want to work for our company?",
+      "answer": "Demonstrate knowledge of the company's products, culture, values, and explain how they align with your career goals."
+    },
+    {
+      "category": "hr",
+      "question": "What do you know about our company?",
+      "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
+    },
+    {
+      "category": "oop",
+      "question": "What are the four pillars of OOP?",
+      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
     }
   ]
 }
