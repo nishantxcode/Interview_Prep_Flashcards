@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "questions": [
     {
       "category": "dsa",
-      "question": "What is the time complexity of searching in a Trie?",
-      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
-    },
-    {
-      "category": "os",
-      "question": "What is a monitor?",
-      "answer": "A monitor is a high-level synchronization construct that provides mutual exclusion and condition variables."
+      "question": "Why are rotations required in AVL trees?",
+      "answer": "Rotations restore balance after insertions or deletions that violate the AVL balance condition."
     },
     {
       "category": "sql",
-      "question": "What is the DISTINCT keyword?",
-      "answer": "DISTINCT removes duplicate rows from query results."
+      "question": "What is the difference between DELETE and TRUNCATE?",
+      "answer": "DELETE removes rows one by one and can be rolled back, whereas TRUNCATE removes all rows more efficiently and often cannot be rolled back."
+    },
+    {
+      "category": "dbms",
+      "question": "What is relational algebra?",
+      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a microservices architecture?",
+      "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
+    },
+    {
+      "category": "system_design",
+      "question": "What is database sharding?",
+      "answer": "Sharding is the process of partitioning data across multiple database servers."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 99",
+      "question": "Java Interview Question 87",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 74",
+      "question": "Java Interview Question 95",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is a proxy server?",
+      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
+    },
+    {
+      "category": "oop",
+      "question": "What is a destructor?",
+      "answer": "A destructor is a special method used to release resources when an object is destroyed."
+    },
+    {
+      "category": "oop",
+      "question": "Why is composition often preferred over inheritance?",
+      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
+    },
+    {
+      "category": "sql",
+      "question": "What is the TRUNCATE statement?",
+      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 36",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is external fragmentation?",
+      "answer": "External fragmentation occurs when free memory is split into small non-contiguous blocks."
     },
     {
       "category": "dsa",
-      "question": "What is a Red-Black Tree?",
-      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
+      "question": "What is an adjacency list?",
+      "answer": "An adjacency list represents a graph by storing a list of neighboring vertices for each vertex."
     },
     {
-      "category": "oop",
-      "question": "How would you model a Parking Lot system in an OOP interview?",
-      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
-    },
-    {
-      "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+      "category": "hr",
+      "question": "HR Interview Question 99",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "system_design",
-      "question": "What is leader election?",
-      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
-    },
-    {
-      "category": "dbms",
-      "question": "What is an instance in DBMS?",
-      "answer": "An instance is the actual data stored in the database at a specific point in time."
+      "question": "What is IPv6?",
+      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
     },
     {
       "category": "python",
-      "question": "What is method overloading in Python?",
-      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
+      "question": "What are default arguments in Python?",
+      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
+    },
+    {
+      "category": "python",
+      "question": "What is an exception in Python?",
+      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
     },
     {
       "category": "os",
-      "question": "What is Shortest Remaining Time First (SRTF)?",
-      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TLS handshake?",
-      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+      "question": "What is turnaround time?",
+      "answer": "Turnaround time is the total time taken from process submission to process completion."
     },
     {
       "category": "dbms",
-      "question": "What is a candidate key?",
-      "answer": "A candidate key is a minimal super key with no redundant attributes."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALL operator?",
-      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
-    },
-    {
-      "category": "system_design",
-      "question": "What is write-through caching?",
-      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
-    },
-    {
-      "category": "hr",
-      "question": "Why do you want to work for our company?",
-      "answer": "Demonstrate knowledge of the company's products, culture, values, and explain how they align with your career goals."
-    },
-    {
-      "category": "hr",
-      "question": "What do you know about our company?",
-      "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
-    },
-    {
-      "category": "oop",
-      "question": "What are the four pillars of OOP?",
-      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+      "question": "What are deletion anomalies?",
+      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
     }
   ]
 }
