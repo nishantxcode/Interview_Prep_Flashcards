@@ -1,105 +1,105 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "questions": [
     {
       "category": "dsa",
-      "question": "Why are rotations required in AVL trees?",
-      "answer": "Rotations restore balance after insertions or deletions that violate the AVL balance condition."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between DELETE and TRUNCATE?",
-      "answer": "DELETE removes rows one by one and can be rolled back, whereas TRUNCATE removes all rows more efficiently and often cannot be rolled back."
-    },
-    {
-      "category": "dbms",
-      "question": "What is relational algebra?",
-      "answer": "Relational algebra is a procedural query language that operates on relations and forms the theoretical foundation of SQL."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a microservices architecture?",
-      "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
-    },
-    {
-      "category": "system_design",
-      "question": "What is database sharding?",
-      "answer": "Sharding is the process of partitioning data across multiple database servers."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 87",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 95",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a proxy server?",
-      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
-    },
-    {
-      "category": "oop",
-      "question": "What is a destructor?",
-      "answer": "A destructor is a special method used to release resources when an object is destroyed."
-    },
-    {
-      "category": "oop",
-      "question": "Why is composition often preferred over inheritance?",
-      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
-    },
-    {
-      "category": "sql",
-      "question": "What is the TRUNCATE statement?",
-      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 36",
+      "question": "HR Interview Question 63",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is external fragmentation?",
-      "answer": "External fragmentation occurs when free memory is split into small non-contiguous blocks."
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 85",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What are the advantages of CTEs?",
+      "answer": "CTEs improve readability, simplify complex queries, and support recursion."
+    },
+    {
+      "category": "python",
+      "question": "What is file handling in Python?",
+      "answer": "File handling refers to reading from and writing to files using Python programs."
+    },
+    {
+      "category": "networking",
+      "question": "What is congestion in a network?",
+      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
+    },
+    {
+      "category": "sql",
+      "question": "What is normalization in SQL databases?",
+      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Saga Pattern?",
+      "answer": "The Saga Pattern manages distributed transactions using a sequence of local transactions with compensating actions."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Strict Two-Phase Locking?",
+      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
     },
     {
       "category": "dsa",
-      "question": "What is an adjacency list?",
-      "answer": "An adjacency list represents a graph by storing a list of neighboring vertices for each vertex."
+      "question": "What is heapify?",
+      "answer": "Heapify is the process of restoring the heap property in a subtree or an entire tree."
+    },
+    {
+      "category": "os",
+      "question": "What is the Readers-Writers problem?",
+      "answer": "The Readers-Writers problem deals with synchronizing access to shared data when multiple readers and writers are present."
+    },
+    {
+      "category": "python",
+      "question": "What is a context manager in Python?",
+      "answer": "A context manager manages resources automatically and is commonly used with the with statement."
+    },
+    {
+      "category": "system_design",
+      "question": "What is cache eviction?",
+      "answer": "Cache eviction is the process of removing items from a cache when space is needed."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
+    },
+    {
+      "category": "oop",
+      "question": "What is dependency injection?",
+      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 99",
+      "question": "HR Interview Question 31",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "networking",
-      "question": "What is IPv6?",
-      "answer": "IPv6 is a 128-bit addressing scheme designed to overcome IPv4 address exhaustion."
+      "question": "What is a firewall?",
+      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
     },
     {
-      "category": "python",
-      "question": "What are default arguments in Python?",
-      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
+      "category": "oop",
+      "question": "Why is encapsulation important?",
+      "answer": "Encapsulation improves security, maintainability, and modularity by hiding implementation details."
     },
     {
-      "category": "python",
-      "question": "What is an exception in Python?",
-      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
-    },
-    {
-      "category": "os",
-      "question": "What is turnaround time?",
-      "answer": "Turnaround time is the total time taken from process submission to process completion."
-    },
-    {
-      "category": "dbms",
-      "question": "What are deletion anomalies?",
-      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
+      "category": "java",
+      "question": "Java Interview Question 53",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
