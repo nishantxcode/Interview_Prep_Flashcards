@@ -1,104 +1,104 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is the time complexity of DFS?",
-      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
+      "category": "networking",
+      "question": "What is the difference between a hub and a switch?",
+      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 63",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+    },
+    {
+      "category": "networking",
+      "question": "What is a Content Delivery Network (CDN)?",
+      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+    },
+    {
+      "category": "sql",
+      "question": "What is the CREATE statement?",
+      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
+    },
+    {
+      "category": "dbms",
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an AVL tree?",
+      "answer": "An AVL tree is a self-balancing Binary Search Tree in which the height difference between left and right subtrees is at most one."
+    },
+    {
+      "category": "oop",
+      "question": "What is object cloning?",
+      "answer": "Object cloning creates a copy of an existing object."
     },
     {
       "category": "os",
-      "question": "What is Shortest Remaining Time First (SRTF)?",
-      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+      "question": "What is disk scheduling?",
+      "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
+    },
+    {
+      "category": "os",
+      "question": "What is Priority Scheduling?",
+      "answer": "Priority Scheduling executes processes based on their assigned priority values."
+    },
+    {
+      "category": "oop",
+      "question": "Why is composition often preferred over inheritance?",
+      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 80",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the HAVING clause?",
+      "answer": "HAVING filters grouped results after aggregation has been performed."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 85",
+      "question": "Java Interview Question 52",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "sql",
-      "question": "What are the advantages of CTEs?",
-      "answer": "CTEs improve readability, simplify complex queries, and support recursion."
-    },
-    {
       "category": "python",
-      "question": "What is file handling in Python?",
-      "answer": "File handling refers to reading from and writing to files using Python programs."
-    },
-    {
-      "category": "networking",
-      "question": "What is congestion in a network?",
-      "answer": "Network congestion occurs when the demand for network resources exceeds the available capacity."
-    },
-    {
-      "category": "sql",
-      "question": "What is normalization in SQL databases?",
-      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the Saga Pattern?",
-      "answer": "The Saga Pattern manages distributed transactions using a sequence of local transactions with compensating actions."
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
     },
     {
       "category": "dbms",
-      "question": "What is Strict Two-Phase Locking?",
-      "answer": "Strict 2PL holds all exclusive locks until the transaction commits or aborts."
+      "question": "What is serializability?",
+      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
     },
     {
       "category": "dsa",
-      "question": "What is heapify?",
-      "answer": "Heapify is the process of restoring the heap property in a subtree or an entire tree."
-    },
-    {
-      "category": "os",
-      "question": "What is the Readers-Writers problem?",
-      "answer": "The Readers-Writers problem deals with synchronizing access to shared data when multiple readers and writers are present."
-    },
-    {
-      "category": "python",
-      "question": "What is a context manager in Python?",
-      "answer": "A context manager manages resources automatically and is commonly used with the with statement."
-    },
-    {
-      "category": "system_design",
-      "question": "What is cache eviction?",
-      "answer": "Cache eviction is the process of removing items from a cache when space is needed."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a lock in DBMS?",
-      "answer": "A lock is a mechanism used to control concurrent access to data items."
-    },
-    {
-      "category": "oop",
-      "question": "What is dependency injection?",
-      "answer": "Dependency injection is a design technique in which dependencies are provided to a class from external sources rather than being created internally."
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 31",
+      "question": "HR Interview Question 61",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is a firewall?",
-      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
-    },
-    {
-      "category": "oop",
-      "question": "Why is encapsulation important?",
-      "answer": "Encapsulation improves security, maintainability, and modularity by hiding implementation details."
+      "category": "system_design",
+      "question": "What is System Design?",
+      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 53",
+      "question": "Java Interview Question 84",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
