@@ -1,50 +1,10 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "questions": [
     {
-      "category": "hr",
-      "question": "HR Interview Question 43",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a CHECK constraint?",
-      "answer": "A CHECK constraint restricts values in a column based on a specified condition."
-    },
-    {
-      "category": "os",
-      "question": "What is a short-term scheduler?",
-      "answer": "A short-term scheduler selects a process from the ready queue and allocates the CPU."
-    },
-    {
-      "category": "oop",
-      "question": "What is multiple inheritance?",
-      "answer": "Multiple inheritance allows a class to inherit properties and behavior from more than one parent class."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ANY operator?",
-      "answer": "ANY compares a value to each value returned by a subquery and returns true if at least one comparison is true."
-    },
-    {
-      "category": "networking",
-      "question": "What is Fast Retransmit?",
-      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
-    },
-    {
-      "category": "hr",
-      "question": "How would your colleagues describe you?",
-      "answer": "Mention qualities such as reliability, teamwork, ownership, and communication skills."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 92",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is DML in SQL?",
-      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
+      "category": "dsa",
+      "question": "What is Dijkstra's algorithm?",
+      "answer": "Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights."
     },
     {
       "category": "dsa",
@@ -52,54 +12,94 @@
       "answer": "Kruskal's algorithm builds a Minimum Spanning Tree by repeatedly selecting the smallest edge that does not form a cycle."
     },
     {
-      "category": "oop",
-      "question": "What is the Open/Closed Principle (OCP)?",
-      "answer": "OCP states that software entities should be open for extension but closed for modification."
+      "category": "dbms",
+      "question": "What is a transaction in DBMS?",
+      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
     },
     {
-      "category": "dbms",
-      "question": "What is generalization in ER modeling?",
-      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
+      "category": "python",
+      "question": "What is the difference between a list and a tuple?",
+      "answer": "Lists are mutable, whereas tuples are immutable."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 72",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "os",
-      "question": "What are the different states of a process?",
-      "answer": "New, Ready, Running, Waiting (Blocked), and Terminated."
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a reverse proxy?",
+      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 49",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "os",
+      "question": "What is a scheduler?",
+      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is an API Gateway used?",
+      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
+    },
+    {
+      "category": "oop",
+      "question": "What is a constructor?",
+      "answer": "A constructor is a special method used to initialize objects when they are created."
+    },
+    {
+      "category": "sql",
+      "question": "What is the HAVING clause?",
+      "answer": "HAVING filters grouped results after aggregation has been performed."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 46",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the ALL operator?",
+      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between a list and a set?",
+      "answer": "Lists allow duplicates and maintain order, whereas sets store unique elements and are unordered."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of data rows in a table."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 47",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Facade pattern?",
+      "answer": "The Facade pattern provides a simplified interface to a complex subsystem."
+    },
+    {
+      "category": "networking",
+      "question": "What is a router?",
+      "answer": "A router is a networking device that forwards packets between different networks based on IP addresses."
     },
     {
       "category": "networking",
       "question": "What is the difference between IPv4 and IPv6?",
       "answer": "IPv4 uses 32-bit addresses, whereas IPv6 uses 128-bit addresses and supports a vastly larger address space."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 87",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Red-Black Tree?",
-      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
-    },
-    {
-      "category": "system_design",
-      "question": "What is write-through caching?",
-      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
-    },
-    {
-      "category": "python",
-      "question": "What is self in Python?",
-      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
-    },
-    {
-      "category": "python",
-      "question": "What are *args in Python?",
-      "answer": "*args allows a function to accept a variable number of positional arguments."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
     }
   ]
 }
