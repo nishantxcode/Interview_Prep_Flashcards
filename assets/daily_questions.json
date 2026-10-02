@@ -1,10 +1,75 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "questions": [
     {
+      "category": "dbms",
+      "question": "What is an attribute in an ER model?",
+      "answer": "An attribute is a property or characteristic that describes an entity."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an event in event-driven architecture?",
+      "answer": "An event is a record of a significant change in system state."
+    },
+    {
+      "category": "sql",
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a graph?",
+      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a Circuit Breaker pattern?",
+      "answer": "The Circuit Breaker pattern prevents repeated calls to failing services and allows systems to recover gracefully."
+    },
+    {
       "category": "networking",
-      "question": "What is a firewall?",
-      "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules."
+      "question": "What is HTTPS?",
+      "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
+    },
+    {
+      "category": "python",
+      "question": "What are function arguments?",
+      "answer": "Function arguments are values passed to a function when it is called."
+    },
+    {
+      "category": "networking",
+      "question": "What is a TCP connection?",
+      "answer": "A TCP connection is a reliable communication session established between two endpoints."
+    },
+    {
+      "category": "os",
+      "question": "What is virtual memory?",
+      "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 24",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is None in Python?",
+      "answer": "None is a special object representing the absence of a value."
+    },
+    {
+      "category": "dsa",
+      "question": "What is hashing?",
+      "answer": "Hashing is the process of mapping data to fixed-size values using a hash function for efficient storage and retrieval."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between abstraction and encapsulation?",
+      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
     },
     {
       "category": "os",
@@ -12,94 +77,29 @@
       "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
     },
     {
-      "category": "java",
-      "question": "What is JDK?",
-      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
-    },
-    {
-      "category": "dbms",
-      "question": "What is conflict serializability?",
-      "answer": "Conflict serializability determines whether a schedule can be transformed into a serial schedule by swapping non-conflicting operations."
+      "category": "sql",
+      "question": "What is a non-correlated subquery?",
+      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
     },
     {
       "category": "oop",
-      "question": "What are the key factors of good object-oriented design?",
-      "answer": "Good object-oriented design emphasizes high cohesion, low coupling, abstraction, extensibility, maintainability, and adherence to SOLID principles."
-    },
-    {
-      "category": "python",
-      "question": "What is AsyncIO?",
-      "answer": "AsyncIO is Python's built-in framework for writing concurrent asynchronous programs using an event loop."
-    },
-    {
-      "category": "python",
-      "question": "What is the reduce() function?",
-      "answer": "reduce() applies a function cumulatively to iterable elements and reduces them to a single value."
-    },
-    {
-      "category": "dsa",
-      "question": "What is inorder traversal?",
-      "answer": "Inorder traversal recursively traverses the left subtree, visits the root node, and then traverses the right subtree."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a domain?",
-      "answer": "A domain is the set of permissible values that an attribute can hold."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a consumer in a messaging system?",
-      "answer": "A consumer is a component that receives and processes messages."
-    },
-    {
-      "category": "oop",
-      "question": "What is a public access modifier?",
-      "answer": "A public member can be accessed from anywhere in the program."
-    },
-    {
-      "category": "os",
-      "question": "What is the main disadvantage of FCFS scheduling?",
-      "answer": "FCFS suffers from the convoy effect, where short processes wait behind long processes."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the CAP Theorem?",
-      "answer": "The CAP Theorem states that a distributed system can guarantee at most two of Consistency, Availability, and Partition Tolerance simultaneously."
+      "question": "What is data hiding?",
+      "answer": "Data hiding is the practice of restricting direct access to object data through access modifiers."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 96",
+      "question": "Java Interview Question 43",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "sql",
-      "question": "What does MIN() do?",
-      "answer": "MIN() returns the smallest value in a column."
+      "category": "java",
+      "question": "What is a constructor in Java?",
+      "answer": "A constructor is a special method used to initialize objects when they are created."
     },
     {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "networking",
-      "question": "What is Slow Start in TCP?",
-      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Find operation in DSU?",
-      "answer": "The Find operation returns the representative element of the set containing a given element."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 93",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+      "category": "dbms",
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
     }
   ]
 }
