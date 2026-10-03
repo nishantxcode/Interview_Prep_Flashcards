@@ -1,60 +1,35 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "questions": [
     {
       "category": "dbms",
-      "question": "What is an attribute in an ER model?",
-      "answer": "An attribute is a property or characteristic that describes an entity."
-    },
-    {
-      "category": "system_design",
-      "question": "What is an event in event-driven architecture?",
-      "answer": "An event is a record of a significant change in system state."
-    },
-    {
-      "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a graph?",
-      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a Circuit Breaker pattern?",
-      "answer": "The Circuit Breaker pattern prevents repeated calls to failing services and allows systems to recover gracefully."
-    },
-    {
-      "category": "networking",
-      "question": "What is HTTPS?",
-      "answer": "HTTPS is the secure version of HTTP that uses SSL/TLS encryption."
-    },
-    {
-      "category": "python",
-      "question": "What are function arguments?",
-      "answer": "Function arguments are values passed to a function when it is called."
-    },
-    {
-      "category": "networking",
-      "question": "What is a TCP connection?",
-      "answer": "A TCP connection is a reliable communication session established between two endpoints."
+      "question": "What is metadata?",
+      "answer": "Metadata is data that describes the structure, properties, and characteristics of other data."
     },
     {
       "category": "os",
-      "question": "What is virtual memory?",
-      "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprogramming?",
+      "answer": "Multiprogramming is a technique where multiple programs are kept in memory so the CPU can switch among them efficiently."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 24",
+      "question": "HR Interview Question 80",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 21",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "dsa",
+      "question": "What is path compression in DSU?",
+      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
+    },
+    {
+      "category": "sql",
+      "question": "What is a RIGHT JOIN?",
+      "answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
     },
     {
       "category": "python",
@@ -62,44 +37,69 @@
       "answer": "None is a special object representing the absence of a value."
     },
     {
-      "category": "dsa",
-      "question": "What is hashing?",
-      "answer": "Hashing is the process of mapping data to fixed-size values using a hash function for efficient storage and retrieval."
-    },
-    {
       "category": "oop",
-      "question": "What is the difference between abstraction and encapsulation?",
-      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
-    },
-    {
-      "category": "os",
-      "question": "What is real-time scheduling?",
-      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
-    },
-    {
-      "category": "sql",
-      "question": "What is a non-correlated subquery?",
-      "answer": "A non-correlated subquery executes independently of the outer query and returns a result used by the outer query."
-    },
-    {
-      "category": "oop",
-      "question": "What is data hiding?",
-      "answer": "Data hiding is the practice of restricting direct access to object data through access modifiers."
+      "question": "When should the Singleton pattern be used?",
+      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 43",
+      "question": "Java Interview Question 60",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "java",
-      "question": "What is a constructor in Java?",
-      "answer": "A constructor is a special method used to initialize objects when they are created."
+      "category": "dbms",
+      "question": "What is the three-schema architecture?",
+      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
     },
     {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+      "category": "oop",
+      "question": "What is the Decorator pattern?",
+      "answer": "The Decorator pattern dynamically adds new behavior to objects without modifying their code."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 27",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is quadratic probing?",
+      "answer": "Quadratic probing resolves collisions by checking slots at quadratic intervals from the original position."
+    },
+    {
+      "category": "java",
+      "question": "What is bytecode in Java?",
+      "answer": "Bytecode is the intermediate code generated by the Java compiler that is executed by the JVM."
+    },
+    {
+      "category": "system_design",
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
+    },
+    {
+      "category": "python",
+      "question": "What are the advantages of generators?",
+      "answer": "Generators save memory, improve performance for large datasets, and support lazy evaluation."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the advantages of distributed systems?",
+      "answer": "Scalability, fault tolerance, high availability, resource sharing, and improved performance."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Retransmit?",
+      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
+    },
+    {
+      "category": "sql",
+      "question": "What is an aggregate function in SQL?",
+      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
+    },
+    {
+      "category": "networking",
+      "question": "What is RIP?",
+      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
     }
   ]
 }
