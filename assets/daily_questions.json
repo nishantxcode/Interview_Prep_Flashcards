@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "questions": [
     {
-      "category": "oop",
-      "question": "What are SOLID principles?",
-      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
-    },
-    {
-      "category": "os",
-      "question": "What is thrashing?",
-      "answer": "Thrashing occurs when the system spends more time handling page faults than executing actual processes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a shared lock?",
-      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
+      "category": "java",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
     },
     {
       "category": "networking",
-      "question": "What is the difference between packet switching and circuit switching?",
-      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
+      "question": "What is a broadcast domain?",
+      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a heap?",
+      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
+    },
+    {
+      "category": "os",
+      "question": "What is Multilevel Queue Scheduling?",
+      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+    },
+    {
+      "category": "python",
+      "question": "Why is the with statement used?",
+      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
+    },
+    {
+      "category": "os",
+      "question": "What information is stored in a PCB?",
+      "answer": "Process ID, process state, program counter, CPU registers, scheduling information, and memory management details."
+    },
+    {
+      "category": "system_design",
+      "question": "What is service discovery?",
+      "answer": "Service discovery is the process of automatically locating services within a distributed system."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between compiled and interpreted languages?",
+      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a relation in the relational model?",
+      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
+    },
+    {
+      "category": "sql",
+      "question": "What is a transaction in SQL?",
+      "answer": "A transaction is a sequence of operations executed as a single logical unit of work."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 86",
+      "question": "Java Interview Question 67",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
-    },
-    {
-      "category": "python",
-      "question": "What is the raise statement?",
-      "answer": "The raise statement is used to explicitly trigger an exception."
-    },
-    {
-      "category": "system_design",
-      "question": "What is latency?",
-      "answer": "Latency is the time taken for a request to travel from a client to a server and back."
-    },
-    {
-      "category": "hr",
-      "question": "What is your biggest weakness?",
-      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
+      "category": "networking",
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
     },
     {
       "category": "oop",
-      "question": "What is delegation in OOP?",
-      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
-    },
-    {
-      "category": "sql",
-      "question": "What is the EXISTS operator?",
-      "answer": "EXISTS checks whether a subquery returns any rows."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 99",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is a default constructor?",
+      "answer": "A default constructor is a constructor that takes no parameters."
     },
     {
       "category": "dbms",
-      "question": "What are the common types of relationships in DBMS?",
-      "answer": "One-to-One, One-to-Many, Many-to-One, and Many-to-Many."
+      "question": "What is a functional dependency?",
+      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
+    },
+    {
+      "category": "hr",
+      "question": "Why should we hire you?",
+      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
     },
     {
       "category": "dsa",
-      "question": "What is an adjacency list?",
-      "answer": "An adjacency list represents a graph by storing a list of neighboring vertices for each vertex."
+      "question": "What is the difference between directed and undirected graphs?",
+      "answer": "Directed graphs have edges with direction, whereas undirected graphs have edges without direction."
     },
     {
-      "category": "sql",
-      "question": "What is RANK()?",
-      "answer": "RANK() assigns rankings to rows and leaves gaps in ranking when ties occur."
+      "category": "oop",
+      "question": "Can a class implement multiple interfaces?",
+      "answer": "Yes, a class can implement multiple interfaces."
     },
     {
-      "category": "networking",
-      "question": "What are the layers of the TCP/IP model?",
-      "answer": "Application, Transport, Internet, and Network Access layers."
+      "category": "system_design",
+      "question": "What is a shard key?",
+      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
     },
     {
-      "category": "os",
-      "question": "What is deadlock prevention?",
-      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
-    },
-    {
-      "category": "python",
-      "question": "What is mutability in Python?",
-      "answer": "Mutability refers to whether an object's state can be modified after creation."
-    },
-    {
-      "category": "java",
-      "question": "What is the default constructor?",
-      "answer": "A default constructor is automatically provided by the compiler when no constructor is explicitly defined."
+      "category": "hr",
+      "question": "What is your greatest professional achievement?",
+      "answer": "Share a measurable accomplishment and explain the impact it created."
     }
   ]
 }
