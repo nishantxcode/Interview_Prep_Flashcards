@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "questions": [
     {
-      "category": "java",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
-    },
-    {
-      "category": "networking",
-      "question": "What is a broadcast domain?",
-      "answer": "A broadcast domain is a set of devices that receive the same broadcast traffic."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a heap?",
-      "answer": "A heap is a complete binary tree that satisfies the heap property, where parent nodes are ordered relative to their children."
-    },
-    {
-      "category": "os",
-      "question": "What is Multilevel Queue Scheduling?",
-      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
-    },
-    {
-      "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
-    },
-    {
-      "category": "python",
-      "question": "Why is the with statement used?",
-      "answer": "The with statement ensures proper acquisition and release of resources such as files and locks."
-    },
-    {
-      "category": "os",
-      "question": "What information is stored in a PCB?",
-      "answer": "Process ID, process state, program counter, CPU registers, scheduling information, and memory management details."
-    },
-    {
       "category": "system_design",
-      "question": "What is service discovery?",
-      "answer": "Service discovery is the process of automatically locating services within a distributed system."
+      "question": "What is a reverse proxy?",
+      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
     },
     {
-      "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a relation in the relational model?",
-      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
-    },
-    {
-      "category": "sql",
-      "question": "What is a transaction in SQL?",
-      "answer": "A transaction is a sequence of operations executed as a single logical unit of work."
+      "category": "os",
+      "question": "What is a hard real-time system?",
+      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 67",
+      "question": "Java Interview Question 79",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "networking",
-      "question": "What is the TCP four-way handshake?",
-      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+      "category": "dsa",
+      "question": "What is the amortized complexity of insertion in a dynamic array?",
+      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
     },
     {
-      "category": "oop",
-      "question": "What is a default constructor?",
-      "answer": "A default constructor is a constructor that takes no parameters."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a functional dependency?",
-      "answer": "A functional dependency exists when the value of one attribute uniquely determines the value of another attribute."
-    },
-    {
-      "category": "hr",
-      "question": "Why should we hire you?",
-      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+      "category": "sql",
+      "question": "What is the TRUNCATE statement?",
+      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
     },
     {
       "category": "dsa",
-      "question": "What is the difference between directed and undirected graphs?",
-      "answer": "Directed graphs have edges with direction, whereas undirected graphs have edges without direction."
-    },
-    {
-      "category": "oop",
-      "question": "Can a class implement multiple interfaces?",
-      "answer": "Yes, a class can implement multiple interfaces."
+      "question": "What is level order traversal?",
+      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
     },
     {
       "category": "system_design",
-      "question": "What is a shard key?",
-      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+      "question": "What is quorum-based replication?",
+      "answer": "Quorum-based replication requires a minimum number of nodes to participate in read or write operations."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between paging and segmentation?",
+      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of DHCP?",
+      "answer": "DHCP simplifies network administration by automatically configuring devices."
+    },
+    {
+      "category": "dbms",
+      "question": "What is denormalization?",
+      "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between identity and equality?",
+      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the three-schema architecture?",
+      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the try block?",
+      "answer": "The try block contains code that may raise an exception."
     },
     {
       "category": "hr",
-      "question": "What is your greatest professional achievement?",
-      "answer": "Share a measurable accomplishment and explain the impact it created."
+      "question": "HR Interview Question 98",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is a protocol?",
+      "answer": "A protocol is a set of rules that governs communication between network devices."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 80",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What are positional arguments?",
+      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
+    },
+    {
+      "category": "oop",
+      "question": "What is a parameterized constructor?",
+      "answer": "A parameterized constructor accepts arguments to initialize object state."
+    },
+    {
+      "category": "hr",
+      "question": "How do you handle criticism?",
+      "answer": "View feedback as an opportunity to improve and take actionable steps based on it."
+    },
+    {
+      "category": "sql",
+      "question": "What is SQL?",
+      "answer": "SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases."
     }
   ]
 }
