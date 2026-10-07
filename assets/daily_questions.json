@@ -1,20 +1,30 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is a reverse proxy?",
-      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+      "category": "dsa",
+      "question": "Which sorting algorithms use divide and conquer?",
+      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
     },
     {
-      "category": "os",
-      "question": "What is a hard real-time system?",
-      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
+      "category": "oop",
+      "question": "What is an immutable object?",
+      "answer": "An immutable object is an object whose state cannot be modified after creation."
+    },
+    {
+      "category": "sql",
+      "question": "What is a SELF JOIN?",
+      "answer": "A SELF JOIN joins a table with itself using aliases."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 79",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is an interface in Java?",
+      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
+    },
+    {
+      "category": "hr",
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
     },
     {
       "category": "dsa",
@@ -22,84 +32,74 @@
       "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
     },
     {
-      "category": "sql",
-      "question": "What is the TRUNCATE statement?",
-      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
-    },
-    {
-      "category": "dsa",
-      "question": "What is level order traversal?",
-      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
-    },
-    {
-      "category": "system_design",
-      "question": "What is quorum-based replication?",
-      "answer": "Quorum-based replication requires a minimum number of nodes to participate in read or write operations."
+      "category": "os",
+      "question": "What is aging in operating systems?",
+      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
     },
     {
       "category": "os",
-      "question": "What is the difference between paging and segmentation?",
-      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of DHCP?",
-      "answer": "DHCP simplifies network administration by automatically configuring devices."
-    },
-    {
-      "category": "dbms",
-      "question": "What is denormalization?",
-      "answer": "Denormalization is the process of intentionally introducing redundancy to improve query performance."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between identity and equality?",
-      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the three-schema architecture?",
-      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the try block?",
-      "answer": "The try block contains code that may raise an exception."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 98",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a protocol?",
-      "answer": "A protocol is a set of rules that governs communication between network devices."
+      "question": "What is Multilevel Queue Scheduling?",
+      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 80",
+      "question": "Java Interview Question 100",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What are positional arguments?",
-      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
+      "question": "What is a lambda function?",
+      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
     },
     {
-      "category": "oop",
-      "question": "What is a parameterized constructor?",
-      "answer": "A parameterized constructor accepts arguments to initialize object state."
+      "category": "networking",
+      "question": "What is the Network Layer?",
+      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
     },
     {
-      "category": "hr",
-      "question": "How do you handle criticism?",
-      "answer": "View feedback as an opportunity to improve and take actionable steps based on it."
+      "category": "networking",
+      "question": "What is a collision domain?",
+      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database constraint?",
+      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
+    },
+    {
+      "category": "python",
+      "question": "How does memory management work in Python?",
+      "answer": "Python manages memory using reference counting and a cyclic garbage collector."
+    },
+    {
+      "category": "system_design",
+      "question": "Why are message queues used?",
+      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
     },
     {
       "category": "sql",
-      "question": "What is SQL?",
-      "answer": "SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases."
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+    },
+    {
+      "category": "system_design",
+      "question": "What is eventual consistency in distributed databases?",
+      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+    },
+    {
+      "category": "oop",
+      "question": "What is dynamic binding?",
+      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 62",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is entity integrity?",
+      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
     }
   ]
 }
