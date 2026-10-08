@@ -1,80 +1,25 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "questions": [
     {
-      "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
-    },
-    {
-      "category": "oop",
-      "question": "What is an immutable object?",
-      "answer": "An immutable object is an object whose state cannot be modified after creation."
-    },
-    {
-      "category": "sql",
-      "question": "What is a SELF JOIN?",
-      "answer": "A SELF JOIN joins a table with itself using aliases."
-    },
-    {
-      "category": "java",
-      "question": "What is an interface in Java?",
-      "answer": "An interface is a blueprint that defines a contract of methods that implementing classes must provide."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the amortized complexity of insertion in a dynamic array?",
-      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
-    },
-    {
-      "category": "os",
-      "question": "What is aging in operating systems?",
-      "answer": "Aging gradually increases the priority of waiting processes to prevent starvation."
-    },
-    {
-      "category": "os",
-      "question": "What is Multilevel Queue Scheduling?",
-      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 100",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is a lambda function?",
-      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Network Layer?",
-      "answer": "The Network Layer is responsible for logical addressing and routing packets between networks."
-    },
-    {
-      "category": "networking",
-      "question": "What is a collision domain?",
-      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
-    },
-    {
       "category": "dbms",
-      "question": "What is a database constraint?",
-      "answer": "A constraint is a rule enforced on data to maintain accuracy and consistency."
-    },
-    {
-      "category": "python",
-      "question": "How does memory management work in Python?",
-      "answer": "Python manages memory using reference counting and a cyclic garbage collector."
+      "question": "What are the disadvantages of excessive normalization?",
+      "answer": "Excessive normalization can increase the number of joins required, potentially reducing query performance."
     },
     {
       "category": "system_design",
-      "question": "Why are message queues used?",
-      "answer": "Message queues improve decoupling, reliability, scalability, and fault tolerance."
+      "question": "What is asynchronous communication?",
+      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+    },
+    {
+      "category": "java",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 76",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "sql",
@@ -83,23 +28,78 @@
     },
     {
       "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
-    },
-    {
-      "category": "oop",
-      "question": "What is dynamic binding?",
-      "answer": "Dynamic binding is the process of determining which overridden method to invoke at runtime."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 62",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is Partition Tolerance in CAP?",
+      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
     },
     {
       "category": "dbms",
-      "question": "What is entity integrity?",
-      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+      "question": "What are the ACID properties of a transaction?",
+      "answer": "Atomicity, Consistency, Isolation, and Durability."
+    },
+    {
+      "category": "python",
+      "question": "How do you open a file in Python?",
+      "answer": "A file is opened using the open() function."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree data structure in which each node has at most two children."
+    },
+    {
+      "category": "dsa",
+      "question": "Why are Red-Black Trees preferred in many standard libraries?",
+      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
+    },
+    {
+      "category": "python",
+      "question": "What is multiple inheritance?",
+      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
+    },
+    {
+      "category": "networking",
+      "question": "What is DHCP?",
+      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 40",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is cohesion?",
+      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
+    },
+    {
+      "category": "os",
+      "question": "What is Shortest Remaining Time First (SRTF)?",
+      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between a mutex and a semaphore?",
+      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between an IP address and a MAC address?",
+      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 85",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is object composition?",
+      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
     }
   ]
 }
