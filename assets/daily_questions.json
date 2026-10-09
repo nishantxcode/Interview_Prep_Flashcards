@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What are the disadvantages of excessive normalization?",
-      "answer": "Excessive normalization can increase the number of joins required, potentially reducing query performance."
-    },
-    {
-      "category": "system_design",
-      "question": "What is asynchronous communication?",
-      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
-    },
-    {
-      "category": "java",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 76",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Partition Tolerance in CAP?",
-      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the ACID properties of a transaction?",
-      "answer": "Atomicity, Consistency, Isolation, and Durability."
-    },
-    {
-      "category": "python",
-      "question": "How do you open a file in Python?",
-      "answer": "A file is opened using the open() function."
-    },
-    {
       "category": "dsa",
-      "question": "What is a binary tree?",
-      "answer": "A binary tree is a tree data structure in which each node has at most two children."
-    },
-    {
-      "category": "dsa",
-      "question": "Why are Red-Black Trees preferred in many standard libraries?",
-      "answer": "They provide guaranteed O(log n) operations while requiring fewer rotations than AVL trees."
-    },
-    {
-      "category": "python",
-      "question": "What is multiple inheritance?",
-      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
     },
     {
       "category": "networking",
-      "question": "What is DHCP?",
-      "answer": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and network configuration settings to devices."
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 40",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is cohesion?",
-      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
-    },
-    {
-      "category": "os",
-      "question": "What is Shortest Remaining Time First (SRTF)?",
-      "answer": "SRTF is the preemptive version of SJF where the process with the shortest remaining execution time is selected."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between a mutex and a semaphore?",
-      "answer": "A mutex has ownership and can only be unlocked by the thread that locked it, whereas a semaphore does not have ownership restrictions."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between an IP address and a MAC address?",
-      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+      "category": "system_design",
+      "question": "What is horizontal scaling?",
+      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
     },
     {
       "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+      "question": "What is an index in SQL?",
+      "answer": "An index is a database object that improves the speed of data retrieval operations."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between paging and segmentation?",
+      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 85",
+      "question": "Java Interview Question 89",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "system_design",
+      "question": "What is a distributed lock?",
+      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
+    },
+    {
+      "category": "networking",
+      "question": "What is SSL?",
+      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
+    },
+    {
+      "category": "python",
+      "question": "What are *args in Python?",
+      "answer": "*args allows a function to accept a variable number of positional arguments."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a shared lock?",
+      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
+    },
+    {
+      "category": "hr",
+      "question": "What is your biggest weakness?",
+      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
+    },
+    {
+      "category": "os",
+      "question": "What happens if the time quantum is too large?",
+      "answer": "Round Robin behaves similarly to FCFS scheduling."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database?",
+      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 42",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is multithreading in Python?",
+      "answer": "Multithreading allows multiple threads to execute concurrently within the same process."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 48",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a unique constraint?",
+      "answer": "A unique constraint ensures that all values in a column are distinct."
+    },
+    {
       "category": "oop",
-      "question": "What is object composition?",
-      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
+      "question": "What is the Adapter pattern?",
+      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+    },
+    {
+      "category": "oop",
+      "question": "What is a private access modifier?",
+      "answer": "A private member can only be accessed within the class where it is declared."
+    },
+    {
+      "category": "dsa",
+      "question": "What is memoization?",
+      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
     }
   ]
 }
