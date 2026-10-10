@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is a queue?",
-      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
-    },
-    {
-      "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal scaling?",
-      "answer": "Horizontal scaling involves adding more servers or machines to distribute the load."
-    },
-    {
-      "category": "sql",
-      "question": "What is an index in SQL?",
-      "answer": "An index is a database object that improves the speed of data retrieval operations."
+      "category": "oop",
+      "question": "What is composition?",
+      "answer": "Composition is a strong 'has-a' relationship where contained objects cannot exist independently of the container."
     },
     {
       "category": "os",
-      "question": "What is the difference between paging and segmentation?",
-      "answer": "Paging divides memory into fixed-size blocks, whereas segmentation divides memory into variable-sized logical units."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 89",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed lock?",
-      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
-    },
-    {
-      "category": "networking",
-      "question": "What is SSL?",
-      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
-    },
-    {
-      "category": "python",
-      "question": "What are *args in Python?",
-      "answer": "*args allows a function to accept a variable number of positional arguments."
+      "question": "What is starvation in synchronization?",
+      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
     },
     {
       "category": "dbms",
-      "question": "What is a shared lock?",
-      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
-    },
-    {
-      "category": "hr",
-      "question": "What is your biggest weakness?",
-      "answer": "Choose a genuine weakness, explain how it affected you, and describe the steps you are taking to improve."
+      "question": "What is the First Normal Form (1NF)?",
+      "answer": "A relation is in 1NF if all attributes contain atomic values and there are no repeating groups."
     },
     {
       "category": "os",
-      "question": "What happens if the time quantum is too large?",
-      "answer": "Round Robin behaves similarly to FCFS scheduling."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a database?",
-      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+      "question": "What is a file descriptor?",
+      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 42",
+      "question": "HR Interview Question 84",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "python",
-      "question": "What is multithreading in Python?",
-      "answer": "Multithreading allows multiple threads to execute concurrently within the same process."
+      "category": "system_design",
+      "question": "What is reliability?",
+      "answer": "Reliability is the ability of a system to consistently perform its intended function without failure."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the disadvantages of excessive normalization?",
+      "answer": "Excessive normalization can increase the number of joins required, potentially reducing query performance."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 48",
+      "question": "Java Interview Question 71",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "networking",
+      "question": "What is TLS?",
+      "answer": "Transport Layer Security (TLS) is the modern and more secure successor to SSL."
+    },
+    {
       "category": "sql",
-      "question": "What is a unique constraint?",
-      "answer": "A unique constraint ensures that all values in a column are distinct."
+      "question": "What is UNION in SQL?",
+      "answer": "UNION combines the results of two or more SELECT statements and removes duplicates."
     },
     {
-      "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+      "category": "networking",
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
     },
     {
-      "category": "oop",
-      "question": "What is a private access modifier?",
-      "answer": "A private member can only be accessed within the class where it is declared."
+      "category": "java",
+      "question": "What are the four pillars of OOP in Java?",
+      "answer": "Encapsulation, Inheritance, Polymorphism, and Abstraction."
     },
     {
       "category": "dsa",
-      "question": "What is memoization?",
-      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree data structure in which each node has at most two children."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 67",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What are the key factors of good object-oriented design?",
+      "answer": "Good object-oriented design emphasizes high cohesion, low coupling, abstraction, extensibility, maintainability, and adherence to SOLID principles."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "dsa",
+      "question": "What is separate chaining?",
+      "answer": "Separate chaining resolves collisions by storing multiple elements in a linked list or similar structure at the same hash index."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+    },
+    {
+      "category": "python",
+      "question": "What is a class in Python?",
+      "answer": "A class is a blueprint for creating objects that encapsulate data and behavior."
+    },
+    {
+      "category": "python",
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code that performs a specific task."
     }
   ]
 }
