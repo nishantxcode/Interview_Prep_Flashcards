@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "questions": [
     {
+      "category": "system_design",
+      "question": "What is an API Gateway?",
+      "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
+    },
+    {
+      "category": "sql",
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+    },
+    {
+      "category": "os",
+      "question": "What is internal fragmentation?",
+      "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
+    },
+    {
+      "category": "sql",
+      "question": "What is the GROUP BY clause?",
+      "answer": "GROUP BY groups rows with similar values into summary rows."
+    },
+    {
       "category": "oop",
-      "question": "Why use abstract classes?",
-      "answer": "Abstract classes provide a common base and enforce a contract for subclasses."
+      "question": "What is an object?",
+      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
+    },
+    {
+      "category": "python",
+      "question": "What are common file modes in Python?",
+      "answer": "Common file modes include 'r', 'w', 'a', 'x', 'rb', and 'wb'."
+    },
+    {
+      "category": "os",
+      "question": "What is process synchronization?",
+      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 93",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree data structure in which each node has at most two children."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 41",
+      "question": "HR Interview Question 71",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "python",
-      "question": "What is pass in Python?",
-      "answer": "pass is a null statement that performs no action and is used as a placeholder."
+      "question": "What is the difference between compiled and interpreted languages?",
+      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
     },
     {
-      "category": "dbms",
-      "question": "What is a lock in DBMS?",
-      "answer": "A lock is a mechanism used to control concurrent access to data items."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 85",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between a list and a set?",
-      "answer": "Lists allow duplicates and maintain order, whereas sets store unique elements and are unordered."
-    },
-    {
-      "category": "sql",
-      "question": "What are common DDL commands?",
-      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
-    },
-    {
-      "category": "os",
-      "question": "What happens if the time quantum is too small?",
-      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 89",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "dsa",
+      "question": "What is tree traversal?",
+      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
     },
     {
       "category": "oop",
-      "question": "What is the Command pattern?",
-      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
+      "question": "What is aggregation?",
+      "answer": "Aggregation is a weak 'has-a' relationship where contained objects can exist independently of the container."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Data Link Layer?",
+      "answer": "The Data Link Layer provides node-to-node communication and error detection."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the challenges of sharding?",
+      "answer": "Uneven data distribution, hotspotting, rebalancing, and cross-shard queries."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 55",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What are the main features of Java?",
+      "answer": "Platform independence, object-oriented programming, robustness, security, multithreading, and automatic memory management."
     },
     {
-      "category": "sql",
-      "question": "What is the EXISTS operator?",
-      "answer": "EXISTS checks whether a subquery returns any rows."
-    },
-    {
-      "category": "networking",
-      "question": "What is the TLS handshake?",
-      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
-    },
-    {
-      "category": "system_design",
-      "question": "What is availability?",
-      "answer": "Availability is the percentage of time a system remains operational and accessible."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical scaling?",
-      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
-    },
-    {
-      "category": "dsa",
-      "question": "What is linear probing?",
-      "answer": "Linear probing is an open addressing technique that checks the next available slot sequentially when a collision occurs."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a tree?",
-      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
-    },
-    {
-      "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
+      "category": "hr",
+      "question": "HR Interview Question 30",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+      "question": "What is concurrency control?",
+      "answer": "Concurrency control is the process of managing simultaneous transactions to maintain data consistency."
     },
     {
-      "category": "networking",
-      "question": "What is Congestion Avoidance?",
-      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
+      "category": "dbms",
+      "question": "What is view serializability?",
+      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
     }
   ]
 }
