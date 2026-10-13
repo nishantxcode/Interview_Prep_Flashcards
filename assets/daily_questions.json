@@ -1,35 +1,10 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is an API Gateway?",
-      "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
-    },
-    {
-      "category": "python",
-      "question": "What is the yield keyword?",
-      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
-    },
-    {
-      "category": "dsa",
-      "question": "What is separate chaining?",
-      "answer": "Separate chaining resolves collisions by storing multiple elements in a linked list or similar structure at the same hash index."
-    },
-    {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 32",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Session Layer?",
-      "answer": "The Session Layer establishes, manages, and terminates communication sessions."
+      "category": "oop",
+      "question": "Why use abstract classes?",
+      "answer": "Abstract classes provide a common base and enforce a contract for subclasses."
     },
     {
       "category": "hr",
@@ -37,69 +12,94 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "oop",
-      "question": "What is runtime polymorphism?",
-      "answer": "Runtime polymorphism is achieved through method overriding and dynamic method dispatch."
-    },
-    {
-      "category": "sql",
-      "question": "What is the IN operator?",
-      "answer": "IN checks whether a value matches any value in a specified list."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between 3NF and BCNF?",
-      "answer": "BCNF is stricter than 3NF and eliminates certain anomalies that may still exist in 3NF."
-    },
-    {
-      "category": "oop",
-      "question": "What is abstraction?",
-      "answer": "Abstraction is the process of hiding implementation details and exposing only essential functionality."
-    },
-    {
-      "category": "dsa",
-      "question": "What is preorder traversal?",
-      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Presentation Layer?",
-      "answer": "The Presentation Layer handles data translation, encryption, and compression."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a B+ Tree?",
-      "answer": "A B+ Tree is a variation of the B-Tree where all records are stored at the leaf level and leaf nodes are linked together."
-    },
-    {
-      "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
-    },
-    {
       "category": "python",
-      "question": "What is an object in Python?",
-      "answer": "An object is an instance of a class containing attributes and methods."
+      "question": "What is pass in Python?",
+      "answer": "pass is a null statement that performs no action and is used as a placeholder."
     },
     {
-      "category": "os",
-      "question": "Why are system calls needed?",
-      "answer": "System calls provide a safe interface for applications to access hardware and operating system services."
+      "category": "dbms",
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 69",
+      "question": "HR Interview Question 85",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is a distributed cache?",
-      "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
+      "category": "python",
+      "question": "What is the difference between a list and a set?",
+      "answer": "Lists allow duplicates and maintain order, whereas sets store unique elements and are unordered."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "os",
+      "question": "What happens if the time quantum is too small?",
+      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 48",
+      "question": "Java Interview Question 89",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Command pattern?",
+      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 55",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is the EXISTS operator?",
+      "answer": "EXISTS checks whether a subquery returns any rows."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
+    },
+    {
+      "category": "system_design",
+      "question": "What is availability?",
+      "answer": "Availability is the percentage of time a system remains operational and accessible."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical scaling?",
+      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
+    },
+    {
+      "category": "dsa",
+      "question": "What is linear probing?",
+      "answer": "Linear probing is an open addressing technique that checks the next available slot sequentially when a collision occurs."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a tree?",
+      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node."
+    },
+    {
+      "category": "os",
+      "question": "What is a thread?",
+      "answer": "A thread is the smallest unit of CPU execution within a process."
+    },
+    {
+      "category": "dbms",
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+    },
+    {
+      "category": "networking",
+      "question": "What is Congestion Avoidance?",
+      "answer": "Congestion Avoidance is a TCP phase where the congestion window grows linearly to prevent network overload."
     }
   ]
 }
