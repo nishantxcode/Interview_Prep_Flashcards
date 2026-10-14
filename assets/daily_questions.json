@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is an API Gateway?",
-      "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
-    },
-    {
-      "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of the TCP three-way handshake?",
-      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
-    },
-    {
-      "category": "os",
-      "question": "What is internal fragmentation?",
-      "answer": "Internal fragmentation occurs when allocated memory contains unused space within the assigned block."
-    },
-    {
-      "category": "sql",
-      "question": "What is the GROUP BY clause?",
-      "answer": "GROUP BY groups rows with similar values into summary rows."
-    },
-    {
-      "category": "oop",
-      "question": "What is an object?",
-      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
-    },
-    {
       "category": "python",
-      "question": "What are common file modes in Python?",
-      "answer": "Common file modes include 'r', 'w', 'a', 'x', 'rb', and 'wb'."
+      "question": "What are keyword arguments?",
+      "answer": "Keyword arguments are passed using parameter names, allowing arguments to be supplied in any order."
     },
     {
-      "category": "os",
-      "question": "What is process synchronization?",
-      "answer": "Process synchronization is the coordination of concurrent processes or threads to ensure correct execution when accessing shared resources."
+      "category": "dbms",
+      "question": "What is physical data independence?",
+      "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 93",
+      "question": "Java Interview Question 58",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dsa",
-      "question": "What is a binary tree?",
-      "answer": "A binary tree is a tree data structure in which each node has at most two children."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 71",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is dynamic programming?",
+      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
     },
     {
       "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "dsa",
-      "question": "What is tree traversal?",
-      "answer": "Tree traversal is the process of visiting all nodes of a tree in a specific order such as preorder, inorder, postorder, or level order."
-    },
-    {
-      "category": "oop",
-      "question": "What is aggregation?",
-      "answer": "Aggregation is a weak 'has-a' relationship where contained objects can exist independently of the container."
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
     },
     {
       "category": "networking",
-      "question": "What is the Data Link Layer?",
-      "answer": "The Data Link Layer provides node-to-node communication and error detection."
+      "question": "What is a routing table?",
+      "answer": "A routing table is a data structure that stores routes and forwarding information used by routers."
     },
     {
-      "category": "system_design",
-      "question": "What are the challenges of sharding?",
-      "answer": "Uneven data distribution, hotspotting, rebalancing, and cross-shard queries."
+      "category": "dsa",
+      "question": "What is a max heap?",
+      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
     },
     {
-      "category": "java",
-      "question": "What are the main features of Java?",
-      "answer": "Platform independence, object-oriented programming, robustness, security, multithreading, and automatic memory management."
+      "category": "oop",
+      "question": "What is Object-Oriented Programming (OOP)?",
+      "answer": "Object-Oriented Programming is a programming paradigm that organizes software around objects containing data and behavior."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 30",
+      "question": "HR Interview Question 65",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dbms",
-      "question": "What is concurrency control?",
-      "answer": "Concurrency control is the process of managing simultaneous transactions to maintain data consistency."
+      "category": "sql",
+      "question": "What is the TRUNCATE statement?",
+      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+    },
+    {
+      "category": "hr",
+      "question": "What are your greatest strengths?",
+      "answer": "Mention strengths relevant to the role and support them with specific examples."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprocessing?",
+      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+    },
+    {
+      "category": "sql",
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
+    },
+    {
+      "category": "networking",
+      "question": "What is an ARP request?",
+      "answer": "An ARP request is a broadcast message asking for the MAC address associated with a specific IP address."
     },
     {
       "category": "dbms",
-      "question": "What is view serializability?",
-      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
+    },
+    {
+      "category": "system_design",
+      "question": "What is partitioning in Kafka?",
+      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 68",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
+    },
+    {
+      "category": "os",
+      "question": "What is a scheduler?",
+      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
+    },
+    {
+      "category": "oop",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects of different classes to be treated through a common interface while exhibiting different behaviors."
     }
   ]
 }
