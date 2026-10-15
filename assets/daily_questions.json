@@ -1,55 +1,75 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "questions": [
     {
-      "category": "python",
-      "question": "What are keyword arguments?",
-      "answer": "Keyword arguments are passed using parameter names, allowing arguments to be supplied in any order."
+      "category": "oop",
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
     },
     {
-      "category": "dbms",
-      "question": "What is physical data independence?",
-      "answer": "Physical data independence is the ability to modify the internal schema without affecting the conceptual schema."
+      "category": "system_design",
+      "question": "What is leader election?",
+      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 58",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 62",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dsa",
-      "question": "What is dynamic programming?",
-      "answer": "Dynamic programming is an optimization technique that solves overlapping subproblems and stores their results to avoid redundant computation."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "networking",
-      "question": "What is a routing table?",
-      "answer": "A routing table is a data structure that stores routes and forwarding information used by routers."
+      "category": "os",
+      "question": "What is First Come First Serve (FCFS) scheduling?",
+      "answer": "FCFS is a non-preemptive scheduling algorithm in which processes are executed in the order they arrive."
     },
     {
       "category": "dsa",
-      "question": "What is a max heap?",
-      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
-    },
-    {
-      "category": "oop",
-      "question": "What is Object-Oriented Programming (OOP)?",
-      "answer": "Object-Oriented Programming is a programming paradigm that organizes software around objects containing data and behavior."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 65",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is recursion?",
+      "answer": "Recursion is a programming technique in which a function calls itself to solve smaller instances of a problem."
     },
     {
       "category": "sql",
-      "question": "What is the TRUNCATE statement?",
-      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+    },
+    {
+      "category": "dbms",
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+    },
+    {
+      "category": "system_design",
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
+    },
+    {
+      "category": "sql",
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
+    },
+    {
+      "category": "oop",
+      "question": "What is data hiding?",
+      "answer": "Data hiding is the practice of restricting direct access to object data through access modifiers."
+    },
+    {
+      "category": "networking",
+      "question": "What is BGP?",
+      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
+    },
+    {
+      "category": "python",
+      "question": "What is a dictionary comprehension?",
+      "answer": "A dictionary comprehension is a concise way to create dictionaries using an expression and iteration."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a transaction in DBMS?",
+      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
     },
     {
       "category": "hr",
@@ -57,49 +77,29 @@
       "answer": "Mention strengths relevant to the role and support them with specific examples."
     },
     {
-      "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+      "category": "hr",
+      "question": "HR Interview Question 92",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "sql",
-      "question": "What is ROW_NUMBER()?",
-      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
+      "category": "os",
+      "question": "What is a hard real-time system?",
+      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
     },
     {
       "category": "networking",
-      "question": "What is an ARP request?",
-      "answer": "An ARP request is a broadcast message asking for the MAC address associated with a specific IP address."
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
     },
     {
-      "category": "dbms",
-      "question": "What is an instance in DBMS?",
-      "answer": "An instance is the actual data stored in the database at a specific point in time."
+      "category": "dsa",
+      "question": "What is the time complexity of DFS?",
+      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
     },
     {
-      "category": "system_design",
-      "question": "What is partitioning in Kafka?",
-      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 68",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed transaction?",
-      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
-    },
-    {
-      "category": "os",
-      "question": "What is a scheduler?",
-      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
-    },
-    {
-      "category": "oop",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects of different classes to be treated through a common interface while exhibiting different behaviors."
+      "category": "python",
+      "question": "What is multiple inheritance?",
+      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
     }
   ]
 }
