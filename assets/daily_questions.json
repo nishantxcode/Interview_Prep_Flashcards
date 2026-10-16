@@ -1,25 +1,75 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
+      "category": "networking",
+      "question": "What is a socket in networking?",
+      "answer": "A socket is an endpoint for communication between two processes over a network."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a relation in the relational model?",
+      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
+    },
+    {
+      "category": "os",
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
+    },
+    {
+      "category": "hr",
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+      "answer": "The time complexity is O((V + E) log V)."
     },
     {
       "category": "system_design",
-      "question": "What is leader election?",
-      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
+      "question": "What are the disadvantages of microservices?",
+      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
     },
     {
       "category": "java",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 62",
+      "question": "Java Interview Question 61",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 50",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is DML in SQL?",
+      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a transitive dependency?",
+      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+    },
+    {
+      "category": "python",
+      "question": "Why are decorators useful?",
+      "answer": "Decorators enable reusable functionality such as logging, authentication, timing, and caching without modifying the original code."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a Minimum Spanning Tree (MST)?",
+      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
+    },
+    {
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
     },
     {
       "category": "os",
@@ -27,79 +77,29 @@
       "answer": "FCFS is a non-preemptive scheduling algorithm in which processes are executed in the order they arrive."
     },
     {
-      "category": "dsa",
-      "question": "What is recursion?",
-      "answer": "Recursion is a programming technique in which a function calls itself to solve smaller instances of a problem."
-    },
-    {
-      "category": "sql",
-      "question": "What is denormalization in SQL databases?",
-      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
-    },
-    {
-      "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
+      "category": "oop",
+      "question": "What is loose coupling?",
+      "answer": "Loose coupling means components have minimal dependencies on each other."
     },
     {
       "category": "system_design",
-      "question": "What is rate limiting?",
-      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
+      "question": "What is strong consistency?",
+      "answer": "Strong consistency ensures every read returns the most recent write."
     },
     {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
+      "category": "java",
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
     },
     {
       "category": "oop",
-      "question": "What is data hiding?",
-      "answer": "Data hiding is the practice of restricting direct access to object data through access modifiers."
+      "question": "What is a UML Class Diagram?",
+      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
     },
     {
       "category": "networking",
-      "question": "What is BGP?",
-      "answer": "Border Gateway Protocol (BGP) is the routing protocol used to exchange routing information between autonomous systems on the Internet."
-    },
-    {
-      "category": "python",
-      "question": "What is a dictionary comprehension?",
-      "answer": "A dictionary comprehension is a concise way to create dictionaries using an expression and iteration."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transaction in DBMS?",
-      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
-    },
-    {
-      "category": "hr",
-      "question": "What are your greatest strengths?",
-      "answer": "Mention strengths relevant to the role and support them with specific examples."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 92",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "os",
-      "question": "What is a hard real-time system?",
-      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
-    },
-    {
-      "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of DFS?",
-      "answer": "The time complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges."
-    },
-    {
-      "category": "python",
-      "question": "What is multiple inheritance?",
-      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
+      "question": "What is the default port number for HTTP?",
+      "answer": "The default port number for HTTP is 80."
     }
   ]
 }
