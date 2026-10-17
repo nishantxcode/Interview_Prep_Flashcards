@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "questions": [
     {
       "category": "networking",
-      "question": "What is a socket in networking?",
-      "answer": "A socket is an endpoint for communication between two processes over a network."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a relation in the relational model?",
-      "answer": "A relation is a table consisting of tuples (rows) and attributes (columns)."
-    },
-    {
-      "category": "os",
-      "question": "What is CPU scheduling?",
-      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
-    },
-    {
-      "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
-      "answer": "The time complexity is O((V + E) log V)."
-    },
-    {
-      "category": "system_design",
-      "question": "What are the disadvantages of microservices?",
-      "answer": "Increased operational complexity, distributed debugging, network latency, and data consistency challenges."
+      "question": "What is congestion control?",
+      "answer": "Congestion control is the set of techniques used to prevent and manage network congestion."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 61",
+      "question": "Java Interview Question 54",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is DML in SQL?",
-      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transitive dependency?",
-      "answer": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute."
-    },
-    {
-      "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
-    },
-    {
-      "category": "python",
-      "question": "Why are decorators useful?",
-      "answer": "Decorators enable reusable functionality such as logging, authentication, timing, and caching without modifying the original code."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Minimum Spanning Tree (MST)?",
-      "answer": "A Minimum Spanning Tree is a subset of graph edges that connects all vertices with the minimum possible total edge weight and without cycles."
-    },
-    {
-      "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
-    },
-    {
-      "category": "os",
-      "question": "What is First Come First Serve (FCFS) scheduling?",
-      "answer": "FCFS is a non-preemptive scheduling algorithm in which processes are executed in the order they arrive."
-    },
-    {
-      "category": "oop",
-      "question": "What is loose coupling?",
-      "answer": "Loose coupling means components have minimal dependencies on each other."
+      "category": "java",
+      "question": "Java Interview Question 38",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "system_design",
-      "question": "What is strong consistency?",
-      "answer": "Strong consistency ensures every read returns the most recent write."
+      "question": "What is Partition Tolerance in CAP?",
+      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
     },
     {
-      "category": "java",
-      "question": "What is polymorphism?",
-      "answer": "Polymorphism allows objects to be treated as instances of their parent type while exhibiting different behaviors."
+      "category": "python",
+      "question": "What is asynchronous programming in Python?",
+      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a monolithic architecture?",
+      "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the advantages of a DBMS?",
+      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
+    },
+    {
+      "category": "dbms",
+      "question": "What is participation constraint in an ER model?",
+      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 93",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "Tell me about a time you failed.",
+      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
+    },
+    {
+      "category": "dsa",
+      "question": "What is path compression in DSU?",
+      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock avoidance?",
+      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
     },
     {
       "category": "oop",
-      "question": "What is a UML Class Diagram?",
-      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
+      "question": "What is the Strategy pattern?",
+      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
+    },
+    {
+      "category": "sql",
+      "question": "What is an aggregate function in SQL?",
+      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
+    },
+    {
+      "category": "os",
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+    },
+    {
+      "category": "python",
+      "question": "What is a decorator in Python?",
+      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
+    },
+    {
+      "category": "sql",
+      "question": "What is a user-defined function (UDF)?",
+      "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
     },
     {
       "category": "networking",
-      "question": "What is the default port number for HTTP?",
-      "answer": "The default port number for HTTP is 80."
+      "question": "What is circuit switching?",
+      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the base case in recursion?",
+      "answer": "The base case is the condition that stops recursive calls and prevents infinite recursion."
+    },
+    {
+      "category": "oop",
+      "question": "What is method injection?",
+      "answer": "Method injection provides dependencies directly as parameters to methods."
     }
   ]
 }
