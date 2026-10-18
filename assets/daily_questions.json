@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is congestion control?",
-      "answer": "Congestion control is the set of techniques used to prevent and manage network congestion."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 54",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 38",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Partition Tolerance in CAP?",
-      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
-    },
-    {
-      "category": "python",
-      "question": "What is asynchronous programming in Python?",
-      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a monolithic architecture?",
-      "answer": "A monolithic architecture is a software design where all application components are built and deployed as a single unit."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the advantages of a DBMS?",
-      "answer": "Reduced data redundancy, improved data consistency, security, concurrency control, backup and recovery, and data sharing."
-    },
-    {
-      "category": "dbms",
-      "question": "What is participation constraint in an ER model?",
-      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+      "category": "sql",
+      "question": "How can SQL injection be prevented?",
+      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 93",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Describe your ideal work environment.",
+      "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a bottleneck in a system?",
+      "answer": "A bottleneck is a component that limits the overall performance or capacity of a system."
+    },
+    {
+      "category": "dsa",
+      "question": "Give an example of a greedy algorithm.",
+      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
+    },
+    {
+      "category": "oop",
+      "question": "What is delegation in OOP?",
+      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
     },
     {
       "category": "hr",
-      "question": "Tell me about a time you failed.",
-      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
-    },
-    {
-      "category": "dsa",
-      "question": "What is path compression in DSU?",
-      "answer": "Path compression optimizes the Find operation by making every node on the search path point directly to the root."
-    },
-    {
-      "category": "os",
-      "question": "What is deadlock avoidance?",
-      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Strategy pattern?",
-      "answer": "The Strategy pattern defines a family of algorithms and allows them to be selected dynamically at runtime."
-    },
-    {
-      "category": "sql",
-      "question": "What is an aggregate function in SQL?",
-      "answer": "An aggregate function performs a calculation on a set of values and returns a single result."
-    },
-    {
-      "category": "os",
-      "question": "What is the Dining Philosophers problem?",
-      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
     },
     {
       "category": "python",
-      "question": "What is a decorator in Python?",
-      "answer": "A decorator is a function that modifies or extends the behavior of another function or method."
-    },
-    {
-      "category": "sql",
-      "question": "What is a user-defined function (UDF)?",
-      "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
+      "question": "How are functions defined in Python?",
+      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
     },
     {
       "category": "networking",
-      "question": "What is circuit switching?",
-      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the base case in recursion?",
-      "answer": "The base case is the condition that stops recursive calls and prevents infinite recursion."
+      "question": "What is a packet-filtering firewall?",
+      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
     },
     {
       "category": "oop",
-      "question": "What is method injection?",
-      "answer": "Method injection provides dependencies directly as parameters to methods."
+      "question": "What is the Factory Method pattern?",
+      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a non-trivial functional dependency?",
+      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+    },
+    {
+      "category": "os",
+      "question": "What is multitasking?",
+      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
+    },
+    {
+      "category": "os",
+      "question": "What is a medium-term scheduler?",
+      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+    },
+    {
+      "category": "java",
+      "question": "What is method overloading?",
+      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+    },
+    {
+      "category": "sql",
+      "question": "What is a SELF JOIN?",
+      "answer": "A SELF JOIN joins a table with itself using aliases."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Leaky Bucket algorithm?",
+      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
+    },
+    {
+      "category": "java",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "networking",
+      "question": "What are the seven layers of the OSI model?",
+      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
+      "category": "python",
+      "question": "How do you open a file in Python?",
+      "answer": "A file is opened using the open() function."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a key in DBMS?",
+      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
     }
   ]
 }
