@@ -1,65 +1,95 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "questions": [
     {
-      "category": "sql",
-      "question": "How can SQL injection be prevented?",
-      "answer": "SQL injection can be prevented using parameterized queries, prepared statements, input validation, and least-privilege access."
+      "category": "networking",
+      "question": "What is Slow Start in TCP?",
+      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
     },
     {
-      "category": "hr",
-      "question": "Describe your ideal work environment.",
-      "answer": "Describe an environment that encourages collaboration, learning, accountability, and innovation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a bottleneck in a system?",
-      "answer": "A bottleneck is a component that limits the overall performance or capacity of a system."
+      "category": "oop",
+      "question": "What are the three categories of design patterns?",
+      "answer": "Creational, Structural, and Behavioral design patterns."
     },
     {
       "category": "dsa",
-      "question": "Give an example of a greedy algorithm.",
-      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
-    },
-    {
-      "category": "oop",
-      "question": "What is delegation in OOP?",
-      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
+      "question": "What is a doubly linked list?",
+      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
     },
     {
       "category": "hr",
-      "question": "How do you handle pressure?",
-      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
+      "question": "HR Interview Question 59",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "python",
-      "question": "How are functions defined in Python?",
-      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
+      "category": "system_design",
+      "question": "What is database sharding?",
+      "answer": "Sharding is the process of partitioning data across multiple database servers."
+    },
+    {
+      "category": "sql",
+      "question": "What is a recursive CTE?",
+      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
     },
     {
       "category": "networking",
-      "question": "What is a packet-filtering firewall?",
-      "answer": "A packet-filtering firewall examines packets based on source address, destination address, protocol, and port number."
+      "question": "What is SSL?",
+      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
     },
     {
-      "category": "oop",
-      "question": "What is the Factory Method pattern?",
-      "answer": "Factory Method defines an interface for object creation while allowing subclasses to decide which class to instantiate."
+      "category": "system_design",
+      "question": "What is an API Gateway?",
+      "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
     },
     {
       "category": "dbms",
-      "question": "What is a non-trivial functional dependency?",
-      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+      "question": "What is partial participation?",
+      "answer": "Partial participation means some entities may exist without participating in the relationship."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 35",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "os",
-      "question": "What is multitasking?",
-      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
+      "question": "What is a deadlock?",
+      "answer": "A deadlock occurs when a set of processes are permanently blocked because each is waiting for a resource held by another process."
     },
     {
       "category": "os",
-      "question": "What is a medium-term scheduler?",
-      "answer": "A medium-term scheduler temporarily removes processes from memory and later reintroduces them."
+      "question": "What is an Operating System?",
+      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
+      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
+    },
+    {
+      "category": "python",
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big O notation?",
+      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
+    },
+    {
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+    },
+    {
+      "category": "sql",
+      "question": "What is the CREATE statement?",
+      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between abstraction and encapsulation?",
+      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
     },
     {
       "category": "java",
@@ -67,39 +97,9 @@
       "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
     },
     {
-      "category": "sql",
-      "question": "What is a SELF JOIN?",
-      "answer": "A SELF JOIN joins a table with itself using aliases."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the Leaky Bucket algorithm?",
-      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
-    },
-    {
-      "category": "java",
-      "question": "What is inheritance?",
-      "answer": "Inheritance allows one class to acquire properties and methods from another class."
-    },
-    {
-      "category": "networking",
-      "question": "What are the seven layers of the OSI model?",
-      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
-    },
-    {
-      "category": "python",
-      "question": "How do you open a file in Python?",
-      "answer": "A file is opened using the open() function."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a key in DBMS?",
-      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
+      "category": "hr",
+      "question": "HR Interview Question 46",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     }
   ]
 }
