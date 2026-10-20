@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is Slow Start in TCP?",
-      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
+      "category": "dsa",
+      "question": "What is the difference between an array and a linked list?",
+      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
     },
     {
       "category": "oop",
-      "question": "What are the three categories of design patterns?",
-      "answer": "Creational, Structural, and Behavioral design patterns."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a doubly linked list?",
-      "answer": "A doubly linked list is a linked list where each node contains references to both the previous and next nodes."
+      "question": "What is Object-Oriented Programming (OOP)?",
+      "answer": "Object-Oriented Programming is a programming paradigm that organizes software around objects containing data and behavior."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 59",
+      "question": "HR Interview Question 55",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "system_design",
-      "question": "What is database sharding?",
-      "answer": "Sharding is the process of partitioning data across multiple database servers."
-    },
-    {
-      "category": "sql",
-      "question": "What is a recursive CTE?",
-      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
-    },
-    {
-      "category": "networking",
-      "question": "What is SSL?",
-      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
-    },
-    {
-      "category": "system_design",
-      "question": "What is an API Gateway?",
-      "answer": "An API Gateway is a single entry point that routes, authenticates, and manages requests to backend services."
+      "question": "Why is an API Gateway used?",
+      "answer": "It simplifies client communication, centralizes security, and handles cross-cutting concerns."
     },
     {
       "category": "dbms",
-      "question": "What is partial participation?",
-      "answer": "Partial participation means some entities may exist without participating in the relationship."
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 35",
+      "question": "What are the main features of Java?",
+      "answer": "Platform independence, object-oriented programming, robustness, security, multithreading, and automatic memory management."
+    },
+    {
+      "category": "dsa",
+      "question": "What is topological sorting?",
+      "answer": "Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge u→v, u appears before v."
+    },
+    {
+      "category": "python",
+      "question": "What is an iterator in Python?",
+      "answer": "An iterator is an object that implements the __iter__() and __next__() methods to traverse a sequence."
+    },
+    {
+      "category": "sql",
+      "question": "What is a trigger in SQL?",
+      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
+    },
+    {
+      "category": "oop",
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, constructors can be overloaded by defining multiple constructors with different parameter lists."
+    },
+    {
+      "category": "os",
+      "question": "What is real-time scheduling?",
+      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the JOIN operation in relational algebra?",
+      "answer": "JOIN combines tuples from two relations based on a related attribute."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+    },
+    {
+      "category": "sql",
+      "question": "What is the INSERT statement?",
+      "answer": "INSERT is used to add new rows into a table."
+    },
+    {
+      "category": "networking",
+      "question": "What is a routing table?",
+      "answer": "A routing table is a data structure that stores routes and forwarding information used by routers."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 66",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "os",
-      "question": "What is a deadlock?",
-      "answer": "A deadlock occurs when a set of processes are permanently blocked because each is waiting for a resource held by another process."
+      "category": "networking",
+      "question": "What is the TLS handshake?",
+      "answer": "The TLS handshake establishes a secure connection by negotiating encryption parameters and exchanging keys."
     },
     {
       "category": "os",
-      "question": "What is an Operating System?",
-      "answer": "An Operating System is system software that manages hardware resources and provides services for application programs."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between JOIN and CARTESIAN PRODUCT?",
-      "answer": "JOIN combines matching rows based on a condition, whereas CARTESIAN PRODUCT combines every row of one relation with every row of another."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Big O notation?",
-      "answer": "Big O notation describes the upper bound of an algorithm's growth rate in terms of time or space complexity."
-    },
-    {
-      "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
-    },
-    {
-      "category": "sql",
-      "question": "What is the CREATE statement?",
-      "answer": "CREATE is used to create database objects such as tables, views, indexes, and databases."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between abstraction and encapsulation?",
-      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
-    },
-    {
-      "category": "java",
-      "question": "What is method overloading?",
-      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 46",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What are your career goals?",
+      "answer": "Discuss both short-term learning goals and long-term leadership or specialization goals."
     }
   ]
 }
