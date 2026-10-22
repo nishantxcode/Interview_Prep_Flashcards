@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is the HAVING clause?",
-      "answer": "HAVING filters grouped results after aggregation has been performed."
-    },
-    {
-      "category": "os",
-      "question": "What is the main disadvantage of FCFS scheduling?",
-      "answer": "FCFS suffers from the convoy effect, where short processes wait behind long processes."
+      "category": "system_design",
+      "question": "What is a distributed cache?",
+      "answer": "A distributed cache stores cached data across multiple servers to improve scalability and availability."
     },
     {
       "category": "networking",
-      "question": "What is the difference between an IP address and a MAC address?",
-      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 34",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is a package in Python?",
-      "answer": "A package is a collection of related Python modules organized in directories."
-    },
-    {
-      "category": "system_design",
-      "question": "Why is idempotency important in distributed systems?",
-      "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
-    },
-    {
-      "category": "python",
-      "question": "What is the yield keyword?",
-      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 42",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is System Design?",
-      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
+      "question": "What is a router?",
+      "answer": "A router is a networking device that forwards packets between different networks based on IP addresses."
     },
     {
       "category": "dbms",
-      "question": "What is an entity?",
-      "answer": "An entity is a real-world object or concept that can be uniquely identified and stored in a database."
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 23",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "system_design",
+      "question": "When should NoSQL databases be preferred?",
+      "answer": "NoSQL databases are preferred for large-scale distributed systems requiring flexibility, scalability, and high throughput."
+    },
+    {
+      "category": "oop",
+      "question": "What is a class?",
+      "answer": "A class is a blueprint or template used to create objects."
+    },
+    {
+      "category": "os",
+      "question": "What happens if the time quantum is too large?",
+      "answer": "Round Robin behaves similarly to FCFS scheduling."
     },
     {
       "category": "networking",
-      "question": "What is a sliding window?",
-      "answer": "A sliding window is a TCP mechanism used to control the amount of unacknowledged data in transit."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Proxy pattern?",
-      "answer": "The Proxy pattern provides a placeholder or surrogate object that controls access to another object."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between aggregation and composition?",
-      "answer": "Aggregation allows independent lifecycles of objects, while composition ties the lifecycle of child objects to the parent."
+      "question": "What is the difference between IDS and IPS?",
+      "answer": "An IDS detects and reports attacks, whereas an IPS detects and actively prevents them."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 94",
+      "question": "Java Interview Question 78",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is a destructor?",
+      "answer": "A destructor is a special method used to release resources when an object is destroyed."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 73",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 60",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dbms",
-      "question": "What are insertion anomalies?",
-      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
+      "question": "What is Boyce-Codd Normal Form (BCNF)?",
+      "answer": "A relation is in BCNF if every determinant is a candidate key."
+    },
+    {
+      "category": "python",
+      "question": "What is an abstract class in Python?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that subclasses must implement."
     },
     {
       "category": "dsa",
-      "question": "What is branch and bound?",
-      "answer": "Branch and bound is an optimization technique that systematically explores solution spaces while pruning branches that cannot yield better solutions."
+      "question": "What is amortized analysis?",
+      "answer": "Amortized analysis evaluates the average cost of operations over a sequence of operations rather than a single worst-case operation."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 90",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted, general-purpose programming language known for its simplicity and readability."
     },
     {
       "category": "sql",
-      "question": "What is the IN operator?",
-      "answer": "IN checks whether a value matches any value in a specified list."
+      "question": "What is DENSE_RANK()?",
+      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
     },
     {
       "category": "os",
-      "question": "What are the advantages of multithreading?",
-      "answer": "Improved responsiveness, better resource utilization, faster context switching, and increased parallelism."
+      "question": "What is a condition variable?",
+      "answer": "A condition variable allows threads to wait until a particular condition becomes true."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between RANK() and DENSE_RANK()?",
+      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
     },
     {
       "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
+      "question": "What is memoization?",
+      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
     }
   ]
 }
