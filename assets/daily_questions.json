@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "questions": [
     {
-      "category": "os",
-      "question": "What is a mutex?",
-      "answer": "A mutex is a synchronization mechanism that allows only one thread to access a critical section at a time."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 31",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a DNS server?",
-      "answer": "A DNS server stores and provides domain name resolution information."
-    },
-    {
-      "category": "oop",
-      "question": "What is a protected access modifier?",
-      "answer": "A protected member can be accessed within the same class and its subclasses."
-    },
-    {
-      "category": "os",
-      "question": "What is paging?",
-      "answer": "Paging is a memory management technique that divides memory into fixed-size pages and frames."
+      "category": "dbms",
+      "question": "What is a composite key?",
+      "answer": "A composite key is a key formed by combining two or more attributes."
     },
     {
       "category": "dbms",
-      "question": "What is the JOIN operation in relational algebra?",
-      "answer": "JOIN combines tuples from two relations based on a related attribute."
-    },
-    {
-      "category": "networking",
-      "question": "What is the congestion window (cwnd)?",
-      "answer": "The congestion window is a TCP parameter that limits the amount of unacknowledged data a sender can transmit."
-    },
-    {
-      "category": "oop",
-      "question": "What is deep copy?",
-      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
+      "question": "What is the Fourth Normal Form (4NF)?",
+      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 79",
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation is the practice of bundling data and methods together while restricting direct access to internal implementation."
+    },
+    {
+      "category": "python",
+      "question": "What is the map() function?",
+      "answer": "map() applies a function to every item in an iterable and returns an iterator."
+    },
+    {
+      "category": "sql",
+      "question": "What is DML in SQL?",
+      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
+    },
+    {
+      "category": "sql",
+      "question": "What are the advantages of views?",
+      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+    },
+    {
+      "category": "os",
+      "question": "What is demand paging?",
+      "answer": "Demand paging loads pages into memory only when they are required by a process."
+    },
+    {
+      "category": "system_design",
+      "question": "What is scalability?",
+      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 51",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an application server?",
+      "answer": "An application server executes business logic and processes application requests."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Recovery?",
+      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
+    },
+    {
+      "category": "hr",
+      "question": "Describe a challenging situation you faced and how you handled it.",
+      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
+    },
+    {
+      "category": "dsa",
+      "question": "Give an example of a greedy algorithm.",
+      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between for and while loops?",
+      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Session Layer?",
+      "answer": "The Session Layer establishes, manages, and terminates communication sessions."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 30",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
-    },
-    {
-      "category": "python",
-      "question": "What is the filter() function?",
-      "answer": "filter() returns elements from an iterable that satisfy a specified condition."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Isolation in ACID?",
-      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between compiled and interpreted languages?",
-      "answer": "Compiled languages are translated to machine code before execution, whereas interpreted languages execute code line by line through an interpreter."
-    },
-    {
-      "category": "java",
-      "question": "What is the super keyword?",
-      "answer": "The super keyword refers to the immediate parent class object."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 34",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
-    },
-    {
-      "category": "system_design",
-      "question": "What is synchronous replication?",
-      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
+      "category": "oop",
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
     },
     {
       "category": "dsa",
-      "question": "What is a binary tree?",
-      "answer": "A binary tree is a tree data structure in which each node has at most two children."
+      "question": "What is space complexity?",
+      "answer": "Space complexity measures the amount of memory an algorithm uses relative to the input size."
     },
     {
-      "category": "sql",
-      "question": "What is a correlated subquery?",
-      "answer": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query."
+      "category": "os",
+      "question": "What is the difference between user mode and kernel mode?",
+      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
     },
     {
-      "category": "dsa",
-      "question": "What is topological sorting?",
-      "answer": "Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge u→v, u appears before v."
+      "category": "oop",
+      "question": "When should the Singleton pattern be used?",
+      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
     }
   ]
 }
