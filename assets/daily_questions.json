@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is a composite key?",
-      "answer": "A composite key is a key formed by combining two or more attributes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Fourth Normal Form (4NF)?",
-      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
-    },
-    {
-      "category": "java",
-      "question": "What is encapsulation?",
-      "answer": "Encapsulation is the practice of bundling data and methods together while restricting direct access to internal implementation."
-    },
-    {
       "category": "python",
-      "question": "What is the map() function?",
-      "answer": "map() applies a function to every item in an iterable and returns an iterator."
+      "question": "What is method overloading in Python?",
+      "answer": "Python does not support traditional method overloading directly; similar behavior is achieved using default arguments or variable-length arguments."
     },
     {
       "category": "sql",
-      "question": "What is DML in SQL?",
-      "answer": "Data Manipulation Language (DML) consists of commands used to insert, update, and delete data."
-    },
-    {
-      "category": "sql",
-      "question": "What are the advantages of views?",
-      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
-    },
-    {
-      "category": "os",
-      "question": "What is demand paging?",
-      "answer": "Demand paging loads pages into memory only when they are required by a process."
-    },
-    {
-      "category": "system_design",
-      "question": "What is scalability?",
-      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
+      "question": "What is the LAG() function?",
+      "answer": "LAG() accesses data from a previous row without using a self-join."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 51",
+      "question": "HR Interview Question 26",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is an application server?",
-      "answer": "An application server executes business logic and processes application requests."
-    },
-    {
-      "category": "networking",
-      "question": "What is Fast Recovery?",
-      "answer": "Fast Recovery is a TCP mechanism that reduces the congestion window after packet loss while avoiding a complete restart of Slow Start."
-    },
-    {
-      "category": "hr",
-      "question": "Describe a challenging situation you faced and how you handled it.",
-      "answer": "Use the STAR method to explain the situation, actions taken, and positive outcome."
-    },
-    {
-      "category": "dsa",
-      "question": "Give an example of a greedy algorithm.",
-      "answer": "Kruskal's algorithm, Prim's algorithm, Huffman coding, and Activity Selection are classic greedy algorithms."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between for and while loops?",
-      "answer": "A for loop iterates over a sequence, whereas a while loop runs until a condition becomes false."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Session Layer?",
-      "answer": "The Session Layer establishes, manages, and terminates communication sessions."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 30",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
+      "question": "What is a UML Class Diagram?",
+      "answer": "A UML Class Diagram represents classes, attributes, methods, and relationships between classes."
     },
     {
-      "category": "dsa",
-      "question": "What is space complexity?",
-      "answer": "Space complexity measures the amount of memory an algorithm uses relative to the input size."
+      "category": "dbms",
+      "question": "What is a shared lock?",
+      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
     },
     {
       "category": "os",
-      "question": "What is the difference between user mode and kernel mode?",
-      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
+      "question": "What is a user-level thread?",
+      "answer": "A user-level thread is managed by a thread library without direct kernel involvement."
+    },
+    {
+      "category": "sql",
+      "question": "What is a view in SQL?",
+      "answer": "A view is a virtual table based on the result of a SQL query."
+    },
+    {
+      "category": "os",
+      "question": "What is virtual memory?",
+      "answer": "Virtual memory is a memory management technique that allows processes to use more memory than physically available by utilizing secondary storage."
+    },
+    {
+      "category": "java",
+      "question": "What is the super keyword?",
+      "answer": "The super keyword refers to the immediate parent class object."
+    },
+    {
+      "category": "networking",
+      "question": "What is a switch?",
+      "answer": "A switch is a network device that forwards frames within a LAN using MAC addresses."
     },
     {
       "category": "oop",
-      "question": "When should the Singleton pattern be used?",
-      "answer": "Singleton is used when exactly one shared instance is required, such as configuration managers or logging services."
+      "question": "What is the difference between identity and equality?",
+      "answer": "Identity compares whether two references point to the same object, while equality compares object values or state."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 91",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is branch and bound?",
+      "answer": "Branch and bound is an optimization technique that systematically explores solution spaces while pruning branches that cannot yield better solutions."
+    },
+    {
+      "category": "dsa",
+      "question": "What is level order traversal?",
+      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a DBMS?",
+      "answer": "A Database Management System (DBMS) is software that enables users to create, manage, store, retrieve, and manipulate databases."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "answer": "SQL databases use structured schemas and relational models, whereas NoSQL databases support flexible schemas and various data models."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is replication used?",
+      "answer": "Replication improves availability, fault tolerance, disaster recovery, and read scalability."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 83",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
+    },
+    {
+      "category": "networking",
+      "question": "What is encryption?",
+      "answer": "Encryption is the process of converting readable data into an unreadable format to protect confidentiality."
     }
   ]
 }
