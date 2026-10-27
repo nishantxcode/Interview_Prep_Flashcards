@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "questions": [
     {
+      "category": "oop",
+      "question": "What is the Command pattern?",
+      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
+    },
+    {
       "category": "hr",
-      "question": "HR Interview Question 53",
+      "question": "HR Interview Question 74",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "networking",
+      "question": "What is the Physical Layer of the OSI model?",
+      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+    },
+    {
       "category": "java",
-      "question": "Java Interview Question 82",
+      "question": "Java Interview Question 39",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "java",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, Java supports constructor overloading by defining multiple constructors with different parameter lists."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between packet switching and circuit switching?",
-      "answer": "Packet switching shares network resources dynamically, whereas circuit switching reserves a dedicated path for communication."
-    },
-    {
-      "category": "networking",
-      "question": "What is static routing?",
-      "answer": "Static routing uses manually configured routes that do not change automatically."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Template Method pattern?",
-      "answer": "The Template Method pattern defines the skeleton of an algorithm while allowing subclasses to customize specific steps."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Dependency Inversion Principle (DIP)?",
-      "answer": "DIP states that high-level modules should depend on abstractions rather than concrete implementations."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Disjoint Set Union (DSU)?",
-      "answer": "A Disjoint Set Union is a data structure that maintains a collection of disjoint sets and supports union and find operations efficiently."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LEAD() function?",
-      "answer": "LEAD() accesses data from a subsequent row without using a self-join."
-    },
-    {
-      "category": "sql",
-      "question": "What is DENSE_RANK()?",
-      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
-    },
-    {
       "category": "system_design",
-      "question": "What is leader election?",
-      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
+      "question": "What is the key challenge in designing a chat application?",
+      "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
+    },
+    {
+      "category": "python",
+      "question": "What are common file modes in Python?",
+      "answer": "Common file modes include 'r', 'w', 'a', 'x', 'rb', and 'wb'."
+    },
+    {
+      "category": "os",
+      "question": "What is real-time scheduling?",
+      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
+    },
+    {
+      "category": "networking",
+      "question": "What is congestion control?",
+      "answer": "Congestion control is the set of techniques used to prevent and manage network congestion."
+    },
+    {
+      "category": "os",
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 58",
+      "question": "HR Interview Question 50",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "python",
-      "question": "What is single inheritance?",
-      "answer": "Single inheritance occurs when a child class inherits from one parent class."
+      "category": "sql",
+      "question": "What is the NOT EXISTS operator?",
+      "answer": "NOT EXISTS returns true when a subquery returns no rows."
     },
     {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed lock?",
-      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
-    },
-    {
-      "category": "dbms",
-      "question": "What is generalization in ER modeling?",
-      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
-    },
-    {
-      "category": "os",
-      "question": "Why is context switching considered overhead?",
-      "answer": "Because CPU time is spent saving and restoring process states rather than executing useful work."
-    },
-    {
-      "category": "dbms",
-      "question": "What are update anomalies?",
-      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
-    },
-    {
-      "category": "python",
-      "question": "When are lambda functions useful?",
-      "answer": "Lambda functions are useful for short, simple operations that are used temporarily."
+      "category": "oop",
+      "question": "What is multiple inheritance?",
+      "answer": "Multiple inheritance allows a class to inherit properties and behavior from more than one parent class."
     },
     {
       "category": "dsa",
-      "question": "What is a graph?",
-      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
+      "question": "What is time complexity?",
+      "answer": "Time complexity measures the amount of time an algorithm takes to run as a function of the input size."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Isolation in ACID?",
+      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a schema?",
+      "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
+    },
+    {
+      "category": "python",
+      "question": "What are function arguments?",
+      "answer": "Function arguments are values passed to a function when it is called."
+    },
+    {
+      "category": "java",
+      "question": "What is the difference between overloading and overriding?",
+      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
+    },
+    {
+      "category": "system_design",
+      "question": "What is synchronous replication?",
+      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big Theta notation?",
+      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+    },
+    {
+      "category": "sql",
+      "question": "What is the SELECT statement?",
+      "answer": "SELECT retrieves data from one or more tables."
     }
   ]
 }
