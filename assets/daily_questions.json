@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "questions": [
     {
+      "category": "networking",
+      "question": "What are the key factors in diagnosing network issues?",
+      "answer": "Checking connectivity, DNS resolution, routing, latency, packet loss, bandwidth utilization, and firewall configurations."
+    },
+    {
+      "category": "python",
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
+    },
+    {
+      "category": "dsa",
+      "question": "What is space complexity?",
+      "answer": "Space complexity measures the amount of memory an algorithm uses relative to the input size."
+    },
+    {
+      "category": "os",
+      "question": "What is segmentation?",
+      "answer": "Segmentation is a memory management technique that divides memory into variable-sized logical segments."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
+      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
+    },
+    {
       "category": "oop",
-      "question": "What is the Command pattern?",
-      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
+      "question": "What is shallow copy?",
+      "answer": "A shallow copy duplicates the object but shares references to nested objects."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 74",
+      "question": "HR Interview Question 38",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "networking",
-      "question": "What is the Physical Layer of the OSI model?",
-      "answer": "The Physical Layer is responsible for transmitting raw bits over a communication medium."
+      "category": "system_design",
+      "question": "What is throughput?",
+      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+    },
+    {
+      "category": "os",
+      "question": "What is a page fault?",
+      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+    },
+    {
+      "category": "oop",
+      "question": "Why is composition often preferred over inheritance?",
+      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
+    },
+    {
+      "category": "python",
+      "question": "What is a coroutine in Python?",
+      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 39",
+      "question": "Java Interview Question 72",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "sql",
+      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
+    },
+    {
+      "category": "dbms",
+      "question": "What is total participation?",
+      "answer": "Total participation means every entity must participate in at least one relationship instance."
+    },
+    {
       "category": "system_design",
-      "question": "What is the key challenge in designing a chat application?",
-      "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
-    },
-    {
-      "category": "python",
-      "question": "What are common file modes in Python?",
-      "answer": "Common file modes include 'r', 'w', 'a', 'x', 'rb', and 'wb'."
-    },
-    {
-      "category": "os",
-      "question": "What is real-time scheduling?",
-      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
+      "question": "What is a CDN?",
+      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
     },
     {
       "category": "networking",
-      "question": "What is congestion control?",
-      "answer": "Congestion control is the set of techniques used to prevent and manage network congestion."
-    },
-    {
-      "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
+      "question": "Why is a VPN used?",
+      "answer": "A VPN provides privacy, secure communication, and remote access to private networks."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What is your greatest professional achievement?",
+      "answer": "Share a measurable accomplishment and explain the impact it created."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the SELECT operation in relational algebra?",
+      "answer": "SELECT retrieves rows from a relation that satisfy a specified condition."
     },
     {
       "category": "sql",
-      "question": "What is the NOT EXISTS operator?",
-      "answer": "NOT EXISTS returns true when a subquery returns no rows."
-    },
-    {
-      "category": "oop",
-      "question": "What is multiple inheritance?",
-      "answer": "Multiple inheritance allows a class to inherit properties and behavior from more than one parent class."
-    },
-    {
-      "category": "dsa",
-      "question": "What is time complexity?",
-      "answer": "Time complexity measures the amount of time an algorithm takes to run as a function of the input size."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Isolation in ACID?",
-      "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a schema?",
-      "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
-    },
-    {
-      "category": "python",
-      "question": "What are function arguments?",
-      "answer": "Function arguments are values passed to a function when it is called."
+      "question": "What is a LEFT JOIN?",
+      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
     },
     {
       "category": "java",
-      "question": "What is the difference between overloading and overriding?",
-      "answer": "Overloading occurs within the same class with different parameters, whereas overriding occurs in inheritance with the same method signature."
-    },
-    {
-      "category": "system_design",
-      "question": "What is synchronous replication?",
-      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Big Theta notation?",
-      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
-    },
-    {
-      "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
+      "question": "Java Interview Question 55",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     }
   ]
 }
