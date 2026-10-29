@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "questions": [
     {
-      "category": "networking",
-      "question": "What are the key factors in diagnosing network issues?",
-      "answer": "Checking connectivity, DNS resolution, routing, latency, packet loss, bandwidth utilization, and firewall configurations."
-    },
-    {
-      "category": "python",
-      "question": "What is PEP 8?",
-      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
-    },
-    {
-      "category": "dsa",
-      "question": "What is space complexity?",
-      "answer": "Space complexity measures the amount of memory an algorithm uses relative to the input size."
+      "category": "oop",
+      "question": "What is object cloning?",
+      "answer": "Object cloning creates a copy of an existing object."
     },
     {
       "category": "os",
-      "question": "What is segmentation?",
-      "answer": "Segmentation is a memory management technique that divides memory into variable-sized logical segments."
+      "question": "What is a thread?",
+      "answer": "A thread is the smallest unit of CPU execution within a process."
     },
     {
-      "category": "dsa",
-      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
-      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
-    },
-    {
-      "category": "oop",
-      "question": "What is shallow copy?",
-      "answer": "A shallow copy duplicates the object but shares references to nested objects."
+      "category": "networking",
+      "question": "What is VLAN?",
+      "answer": "A Virtual Local Area Network (VLAN) logically divides a physical network into separate broadcast domains."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 38",
+      "question": "HR Interview Question 22",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "system_design",
-      "question": "What is throughput?",
-      "answer": "Throughput is the amount of work or number of requests processed by a system in a given time period."
+      "question": "What is data replication in distributed systems?",
+      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
     },
     {
-      "category": "os",
-      "question": "What is a page fault?",
-      "answer": "A page fault occurs when a process attempts to access a page that is not currently loaded into physical memory."
+      "category": "java",
+      "question": "What is JDK?",
+      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
     },
     {
       "category": "oop",
-      "question": "Why is composition often preferred over inheritance?",
-      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
+      "question": "Can constructors be overloaded?",
+      "answer": "Yes, constructors can be overloaded by defining multiple constructors with different parameter lists."
     },
     {
-      "category": "python",
-      "question": "What is a coroutine in Python?",
-      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 72",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
-      "answer": "INNER JOIN returns only matching rows, whereas OUTER JOIN includes non-matching rows as well."
-    },
-    {
-      "category": "dbms",
-      "question": "What is total participation?",
-      "answer": "Total participation means every entity must participate in at least one relationship instance."
+      "category": "dsa",
+      "question": "What is a hash function?",
+      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
     },
     {
       "category": "system_design",
-      "question": "What is a CDN?",
-      "answer": "A Content Delivery Network (CDN) is a distributed network of servers that delivers content closer to users."
+      "question": "What is vertical scaling?",
+      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
     },
     {
-      "category": "networking",
-      "question": "Why is a VPN used?",
-      "answer": "A VPN provides privacy, secure communication, and remote access to private networks."
-    },
-    {
-      "category": "hr",
-      "question": "What is your greatest professional achievement?",
-      "answer": "Share a measurable accomplishment and explain the impact it created."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the SELECT operation in relational algebra?",
-      "answer": "SELECT retrieves rows from a relation that satisfy a specified condition."
+      "category": "python",
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
     },
     {
       "category": "sql",
-      "question": "What is a LEFT JOIN?",
-      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
+      "question": "What are the advantages of CTEs?",
+      "answer": "CTEs improve readability, simplify complex queries, and support recursion."
+    },
+    {
+      "category": "python",
+      "question": "Which Python data types are mutable?",
+      "answer": "list, dict, set, and most user-defined objects are mutable."
+    },
+    {
+      "category": "dbms",
+      "question": "What is specialization in ER modeling?",
+      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a max heap?",
+      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 43",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 55",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is the JVM?",
+      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a shared lock?",
+      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
+    },
+    {
+      "category": "networking",
+      "question": "Why is DNS required?",
+      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+    },
+    {
+      "category": "sql",
+      "question": "What is a SELF JOIN?",
+      "answer": "A SELF JOIN joins a table with itself using aliases."
+    },
+    {
+      "category": "os",
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
     }
   ]
 }
