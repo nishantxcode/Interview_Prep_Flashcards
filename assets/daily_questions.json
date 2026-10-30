@@ -1,90 +1,95 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is object cloning?",
-      "answer": "Object cloning creates a copy of an existing object."
+      "category": "hr",
+      "question": "Where do you see yourself in five years?",
+      "answer": "Show ambition while aligning your growth plans with the company's opportunities."
     },
     {
       "category": "os",
-      "question": "What is a thread?",
-      "answer": "A thread is the smallest unit of CPU execution within a process."
-    },
-    {
-      "category": "networking",
-      "question": "What is VLAN?",
-      "answer": "A Virtual Local Area Network (VLAN) logically divides a physical network into separate broadcast domains."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 22",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is data replication in distributed systems?",
-      "answer": "Data replication creates copies of data across multiple nodes to improve availability and fault tolerance."
-    },
-    {
-      "category": "java",
-      "question": "What is JDK?",
-      "answer": "The Java Development Kit (JDK) is a software package that contains tools required for developing Java applications."
-    },
-    {
-      "category": "oop",
-      "question": "Can constructors be overloaded?",
-      "answer": "Yes, constructors can be overloaded by defining multiple constructors with different parameter lists."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a hash function?",
-      "answer": "A hash function converts input data into a fixed-size hash value used as an index in a hash table."
-    },
-    {
-      "category": "system_design",
-      "question": "What is vertical scaling?",
-      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between == and is in Python?",
-      "answer": "== compares values, whereas is compares object identities."
+      "question": "What is starvation in synchronization?",
+      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
     },
     {
       "category": "sql",
-      "question": "What are the advantages of CTEs?",
-      "answer": "CTEs improve readability, simplify complex queries, and support recursion."
+      "question": "What is DENSE_RANK()?",
+      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
+    },
+    {
+      "category": "system_design",
+      "question": "What is Availability in CAP?",
+      "answer": "Availability means every request receives a response, even if some nodes fail."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a key in DBMS?",
+      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
     },
     {
       "category": "python",
-      "question": "Which Python data types are mutable?",
-      "answer": "list, dict, set, and most user-defined objects are mutable."
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
     },
     {
-      "category": "dbms",
-      "question": "What is specialization in ER modeling?",
-      "answer": "Specialization is the process of creating sub-entities from a higher-level entity based on distinguishing characteristics."
+      "category": "system_design",
+      "question": "What is BASE in distributed systems?",
+      "answer": "BASE stands for Basically Available, Soft State, and Eventual Consistency."
+    },
+    {
+      "category": "oop",
+      "question": "What is encapsulation?",
+      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal implementation details."
     },
     {
       "category": "dsa",
-      "question": "What is a max heap?",
-      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+      "question": "What is a Red-Black Tree?",
+      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 43",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "os",
+      "question": "What is multitasking?",
+      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
+    },
+    {
+      "category": "oop",
+      "question": "What are the four pillars of OOP?",
+      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+    },
+    {
+      "category": "networking",
+      "question": "What is TCP?",
+      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
+    },
+    {
+      "category": "python",
+      "question": "What is the yield keyword?",
+      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
     },
     {
       "category": "java",
-      "question": "What is the JVM?",
-      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+      "question": "Java Interview Question 55",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dbms",
-      "question": "What is a shared lock?",
-      "answer": "A shared lock allows multiple transactions to read a data item simultaneously."
+      "question": "What is a DEFAULT constraint?",
+      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
+    },
+    {
+      "category": "sql",
+      "question": "Why are execution plans important?",
+      "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 44",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is linear probing?",
+      "answer": "Linear probing is an open addressing technique that checks the next available slot sequentially when a collision occurs."
     },
     {
       "category": "networking",
@@ -92,14 +97,9 @@
       "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
     },
     {
-      "category": "sql",
-      "question": "What is a SELF JOIN?",
-      "answer": "A SELF JOIN joins a table with itself using aliases."
-    },
-    {
-      "category": "os",
-      "question": "What is the Dining Philosophers problem?",
-      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+      "category": "java",
+      "question": "What is an abstract method?",
+      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
     }
   ]
 }
