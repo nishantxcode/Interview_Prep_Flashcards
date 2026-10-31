@@ -1,105 +1,105 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "questions": [
     {
-      "category": "hr",
-      "question": "Where do you see yourself in five years?",
-      "answer": "Show ambition while aligning your growth plans with the company's opportunities."
-    },
-    {
-      "category": "os",
-      "question": "What is starvation in synchronization?",
-      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
-    },
-    {
-      "category": "sql",
-      "question": "What is DENSE_RANK()?",
-      "answer": "DENSE_RANK() assigns rankings without leaving gaps when ties occur."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Availability in CAP?",
-      "answer": "Availability means every request receives a response, even if some nodes fail."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a key in DBMS?",
-      "answer": "A key is an attribute or set of attributes used to uniquely identify records in a table."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is BASE in distributed systems?",
-      "answer": "BASE stands for Basically Available, Soft State, and Eventual Consistency."
-    },
-    {
-      "category": "oop",
-      "question": "What is encapsulation?",
-      "answer": "Encapsulation is the bundling of data and methods together while restricting direct access to internal implementation details."
-    },
-    {
       "category": "dsa",
-      "question": "What is a Red-Black Tree?",
-      "answer": "A Red-Black Tree is a self-balancing Binary Search Tree that maintains balance using node colors and specific properties."
-    },
-    {
-      "category": "os",
-      "question": "What is multitasking?",
-      "answer": "Multitasking is the ability of an operating system to execute multiple tasks seemingly simultaneously."
+      "question": "What is a stack?",
+      "answer": "A stack is a linear data structure that follows the Last In First Out (LIFO) principle."
     },
     {
       "category": "oop",
-      "question": "What are the four pillars of OOP?",
-      "answer": "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+      "question": "What is a UML Sequence Diagram?",
+      "answer": "A UML Sequence Diagram illustrates interactions between objects over time."
     },
     {
       "category": "networking",
-      "question": "What is TCP?",
-      "answer": "Transmission Control Protocol (TCP) is a connection-oriented transport protocol that provides reliable communication."
-    },
-    {
-      "category": "python",
-      "question": "What is the yield keyword?",
-      "answer": "yield returns a value from a generator and preserves the function's state for future execution."
+      "question": "What is UDP?",
+      "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 55",
+      "question": "Java Interview Question 81",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "dbms",
-      "question": "What is a DEFAULT constraint?",
-      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
-    },
-    {
-      "category": "sql",
-      "question": "Why are execution plans important?",
-      "answer": "Execution plans help identify performance bottlenecks and optimize query execution."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 44",
+      "question": "HR Interview Question 51",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is linear probing?",
-      "answer": "Linear probing is an open addressing technique that checks the next available slot sequentially when a collision occurs."
+      "category": "sql",
+      "question": "What is COMMIT?",
+      "answer": "COMMIT permanently saves all changes made during the current transaction."
+    },
+    {
+      "category": "python",
+      "question": "What are the key features of Python?",
+      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
     },
     {
       "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+      "question": "What is VLAN?",
+      "answer": "A Virtual Local Area Network (VLAN) logically divides a physical network into separate broadcast domains."
+    },
+    {
+      "category": "sql",
+      "question": "What are the advantages of views?",
+      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
+    },
+    {
+      "category": "os",
+      "question": "What is a page?",
+      "answer": "A page is a fixed-size block of logical memory used in paging systems."
+    },
+    {
+      "category": "python",
+      "question": "What is multilevel inheritance?",
+      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a consumer in a messaging system?",
+      "answer": "A consumer is a component that receives and processes messages."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 45",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Adapter pattern?",
+      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+    },
+    {
+      "category": "dsa",
+      "question": "What is topological sorting?",
+      "answer": "Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge u→v, u appears before v."
     },
     {
       "category": "java",
-      "question": "What is an abstract method?",
-      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
+      "question": "Java Interview Question 68",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is asynchronous communication?",
+      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+    },
+    {
+      "category": "os",
+      "question": "What is real-time scheduling?",
+      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
     }
   ]
 }
