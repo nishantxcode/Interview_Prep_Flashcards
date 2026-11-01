@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is a stack?",
-      "answer": "A stack is a linear data structure that follows the Last In First Out (LIFO) principle."
-    },
-    {
-      "category": "oop",
-      "question": "What is a UML Sequence Diagram?",
-      "answer": "A UML Sequence Diagram illustrates interactions between objects over time."
-    },
-    {
-      "category": "networking",
-      "question": "What is UDP?",
-      "answer": "User Datagram Protocol (UDP) is a connectionless transport protocol that provides fast but unreliable communication."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 81",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 51",
+      "question": "HR Interview Question 86",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "sql",
-      "question": "What is COMMIT?",
-      "answer": "COMMIT permanently saves all changes made during the current transaction."
-    },
-    {
-      "category": "python",
-      "question": "What are the key features of Python?",
-      "answer": "Python is interpreted, dynamically typed, object-oriented, platform-independent, and has a large standard library."
-    },
-    {
-      "category": "networking",
-      "question": "What is VLAN?",
-      "answer": "A Virtual Local Area Network (VLAN) logically divides a physical network into separate broadcast domains."
-    },
-    {
-      "category": "sql",
-      "question": "What are the advantages of views?",
-      "answer": "Views simplify complex queries, improve security, and provide logical data abstraction."
-    },
-    {
-      "category": "os",
-      "question": "What is a page?",
-      "answer": "A page is a fixed-size block of logical memory used in paging systems."
-    },
-    {
-      "category": "python",
-      "question": "What is multilevel inheritance?",
-      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a consumer in a messaging system?",
-      "answer": "A consumer is a component that receives and processes messages."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 45",
+      "question": "HR Interview Question 42",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Atomicity?",
-      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "category": "networking",
+      "question": "What is the purpose of DHCP?",
+      "answer": "DHCP simplifies network administration by automatically configuring devices."
     },
     {
       "category": "dsa",
-      "question": "What is topological sorting?",
-      "answer": "Topological sorting is a linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge u→v, u appears before v."
+      "question": "What is union by rank?",
+      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 68",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "sql",
+      "question": "What does AVG() do?",
+      "answer": "AVG() calculates the average value of a numeric column."
     },
     {
-      "category": "system_design",
-      "question": "What is asynchronous communication?",
-      "answer": "Asynchronous communication allows services to communicate without waiting for immediate responses."
+      "category": "oop",
+      "question": "What is the Abstract Factory pattern?",
+      "answer": "Abstract Factory provides an interface for creating families of related objects without specifying concrete classes."
+    },
+    {
+      "category": "sql",
+      "question": "What is a covering index?",
+      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+    },
+    {
+      "category": "python",
+      "question": "What is @property in Python?",
+      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
+    },
+    {
+      "category": "networking",
+      "question": "What is Quality of Service (QoS)?",
+      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+    },
+    {
+      "category": "python",
+      "question": "What is multiprocessing in Python?",
+      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
     },
     {
       "category": "os",
-      "question": "What is real-time scheduling?",
-      "answer": "Real-time scheduling ensures that tasks complete within strict timing constraints."
+      "question": "What is a binary semaphore?",
+      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
+    },
+    {
+      "category": "dbms",
+      "question": "What is participation constraint in an ER model?",
+      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+    },
+    {
+      "category": "dsa",
+      "question": "What is an algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 95",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Fourth Normal Form (4NF)?",
+      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
+    },
+    {
+      "category": "oop",
+      "question": "What is a protected access modifier?",
+      "answer": "A protected member can be accessed within the same class and its subclasses."
+    },
+    {
+      "category": "system_design",
+      "question": "What is an event in event-driven architecture?",
+      "answer": "An event is a record of a significant change in system state."
+    },
+    {
+      "category": "java",
+      "question": "What is an abstract class in Java?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
+    },
+    {
+      "category": "system_design",
+      "question": "What is latency?",
+      "answer": "Latency is the time taken for a request to travel from a client to a server and back."
+    },
+    {
+      "category": "os",
+      "question": "What happens if the time quantum is too small?",
+      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     }
   ]
 }
