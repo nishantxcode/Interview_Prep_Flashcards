@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is System Design?",
-      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
-    },
-    {
-      "category": "oop",
-      "question": "Why is composition often preferred over inheritance?",
-      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
-    },
-    {
-      "category": "oop",
-      "question": "What is an interface?",
-      "answer": "An interface defines a contract of methods that implementing classes must provide."
-    },
-    {
       "category": "os",
-      "question": "What is the Optimal page replacement algorithm?",
-      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency matrix?",
-      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
-    },
-    {
-      "category": "networking",
-      "question": "What is PAT?",
-      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
-    },
-    {
-      "category": "dbms",
-      "question": "What is Consistency in ACID?",
-      "answer": "Consistency ensures that a transaction brings the database from one valid state to another valid state."
+      "question": "What is process scheduling?",
+      "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
     },
     {
       "category": "sql",
-      "question": "What is the WHERE clause?",
-      "answer": "The WHERE clause filters rows based on specified conditions."
+      "question": "What is a trigger in SQL?",
+      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
     },
     {
-      "category": "python",
-      "question": "What is multilevel inheritance?",
-      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
+      "category": "oop",
+      "question": "What is object composition?",
+      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
     },
     {
       "category": "dsa",
-      "question": "What is Big Theta notation?",
-      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+      "question": "What is postorder traversal?",
+      "answer": "Postorder traversal recursively traverses the left subtree, then the right subtree, and visits the root node last."
     },
     {
       "category": "system_design",
-      "question": "What are the challenges of distributed systems?",
-      "answer": "Network failures, consistency issues, latency, synchronization, and operational complexity."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 59",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is a Common Table Expression (CTE)?",
-      "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the if statement?",
-      "answer": "The if statement executes a block of code when a condition evaluates to true."
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
     },
     {
       "category": "os",
-      "question": "What is page replacement?",
-      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 68",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What are the layers of the TCP/IP model?",
-      "answer": "Application, Transport, Internet, and Network Access layers."
+      "question": "What is Round Robin Scheduling?",
+      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
     },
     {
       "category": "java",
-      "question": "What is the JVM?",
-      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a non-clustered index?",
-      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 41",
+      "question": "Java Interview Question 29",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a shard key?",
+      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+    },
+    {
+      "category": "dsa",
+      "question": "Which sorting algorithms use divide and conquer?",
+      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
+    },
+    {
+      "category": "sql",
+      "question": "What does MIN() do?",
+      "answer": "MIN() returns the smallest value in a column."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 38",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 98",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 43",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "python",
+      "question": "What is file handling in Python?",
+      "answer": "File handling refers to reading from and writing to files using Python programs."
+    },
+    {
+      "category": "networking",
+      "question": "What is Quality of Service (QoS)?",
+      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
+    },
+    {
+      "category": "python",
+      "question": "What is reference counting?",
+      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
+    },
+    {
+      "category": "oop",
+      "question": "What are SOLID principles?",
+      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
+    },
+    {
+      "category": "networking",
+      "question": "What is a MAC address?",
+      "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a non-trivial functional dependency?",
+      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the Fifth Normal Form (5NF)?",
+      "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
     }
   ]
 }
