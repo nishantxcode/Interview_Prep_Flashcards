@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "questions": [
     {
-      "category": "hr",
-      "question": "HR Interview Question 86",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 42",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of DHCP?",
-      "answer": "DHCP simplifies network administration by automatically configuring devices."
-    },
-    {
-      "category": "dsa",
-      "question": "What is union by rank?",
-      "answer": "Union by rank attaches the shorter tree under the taller tree to keep the structure balanced."
-    },
-    {
-      "category": "sql",
-      "question": "What does AVG() do?",
-      "answer": "AVG() calculates the average value of a numeric column."
+      "category": "system_design",
+      "question": "What is System Design?",
+      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
     },
     {
       "category": "oop",
-      "question": "What is the Abstract Factory pattern?",
-      "answer": "Abstract Factory provides an interface for creating families of related objects without specifying concrete classes."
+      "question": "Why is composition often preferred over inheritance?",
+      "answer": "Composition provides greater flexibility and avoids tight coupling associated with inheritance hierarchies."
     },
     {
-      "category": "sql",
-      "question": "What is a covering index?",
-      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
-    },
-    {
-      "category": "python",
-      "question": "What is @property in Python?",
-      "answer": "The @property decorator allows methods to be accessed like attributes while maintaining encapsulation."
-    },
-    {
-      "category": "networking",
-      "question": "What is Quality of Service (QoS)?",
-      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
-    },
-    {
-      "category": "python",
-      "question": "What is multiprocessing in Python?",
-      "answer": "Multiprocessing creates multiple processes that can execute in parallel using separate memory spaces."
+      "category": "oop",
+      "question": "What is an interface?",
+      "answer": "An interface defines a contract of methods that implementing classes must provide."
     },
     {
       "category": "os",
-      "question": "What is a binary semaphore?",
-      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
-    },
-    {
-      "category": "dbms",
-      "question": "What is participation constraint in an ER model?",
-      "answer": "Participation constraint specifies whether the existence of an entity depends on its participation in a relationship."
+      "question": "What is the Optimal page replacement algorithm?",
+      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
     },
     {
       "category": "dsa",
-      "question": "What is an algorithm?",
-      "answer": "An algorithm is a finite sequence of well-defined steps used to solve a problem or perform a computation."
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array representation of a graph where matrix entries indicate edge existence."
+    },
+    {
+      "category": "networking",
+      "question": "What is PAT?",
+      "answer": "Port Address Translation (PAT) is a type of NAT that maps multiple private IP addresses to a single public IP using different port numbers."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Consistency in ACID?",
+      "answer": "Consistency ensures that a transaction brings the database from one valid state to another valid state."
+    },
+    {
+      "category": "sql",
+      "question": "What is the WHERE clause?",
+      "answer": "The WHERE clause filters rows based on specified conditions."
+    },
+    {
+      "category": "python",
+      "question": "What is multilevel inheritance?",
+      "answer": "Multilevel inheritance occurs when a class inherits from a class that itself inherits from another class."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big Theta notation?",
+      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+    },
+    {
+      "category": "system_design",
+      "question": "What are the challenges of distributed systems?",
+      "answer": "Network failures, consistency issues, latency, synchronization, and operational complexity."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 59",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a Common Table Expression (CTE)?",
+      "answer": "A CTE is a temporary named result set defined within a query using the WITH clause."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the if statement?",
+      "answer": "The if statement executes a block of code when a condition evaluates to true."
+    },
+    {
+      "category": "os",
+      "question": "What is page replacement?",
+      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 68",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What are the layers of the TCP/IP model?",
+      "answer": "Application, Transport, Internet, and Network Access layers."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 95",
+      "question": "What is the JVM?",
+      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a non-clustered index?",
+      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 41",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Fourth Normal Form (4NF)?",
-      "answer": "A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies."
-    },
-    {
-      "category": "oop",
-      "question": "What is a protected access modifier?",
-      "answer": "A protected member can be accessed within the same class and its subclasses."
-    },
-    {
-      "category": "system_design",
-      "question": "What is an event in event-driven architecture?",
-      "answer": "An event is a record of a significant change in system state."
-    },
-    {
-      "category": "java",
-      "question": "What is an abstract class in Java?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
-    },
-    {
-      "category": "system_design",
-      "question": "What is latency?",
-      "answer": "Latency is the time taken for a request to travel from a client to a server and back."
-    },
-    {
-      "category": "os",
-      "question": "What happens if the time quantum is too small?",
-      "answer": "Frequent context switching occurs, increasing overhead and reducing CPU efficiency."
     }
   ]
 }
