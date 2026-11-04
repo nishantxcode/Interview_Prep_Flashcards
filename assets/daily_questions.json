@@ -1,25 +1,20 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "questions": [
     {
-      "category": "os",
-      "question": "What is process scheduling?",
-      "answer": "Process scheduling is the mechanism by which the operating system selects a process for CPU execution."
-    },
-    {
-      "category": "sql",
-      "question": "What is a trigger in SQL?",
-      "answer": "A trigger is a database object that automatically executes in response to specific events such as INSERT, UPDATE, or DELETE."
-    },
-    {
-      "category": "oop",
-      "question": "What is object composition?",
-      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
+      "category": "hr",
+      "question": "What makes you different from other candidates?",
+      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
     },
     {
       "category": "dsa",
-      "question": "What is postorder traversal?",
-      "answer": "Postorder traversal recursively traverses the left subtree, then the right subtree, and visits the root node last."
+      "question": "What is a Binary Search Tree (BST)?",
+      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+    },
+    {
+      "category": "java",
+      "question": "What is the JVM?",
+      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
     },
     {
       "category": "system_design",
@@ -27,79 +22,84 @@
       "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
     },
     {
-      "category": "os",
-      "question": "What is Round Robin Scheduling?",
-      "answer": "Round Robin is a preemptive scheduling algorithm where each process receives a fixed time quantum."
+      "category": "python",
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 29",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "hr",
+      "question": "Tell me about a time you failed.",
+      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
     },
     {
-      "category": "system_design",
-      "question": "What is a shard key?",
-      "answer": "A shard key is the attribute used to determine which shard stores a particular record."
+      "category": "dbms",
+      "question": "What is generalization in ER modeling?",
+      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
     },
     {
       "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
+      "question": "What is Big Theta notation?",
+      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
     },
     {
       "category": "sql",
-      "question": "What does MIN() do?",
-      "answer": "MIN() returns the smallest value in a column."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 38",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 98",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 43",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is file handling in Python?",
-      "answer": "File handling refers to reading from and writing to files using Python programs."
-    },
-    {
-      "category": "networking",
-      "question": "What is Quality of Service (QoS)?",
-      "answer": "Quality of Service (QoS) is a set of techniques used to prioritize network traffic and ensure performance requirements."
-    },
-    {
-      "category": "python",
-      "question": "What is reference counting?",
-      "answer": "Reference counting tracks how many references point to an object and frees memory when the count reaches zero."
+      "question": "What is the ALL operator?",
+      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
     },
     {
       "category": "oop",
-      "question": "What are SOLID principles?",
-      "answer": "SOLID is a set of five object-oriented design principles that improve maintainability, scalability, and flexibility."
+      "question": "What is a protected access modifier?",
+      "answer": "A protected member can be accessed within the same class and its subclasses."
+    },
+    {
+      "category": "python",
+      "question": "What is a coroutine in Python?",
+      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the difference between monolithic and microservices architectures?",
+      "answer": "Monolithic applications are deployed as a single unit, whereas microservices are independently deployable services."
     },
     {
       "category": "networking",
-      "question": "What is a MAC address?",
-      "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
+      "question": "What is the difference between an IP address and a MAC address?",
+      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 61",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is object cloning?",
+      "answer": "Object cloning creates a copy of an existing object."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
     },
     {
       "category": "dbms",
-      "question": "What is a non-trivial functional dependency?",
-      "answer": "A functional dependency is non-trivial when the dependent attribute is not a subset of the determinant attribute."
+      "question": "What is a deadlock in DBMS?",
+      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
     },
     {
-      "category": "dbms",
-      "question": "What is the Fifth Normal Form (5NF)?",
-      "answer": "A relation is in 5NF if it cannot be decomposed further without losing information."
+      "category": "os",
+      "question": "What are common disk scheduling algorithms?",
+      "answer": "FCFS, SSTF, SCAN, C-SCAN, LOOK, and C-LOOK."
+    },
+    {
+      "category": "networking",
+      "question": "What is symmetric encryption?",
+      "answer": "Symmetric encryption uses the same key for both encryption and decryption."
+    },
+    {
+      "category": "os",
+      "question": "What is a scheduler?",
+      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
     }
   ]
 }
