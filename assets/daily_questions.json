@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "questions": [
     {
-      "category": "hr",
-      "question": "What makes you different from other candidates?",
-      "answer": "Highlight a unique combination of skills, experiences, and accomplishments relevant to the role."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Binary Search Tree (BST)?",
-      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
-    },
-    {
-      "category": "java",
-      "question": "What is the JVM?",
-      "answer": "The Java Virtual Machine (JVM) executes Java bytecode and provides platform independence."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed transaction?",
-      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
-    },
-    {
-      "category": "python",
-      "question": "What are the different types of operators in Python?",
-      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
-    },
-    {
-      "category": "hr",
-      "question": "Tell me about a time you failed.",
-      "answer": "Describe the situation, what went wrong, what you learned, and how you improved afterward."
-    },
-    {
-      "category": "dbms",
-      "question": "What is generalization in ER modeling?",
-      "answer": "Generalization is the process of combining similar entities into a higher-level entity."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Big Theta notation?",
-      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALL operator?",
-      "answer": "ALL compares a value to every value returned by a subquery and returns true only if all comparisons are true."
-    },
-    {
-      "category": "oop",
-      "question": "What is a protected access modifier?",
-      "answer": "A protected member can be accessed within the same class and its subclasses."
-    },
-    {
-      "category": "python",
-      "question": "What is a coroutine in Python?",
-      "answer": "A coroutine is a special function that can pause and resume execution, enabling asynchronous programming."
-    },
-    {
-      "category": "system_design",
-      "question": "What is the difference between monolithic and microservices architectures?",
-      "answer": "Monolithic applications are deployed as a single unit, whereas microservices are independently deployable services."
-    },
-    {
       "category": "networking",
-      "question": "What is the difference between an IP address and a MAC address?",
-      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+      "question": "What is packet switching?",
+      "answer": "Packet switching divides data into packets that are transmitted independently through a network."
+    },
+    {
+      "category": "os",
+      "question": "What is the Optimal page replacement algorithm?",
+      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 61",
+      "question": "Java Interview Question 44",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "system_design",
+      "question": "What is eventual consistency in distributed databases?",
+      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 61",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
       "category": "oop",
-      "question": "What is object cloning?",
-      "answer": "Object cloning creates a copy of an existing object."
+      "question": "What is a default constructor?",
+      "answer": "A default constructor is a constructor that takes no parameters."
     },
     {
-      "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a deadlock in DBMS?",
-      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
-    },
-    {
-      "category": "os",
-      "question": "What are common disk scheduling algorithms?",
-      "answer": "FCFS, SSTF, SCAN, C-SCAN, LOOK, and C-LOOK."
+      "category": "hr",
+      "question": "HR Interview Question 30",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "networking",
-      "question": "What is symmetric encryption?",
-      "answer": "Symmetric encryption uses the same key for both encryption and decryption."
+      "question": "What is a MAC address?",
+      "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Diamond Problem?",
+      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
+    },
+    {
+      "category": "dbms",
+      "question": "What is serializability?",
+      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
+    },
+    {
+      "category": "python",
+      "question": "What is a module in Python?",
+      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
     },
     {
       "category": "os",
-      "question": "What is a scheduler?",
-      "answer": "A scheduler is an operating system component responsible for selecting processes for execution."
+      "question": "What are the primary functions of an Operating System?",
+      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a producer in a messaging system?",
+      "answer": "A producer is a component that generates and publishes messages."
+    },
+    {
+      "category": "sql",
+      "question": "What are common TCL commands?",
+      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the advantage of a Fenwick Tree over a Segment Tree?",
+      "answer": "Fenwick Trees are simpler and require less memory for prefix-sum-related operations."
+    },
+    {
+      "category": "java",
+      "question": "What is an abstract class in Java?",
+      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
+    },
+    {
+      "category": "sql",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of rows in a table."
+    },
+    {
+      "category": "python",
+      "question": "What is inheritance in Python?",
+      "answer": "Inheritance allows a class to acquire attributes and methods from another class."
+    },
+    {
+      "category": "dsa",
+      "question": "Can topological sorting be applied to graphs with cycles?",
+      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an attribute?",
+      "answer": "An attribute is a column in a table that represents a property of an entity."
     }
   ]
 }
