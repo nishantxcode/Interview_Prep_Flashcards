@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "questions": [
-    {
-      "category": "networking",
-      "question": "What is packet switching?",
-      "answer": "Packet switching divides data into packets that are transmitted independently through a network."
-    },
-    {
-      "category": "os",
-      "question": "What is the Optimal page replacement algorithm?",
-      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 44",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 61",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is a default constructor?",
-      "answer": "A default constructor is a constructor that takes no parameters."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 30",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a MAC address?",
-      "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Diamond Problem?",
-      "answer": "The Diamond Problem occurs when a class inherits the same method from multiple parent classes, causing ambiguity."
-    },
-    {
-      "category": "dbms",
-      "question": "What is serializability?",
-      "answer": "Serializability ensures concurrent execution produces the same result as some serial execution."
-    },
-    {
-      "category": "python",
-      "question": "What is a module in Python?",
-      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
-    },
-    {
-      "category": "os",
-      "question": "What are the primary functions of an Operating System?",
-      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a producer in a messaging system?",
-      "answer": "A producer is a component that generates and publishes messages."
-    },
-    {
-      "category": "sql",
-      "question": "What are common TCL commands?",
-      "answer": "COMMIT, ROLLBACK, and SAVEPOINT."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the advantage of a Fenwick Tree over a Segment Tree?",
-      "answer": "Fenwick Trees are simpler and require less memory for prefix-sum-related operations."
-    },
     {
       "category": "java",
       "question": "What is an abstract class in Java?",
       "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
     },
     {
-      "category": "sql",
-      "question": "What is a clustered index?",
-      "answer": "A clustered index determines the physical order of rows in a table."
-    },
-    {
-      "category": "python",
-      "question": "What is inheritance in Python?",
-      "answer": "Inheritance allows a class to acquire attributes and methods from another class."
+      "category": "dsa",
+      "question": "What is an adjacency list?",
+      "answer": "An adjacency list represents a graph by storing a list of neighboring vertices for each vertex."
     },
     {
       "category": "dsa",
-      "question": "Can topological sorting be applied to graphs with cycles?",
-      "answer": "No. Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
+      "question": "What is Breadth-First Search (BFS)?",
+      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
+    },
+    {
+      "category": "sql",
+      "question": "What does AVG() do?",
+      "answer": "AVG() calculates the average value of a numeric column."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 97",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed system?",
+      "answer": "A distributed system is a collection of independent computers that work together as a single system."
     },
     {
       "category": "dbms",
-      "question": "What is an attribute?",
-      "answer": "An attribute is a column in a table that represents a property of an entity."
+      "question": "What is the three-schema architecture?",
+      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
+    },
+    {
+      "category": "python",
+      "question": "Is Python compiled or interpreted?",
+      "answer": "Python is primarily interpreted, although it compiles source code into bytecode before execution by the Python Virtual Machine."
+    },
+    {
+      "category": "networking",
+      "question": "What are the layers of the TCP/IP model?",
+      "answer": "Application, Transport, Internet, and Network Access layers."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between an iterable and an iterator?",
+      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
+    },
+    {
+      "category": "os",
+      "question": "What is multiprocessing?",
+      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 98",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database?",
+      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between abstraction and encapsulation?",
+      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
+    },
+    {
+      "category": "os",
+      "question": "What is Multilevel Queue Scheduling?",
+      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 39",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "How would you model a Parking Lot system in an OOP interview?",
+      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
+    },
+    {
+      "category": "networking",
+      "question": "What is a VPN?",
+      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
+    },
+    {
+      "category": "sql",
+      "question": "What is UNION in SQL?",
+      "answer": "UNION combines the results of two or more SELECT statements and removes duplicates."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is sharding used?",
+      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
     }
   ]
 }
