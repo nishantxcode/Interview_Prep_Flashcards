@@ -1,80 +1,25 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "questions": [
     {
-      "category": "java",
-      "question": "What is an abstract class in Java?",
-      "answer": "An abstract class is a class that cannot be instantiated and may contain abstract and concrete methods."
-    },
-    {
-      "category": "dsa",
-      "question": "What is an adjacency list?",
-      "answer": "An adjacency list represents a graph by storing a list of neighboring vertices for each vertex."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Breadth-First Search (BFS)?",
-      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
-    },
-    {
-      "category": "sql",
-      "question": "What does AVG() do?",
-      "answer": "AVG() calculates the average value of a numeric column."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 97",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed system?",
-      "answer": "A distributed system is a collection of independent computers that work together as a single system."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the three-schema architecture?",
-      "answer": "The three-schema architecture consists of the external, conceptual, and internal levels of database abstraction."
-    },
-    {
-      "category": "python",
-      "question": "Is Python compiled or interpreted?",
-      "answer": "Python is primarily interpreted, although it compiles source code into bytecode before execution by the Python Virtual Machine."
+      "category": "os",
+      "question": "What is disk scheduling?",
+      "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
     },
     {
       "category": "networking",
-      "question": "What are the layers of the TCP/IP model?",
-      "answer": "Application, Transport, Internet, and Network Access layers."
-    },
-    {
-      "category": "python",
-      "question": "What is the difference between an iterable and an iterator?",
-      "answer": "An iterable can produce an iterator, whereas an iterator keeps track of iteration state and yields values one at a time."
-    },
-    {
-      "category": "os",
-      "question": "What is multiprocessing?",
-      "answer": "Multiprocessing is the use of multiple CPUs or processor cores to execute processes concurrently."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 98",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is Slow Start in TCP?",
+      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
     },
     {
       "category": "dbms",
-      "question": "What is a database?",
-      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
-    },
-    {
-      "category": "oop",
-      "question": "What is the difference between abstraction and encapsulation?",
-      "answer": "Abstraction focuses on hiding complexity, while encapsulation focuses on hiding data and implementation details."
+      "question": "What is a lock in DBMS?",
+      "answer": "A lock is a mechanism used to control concurrent access to data items."
     },
     {
       "category": "os",
-      "question": "What is Multilevel Queue Scheduling?",
-      "answer": "Multilevel Queue Scheduling divides processes into multiple queues, each with its own scheduling policy."
+      "question": "What is waiting time?",
+      "answer": "Waiting time is the total time a process spends waiting in the ready queue."
     },
     {
       "category": "hr",
@@ -82,24 +27,79 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "oop",
-      "question": "How would you model a Parking Lot system in an OOP interview?",
-      "answer": "By defining classes such as ParkingLot, ParkingSpot, Vehicle, Ticket, and Payment while applying OOP principles and design patterns."
-    },
-    {
-      "category": "networking",
-      "question": "What is a VPN?",
-      "answer": "A Virtual Private Network (VPN) creates a secure encrypted connection over a public network."
-    },
-    {
-      "category": "sql",
-      "question": "What is UNION in SQL?",
-      "answer": "UNION combines the results of two or more SELECT statements and removes duplicates."
+      "category": "hr",
+      "question": "What are your career goals?",
+      "answer": "Discuss both short-term learning goals and long-term leadership or specialization goals."
     },
     {
       "category": "system_design",
-      "question": "Why is sharding used?",
-      "answer": "Sharding improves scalability by distributing data and workload across multiple machines."
+      "question": "What are common load balancing algorithms?",
+      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
+    },
+    {
+      "category": "python",
+      "question": "What is garbage collection in Python?",
+      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
+    },
+    {
+      "category": "networking",
+      "question": "What is a sliding window?",
+      "answer": "A sliding window is a TCP mechanism used to control the amount of unacknowledged data in transit."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 56",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What are '%' and '_' wildcards in SQL?",
+      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 78",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a balanced binary tree?",
+      "answer": "A balanced binary tree is a tree in which the height difference between left and right subtrees is bounded."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between RANK() and DENSE_RANK()?",
+      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+    },
+    {
+      "category": "python",
+      "question": "What is the Global Interpreter Lock (GIL)?",
+      "answer": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Floyd-Warshall algorithm?",
+      "answer": "Floyd-Warshall is a dynamic programming algorithm used to find shortest paths between all pairs of vertices."
+    },
+    {
+      "category": "system_design",
+      "question": "What is System Design?",
+      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
+    },
+    {
+      "category": "oop",
+      "question": "What is an object?",
+      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
+    },
+    {
+      "category": "oop",
+      "question": "What is method injection?",
+      "answer": "Method injection provides dependencies directly as parameters to methods."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a schema?",
+      "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
     }
   ]
 }
