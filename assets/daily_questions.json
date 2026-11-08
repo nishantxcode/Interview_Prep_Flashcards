@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "questions": [
     {
+      "category": "oop",
+      "question": "What is the State pattern?",
+      "answer": "The State pattern allows an object to alter its behavior when its internal state changes."
+    },
+    {
+      "category": "python",
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 94",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is denormalization in SQL databases?",
+      "answer": "Denormalization intentionally introduces redundancy to improve read performance."
+    },
+    {
+      "category": "sql",
+      "question": "What is the OVER() clause?",
+      "answer": "The OVER() clause defines the window or set of rows on which a window function operates."
+    },
+    {
+      "category": "python",
+      "question": "What is self in Python?",
+      "answer": "self is a reference to the current instance of a class and is used to access instance attributes and methods."
+    },
+    {
       "category": "os",
-      "question": "What is disk scheduling?",
-      "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
+      "question": "What is CPU scheduling?",
+      "answer": "CPU scheduling is the process of selecting which ready process should be executed by the CPU next."
     },
     {
-      "category": "networking",
-      "question": "What is Slow Start in TCP?",
-      "answer": "Slow Start is a TCP congestion control algorithm that increases the congestion window exponentially until a threshold is reached."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a lock in DBMS?",
-      "answer": "A lock is a mechanism used to control concurrent access to data items."
-    },
-    {
-      "category": "os",
-      "question": "What is waiting time?",
-      "answer": "Waiting time is the total time a process spends waiting in the ready queue."
+      "category": "java",
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 39",
+      "question": "HR Interview Question 23",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "dsa",
+      "question": "What is branch and bound?",
+      "answer": "Branch and bound is an optimization technique that systematically explores solution spaces while pruning branches that cannot yield better solutions."
+    },
+    {
+      "category": "oop",
+      "question": "What is abstraction?",
+      "answer": "Abstraction is the process of hiding implementation details and exposing only essential functionality."
+    },
+    {
+      "category": "system_design",
+      "question": "What is fault tolerance?",
+      "answer": "Fault tolerance is the ability of a system to continue operating even when some components fail."
+    },
+    {
+      "category": "os",
+      "question": "What is the difference between a process and a thread?",
+      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
+    },
+    {
       "category": "hr",
-      "question": "What are your career goals?",
-      "answer": "Discuss both short-term learning goals and long-term leadership or specialization goals."
-    },
-    {
-      "category": "system_design",
-      "question": "What are common load balancing algorithms?",
-      "answer": "Round Robin, Least Connections, Weighted Round Robin, and IP Hash."
-    },
-    {
-      "category": "python",
-      "question": "What is garbage collection in Python?",
-      "answer": "Garbage collection is the process of automatically reclaiming memory occupied by unused objects."
-    },
-    {
-      "category": "networking",
-      "question": "What is a sliding window?",
-      "answer": "A sliding window is a TCP mechanism used to control the amount of unacknowledged data in transit."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 56",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "sql",
-      "question": "What are '%' and '_' wildcards in SQL?",
-      "answer": "'%' matches any sequence of characters, while '_' matches exactly one character."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 78",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a balanced binary tree?",
-      "answer": "A balanced binary tree is a tree in which the height difference between left and right subtrees is bounded."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
-    },
-    {
-      "category": "python",
-      "question": "What is the Global Interpreter Lock (GIL)?",
-      "answer": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Floyd-Warshall algorithm?",
-      "answer": "Floyd-Warshall is a dynamic programming algorithm used to find shortest paths between all pairs of vertices."
-    },
-    {
-      "category": "system_design",
-      "question": "What is System Design?",
-      "answer": "System Design is the process of defining the architecture, components, interfaces, and data flow of a software system to meet business and technical requirements."
-    },
-    {
-      "category": "oop",
-      "question": "What is an object?",
-      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
-    },
-    {
-      "category": "oop",
-      "question": "What is method injection?",
-      "answer": "Method injection provides dependencies directly as parameters to methods."
+      "question": "HR Interview Question 79",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What is a schema?",
-      "answer": "A schema is the logical structure of a database that defines tables, relationships, constraints, and other objects."
+      "question": "What is Consistency in ACID?",
+      "answer": "Consistency ensures that a transaction brings the database from one valid state to another valid state."
+    },
+    {
+      "category": "system_design",
+      "question": "What is the Leaky Bucket algorithm?",
+      "answer": "The Leaky Bucket algorithm processes requests at a fixed rate, smoothing traffic bursts."
+    },
+    {
+      "category": "dsa",
+      "question": "What is level order traversal?",
+      "answer": "Level order traversal visits nodes level by level from top to bottom using a queue."
+    },
+    {
+      "category": "networking",
+      "question": "What is a digital certificate?",
+      "answer": "A digital certificate verifies the identity of a website or entity and contains its public key."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of a firewall?",
+      "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the common types of relationships in DBMS?",
+      "answer": "One-to-One, One-to-Many, Many-to-One, and Many-to-Many."
     }
   ]
 }
