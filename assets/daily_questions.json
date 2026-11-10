@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "questions": [
     {
-      "category": "networking",
-      "question": "What is a collision domain?",
-      "answer": "A collision domain is a network segment where packet collisions can occur during transmission."
-    },
-    {
-      "category": "dbms",
-      "question": "What are the advantages of normalization?",
-      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
-    },
-    {
-      "category": "system_design",
-      "question": "What is synchronous replication?",
-      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
-    },
-    {
-      "category": "oop",
-      "question": "What is shallow copy?",
-      "answer": "A shallow copy duplicates the object but shares references to nested objects."
+      "category": "sql",
+      "question": "What is the BETWEEN operator?",
+      "answer": "BETWEEN filters values within a specified inclusive range."
     },
     {
       "category": "sql",
-      "question": "What are common DCL commands?",
-      "answer": "GRANT and REVOKE."
-    },
-    {
-      "category": "oop",
-      "question": "What is deserialization?",
-      "answer": "Deserialization is the process of reconstructing an object from serialized data."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of the TCP three-way handshake?",
-      "answer": "It ensures both sender and receiver are ready for communication and synchronizes sequence numbers."
+      "question": "What is SQL?",
+      "answer": "SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases."
     },
     {
       "category": "hr",
-      "question": "Tell me about yourself.",
-      "answer": "Focus on your education, relevant experience, key skills, notable achievements, and career goals in a concise 2–3 minute response."
-    },
-    {
-      "category": "dsa",
-      "question": "Which sorting algorithms use divide and conquer?",
-      "answer": "Merge Sort and Quick Sort are classic divide-and-conquer sorting algorithms."
-    },
-    {
-      "category": "dsa",
-      "question": "What is memoization?",
-      "answer": "Memoization is a top-down dynamic programming technique that stores results of previously solved subproblems."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 64",
+      "question": "HR Interview Question 81",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "python",
-      "question": "What is a module in Python?",
-      "answer": "A module is a file containing Python code, such as functions, classes, and variables."
-    },
-    {
-      "category": "python",
-      "question": "What is a lambda function?",
-      "answer": "A lambda function is an anonymous function defined using the lambda keyword."
+      "category": "dsa",
+      "question": "What is time complexity?",
+      "answer": "Time complexity measures the amount of time an algorithm takes to run as a function of the input size."
     },
     {
       "category": "os",
-      "question": "What is Shortest Job First (SJF) scheduling?",
-      "answer": "SJF selects the process with the smallest CPU burst time for execution."
+      "question": "What is a race condition?",
+      "answer": "A race condition occurs when multiple threads access shared data concurrently and the final result depends on the execution order."
+    },
+    {
+      "category": "python",
+      "question": "What is a context manager in Python?",
+      "answer": "A context manager manages resources automatically and is commonly used with the with statement."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of searching in a Trie?",
+      "answer": "Searching in a Trie takes O(L) time, where L is the length of the key."
+    },
+    {
+      "category": "networking",
+      "question": "What is circuit switching?",
+      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 70",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+      "question": "What is Consistency in CAP?",
+      "answer": "Consistency means all nodes see the same data at the same time after a write operation."
     },
     {
-      "category": "java",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides a specific implementation of a method defined in the parent class."
+      "category": "python",
+      "question": "What is the difference between == and is in Python?",
+      "answer": "== compares values, whereas is compares object identities."
     },
     {
-      "category": "dbms",
-      "question": "What is cardinality in an ER model?",
-      "answer": "Cardinality specifies the number of entities that can participate in a relationship."
-    },
-    {
-      "category": "sql",
-      "question": "What is the INSERT statement?",
-      "answer": "INSERT is used to add new rows into a table."
+      "category": "hr",
+      "question": "HR Interview Question 67",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What is a binary semaphore?",
-      "answer": "A binary semaphore can have only two values, typically 0 and 1, and is often used for mutual exclusion."
+      "question": "What is a deadlock?",
+      "answer": "A deadlock occurs when a set of processes are permanently blocked because each is waiting for a resource held by another process."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 87",
+      "question": "Java Interview Question 75",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dbms",
+      "question": "What is Atomicity?",
+      "answer": "Atomicity ensures that either all operations in a transaction are completed successfully or none are applied."
+    },
+    {
+      "category": "networking",
+      "question": "What is a MAC address?",
+      "answer": "A MAC address is a unique hardware identifier assigned to a network interface card."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Open/Closed Principle (OCP)?",
+      "answer": "OCP states that software entities should be open for extension but closed for modification."
+    },
+    {
+      "category": "dbms",
+      "question": "What are update anomalies?",
+      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
+    },
+    {
+      "category": "oop",
+      "question": "What is the difference between a class and an object?",
+      "answer": "A class defines the structure and behavior, whereas an object is a runtime instance of that class."
+    },
+    {
+      "category": "system_design",
+      "question": "What is rate limiting?",
+      "answer": "Rate limiting restricts the number of requests a client can make within a specified time period."
     }
   ]
 }
