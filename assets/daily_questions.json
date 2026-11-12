@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "questions": [
     {
-      "category": "os",
-      "question": "What is multiprogramming?",
-      "answer": "Multiprogramming is a technique where multiple programs are kept in memory so the CPU can switch among them efficiently."
-    },
-    {
       "category": "dbms",
-      "question": "What is referential integrity?",
-      "answer": "Referential integrity ensures that foreign key values always reference valid rows in the parent table."
+      "question": "What is a data model?",
+      "answer": "A data model defines how data is structured, stored, and related within a database."
     },
     {
       "category": "oop",
-      "question": "What is the Adapter pattern?",
-      "answer": "The Adapter pattern allows incompatible interfaces to work together by acting as a bridge."
+      "question": "What is the Command pattern?",
+      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
     },
     {
-      "category": "sql",
-      "question": "What does SUM() do?",
-      "answer": "SUM() calculates the total of numeric values in a column."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a complete binary tree?",
-      "answer": "A complete binary tree is a binary tree where all levels are completely filled except possibly the last level, which is filled from left to right."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of range queries in a Segment Tree?",
-      "answer": "Range queries in a Segment Tree take O(log n) time."
+      "category": "os",
+      "question": "What is the Banker's Algorithm?",
+      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 30",
+      "question": "Java Interview Question 61",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "java",
-      "question": "What is an object in Java?",
-      "answer": "An object is an instance of a class containing state and behavior."
-    },
-    {
-      "category": "hr",
-      "question": "Why are you looking for a new opportunity?",
-      "answer": "Focus on growth, learning, and career advancement rather than criticizing previous employers."
-    },
-    {
-      "category": "oop",
-      "question": "What is an object?",
-      "answer": "An object is an instance of a class that contains state (attributes) and behavior (methods)."
-    },
-    {
-      "category": "python",
-      "question": "What are the advantages of generators?",
-      "answer": "Generators save memory, improve performance for large datasets, and support lazy evaluation."
-    },
-    {
-      "category": "system_design",
-      "question": "What is leader election?",
-      "answer": "Leader election is the process of selecting a single node to coordinate activities within a distributed system."
-    },
-    {
-      "category": "os",
-      "question": "What is throughput?",
-      "answer": "Throughput is the number of processes completed by the system per unit time."
-    },
-    {
-      "category": "networking",
-      "question": "What is SSL?",
-      "answer": "Secure Sockets Layer (SSL) is a cryptographic protocol used to secure communication over networks."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 74",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the raise statement?",
-      "answer": "The raise statement is used to explicitly trigger an exception."
+      "category": "sql",
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
     },
     {
       "category": "dbms",
-      "question": "What is normalization?",
-      "answer": "Normalization is the process of organizing database tables to reduce redundancy and improve data integrity."
+      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
     },
     {
       "category": "networking",
-      "question": "Why is DNS required?",
-      "answer": "DNS allows users to access resources using domain names instead of numerical IP addresses."
+      "question": "What are the layers of the TCP/IP model?",
+      "answer": "Application, Transport, Internet, and Network Access layers."
+    },
+    {
+      "category": "dsa",
+      "question": "What is branch and bound?",
+      "answer": "Branch and bound is an optimization technique that systematically explores solution spaces while pruning branches that cannot yield better solutions."
+    },
+    {
+      "category": "os",
+      "question": "What is a page?",
+      "answer": "A page is a fixed-size block of logical memory used in paging systems."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 97",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "sql",
-      "question": "What is a recursive CTE?",
-      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
+      "question": "What is the LAG() function?",
+      "answer": "LAG() accesses data from a previous row without using a self-join."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the Union operation in DSU?",
+      "answer": "The Union operation merges two disjoint sets into a single set."
     },
     {
       "category": "system_design",
-      "question": "What is the key challenge in designing a chat application?",
-      "answer": "Providing low-latency messaging, message delivery guarantees, and real-time synchronization."
+      "question": "What is eventual consistency in distributed databases?",
+      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
+    },
+    {
+      "category": "python",
+      "question": "What is method overriding?",
+      "answer": "Method overriding occurs when a subclass provides its own implementation of a method defined in the parent class."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 21",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "oop",
+      "question": "What is loose coupling?",
+      "answer": "Loose coupling means components have minimal dependencies on each other."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 29",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What are positional arguments?",
+      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
+    },
+    {
+      "category": "networking",
+      "question": "What is error detection in networking?",
+      "answer": "Error detection identifies corrupted data during transmission using techniques such as checksums and CRC."
+    },
+    {
+      "category": "system_design",
+      "question": "What is service discovery?",
+      "answer": "Service discovery is the process of automatically locating services within a distributed system."
     }
   ]
 }
