@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is a data model?",
-      "answer": "A data model defines how data is structured, stored, and related within a database."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Command pattern?",
-      "answer": "The Command pattern encapsulates a request as an object, allowing parameterization and queuing of operations."
-    },
-    {
-      "category": "os",
-      "question": "What is the Banker's Algorithm?",
-      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 61",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
       "category": "sql",
-      "question": "What is ROW_NUMBER()?",
-      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "question": "What is SQL injection?",
+      "answer": "SQL injection is a security vulnerability where malicious SQL code is inserted into application inputs and executed by the database."
     },
     {
       "category": "networking",
-      "question": "What are the layers of the TCP/IP model?",
-      "answer": "Application, Transport, Internet, and Network Access layers."
-    },
-    {
-      "category": "dsa",
-      "question": "What is branch and bound?",
-      "answer": "Branch and bound is an optimization technique that systematically explores solution spaces while pruning branches that cannot yield better solutions."
+      "question": "What is TLS?",
+      "answer": "Transport Layer Security (TLS) is the modern and more secure successor to SSL."
     },
     {
       "category": "os",
-      "question": "What is a page?",
-      "answer": "A page is a fixed-size block of logical memory used in paging systems."
+      "question": "What are the advantages of virtual memory?",
+      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 97",
+      "question": "HR Interview Question 24",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "sql",
-      "question": "What is the LAG() function?",
-      "answer": "LAG() accesses data from a previous row without using a self-join."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the Union operation in DSU?",
-      "answer": "The Union operation merges two disjoint sets into a single set."
-    },
-    {
-      "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
-    },
-    {
-      "category": "python",
-      "question": "What is method overriding?",
-      "answer": "Method overriding occurs when a subclass provides its own implementation of a method defined in the parent class."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 21",
+      "question": "HR Interview Question 53",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "oop",
-      "question": "What is loose coupling?",
-      "answer": "Loose coupling means components have minimal dependencies on each other."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 29",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What are positional arguments?",
-      "answer": "Positional arguments are assigned to parameters based on their order in the function call."
-    },
-    {
-      "category": "networking",
-      "question": "What is error detection in networking?",
-      "answer": "Error detection identifies corrupted data during transmission using techniques such as checksums and CRC."
+      "question": "Is Java compiled or interpreted?",
+      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
     },
     {
       "category": "system_design",
-      "question": "What is service discovery?",
-      "answer": "Service discovery is the process of automatically locating services within a distributed system."
+      "question": "When should SQL databases be preferred?",
+      "answer": "SQL databases are preferred when strong consistency, structured data, and complex queries are required."
+    },
+    {
+      "category": "java",
+      "question": "What is the super keyword?",
+      "answer": "The super keyword refers to the immediate parent class object."
+    },
+    {
+      "category": "dsa",
+      "question": "What is backtracking?",
+      "answer": "Backtracking is a problem-solving technique that incrementally builds candidates and abandons a candidate when it cannot lead to a valid solution."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a database?",
+      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
+    },
+    {
+      "category": "python",
+      "question": "What is a package in Python?",
+      "answer": "A package is a collection of related Python modules organized in directories."
+    },
+    {
+      "category": "oop",
+      "question": "What is inheritance?",
+      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+    },
+    {
+      "category": "sql",
+      "question": "What is normalization in SQL databases?",
+      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
+    },
+    {
+      "category": "python",
+      "question": "What is an exception in Python?",
+      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a transaction in DBMS?",
+      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
+    },
+    {
+      "category": "oop",
+      "question": "What is object serialization?",
+      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
+    },
+    {
+      "category": "networking",
+      "question": "What is the purpose of a firewall?",
+      "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal partitioning?",
+      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+    },
+    {
+      "category": "os",
+      "question": "What are the two types of semaphores?",
+      "answer": "Binary semaphores and counting semaphores."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a min heap?",
+      "answer": "A min heap is a heap in which every parent node is less than or equal to its children."
     }
   ]
 }
