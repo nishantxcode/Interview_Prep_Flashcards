@@ -1,30 +1,10 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "questions": [
     {
-      "category": "sql",
-      "question": "What is SQL injection?",
-      "answer": "SQL injection is a security vulnerability where malicious SQL code is inserted into application inputs and executed by the database."
-    },
-    {
-      "category": "networking",
-      "question": "What is TLS?",
-      "answer": "Transport Layer Security (TLS) is the modern and more secure successor to SSL."
-    },
-    {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 24",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 53",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "java",
+      "question": "Java Interview Question 52",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "java",
@@ -32,74 +12,94 @@
       "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
     },
     {
-      "category": "system_design",
-      "question": "When should SQL databases be preferred?",
-      "answer": "SQL databases are preferred when strong consistency, structured data, and complex queries are required."
+      "category": "sql",
+      "question": "What are common uses of triggers?",
+      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
     },
     {
-      "category": "java",
-      "question": "What is the super keyword?",
-      "answer": "The super keyword refers to the immediate parent class object."
+      "category": "oop",
+      "question": "What is deep copy?",
+      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
+    },
+    {
+      "category": "system_design",
+      "question": "What is partitioning in Kafka?",
+      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
+    },
+    {
+      "category": "python",
+      "question": "What is polymorphism in Python?",
+      "answer": "Polymorphism allows objects of different classes to be treated through a common interface."
+    },
+    {
+      "category": "dbms",
+      "question": "What are deletion anomalies?",
+      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
     },
     {
       "category": "dsa",
-      "question": "What is backtracking?",
-      "answer": "Backtracking is a problem-solving technique that incrementally builds candidates and abandons a candidate when it cannot lead to a valid solution."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a database?",
-      "answer": "An organized collection of related data that can be efficiently accessed, managed, and updated."
-    },
-    {
-      "category": "python",
-      "question": "What is a package in Python?",
-      "answer": "A package is a collection of related Python modules organized in directories."
+      "question": "What is a graph?",
+      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
     },
     {
       "category": "oop",
-      "question": "What is inheritance?",
-      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+      "question": "What is association in OOP?",
+      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
     },
     {
-      "category": "sql",
-      "question": "What is normalization in SQL databases?",
-      "answer": "Normalization is the process of organizing data to reduce redundancy and improve consistency."
-    },
-    {
-      "category": "python",
-      "question": "What is an exception in Python?",
-      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a transaction in DBMS?",
-      "answer": "A transaction is a sequence of database operations treated as a single logical unit of work."
-    },
-    {
-      "category": "oop",
-      "question": "What is object serialization?",
-      "answer": "Serialization is the process of converting an object into a format that can be stored or transmitted."
-    },
-    {
-      "category": "networking",
-      "question": "What is the purpose of a firewall?",
-      "answer": "A firewall protects networks and systems from unauthorized access and malicious traffic."
-    },
-    {
-      "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+      "category": "hr",
+      "question": "HR Interview Question 71",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "os",
-      "question": "What are the two types of semaphores?",
-      "answer": "Binary semaphores and counting semaphores."
+      "question": "What is the Dining Philosophers problem?",
+      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between a hub and a switch?",
+      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
     },
     {
       "category": "dsa",
-      "question": "What is a min heap?",
-      "answer": "A min heap is a heap in which every parent node is less than or equal to its children."
+      "question": "What is a Binary Search Tree (BST)?",
+      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+    },
+    {
+      "category": "python",
+      "question": "What are the different types of operators in Python?",
+      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IPS?",
+      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
+    },
+    {
+      "category": "dbms",
+      "question": "What is view serializability?",
+      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
+    },
+    {
+      "category": "sql",
+      "question": "What are common DDL commands?",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
+    },
+    {
+      "category": "os",
+      "question": "What is paging?",
+      "answer": "Paging is a memory management technique that divides memory into fixed-size pages and frames."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a consumer in a messaging system?",
+      "answer": "A consumer is a component that receives and processes messages."
+    },
+    {
+      "category": "hr",
+      "question": "What do you do when you don't know how to solve a problem?",
+      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
     }
   ]
 }
