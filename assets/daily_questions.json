@@ -1,85 +1,25 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "questions": [
     {
-      "category": "java",
-      "question": "Java Interview Question 52",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "java",
-      "question": "Is Java compiled or interpreted?",
-      "answer": "Java is both compiled and interpreted. Source code is compiled into bytecode, which is then executed by the JVM."
-    },
-    {
-      "category": "sql",
-      "question": "What are common uses of triggers?",
-      "answer": "Triggers are used for auditing, enforcing business rules, logging changes, and maintaining derived data."
-    },
-    {
-      "category": "oop",
-      "question": "What is deep copy?",
-      "answer": "A deep copy duplicates the object as well as all objects referenced by it."
-    },
-    {
-      "category": "system_design",
-      "question": "What is partitioning in Kafka?",
-      "answer": "Partitioning divides a topic into multiple segments to enable parallel processing and scalability."
-    },
-    {
-      "category": "python",
-      "question": "What is polymorphism in Python?",
-      "answer": "Polymorphism allows objects of different classes to be treated through a common interface."
-    },
-    {
-      "category": "dbms",
-      "question": "What are deletion anomalies?",
-      "answer": "Deletion anomalies occur when deleting data unintentionally removes additional useful information."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a graph?",
-      "answer": "A graph is a non-linear data structure consisting of vertices and edges representing relationships between entities."
-    },
-    {
-      "category": "oop",
-      "question": "What is association in OOP?",
-      "answer": "Association is a relationship where objects of one class are connected to objects of another class."
-    },
-    {
       "category": "hr",
-      "question": "HR Interview Question 71",
+      "question": "HR Interview Question 57",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "os",
-      "question": "What is the Dining Philosophers problem?",
-      "answer": "The Dining Philosophers problem is a classical synchronization problem used to illustrate deadlock and resource allocation issues."
-    },
-    {
-      "category": "networking",
-      "question": "What is the difference between a hub and a switch?",
-      "answer": "A hub broadcasts data to all devices, whereas a switch forwards data only to the intended destination."
-    },
-    {
-      "category": "dsa",
-      "question": "What is a Binary Search Tree (BST)?",
-      "answer": "A BST is a binary tree in which the left subtree contains smaller values and the right subtree contains larger values than the current node."
+      "category": "hr",
+      "question": "How do you handle pressure?",
+      "answer": "Explain how you prioritize tasks, stay organized, and remain calm under deadlines."
     },
     {
       "category": "python",
-      "question": "What are the different types of operators in Python?",
-      "answer": "Arithmetic, comparison, logical, assignment, bitwise, identity, and membership operators."
+      "question": "How are functions defined in Python?",
+      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
     },
     {
-      "category": "networking",
-      "question": "What is an IPS?",
-      "answer": "An Intrusion Prevention System (IPS) monitors network traffic and actively blocks detected threats."
-    },
-    {
-      "category": "dbms",
-      "question": "What is view serializability?",
-      "answer": "View serializability ensures that transactions produce the same final database state and read values as a serial schedule."
+      "category": "dsa",
+      "question": "What is a weighted graph?",
+      "answer": "A weighted graph is a graph in which edges have associated numerical values called weights."
     },
     {
       "category": "sql",
@@ -87,19 +27,79 @@
       "answer": "CREATE, ALTER, DROP, TRUNCATE, and RENAME."
     },
     {
-      "category": "os",
-      "question": "What is paging?",
-      "answer": "Paging is a memory management technique that divides memory into fixed-size pages and frames."
+      "category": "python",
+      "question": "What is asynchronous programming in Python?",
+      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+    },
+    {
+      "category": "networking",
+      "question": "What is symmetric encryption?",
+      "answer": "Symmetric encryption uses the same key for both encryption and decryption."
+    },
+    {
+      "category": "dbms",
+      "question": "What is an instance in DBMS?",
+      "answer": "An instance is the actual data stored in the database at a specific point in time."
+    },
+    {
+      "category": "sql",
+      "question": "What is the DISTINCT keyword?",
+      "answer": "DISTINCT removes duplicate rows from query results."
+    },
+    {
+      "category": "dbms",
+      "question": "What are Armstrong's Axioms?",
+      "answer": "Armstrong's Axioms are a set of inference rules used to derive all functional dependencies from a given set of dependencies."
+    },
+    {
+      "category": "networking",
+      "question": "What is the default port number for HTTPS?",
+      "answer": "The default port number for HTTPS is 443."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Singleton pattern?",
+      "answer": "The Singleton pattern ensures that only one instance of a class exists and provides a global access point to it."
     },
     {
       "category": "system_design",
-      "question": "What is a consumer in a messaging system?",
-      "answer": "A consumer is a component that receives and processes messages."
+      "question": "What is synchronous communication?",
+      "answer": "Synchronous communication requires a sender to wait for a response before continuing."
     },
     {
-      "category": "hr",
-      "question": "What do you do when you don't know how to solve a problem?",
-      "answer": "Research the issue, break it into smaller parts, seek guidance when necessary, and learn from the experience."
+      "category": "dsa",
+      "question": "What is an AVL tree?",
+      "answer": "An AVL tree is a self-balancing Binary Search Tree in which the height difference between left and right subtrees is at most one."
+    },
+    {
+      "category": "java",
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "os",
+      "question": "What is a hard real-time system?",
+      "answer": "A hard real-time system must meet all deadlines, as missing a deadline can lead to system failure."
+    },
+    {
+      "category": "oop",
+      "question": "What is inheritance?",
+      "answer": "Inheritance is a mechanism that allows one class to acquire the properties and methods of another class."
+    },
+    {
+      "category": "java",
+      "question": "What is JRE?",
+      "answer": "The Java Runtime Environment (JRE) provides the libraries and JVM required to run Java applications."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed transaction?",
+      "answer": "A distributed transaction spans multiple services or databases and must maintain consistency across all participants."
+    },
+    {
+      "category": "os",
+      "question": "What are the advantages of multithreading?",
+      "answer": "Improved responsiveness, better resource utilization, faster context switching, and increased parallelism."
     }
   ]
 }
