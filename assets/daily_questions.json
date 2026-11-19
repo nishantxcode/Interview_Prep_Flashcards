@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "questions": [
     {
-      "category": "dsa",
-      "question": "What is the difference between an array and a linked list?",
-      "answer": "Arrays store elements in contiguous memory and allow constant-time indexing, whereas linked lists store elements in nodes connected by pointers and allow efficient insertions and deletions."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 50",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the JOIN operation in relational algebra?",
-      "answer": "JOIN combines tuples from two relations based on a related attribute."
-    },
-    {
-      "category": "os",
-      "question": "What is a system call?",
-      "answer": "A system call is a mechanism through which a user program requests services from the operating system kernel."
-    },
-    {
-      "category": "networking",
-      "question": "What is asymmetric encryption?",
-      "answer": "Asymmetric encryption uses a public key for encryption and a private key for decryption."
-    },
-    {
-      "category": "dbms",
-      "question": "What is partial participation?",
-      "answer": "Partial participation means some entities may exist without participating in the relationship."
-    },
-    {
-      "category": "python",
-      "question": "What is an object in Python?",
-      "answer": "An object is an instance of a class containing attributes and methods."
+      "category": "system_design",
+      "question": "What is synchronous replication?",
+      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
     },
     {
       "category": "oop",
-      "question": "Why use abstract classes?",
-      "answer": "Abstract classes provide a common base and enforce a contract for subclasses."
-    },
-    {
-      "category": "sql",
-      "question": "What is the SELECT statement?",
-      "answer": "SELECT retrieves data from one or more tables."
-    },
-    {
-      "category": "system_design",
-      "question": "What is read-through caching?",
-      "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
-    },
-    {
-      "category": "oop",
-      "question": "Can a class implement multiple interfaces?",
-      "answer": "Yes, a class can implement multiple interfaces."
+      "question": "What is cohesion?",
+      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
     },
     {
       "category": "python",
-      "question": "What is multiple inheritance?",
-      "answer": "Multiple inheritance allows a class to inherit from more than one parent class."
-    },
-    {
-      "category": "os",
-      "question": "What is the Optimal page replacement algorithm?",
-      "answer": "Optimal page replacement replaces the page that will not be used for the longest time in the future."
-    },
-    {
-      "category": "networking",
-      "question": "What is a sliding window?",
-      "answer": "A sliding window is a TCP mechanism used to control the amount of unacknowledged data in transit."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the advantage of Bellman-Ford over Dijkstra?",
-      "answer": "Bellman-Ford can detect negative weight cycles and works with negative edge weights."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a primary-replica architecture?",
-      "answer": "A primary-replica architecture consists of one write node and one or more read replicas."
+      "question": "What are Python's built-in data types?",
+      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 85",
+      "question": "Java Interview Question 50",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 77",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "python",
+      "question": "What is the purpose of the finally block?",
+      "answer": "The finally block executes regardless of whether an exception occurs and is commonly used for cleanup operations."
     },
     {
       "category": "sql",
-      "question": "What is the LEAD() function?",
-      "answer": "LEAD() accesses data from a subsequent row without using a self-join."
+      "question": "What is a user-defined function (UDF)?",
+      "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a non-clustered index?",
+      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
+    },
+    {
+      "category": "dsa",
+      "question": "When is BFS preferred over DFS?",
+      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 88",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "question": "What is inheritance?",
+      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+    },
+    {
+      "category": "oop",
+      "question": "What is UML?",
+      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
+    },
+    {
+      "category": "dsa",
+      "question": "What is preorder traversal?",
+      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 59",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is the Presentation Layer?",
+      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+    },
+    {
+      "category": "os",
+      "question": "What is starvation in Priority Scheduling?",
+      "answer": "Starvation occurs when low-priority processes wait indefinitely because higher-priority processes keep arriving."
+    },
+    {
+      "category": "system_design",
+      "question": "What is strong consistency?",
+      "answer": "Strong consistency ensures every read returns the most recent write."
+    },
+    {
+      "category": "os",
+      "question": "What are the advantages of virtual memory?",
+      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 29",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "networking",
+      "question": "What is an IP address?",
+      "answer": "An IP address is a unique logical identifier assigned to a device on a network."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a deadlock in DBMS?",
+      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
+    },
+    {
+      "category": "sql",
+      "question": "What is a CROSS JOIN?",
+      "answer": "CROSS JOIN returns the Cartesian product of two tables."
     }
   ]
 }
