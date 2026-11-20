@@ -1,50 +1,10 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "questions": [
     {
       "category": "system_design",
-      "question": "What is synchronous replication?",
-      "answer": "Synchronous replication ensures data is written to replicas before acknowledging a successful write."
-    },
-    {
-      "category": "oop",
-      "question": "What is cohesion?",
-      "answer": "Cohesion measures how closely related the responsibilities of a module or class are."
-    },
-    {
-      "category": "python",
-      "question": "What are Python's built-in data types?",
-      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 50",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the finally block?",
-      "answer": "The finally block executes regardless of whether an exception occurs and is commonly used for cleanup operations."
-    },
-    {
-      "category": "sql",
-      "question": "What is a user-defined function (UDF)?",
-      "answer": "A user-defined function is a reusable routine that accepts parameters and returns a value."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a non-clustered index?",
-      "answer": "A non-clustered index stores pointers to the actual data rows rather than determining their physical order."
-    },
-    {
-      "category": "dsa",
-      "question": "When is BFS preferred over DFS?",
-      "answer": "BFS is preferred when the shortest path in an unweighted graph needs to be found."
-    },
-    {
-      "category": "java",
-      "question": "What is inheritance?",
-      "answer": "Inheritance allows one class to acquire properties and methods from another class."
+      "question": "What is a message queue?",
+      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
     },
     {
       "category": "oop",
@@ -52,54 +12,94 @@
       "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
     },
     {
-      "category": "dsa",
-      "question": "What is preorder traversal?",
-      "answer": "Preorder traversal visits the root node first, then recursively traverses the left subtree and the right subtree."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 59",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "java",
+      "question": "Java Interview Question 53",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "networking",
-      "question": "What is the Presentation Layer?",
-      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+      "question": "What is a proxy server?",
+      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of the finally block?",
+      "answer": "The finally block executes regardless of whether an exception occurs and is commonly used for cleanup operations."
+    },
+    {
+      "category": "oop",
+      "question": "Why is inheritance useful?",
+      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+    },
+    {
+      "category": "python",
+      "question": "What is an exception in Python?",
+      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
     },
     {
       "category": "os",
-      "question": "What is starvation in Priority Scheduling?",
-      "answer": "Starvation occurs when low-priority processes wait indefinitely because higher-priority processes keep arriving."
-    },
-    {
-      "category": "system_design",
-      "question": "What is strong consistency?",
-      "answer": "Strong consistency ensures every read returns the most recent write."
-    },
-    {
-      "category": "os",
-      "question": "What are the advantages of virtual memory?",
-      "answer": "Virtual memory improves memory utilization, supports larger programs, provides isolation, and enables efficient multitasking."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 29",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is an IP address?",
-      "answer": "An IP address is a unique logical identifier assigned to a device on a network."
+      "question": "What is a long-term scheduler?",
+      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
     },
     {
       "category": "dbms",
-      "question": "What is a deadlock in DBMS?",
-      "answer": "A deadlock occurs when two or more transactions wait indefinitely for resources held by each other."
+      "question": "What is an index in DBMS?",
+      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+    },
+    {
+      "category": "networking",
+      "question": "What is an ARP reply?",
+      "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 61",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 72",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Heap Sort?",
+      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
+    },
+    {
+      "category": "dsa",
+      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+      "answer": "The time complexity is O((V + E) log V)."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 38",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "sql",
-      "question": "What is a CROSS JOIN?",
-      "answer": "CROSS JOIN returns the Cartesian product of two tables."
+      "question": "What is the TRUNCATE statement?",
+      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+    },
+    {
+      "category": "dbms",
+      "question": "What is entity integrity?",
+      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
+    },
+    {
+      "category": "os",
+      "question": "What is the FIFO page replacement algorithm?",
+      "answer": "FIFO replaces the page that has been in memory the longest."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical partitioning?",
+      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+    },
+    {
+      "category": "sql",
+      "question": "What is a LEFT JOIN?",
+      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
     }
   ]
 }
