@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "questions": [
     {
-      "category": "oop",
-      "question": "What is method injection?",
-      "answer": "Method injection provides dependencies directly as parameters to methods."
+      "category": "system_design",
+      "question": "What is write-through caching?",
+      "answer": "Write-through caching updates the cache and database simultaneously whenever data is written."
+    },
+    {
+      "category": "python",
+      "question": "What is the __init__() method?",
+      "answer": "The __init__() method is a constructor that initializes an object's attributes when it is created."
     },
     {
       "category": "os",
-      "question": "What is a file descriptor?",
-      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
+      "question": "What is the Banker's Algorithm?",
+      "answer": "The Banker's Algorithm is a deadlock avoidance algorithm that allocates resources only if the system remains in a safe state."
     },
     {
-      "category": "dbms",
-      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
-      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
+      "category": "sql",
+      "question": "What are the main categories of SQL commands?",
+      "answer": "DDL, DML, DQL, DCL, and TCL."
     },
     {
       "category": "dsa",
-      "question": "What is the amortized complexity of insertion in a dynamic array?",
-      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
+      "question": "What is Big Omega notation?",
+      "answer": "Big Omega notation describes the lower bound of an algorithm's growth rate."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Big Theta notation?",
+      "answer": "Big Theta notation describes the tight bound of an algorithm's growth rate."
+    },
+    {
+      "category": "dbms",
+      "question": "What are insertion anomalies?",
+      "answer": "Insertion anomalies occur when certain data cannot be inserted without the presence of other unrelated data."
+    },
+    {
+      "category": "oop",
+      "question": "What is object identity?",
+      "answer": "Object identity refers to the unique existence of an object in memory regardless of its state."
+    },
+    {
+      "category": "sql",
+      "question": "What is a recursive CTE?",
+      "answer": "A recursive CTE references itself and is commonly used for hierarchical or tree-structured data."
+    },
+    {
+      "category": "oop",
+      "question": "What is deserialization?",
+      "answer": "Deserialization is the process of reconstructing an object from serialized data."
+    },
+    {
+      "category": "python",
+      "question": "What is exception handling in Python?",
+      "answer": "Exception handling is a mechanism used to handle runtime errors gracefully without terminating the program."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the PROJECT operation in relational algebra?",
+      "answer": "PROJECT retrieves specific columns from a relation."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock prevention?",
+      "answer": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock never occurs."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a microservices architecture?",
+      "answer": "A microservices architecture structures an application as a collection of small, independently deployable services."
+    },
+    {
+      "category": "networking",
+      "question": "What is a WAN?",
+      "answer": "A Wide Area Network (WAN) connects devices across large geographical distances."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 98",
+      "question": "HR Interview Question 71",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "system_design",
-      "question": "What is vertical scaling?",
-      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
-    },
-    {
-      "category": "sql",
-      "question": "What is the difference between RANK() and DENSE_RANK()?",
-      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
-    },
-    {
       "category": "java",
-      "question": "Java Interview Question 73",
+      "question": "Java Interview Question 99",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 72",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What are Python's built-in data types?",
-      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Heap Sort?",
-      "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
-    },
-    {
-      "category": "networking",
-      "question": "What is a Content Delivery Network (CDN)?",
-      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
+      "question": "What is an abstract method?",
+      "answer": "An abstract method is a method declared without an implementation and must be implemented by subclasses."
     },
     {
       "category": "hr",
-      "question": "Why should we hire you?",
-      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
-    },
-    {
-      "category": "python",
-      "question": "What is a context manager in Python?",
-      "answer": "A context manager manages resources automatically and is commonly used with the with statement."
-    },
-    {
-      "category": "sql",
-      "question": "What is the ALTER statement?",
-      "answer": "ALTER is used to modify the structure of an existing database object."
+      "question": "What do you know about our company?",
+      "answer": "Discuss the company's products, services, mission, recent achievements, and market position."
     },
     {
       "category": "networking",
-      "question": "What is Fast Retransmit?",
-      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
-    },
-    {
-      "category": "oop",
-      "question": "What is tight coupling?",
-      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
-    },
-    {
-      "category": "dbms",
-      "question": "What is a DEFAULT constraint?",
-      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
-    },
-    {
-      "category": "system_design",
-      "question": "What is read-through caching?",
-      "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
-    },
-    {
-      "category": "os",
-      "question": "What are the four necessary conditions for deadlock?",
-      "answer": "Mutual exclusion, hold and wait, no preemption, and circular wait."
+      "question": "What is the difference between an IP address and a MAC address?",
+      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
     }
   ]
 }
