@@ -1,60 +1,45 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "questions": [
     {
-      "category": "system_design",
-      "question": "What is a message queue?",
-      "answer": "A message queue is a communication mechanism that enables asynchronous data exchange between services."
-    },
-    {
       "category": "oop",
-      "question": "What is UML?",
-      "answer": "Unified Modeling Language (UML) is a standardized visual language used to model software systems."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 53",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "networking",
-      "question": "What is a proxy server?",
-      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
-    },
-    {
-      "category": "python",
-      "question": "What is the purpose of the finally block?",
-      "answer": "The finally block executes regardless of whether an exception occurs and is commonly used for cleanup operations."
-    },
-    {
-      "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
-    },
-    {
-      "category": "python",
-      "question": "What is an exception in Python?",
-      "answer": "An exception is an event that occurs during program execution and disrupts the normal flow of instructions."
+      "question": "What is method injection?",
+      "answer": "Method injection provides dependencies directly as parameters to methods."
     },
     {
       "category": "os",
-      "question": "What is a long-term scheduler?",
-      "answer": "A long-term scheduler controls the degree of multiprogramming by deciding which processes enter the ready queue."
+      "question": "What is a file descriptor?",
+      "answer": "A file descriptor is a unique identifier used by the operating system to access an open file."
     },
     {
       "category": "dbms",
-      "question": "What is an index in DBMS?",
-      "answer": "An index is a data structure that improves the speed of data retrieval operations."
+      "question": "What is the Augmentation Rule in Armstrong's Axioms?",
+      "answer": "If X determines Y, then XZ determines YZ for any attribute set Z."
     },
     {
-      "category": "networking",
-      "question": "What is an ARP reply?",
-      "answer": "An ARP reply is a response containing the MAC address associated with the requested IP address."
+      "category": "dsa",
+      "question": "What is the amortized complexity of insertion in a dynamic array?",
+      "answer": "The amortized time complexity of insertion in a dynamic array is O(1)."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 61",
+      "question": "HR Interview Question 98",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "system_design",
+      "question": "What is vertical scaling?",
+      "answer": "Vertical scaling involves increasing the resources of an existing server, such as CPU, RAM, or storage."
+    },
+    {
+      "category": "sql",
+      "question": "What is the difference between RANK() and DENSE_RANK()?",
+      "answer": "RANK() skips rank values after ties, whereas DENSE_RANK() assigns consecutive ranks."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 73",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "java",
@@ -62,44 +47,59 @@
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
+      "category": "python",
+      "question": "What are Python's built-in data types?",
+      "answer": "Common built-in data types include int, float, str, bool, list, tuple, set, dict, and NoneType."
+    },
+    {
       "category": "dsa",
       "question": "What is Heap Sort?",
       "answer": "Heap Sort is a comparison-based sorting algorithm that uses a heap and runs in O(n log n) time."
     },
     {
-      "category": "dsa",
-      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
-      "answer": "The time complexity is O((V + E) log V)."
+      "category": "networking",
+      "question": "What is a Content Delivery Network (CDN)?",
+      "answer": "A CDN is a geographically distributed network of servers that delivers content closer to users to reduce latency."
     },
     {
       "category": "hr",
-      "question": "HR Interview Question 38",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "Why should we hire you?",
+      "answer": "Highlight your relevant skills, accomplishments, problem-solving ability, and how you can contribute to the company's success."
+    },
+    {
+      "category": "python",
+      "question": "What is a context manager in Python?",
+      "answer": "A context manager manages resources automatically and is commonly used with the with statement."
     },
     {
       "category": "sql",
-      "question": "What is the TRUNCATE statement?",
-      "answer": "TRUNCATE removes all rows from a table without logging individual row deletions."
+      "question": "What is the ALTER statement?",
+      "answer": "ALTER is used to modify the structure of an existing database object."
+    },
+    {
+      "category": "networking",
+      "question": "What is Fast Retransmit?",
+      "answer": "Fast Retransmit is a TCP mechanism that retransmits a lost packet after receiving multiple duplicate acknowledgments."
+    },
+    {
+      "category": "oop",
+      "question": "What is tight coupling?",
+      "answer": "Tight coupling means components are highly dependent on each other, making changes more difficult."
     },
     {
       "category": "dbms",
-      "question": "What is entity integrity?",
-      "answer": "Entity integrity ensures that primary key values are unique and never NULL."
-    },
-    {
-      "category": "os",
-      "question": "What is the FIFO page replacement algorithm?",
-      "answer": "FIFO replaces the page that has been in memory the longest."
+      "question": "What is a DEFAULT constraint?",
+      "answer": "A DEFAULT constraint automatically assigns a predefined value when no value is provided."
     },
     {
       "category": "system_design",
-      "question": "What is vertical partitioning?",
-      "answer": "Vertical partitioning divides a table by columns and stores them separately."
+      "question": "What is read-through caching?",
+      "answer": "Read-through caching loads data into the cache automatically when it is requested and missing."
     },
     {
-      "category": "sql",
-      "question": "What is a LEFT JOIN?",
-      "answer": "LEFT JOIN returns all rows from the left table and matching rows from the right table."
+      "category": "os",
+      "question": "What are the four necessary conditions for deadlock?",
+      "answer": "Mutual exclusion, hold and wait, no preemption, and circular wait."
     }
   ]
 }
