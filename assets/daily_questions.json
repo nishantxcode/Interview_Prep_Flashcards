@@ -1,30 +1,55 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "questions": [
     {
-      "category": "java",
-      "question": "What is the default constructor?",
-      "answer": "A default constructor is automatically provided by the compiler when no constructor is explicitly defined."
-    },
-    {
-      "category": "dsa",
-      "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
-      "answer": "The time complexity is O((V + E) log V)."
-    },
-    {
-      "category": "system_design",
-      "question": "What is cache eviction?",
-      "answer": "Cache eviction is the process of removing items from a cache when space is needed."
+      "category": "dbms",
+      "question": "What is a B-Tree?",
+      "answer": "A B-Tree is a balanced tree data structure used for efficient indexing and searching in databases."
     },
     {
       "category": "oop",
-      "question": "Why is inheritance useful?",
-      "answer": "Inheritance promotes code reuse and establishes hierarchical relationships between classes."
+      "question": "What is object composition?",
+      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
     },
     {
       "category": "sql",
-      "question": "What is RANK()?",
-      "answer": "RANK() assigns rankings to rows and leaves gaps in ranking when ties occur."
+      "question": "What is the IN operator?",
+      "answer": "IN checks whether a value matches any value in a specified list."
+    },
+    {
+      "category": "os",
+      "question": "What is demand paging?",
+      "answer": "Demand paging loads pages into memory only when they are required by a process."
+    },
+    {
+      "category": "system_design",
+      "question": "What is idempotency?",
+      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+    },
+    {
+      "category": "java",
+      "question": "What is method overloading?",
+      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+    },
+    {
+      "category": "networking",
+      "question": "What is the TCP four-way handshake?",
+      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed lock?",
+      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Depth-First Search (DFS)?",
+      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
+    },
+    {
+      "category": "os",
+      "question": "What is starvation in synchronization?",
+      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
     },
     {
       "category": "oop",
@@ -32,64 +57,9 @@
       "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
     },
     {
-      "category": "os",
-      "question": "What is the difference between a process and a thread?",
-      "answer": "Processes have separate memory spaces, while threads within the same process share memory and resources."
-    },
-    {
-      "category": "hr",
-      "question": "What are your greatest strengths?",
-      "answer": "Mention strengths relevant to the role and support them with specific examples."
-    },
-    {
-      "category": "networking",
-      "question": "What is RIP?",
-      "answer": "Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its metric."
-    },
-    {
-      "category": "system_design",
-      "question": "What is eventual consistency in distributed databases?",
-      "answer": "Eventual consistency ensures that all replicas will eventually contain the same data after updates propagate."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 79",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dsa",
-      "question": "What is divide and conquer?",
-      "answer": "Divide and conquer is an algorithmic paradigm that divides a problem into smaller subproblems, solves them recursively, and combines their solutions."
-    },
-    {
       "category": "python",
-      "question": "What is the difference between == and is in Python?",
-      "answer": "== compares values, whereas is compares object identities."
-    },
-    {
-      "category": "sql",
-      "question": "What is ROLLBACK?",
-      "answer": "ROLLBACK undoes changes made during the current transaction and restores the previous state."
-    },
-    {
-      "category": "os",
-      "question": "What is the difference between user mode and kernel mode?",
-      "answer": "User mode has restricted access to system resources, while kernel mode has full access to hardware and memory."
-    },
-    {
-      "category": "networking",
-      "question": "What is circuit switching?",
-      "answer": "Circuit switching establishes a dedicated communication path between endpoints before data transmission begins."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 44",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the difference between a DBMS and a file system?",
-      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+      "question": "What are *args in Python?",
+      "answer": "*args allows a function to accept a variable number of positional arguments."
     },
     {
       "category": "dbms",
@@ -97,9 +67,39 @@
       "answer": "A relation is in 3NF and contains no transitive dependencies."
     },
     {
+      "category": "sql",
+      "question": "What is a covering index?",
+      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+    },
+    {
+      "category": "hr",
+      "question": "What motivates you?",
+      "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
+    },
+    {
+      "category": "networking",
+      "question": "What are the seven layers of the OSI model?",
+      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
       "category": "python",
-      "question": "What is polymorphism in Python?",
-      "answer": "Polymorphism allows objects of different classes to be treated through a common interface."
+      "question": "How are functions defined in Python?",
+      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
+    },
+    {
+      "category": "java",
+      "question": "What is bytecode in Java?",
+      "answer": "Bytecode is the intermediate code generated by the Java compiler that is executed by the JVM."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 92",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "When is DFS preferred over BFS?",
+      "answer": "DFS is preferred for tasks such as cycle detection, topological sorting, and exploring all possible paths."
     }
   ]
 }
