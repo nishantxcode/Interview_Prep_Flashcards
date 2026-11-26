@@ -1,30 +1,35 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "questions": [
     {
-      "category": "dbms",
-      "question": "What is a B-Tree?",
-      "answer": "A B-Tree is a balanced tree data structure used for efficient indexing and searching in databases."
+      "category": "python",
+      "question": "What is the purpose of the import statement?",
+      "answer": "The import statement allows code from modules and packages to be used in a program."
     },
     {
       "category": "oop",
-      "question": "What is object composition?",
-      "answer": "Object composition is a design technique where complex functionality is achieved by combining simpler objects."
+      "question": "What is the Liskov Substitution Principle (LSP)?",
+      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
     },
     {
-      "category": "sql",
-      "question": "What is the IN operator?",
-      "answer": "IN checks whether a value matches any value in a specified list."
-    },
-    {
-      "category": "os",
-      "question": "What is demand paging?",
-      "answer": "Demand paging loads pages into memory only when they are required by a process."
+      "category": "networking",
+      "question": "What is the Data Link Layer?",
+      "answer": "The Data Link Layer provides node-to-node communication and error detection."
     },
     {
       "category": "system_design",
-      "question": "What is idempotency?",
-      "answer": "Idempotency means repeated execution of the same operation produces the same result."
+      "question": "What is Partition Tolerance in CAP?",
+      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a distributed system?",
+      "answer": "A distributed system is a collection of independent computers that work together as a single system."
+    },
+    {
+      "category": "os",
+      "question": "What are the primary functions of an Operating System?",
+      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
     },
     {
       "category": "java",
@@ -33,73 +38,68 @@
     },
     {
       "category": "networking",
-      "question": "What is the TCP four-way handshake?",
-      "answer": "The TCP four-way handshake is used to gracefully terminate a TCP connection."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed lock?",
-      "answer": "A distributed lock ensures that only one process can access a shared resource at a time across multiple nodes."
-    },
-    {
-      "category": "dsa",
-      "question": "What is Depth-First Search (DFS)?",
-      "answer": "DFS is a graph traversal algorithm that explores as far as possible along a branch before backtracking."
-    },
-    {
-      "category": "os",
-      "question": "What is starvation in synchronization?",
-      "answer": "Starvation occurs when a process waits indefinitely because resources are repeatedly allocated to other processes."
-    },
-    {
-      "category": "oop",
-      "question": "What is the Liskov Substitution Principle (LSP)?",
-      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
-    },
-    {
-      "category": "python",
-      "question": "What are *args in Python?",
-      "answer": "*args allows a function to accept a variable number of positional arguments."
-    },
-    {
-      "category": "dbms",
-      "question": "What is the Third Normal Form (3NF)?",
-      "answer": "A relation is in 3NF and contains no transitive dependencies."
-    },
-    {
-      "category": "sql",
-      "question": "What is a covering index?",
-      "answer": "A covering index contains all the columns required by a query, eliminating the need to access the table."
+      "question": "What is the Presentation Layer?",
+      "answer": "The Presentation Layer handles data translation, encryption, and compression."
     },
     {
       "category": "hr",
-      "question": "What motivates you?",
-      "answer": "Discuss professional growth, solving challenging problems, learning new technologies, and creating impact."
-    },
-    {
-      "category": "networking",
-      "question": "What are the seven layers of the OSI model?",
-      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, and Application."
-    },
-    {
-      "category": "python",
-      "question": "How are functions defined in Python?",
-      "answer": "Functions are defined using the def keyword followed by a function name and parameter list."
-    },
-    {
-      "category": "java",
-      "question": "What is bytecode in Java?",
-      "answer": "Bytecode is the intermediate code generated by the Java compiler that is executed by the JVM."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 92",
+      "question": "HR Interview Question 61",
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
+      "category": "os",
+      "question": "What is disk scheduling?",
+      "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
+    },
+    {
+      "category": "oop",
+      "question": "What is the Single Responsibility Principle (SRP)?",
+      "answer": "SRP states that a class should have only one reason to change, meaning it should have a single responsibility."
+    },
+    {
+      "category": "sql",
+      "question": "What is the WHERE clause?",
+      "answer": "The WHERE clause filters rows based on specified conditions."
+    },
+    {
+      "category": "dbms",
+      "question": "What are update anomalies?",
+      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 97",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 99",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "python",
+      "question": "What are default arguments in Python?",
+      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
+    },
+    {
       "category": "dsa",
-      "question": "When is DFS preferred over BFS?",
-      "answer": "DFS is preferred for tasks such as cycle detection, topological sorting, and exploring all possible paths."
+      "question": "What is a max heap?",
+      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+    },
+    {
+      "category": "dbms",
+      "question": "What are the advantages of normalization?",
+      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
+    },
+    {
+      "category": "dsa",
+      "question": "What is open addressing?",
+      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
+    },
+    {
+      "category": "sql",
+      "question": "What is the EXISTS operator?",
+      "answer": "EXISTS checks whether a subquery returns any rows."
     }
   ]
 }
