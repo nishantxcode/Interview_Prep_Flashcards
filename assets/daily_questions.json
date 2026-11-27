@@ -1,105 +1,105 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "questions": [
     {
-      "category": "python",
-      "question": "What is the purpose of the import statement?",
-      "answer": "The import statement allows code from modules and packages to be used in a program."
-    },
-    {
       "category": "oop",
-      "question": "What is the Liskov Substitution Principle (LSP)?",
-      "answer": "LSP states that objects of a subclass should be replaceable with objects of the superclass without affecting correctness."
-    },
-    {
-      "category": "networking",
-      "question": "What is the Data Link Layer?",
-      "answer": "The Data Link Layer provides node-to-node communication and error detection."
-    },
-    {
-      "category": "system_design",
-      "question": "What is Partition Tolerance in CAP?",
-      "answer": "Partition Tolerance means the system continues operating despite communication failures between nodes."
-    },
-    {
-      "category": "system_design",
-      "question": "What is a distributed system?",
-      "answer": "A distributed system is a collection of independent computers that work together as a single system."
+      "question": "Why is high cohesion desirable?",
+      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
     },
     {
       "category": "os",
-      "question": "What are the primary functions of an Operating System?",
-      "answer": "Process management, memory management, file management, device management, security, and resource allocation."
-    },
-    {
-      "category": "java",
-      "question": "What is method overloading?",
-      "answer": "Method overloading allows multiple methods with the same name but different parameter lists in the same class."
+      "question": "What is busy waiting?",
+      "answer": "Busy waiting occurs when a process continuously checks for a condition instead of sleeping or yielding the CPU."
     },
     {
       "category": "networking",
-      "question": "What is the Presentation Layer?",
-      "answer": "The Presentation Layer handles data translation, encryption, and compression."
+      "question": "What is packet switching?",
+      "answer": "Packet switching divides data into packets that are transmitted independently through a network."
     },
     {
-      "category": "hr",
-      "question": "HR Interview Question 61",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "category": "networking",
+      "question": "What is a proxy server?",
+      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
+    },
+    {
+      "category": "dsa",
+      "question": "What is tabulation in dynamic programming?",
+      "answer": "Tabulation is a bottom-up dynamic programming technique that solves smaller subproblems first and stores their results in a table."
     },
     {
       "category": "os",
-      "question": "What is disk scheduling?",
-      "answer": "Disk scheduling is the process of determining the order in which disk I/O requests are serviced."
+      "question": "What is page replacement?",
+      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
     },
     {
       "category": "oop",
-      "question": "What is the Single Responsibility Principle (SRP)?",
-      "answer": "SRP states that a class should have only one reason to change, meaning it should have a single responsibility."
-    },
-    {
-      "category": "sql",
-      "question": "What is the WHERE clause?",
-      "answer": "The WHERE clause filters rows based on specified conditions."
-    },
-    {
-      "category": "dbms",
-      "question": "What are update anomalies?",
-      "answer": "Update anomalies occur when the same information must be updated in multiple places, leading to inconsistency."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 97",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+      "question": "What are access modifiers in OOP?",
+      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
     },
     {
       "category": "java",
-      "question": "Java Interview Question 99",
+      "question": "Java Interview Question 55",
       "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "python",
-      "question": "What are default arguments in Python?",
-      "answer": "Default arguments are parameters assigned default values that are used when no argument is provided."
+      "question": "What is the __init__() method?",
+      "answer": "The __init__() method is a constructor that initializes an object's attributes when it is created."
     },
     {
-      "category": "dsa",
-      "question": "What is a max heap?",
-      "answer": "A max heap is a heap in which every parent node is greater than or equal to its children."
+      "category": "hr",
+      "question": "HR Interview Question 63",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "dbms",
-      "question": "What are the advantages of normalization?",
-      "answer": "Reduced redundancy, improved consistency, easier maintenance, and fewer update anomalies."
-    },
-    {
-      "category": "dsa",
-      "question": "What is open addressing?",
-      "answer": "Open addressing resolves collisions by finding another empty slot within the hash table."
+      "question": "How can deadlocks be handled in DBMS?",
+      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
     },
     {
       "category": "sql",
-      "question": "What is the EXISTS operator?",
-      "answer": "EXISTS checks whether a subquery returns any rows."
+      "question": "What is a foreign key constraint?",
+      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 84",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is quadratic probing?",
+      "answer": "Quadratic probing resolves collisions by checking slots at quadratic intervals from the original position."
+    },
+    {
+      "category": "system_design",
+      "question": "What is horizontal partitioning?",
+      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 54",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "sql",
+      "question": "What is a window function in SQL?",
+      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
+    },
+    {
+      "category": "python",
+      "question": "What is asynchronous programming in Python?",
+      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+    },
+    {
+      "category": "system_design",
+      "question": "What is a reverse proxy?",
+      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+    },
+    {
+      "category": "dbms",
+      "question": "What is the difference between a DBMS and a file system?",
+      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
     }
   ]
 }
