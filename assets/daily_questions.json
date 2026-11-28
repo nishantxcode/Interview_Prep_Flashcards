@@ -1,65 +1,20 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "questions": [
     {
-      "category": "oop",
-      "question": "Why is high cohesion desirable?",
-      "answer": "High cohesion makes code easier to understand, maintain, and reuse."
-    },
-    {
-      "category": "os",
-      "question": "What is busy waiting?",
-      "answer": "Busy waiting occurs when a process continuously checks for a condition instead of sleeping or yielding the CPU."
-    },
-    {
-      "category": "networking",
-      "question": "What is packet switching?",
-      "answer": "Packet switching divides data into packets that are transmitted independently through a network."
-    },
-    {
-      "category": "networking",
-      "question": "What is a proxy server?",
-      "answer": "A proxy server acts as an intermediary between clients and servers, forwarding requests and responses."
-    },
-    {
-      "category": "dsa",
-      "question": "What is tabulation in dynamic programming?",
-      "answer": "Tabulation is a bottom-up dynamic programming technique that solves smaller subproblems first and stores their results in a table."
-    },
-    {
-      "category": "os",
-      "question": "What is page replacement?",
-      "answer": "Page replacement is the process of selecting a memory page to remove when a new page must be loaded into a full memory."
-    },
-    {
-      "category": "oop",
-      "question": "What are access modifiers in OOP?",
-      "answer": "Access modifiers control the visibility and accessibility of classes, methods, and variables."
-    },
-    {
-      "category": "java",
-      "question": "Java Interview Question 55",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
-    },
-    {
-      "category": "python",
-      "question": "What is the __init__() method?",
-      "answer": "The __init__() method is a constructor that initializes an object's attributes when it is created."
-    },
-    {
-      "category": "hr",
-      "question": "HR Interview Question 63",
-      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
-    },
-    {
-      "category": "dbms",
-      "question": "How can deadlocks be handled in DBMS?",
-      "answer": "Deadlocks can be prevented, avoided, detected, and resolved through rollback or resource preemption."
-    },
-    {
       "category": "sql",
-      "question": "What is a foreign key constraint?",
-      "answer": "A foreign key enforces referential integrity by linking rows between related tables."
+      "question": "What is ROW_NUMBER()?",
+      "answer": "ROW_NUMBER() assigns a unique sequential number to each row within a result set."
+    },
+    {
+      "category": "os",
+      "question": "What is deadlock avoidance?",
+      "answer": "Deadlock avoidance dynamically allocates resources in a way that prevents the system from entering an unsafe state."
+    },
+    {
+      "category": "system_design",
+      "question": "Why is idempotency important in distributed systems?",
+      "answer": "It prevents duplicate processing caused by retries, failures, or network issues."
     },
     {
       "category": "hr",
@@ -67,39 +22,84 @@
       "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
-      "category": "dsa",
-      "question": "What is quadratic probing?",
-      "answer": "Quadratic probing resolves collisions by checking slots at quadratic intervals from the original position."
+      "category": "python",
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is the official Python style guide that defines coding conventions for readability and consistency."
     },
     {
       "category": "system_design",
-      "question": "What is horizontal partitioning?",
-      "answer": "Horizontal partitioning divides rows of a table across multiple databases or servers."
+      "question": "What is scalability?",
+      "answer": "Scalability is the ability of a system to handle increasing workloads by adding resources."
     },
     {
-      "category": "java",
-      "question": "Java Interview Question 54",
-      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+      "category": "os",
+      "question": "What is a soft real-time system?",
+      "answer": "A soft real-time system aims to meet deadlines, but occasional misses are tolerable."
     },
     {
       "category": "sql",
-      "question": "What is a window function in SQL?",
-      "answer": "A window function performs calculations across a set of rows related to the current row without collapsing the result set."
+      "question": "What is a RIGHT JOIN?",
+      "answer": "RIGHT JOIN returns all rows from the right table and matching rows from the left table."
+    },
+    {
+      "category": "networking",
+      "question": "What is the difference between an IP address and a MAC address?",
+      "answer": "An IP address identifies a device logically on a network, while a MAC address identifies network hardware physically."
+    },
+    {
+      "category": "hr",
+      "question": "HR Interview Question 46",
+      "answer": "Refer to the generated HR interview bank conversation for the complete answer."
     },
     {
       "category": "python",
-      "question": "What is asynchronous programming in Python?",
-      "answer": "Asynchronous programming enables non-blocking execution of tasks using async and await."
+      "question": "What is the purpose of the except block?",
+      "answer": "The except block handles exceptions raised in the corresponding try block."
     },
     {
-      "category": "system_design",
-      "question": "What is a reverse proxy?",
-      "answer": "A reverse proxy sits between clients and backend servers, forwarding requests and responses."
+      "category": "oop",
+      "question": "What is a UML Sequence Diagram?",
+      "answer": "A UML Sequence Diagram illustrates interactions between objects over time."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 76",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
     },
     {
       "category": "dbms",
-      "question": "What is the difference between a DBMS and a file system?",
-      "answer": "A DBMS provides structured data management, concurrency control, security, and query capabilities, whereas a file system stores data without these advanced features."
+      "question": "What is Consistency in ACID?",
+      "answer": "Consistency ensures that a transaction brings the database from one valid state to another valid state."
+    },
+    {
+      "category": "oop",
+      "question": "What is delegation in OOP?",
+      "answer": "Delegation is a design technique where an object forwards a task to another helper object."
+    },
+    {
+      "category": "java",
+      "question": "Java Interview Question 77",
+      "answer": "Refer to the generated Java interview bank conversation for the full answer."
+    },
+    {
+      "category": "dsa",
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree data structure in which each node has at most two children."
+    },
+    {
+      "category": "dbms",
+      "question": "What is a clustered index?",
+      "answer": "A clustered index determines the physical order of data rows in a table."
+    },
+    {
+      "category": "networking",
+      "question": "What is CIDR?",
+      "answer": "Classless Inter-Domain Routing (CIDR) is a method of allocating IP addresses and routing using variable-length subnet masks."
+    },
+    {
+      "category": "dsa",
+      "question": "What is Breadth-First Search (BFS)?",
+      "answer": "BFS is a graph traversal algorithm that explores vertices level by level using a queue."
     }
   ]
 }
